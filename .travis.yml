@@ -6,4 +6,4 @@ android:
     - build-tools-22.0.0
 install: 
     cd ..; git clone https://github.com/felix3008/NetEase-Deps.git;
-script: cd NetEase-Deps/; chmod 777 *;./script.sh;  
+script: cd NetEase-Deps/; chmod 777 *;./script.sh;
