@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/sectionDivider" android:background="@color/listHeavyDividerColor" android:layout_width="fill_parent" android:layout_height="@dimen/listHeavyDividerHeight" android:layout_marginLeft="@dimen/listLeftRightMargin" android:layout_marginRight="@dimen/listLeftRightMargin" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

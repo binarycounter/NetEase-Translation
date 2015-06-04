@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_selector" android:paddingLeft="10.0dip" android:paddingRight="13.299988dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.VFaceImage android:id="@id/recommendFriendAvatar" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.6999817dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="14.699982sp" android:textColor="#ff333333" android:id="@id/recommendFriendNickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#c0ffffff" android:shadowDy="1.0" android:shadowRadius="0.5" />
+        <ImageView android:id="@id/recommendFriendGender" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="4.0dip" android:layout_toRightOf="@id/recommendFriendNickname" android:layout_alignTop="@id/recommendFriendNickname" android:layout_alignBottom="@id/recommendFriendNickname" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/recommendFriendDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:shadowColor="#c0ffffff" android:shadowDy="1.0" android:shadowRadius="0.5" android:layout_below="@id/recommendFriendNickname" android:layout_alignLeft="@id/recommendFriendNickname" />
+    </RelativeLayout>
+    <CheckBox android:id="@id/recommendCB" android:background="@drawable/togglebutton_bg" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="13.0dip" android:checked="true" android:button="@null" />
+</LinearLayout>

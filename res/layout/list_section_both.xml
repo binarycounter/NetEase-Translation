@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/listItemColor" android:layout_width="fill_parent" android:layout_height="@dimen/sectionHeight" android:minHeight="@dimen/sectionHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="#ff888888" android:gravity="center_vertical" android:id="@id/leftText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listLeftRightMargin" android:layout_centerVertical="true" />
+    <TextView android:textSize="11.0sp" android:textColor="#ff888888" android:id="@id/rightText" android:paddingRight="@dimen/pinnedHeaderPaddingLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="@color/listTitleDivider" android:layout_width="fill_parent" android:layout_height="@dimen/listHeavyDividerHeight" android:layout_marginLeft="@dimen/listLinePaddingLeft" android:layout_marginRight="@dimen/listLinePaddingLeft" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.NetImageView android:id="@id/mvImage" android:layout_width="94.0dip" android:layout_height="53.0dip" android:scaleType="centerCrop" />
+    <TextView android:textSize="14.0sp" android:textColor="#ecffffff" android:id="@id/mvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" android:layout_below="@id/mvImage" />
+</RelativeLayout>

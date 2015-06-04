@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.PagerListView android:id="@id/filterMvList" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:divider="@null" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:gravity="center" android:id="@id/curFilterTags" android:background="#f9ffffff" android:paddingLeft="@dimen/findPageNormalPading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/mvFilterHeight" />
+    <View android:id="@id/tabShadow" android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="3.2999878dip" android:layout_below="@id/curFilterTags" />
+    <LinearLayout android:orientation="vertical" android:id="@id/filterMvTagContainerOuter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/filterMvTagContainer" android:background="#f9ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="3.2999878dip" />
+    </LinearLayout>
+</RelativeLayout>

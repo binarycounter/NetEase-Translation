@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/commonSubjectCustomViewContainer" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/commonSubjectContentView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/commonSubjectActionBlock" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+            <RelativeLayout android:gravity="center" android:id="@id/commonSubjectShareBtn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="14.699982sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/commonSubjectShareCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#66040000" android:shadowDy="1.0" android:shadowRadius="0.5" />
+            </RelativeLayout>
+            <View android:background="@drawable/alb_btmtab_line" android:layout_width="1.2999878dip" android:layout_height="fill_parent" />
+            <RelativeLayout android:gravity="center" android:id="@id/commonSubjectCommentBtn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="14.699982sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/commonSubjectCommentCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#66040000" android:shadowDy="1.0" android:shadowRadius="0.5" />
+            </RelativeLayout>
+        </LinearLayout>
+        <WebView android:id="@id/commonSubjectWebview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/commonSubjectActionBlock" />
+    </RelativeLayout>
+</FrameLayout>

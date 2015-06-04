@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/floatLyricContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/floatLyricArea" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/floatLyricHeight">
+        <View android:id="@id/floatLyricMask" android:background="#9a000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/floatLyricHeight" />
+        <LinearLayout android:orientation="vertical" android:id="@id/floatLyricDrawArea" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <com.netease.cloudmusic.module.floatlyric.FloatLyricView android:id="@id/firstFloatLyricLine" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.netease.cloudmusic.module.floatlyric.FloatLyricView android:id="@id/secondFloatLyricLine" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+        </LinearLayout>
+        <ImageView android:id="@id/floatLyricCloseBtn" android:background="@drawable/float_lrc_btn_30_000_selector" android:visibility="invisible" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/md_btn2_close" android:scaleType="center" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/floatLyricSettingContainer" android:background="#9a000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="#80000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <View android:id="@id/divideLines" android:background="#33ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/floatLyricController" android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <ImageView android:id="@id/floatLyricControllerLogo" android:background="@drawable/float_lrc_btn_30_000_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/desklrc_logo" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/floatLyricControllerPre" android:background="@drawable/float_lrc_btn_30_000_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/desklrc_btn_prev" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/floatLyricControllerToggle" android:background="@drawable/float_lrc_btn_30_000_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/desklrc_btn_play" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/floatLyricControllerNext" android:background="@drawable/float_lrc_btn_30_000_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/desklrc_btn_next" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/floatLyricControllerSetting" android:background="@drawable/float_lrc_btn_30_000_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/desklrc_btn_set" android:scaleType="center" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/floatLyricPalette" android:background="@color/floatLrc00030Bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <ImageView android:gravity="center" android:id="@id/floatLyricControllerLockContainer" android:background="@drawable/float_lrc_btn_30_000_selector" android:layout_width="50.0dip" android:layout_height="fill_parent" android:src="@drawable/desklrc_btn_lock" android:scaleType="center" />
+            <RadioGroup android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/floatLyricPaletteColorGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+                <RadioButton android:id="@id/floatLyricColorRed" android:background="@null" android:layout_width="26.0dip" android:layout_height="26.0dip" android:button="@drawable/desklrc_color_1" />
+                <RadioButton android:id="@id/floatLyricColorBlue" android:background="@null" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="13.0dip" android:checked="true" android:button="@drawable/desklrc_color_2" />
+                <RadioButton android:id="@id/floatLyricColorGreen" android:background="@null" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="13.0dip" android:button="@drawable/desklrc_color_3" />
+                <RadioButton android:id="@id/floatLyricColorOrange" android:background="@null" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="13.0dip" android:button="@drawable/desklrc_color_4" />
+                <RadioButton android:id="@id/floatLyricColorPurple" android:background="@null" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="13.0dip" android:button="@drawable/desklrc_color_5" />
+            </RadioGroup>
+            <ImageView android:id="@id/floatLyricTextLarger" android:background="@drawable/float_lrc_btn_20_fff_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/desklrc_btn_font_plus" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/floatLyricTextSmaller" android:background="@drawable/float_lrc_btn_20_fff_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="9.329987dip" android:src="@drawable/desklrc_btn_font_minus" android:scaleType="center" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

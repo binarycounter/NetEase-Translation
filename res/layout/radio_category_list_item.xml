@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/radioCategoryListContainer" android:paddingLeft="@dimen/recommendPageNormalPading" android:paddingRight="@dimen/recommendPageNormalPading" android:layout_width="fill_parent" android:layout_height="77.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/radioCategoryListRealContainer" android:background="@drawable/list_no_padding_selector" android:layout_width="fill_parent" android:layout_height="77.0dip">
+        <RelativeLayout android:id="@id/radioCategoryListCover" android:paddingLeft="4.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <com.netease.cloudmusic.ui.NetImageView android:id="@id/radioCategoryListPic" android:layout_width="63.0dip" android:layout_height="63.0dip" android:src="@drawable/default_disc_180" android:scaleType="fitXY" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/roundCover" android:background="@drawable/list_cover_withbg" android:layout_width="63.0dip" android:layout_height="63.0dip" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/programTitleContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toRightOf="@id/radioCategoryListCover" android:layout_centerVertical="true">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip">
+                <TextView android:textSize="11.0sp" android:textColor="@color/redTagColor" android:gravity="center" android:id="@id/cateTagFlag" android:background="@drawable/list_tag_icn" android:paddingLeft="3.0dip" android:paddingTop="1.0dip" android:paddingRight="3.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" />
+                <TextView android:textSize="16.0sp" android:id="@id/radioCategoryListTitle" android:drawablePadding="2.0dip" style="@style/recommendTextViewStyle" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:id="@id/radioCategoryListSubTitle" android:layout_marginTop="@dimen/listTextLineSpaceingSize" style="@style/recommendTextViewStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

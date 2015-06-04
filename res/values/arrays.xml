@@ -1,0 +1,196 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<resources>
+    <string-array name = "playQualityText">
+        <item> automatically (recommended) </item>
+        <item> general (96kbps) </item>
+        <item> high (192kbps) </item>
+        <item> high (320kbps) </item>
+    </string-array>
+    <integer-array name = "playQualityValue">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+    </integer-array>
+    <string-array name = "autoCloseTimeText">
+        <item> unopened </item>
+        <item> 10 minutes </item>
+        <item> 20 minutes </item>
+        <item> 30 minutes </item>
+        <item> 45 minutes </item>
+        <item> 60 minutes </item>
+        <item> 90 minutes </item>
+    </string-array>
+    <integer-array name = "autoCloseTimeValue">
+        <item> -1 </item>
+        <item> 10 </item>
+        <item> 20 </item>
+        <item> 30 </item>
+        <item> 45 </item>
+        <item> 60 </item>
+        <item> 90 </item>
+    </integer-array>
+    <string-array name = "weekInfo">
+        <item> Sunday </item>
+        <item> Monday </item>
+        <item> Tuesday </item>
+        <item> Wednesday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+        <item> Saturday </item>
+    </string-array>
+    <string-array name = "messageTypeText">
+        <item> \ @ I </item>
+        <item> private letter </item>
+        <item> Comments </item>
+        <item> notification </item>
+    </string-array>
+    <string-array name = "mailSuffix">
+        <item> \ @ 163.com </item>
+        <item> \ @ 126.com </item>
+        <item> \ @ yeah.net </item>
+        <item> \ @ vip.163.com </item>
+        <item> \ @ vip.126.com </item>
+        <item> \ @ popo.163.com </item>
+        <item> \ @ 188.com </item>
+        <item> \ @ qq.com </item>
+        <item> \ @ yahoo.com </item>
+        <item> \ @ sina.com </item>
+        <item> \ @ soho.com </item>
+        <item> \ @ live.com </item>
+    </string-array>
+    <string-array name = "searchTab">
+        <item> Singles </item>
+        <item> Artist </item>
+        <item> Album </item>
+        <item> single song </item>
+        <item> anchor station </item>
+        <item> MV </item>
+        <item> Users </item>
+    </string-array>
+    <string-array name = "localMusicTabText">
+        <item> Singles </item>
+        <item> Artist </item>
+        <item> Album </item>
+        <item> Folder </item>
+    </string-array>
+    <string-array name = "newMusicType">
+        <item> Chinese </item>
+        <item> Europe and </item>
+        <item> South Korea </item>
+        <item> Japan </item>
+    </string-array>
+    <string-array name = "findPageTitle">
+        <item> Recommended </item>
+        <item> Singles </item>
+        <item> Radio </item>
+        <item> Charts </item>
+    </string-array>
+    <string-array name = "sourceAppsTypes">
+        <item> neteasenewsreader </item>
+        <item> baidu </item>
+    </string-array>
+    <string-array name = "sourceAppTitles">
+        <item> returns Netease news </item>
+        <item> returns Baidu search </item>
+    </string-array>
+    <string-array name = "downloadManagerPageTitle">
+        <item> Singles </item>
+        <item> radio </item>
+        <item> Downloading </item>
+    </string-array>
+    <string-array name = "starUserNames">
+        <item> Star </item>
+        <item> DJ </item>
+        <item> Netease music </item>
+    </string-array>
+    <string-array name = "publicListenStrings">
+        <item> dynamic </item>
+        <item> near </item>
+        <item> Friends </item>
+    </string-array>
+    <string-array name = "constellations">
+        <item> Aquarius </item>
+        <item> Pisces </item>
+        <item> Aries </item>
+        <item> Taurus </item>
+        <item> Gemini </item>
+        <item> Cancer </item>
+        <item> Leo </item>
+        <item> Virgo </item>
+        <item> Libra </item>
+        <item> Scorpio </item>
+        <item> Sagittarius </item>
+        <item> Capricorn </item>
+    </string-array>
+    <string-array name = "themeNames">
+        <item> official default </item>
+        <item> retro classics (v1.7 Style) </item>
+        <item> Happy Christmas </item>
+        <item> night Temptation </item>
+        <item> Passion World Cup </item>
+        <item> Great Ocean </item>
+        <item> United adorable monster </item>
+        <item> Shy Bear </item>
+    </string-array>
+    <integer-array name = "themeIds">
+        <item> 0 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+    </integer-array>
+    <string-array name = "plSortType">
+        <item> The default sort </item>
+        <item> Sort by song name </item>
+        <item> sorted by Album name </item>
+        <item> sorted by artist name </item>
+    </string-array>
+    <string-array name = "recordProgramMusicType">
+        <item> Local Songs </item>
+        <item> Live song </item>
+    </string-array>
+    <string-array name = "localMusicSortType">
+        <item> alphabetically </item>
+        <item> by adding time to sort </item>
+    </string-array>
+    <string-array name = "radioCatogoryTabTitle">
+        <item> Recently popular </item>
+        <item> Popular Radio </item>
+    </string-array>
+    <string-array name = "mvChannelTabTitle">
+        <item> Featured MV </item>
+        <item> charts </item>
+        <item> Filter </item>
+    </string-array>
+    <string-array name = "mvBillboardTitle">
+        <item> interior </item>
+        <item> RTHK </item>
+        <item> Europe and </item>
+        <item> South Korea </item>
+        <item> Japan </item>
+    </string-array>
+    <string-array name = "autoDomainChangeText">
+        <item> music.163.com </item>
+        <item> igame.163.com </item>
+        <item> bbc.igame.163.com </item>
+        <item> jkl.igame.163.com </item>
+    </string-array>
+    <string-array name = "totalCacheCeilText">
+        <item> 100M (approximately 10 high-quality songs) </item>
+        <item> 200M (approximately 20 high-quality songs) </item>
+        <item> 300M (approximately 30 high-quality songs) </item>
+        <item> 500M (approximately 50 high-quality songs) </item>
+        <item> 1G (about 100 high-quality songs) </item>
+    </string-array>
+    <string-array name = "totalCacheCeilSize">
+        <item> 100M </item>
+        <item> 200M </item>
+        <item> 300M </item>
+        <item> 500M </item>
+        <item> 1G </item>
+    </string-array>
+</resources>

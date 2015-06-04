@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/centerCoords" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_centerInParent="true" />
+    <include android:id="@id/star1" android:layout_width="151.0dip" android:layout_height="151.0dip" android:layout_marginBottom="5.0dip" android:layout_toLeftOf="@id/centerCoords" layout="@layout/recommend_star_item_common" />
+    <include android:id="@id/star2" android:layout_width="73.0dip" android:layout_height="73.0dip" android:layout_below="@id/star1" android:layout_alignLeft="@id/star1" layout="@layout/recommend_star_item_common" />
+    <include android:id="@id/star3" android:layout_width="73.0dip" android:layout_height="73.0dip" android:layout_below="@id/star1" android:layout_alignRight="@id/star1" layout="@layout/recommend_star_item_common" />
+    <include android:id="@id/star4" android:layout_width="73.0dip" android:layout_height="73.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_toRightOf="@id/centerCoords" layout="@layout/recommend_star_item_common" />
+    <include android:id="@id/star5" android:layout_width="73.0dip" android:layout_height="73.0dip" android:layout_toRightOf="@id/star4" layout="@layout/recommend_star_item_common" />
+    <include android:id="@id/star6" android:layout_width="151.0dip" android:layout_height="151.0dip" android:layout_below="@id/star4" android:layout_alignLeft="@id/star4" layout="@layout/recommend_star_item_common" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/oneRowContainer" android:layout_width="fill_parent" android:layout_height="77.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/recommendOnerowContainer" android:background="@drawable/list_no_padding_selector" android:layout_width="fill_parent" android:layout_height="77.0dip" android:layout_marginLeft="@dimen/recommendPageNormalPading" android:layout_marginRight="@dimen/recommendPageNormalPading">
+        <ImageView android:id="@id/recommendOnerowRadioContainer" android:layout_width="63.0dip" android:layout_height="63.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/private_radio_icon" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/recommendOnerowNoTasteContainer" android:layout_width="63.0dip" android:layout_height="63.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/index_taste_icn_empty" android:layout_centerVertical="true" />
+        <RelativeLayout android:id="@id/recommendOnerowThematicContainer" android:paddingLeft="4.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <com.netease.cloudmusic.ui.NetImageView android:id="@id/recommendOnerowThematic" android:layout_width="63.0dip" android:layout_height="63.0dip" android:src="@drawable/default_disc_180" android:scaleType="fitXY" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/roundCover" android:background="@drawable/list_cover_withbg" android:layout_width="63.0dip" android:layout_height="63.0dip" android:layout_centerVertical="true" />
+            <RelativeLayout android:id="@id/calendarInfoContainer" android:background="@drawable/calendar_body" android:layout_width="63.0dip" android:layout_height="63.0dip" android:layout_centerVertical="true">
+                <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/calendarInfoWeek" android:background="@drawable/calendar_head" android:layout_width="63.0dip" android:layout_height="20.0dip" />
+                <com.netease.cloudmusic.ui.CalendarTextView android:textSize="45.0sp" android:typeface="monospace" android:textStyle="normal" android:textColor="#ff5c6066" android:gravity="center" android:id="@id/calendarInfoDate" android:layout_width="63.0dip" android:layout_height="43.0dip" android:layout_below="@id/calendarInfoWeek" />
+                <ImageView android:layout_width="63.0dip" android:layout_height="21.329987dip" android:src="@drawable/calendar_mask" android:layout_below="@id/calendarInfoWeek" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <ImageView android:id="@id/listIcnArrView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/list_icn_arr" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/recommendGuessYouLikeContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toLeftOf="@id/listIcnArrView" android:layout_toRightOf="@id/recommendOnerowThematicContainer" android:layout_centerVertical="true">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip">
+                <TextView android:textSize="11.0sp" android:textColor="@color/redTagColor" android:gravity="center" android:id="@id/tagFlag" android:background="@drawable/list_tag_icn" android:paddingLeft="3.0dip" android:paddingTop="1.0dip" android:paddingRight="3.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" />
+                <TextView android:textSize="16.0sp" android:id="@id/recommendOnerowTitle" android:drawablePadding="2.0dip" style="@style/recommendTextViewStyle" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:id="@id/recommendOnerowReason" android:layout_marginTop="1.0dip" android:text="@string/daySongsRecommendReason" style="@style/recommendTextViewStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

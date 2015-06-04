@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewFlipper android:id="@id/new_hit_view_flipper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/default_index_banner" android:scaleType="centerCrop" />
+        <RelativeLayout android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.netease.cloudmusic.ui.BannerGallery android:id="@id/new_hit_focus" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spacing="0.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dotParent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:layout_alignBottom="@id/new_hit_focus" />
+        </RelativeLayout>
+    </ViewFlipper>
+</LinearLayout>

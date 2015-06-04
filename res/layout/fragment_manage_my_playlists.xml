@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/normalBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dslv="http://schemas.android.com/apk/res-auto">
+    <com.mobeta.android.dslv.DragSortListView android:id="@id/myPlaylistList" android:layout_width="fill_parent" android:layout_height="fill_parent" dslv:collapsed_height="2.0dip" dslv:drag_scroll_start="0.33" dslv:max_drag_scroll_speed="0.5" dslv:float_background_color="@android:color/transparent" dslv:track_drag_sort="false" dslv:float_alpha="0.6" dslv:slide_shuffle_speed="0.3" dslv:drag_enabled="true" dslv:sort_enabled="true" dslv:drag_start_mode="onDown" dslv:drag_handle_id="@id/drag_handle" dslv:use_default_controller="true" />
+    <include android:visibility="visible" layout="@layout/download_manage_del_btn" />
+</RelativeLayout>

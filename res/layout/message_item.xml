@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/messageArea" android:background="@drawable/list_selector" android:padding="@dimen/listLinePaddingLeft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="63.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.netease.cloudmusic.ui.VFaceImage android:id="@id/userFaceImage" style="@style/commonVFaceImage" />
+        <ImageView android:id="@id/newMessageTag" style="@style/messageRedDot" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/atNicknameFg" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/noticeNickName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ff888888" android:gravity="center_vertical" android:id="@id/noticeAction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:id="@id/noticeTime" style="@style/commonClockTv" />
+        </LinearLayout>
+        <com.netease.cloudmusic.ui.TextViewFixTouchConsume android:textSize="12.0sp" android:textColor="#ff333333" android:id="@id/noticeContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:lineSpacingExtra="2.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abs__max_action_buttons">2</integer>
+    <integer name="newIntroduceVersion">4</integer>
+    <integer name="profileSignMaxCount">140</integer>
+    <integer name="nicknameMaxLen">30</integer>
+    <integer name="programNameMaxLen">30</integer>
+    <integer name="programDescMaxLen">10000</integer>
+    <integer name="radioDescMaxLen">300</integer>
+    <integer name="radioNameMaxLen">30</integer>
+    <integer name="addToPlaylistDisplayCount">5</integer>
+</resources>

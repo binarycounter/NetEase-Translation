@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/myMusicImportPlaylistBlock" android:paddingTop="70.0dip" android:paddingBottom="70.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:gravity="center" android:id="@id/myMusicImportPlaylistBtn" android:background="@drawable/btn_white_oval_selector" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="26.0dip" android:layout_marginRight="26.0dip" android:text="@string/importPlaylistFromWeb" />
+    </LinearLayout>
+</LinearLayout>

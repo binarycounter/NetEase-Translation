@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viewpagerindicator.TabPageIndicator android:id="@id/publiclistenTabPageIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/vpiTabPageIndicatorStyle" />
+    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/publiclisten_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/publiclistenTabPageIndicator" />
+    <View android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="2.2999878dip" android:layout_alignTop="@id/publiclisten_pager" />
+    <include android:visibility="gone" layout="@layout/nonetwork" />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@id/identifyMusicViewFlipper" android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/identifyBtn" android:background="@drawable/identify_bg_selector" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="195.0dip" android:layout_height="195.0dip">
+            <com.netease.cloudmusic.ui.WaveView android:id="@id/waveView" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/circleMask" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/rcd_circle_mask" android:layout_centerInParent="true" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff6a707c" android:gravity="center_horizontal" android:id="@id/mic" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#bfffffff" android:shadowDy="1.0" android:shadowRadius="0.5" android:drawableTop="@drawable/rcd_icn_mike" android:drawablePadding="11.0dip" android:layout_centerInParent="true" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffc1c1c1" android:id="@id/stopRecTV" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/stopRec" android:layout_alignBottom="@id/waveView" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:gravity="center|top" android:id="@id/identifyTextTip" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="21.0dip" android:text="@string/beginIdentify" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@drawable/rcd_cover_alb" android:paddingLeft="2.0dip" android:paddingTop="1.2999878dip" android:layout_width="215.0dip" android:layout_height="190.0dip">
+            <ImageView android:id="@id/identifyMusicCover" android:layout_width="186.0dip" android:layout_height="186.0dip" android:src="@drawable/default_disc_558" android:scaleType="centerCrop" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/nameContainer" android:background="#7f000000" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="186.0dip" android:layout_height="43.0dip" android:layout_alignBottom="@id/identifyMusicCover">
+                <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/identifyMusicName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#7f000000" android:shadowDy="1.0" android:shadowRadius="0.5" />
+                <TextView android:textSize="11.0sp" android:textColor="#b2ffffff" android:id="@id/identifyMusicAlbumName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#7f000000" android:shadowDy="1.0" android:shadowRadius="0.5" />
+            </LinearLayout>
+            <ImageView android:id="@id/identifyPlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="66.0dip" android:src="@drawable/rcd_btn_play" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:id="@id/actionContainer" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_marginTop="74.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:gravity="center" android:paddingTop="11.0dip" android:layout_width="@dimen/identifyItemActionSize" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:text="@string/menuLike" android:drawableTop="@drawable/rcd_icn_love" android:drawablePadding="7.0dip" />
+            <View android:background="@drawable/rcd_icn_spline" android:layout_width="0.6700001dip" android:layout_height="42.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:gravity="center" android:paddingTop="11.0dip" android:layout_width="@dimen/identifyItemActionSize" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:text="@string/menuViewArtist" android:drawableTop="@drawable/rcd_icn_artist" android:drawablePadding="7.0dip" />
+            <View android:background="@drawable/rcd_icn_spline" android:layout_width="0.6700001dip" android:layout_height="42.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:gravity="center" android:paddingTop="11.0dip" android:layout_width="@dimen/identifyItemActionSize" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:text="@string/menuViewAlbum" android:drawableTop="@drawable/rcd_icn_alb" android:drawablePadding="7.0dip" />
+            <View android:background="@drawable/rcd_icn_spline" android:layout_width="0.6700001dip" android:layout_height="42.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:gravity="center" android:paddingTop="11.0dip" android:layout_width="@dimen/identifyItemActionSize" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:text="@string/menuShare" android:drawableTop="@drawable/rcd_icn_share" android:drawablePadding="7.0dip" />
+            <View android:background="@drawable/rcd_icn_spline" android:layout_width="0.6700001dip" android:layout_height="42.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:gravity="center" android:paddingTop="11.0dip" android:layout_width="@dimen/identifyItemActionSize" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:text="@string/menuAddToPlayList" android:drawableTop="@drawable/rcd_icn_fav" android:drawablePadding="7.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:gravity="center" android:id="@id/multiToast" android:background="@drawable/blk_top_lay" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/identifyMatchMulti" />
+        <com.netease.cloudmusic.ui.PagerListView android:id="@id/matchMultiList" android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="36.0dip" />
+    </RelativeLayout>
+</ViewFlipper>

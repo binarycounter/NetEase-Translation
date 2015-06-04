@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/realRadioCategoryContainer" android:background="@drawable/pl_action_area_item_mask" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.CustomThemeIconImageView android:id="@id/categoryImg" android:layout_width="@dimen/radioCategoryImg" android:layout_height="@dimen/radioCategoryImg" android:scaleType="center" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff5b5b5b" android:id="@id/categoryTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+</LinearLayout>

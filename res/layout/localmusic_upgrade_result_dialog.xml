@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/local_upgrade_success_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:src="@drawable/local_upgrade_icn_success" />
+    <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:gravity="center_horizontal" android:id="@id/upgradeSuccessInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="本地音乐升级HQ音质成功" />
+    <View android:background="@drawable/local_upgrade_success_line" android:layout_width="fill_parent" android:layout_height="0.6700001dip" android:layout_marginTop="20.0dip" />
+    <RelativeLayout android:gravity="center" android:id="@id/upgradePromotoRl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+        <ImageView android:id="@id/upgradePromotoArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/local_upgrade_success_arr" android:layout_alignParentTop="true" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:gravity="center_vertical" android:id="@id/upgradePromotoTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/localMusicUpgradeMusicPromotoTitle" android:layout_toRightOf="@id/upgradePromotoArrow" />
+        <TextView android:textSize="38.669983dip" android:textStyle="bold" android:textColor="#ff666666" android:gravity="center_vertical" android:id="@id/upgradePromotoRange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="200%" android:layout_below="@id/upgradePromotoTitle" android:layout_alignLeft="@id/upgradePromotoTitle" />
+    </RelativeLayout>
+    <TextView android:textSize="10.669983dip" android:textColor="#ff666666" android:gravity="center" android:id="@id/upgradeMusicFailReason" android:layout_width="wrap_content" android:layout_height="25.329987dip" android:layout_margin="10.0dip" android:text="（有一些原因导致歌曲升级失败...）" />
+</LinearLayout>

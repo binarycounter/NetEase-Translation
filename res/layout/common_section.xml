@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/sectionHeight" android:minHeight="@dimen/sectionHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="#ff888888" android:id="@id/sectionName" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listLeftRightMargin" />
+    <include layout="@layout/heavy_divider" />
+</LinearLayout>

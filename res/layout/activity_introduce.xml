@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/introduceViewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="138.0dip" />
+    <LinearLayout android:gravity="center" android:id="@id/loginContainer" android:background="@drawable/i_btm_bg" android:layout_width="fill_parent" android:layout_height="146.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="20.0sp" android:textColor="#ffe46761" android:gravity="center" android:id="@id/loginOrRegister" android:layout_width="140.0dip" android:layout_height="48.0dip" android:layout_marginRight="24.0dip" android:text="@string/loginOrRegister" />
+        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/useNow" android:layout_width="140.0dip" android:layout_height="48.0dip" android:text="@string/useNow" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/dotParent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="22.0dip" android:layout_above="@id/loginContainer" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bundleInstallBlock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_alignTop="@id/loginContainer" android:layout_centerHorizontal="true">
+        <CheckBox android:id="@id/bundleInstall" android:background="@drawable/togglebutton_bg" android:layout_width="18.699982dip" android:layout_height="18.699982dip" android:checked="true" android:button="@null" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff727272" android:id="@id/bundleInstallText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" />
+    </LinearLayout>
+</RelativeLayout>

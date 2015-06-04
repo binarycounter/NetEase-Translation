@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/preferenceScrollView" android:background="@color/normalBackground" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/findPageNormalPading" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout style="@style/settingTitleContainer">
+            <TextView android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="@string/musicCacheCeilTitle" style="@style/settingTitleTv" />
+            <View style="@style/titleLine" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/cacheUpperLimitChange" style="@style/settingContainer">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/musicCacheCeil" style="@style/settingContentTv" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/cacheCeilNum" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:drawableRight="@drawable/list_icn_arr" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout style="@style/settingTitleContainer">
+            <TextView android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="@string/clearCacheTitle" style="@style/settingTitleTv" />
+            <View style="@style/titleLine" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/clearAllCache" style="@style/settingContainer">
+            <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/clearAllCache" android:layout_weight="1.0" style="@style/settingContentTv" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/allCacheNum" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/clearMusicCache" style="@style/settingContainer">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <TextView android:id="@id/clearMusicCacheTxt" android:text="@string/clearMusicCache" style="@style/settingContentTv" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff999999" android:id="@id/clearMusicCachePrompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clearMusicCachePrompt" />
+            </LinearLayout>
+            <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/musicCacheNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:id="@id/clearImageAndLrcCache" style="@style/settingContainer">
+            <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/clearImageAndLrcCache" android:layout_weight="1.0" style="@style/settingContentTv" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/imageAndLrcCacheNum" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/clearOtherCache" style="@style/settingContainer">
+            <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/clearOtherCache" android:layout_weight="1.0" style="@style/settingContentTv" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/otherCacheNum" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout style="@style/settingTitleContainer">
+            <TextView android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="@string/other" style="@style/settingTitleTv" />
+            <View style="@style/titleLine" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/autoClearCache" style="@style/settingContainer">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <TextView android:id="@id/autoClearCacheTxt" android:text="@string/autoClearCache" style="@style/settingContentTv" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff999999" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/autoClearCachePrompt" />
+            </LinearLayout>
+            <CheckBox android:id="@id/autoClearCacheCB" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/settingFlagCheckbox" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="15.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/artistType" android:paddingLeft="@dimen/listLinePaddingLeft" android:paddingRight="@dimen/listLinePaddingLeft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableRight="@drawable/list_icn_arr"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

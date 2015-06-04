@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/realItemArea" android:background="@drawable/list_selector" android:paddingLeft="14.669983dip" android:layout_width="fill_parent" android:layout_height="76.32999dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="25.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:gravity="center" android:id="@id/programRank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <ImageView android:gravity="center" android:id="@id/programRankPlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/song_play_icon" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="13.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:id="@id/programName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/songInfoContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                <ImageView android:id="@id/programStat" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/musicDownloadIconPadding" />
+                <TextView android:id="@id/programDate" android:layout_marginLeft="0.0dip" style="@style/radioDetailItemIconTv" />
+                <TextView android:id="@id/programLike" android:drawableLeft="@drawable/list_icn_praise_small" style="@style/radioDetailItemIconTv" />
+                <TextView android:id="@id/programPlayCount" android:drawableLeft="@drawable/list_icn_play_sml" style="@style/radioDetailItemIconTv" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/lastProgramMark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_icn_mark" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff999999" android:id="@id/programTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/actionBtnStyle" />
+    </LinearLayout>
+    <com.netease.cloudmusic.ui.ProgramExpandCollapseMenu android:id="@id/programMenu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.2999878dip" android:layout_below="@id/realItemArea" />
+</RelativeLayout>

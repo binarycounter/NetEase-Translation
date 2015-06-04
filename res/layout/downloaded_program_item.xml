@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/downloadedProgramItem" android:background="@drawable/list_selector_noline" android:layout_width="fill_parent" android:layout_height="@dimen/listItemHeight">
+        <com.netease.cloudmusic.ui.NetImageView android:id="@id/programCover" android:background="@drawable/list_cover" android:padding="@dimen/playListCoverBgStrokeWidth" android:layout_width="@dimen/listImageSize" android:layout_height="@dimen/listImageSize" android:layout_marginLeft="@dimen/listLeftRightMargin" android:scaleType="centerCrop" />
+        <CheckBox android:id="@id/checkedImage" android:background="@drawable/list_checkbox_bg" android:focusable="true" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="@dimen/listLeftRightMargin" android:button="@null" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listImageTextMargin" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/listTextSize" android:textColor="@color/listTextColor" android:id="@id/programName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/listTextLineSpaceingSize">
+                <ImageView android:id="@id/downloadIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/listDownloadIconTextMargin" android:src="@drawable/list_icn_dld_ok" />
+                <TextView android:textSize="@dimen/listSubTextSize" android:textColor="@color/listSubTextColor" android:id="@id/programInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/expand_menu_toggle_btn" />
+    </LinearLayout>
+    <include layout="@layout/light_divider" />
+    <com.netease.cloudmusic.ui.ProgramExpandCollapseMenu android:id="@id/programItemMenu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-0.6700001dip" />
+</LinearLayout>

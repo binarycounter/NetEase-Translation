@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/profileInfoContainer" android:layout_width="fill_parent" android:layout_height="@dimen/profileBgHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.NetImageView android:id="@id/profileBackgroundImg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:background="@drawable/profile_ban_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/profileInfoMask" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/profileInfoCountContainer" android:paddingRight="-1.0dip" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/trackCount" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="动态" android:shadowColor="#44000000" android:shadowDy="2.0" android:layout_weight="1.0" />
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/followingCount" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="关注" android:shadowColor="#44000000" android:shadowDy="2.0" android:layout_weight="1.0" />
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/followedCount" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="粉丝" android:shadowColor="#44000000" android:shadowDy="2.0" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/profileInfoSize1" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/viewArtistBtn" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/viewArtistPage" android:shadowColor="#44000000" android:shadowDy="2.0" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.netease.cloudmusic.ui.ProfileHorizontalScrollView android:id="@id/profileInfoScrollView" android:paddingBottom="15.0dip" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="wrap_content" android:layout_height="220.0dip" android:layout_above="@id/profileInfoCountContainer">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/profileInfo" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginRight="17.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+                    <TextView android:textSize="11.0sp" android:textColor="#fff1f2f3" android:gravity="center" android:id="@id/followBtn" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="26.0dip" android:drawablePadding="5.0dip" />
+                    <ImageView android:gravity="center" android:id="@id/mailBtn" android:visibility="invisible" android:layout_width="34.0dip" android:layout_height="26.0dip" android:src="@drawable/profile_btn_icn_mail" android:scaleType="centerInside" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true">
+                    <com.netease.cloudmusic.ui.VFaceImage android:id="@id/userFaceImage" android:layout_width="68.0dip" android:layout_height="68.0dip" android:layout_marginLeft="16.0dip" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="16.0dip">
+                        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#3e000000" android:shadowDy="1.0" android:shadowRadius="6.0" android:drawablePadding="7.0dip" />
+                        <TextView android:textSize="11.0sp" android:textColor="#fffefefe" android:id="@id/desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:shadowColor="#66000000" android:shadowDy="2.0" android:shadowRadius="10.0" android:lineSpacingExtra="1.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <include android:id="@id/profileOtherInfo" layout="@layout/profile_otherinfo" />
+        </LinearLayout>
+    </com.netease.cloudmusic.ui.ProfileHorizontalScrollView>
+    <LinearLayout android:id="@id/profileInfoDots" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_alignBottom="@id/profileInfoScrollView" android:layout_centerHorizontal="true">
+        <View android:background="@drawable/dot_focused_profile" android:layout_marginRight="5.0dip" style="@style/dot_style" />
+        <View style="@style/dot_style" />
+    </LinearLayout>
+</RelativeLayout>

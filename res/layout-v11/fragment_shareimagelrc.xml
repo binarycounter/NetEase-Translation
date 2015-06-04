@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/controlContainer" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16.0sp" android:textColor="#e5ffffff" android:gravity="center" android:id="@id/shareBtn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/shareImageLrcShare" android:layout_weight="1.0" />
+        <View android:background="@drawable/alb_btmtab_line" android:layout_width="1.2999878dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="16.0sp" android:textColor="#e5ffffff" android:gravity="center" android:id="@id/saveBtn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/shareImageLrcSave" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ScrollView android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/controlContainer">
+        <LinearLayout android:orientation="vertical" android:id="@id/shareImageLrcContainer" android:background="#fffefbf0" android:paddingLeft="13.0dip" android:paddingTop="15.0dip" android:paddingRight="13.0dip" android:paddingBottom="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/shareImageLrcImageHeight" android:layout_marginBottom="19.0dip">
+                <uk.co.senab.photoview.PhotoView android:id="@id/shareImageLrcImg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <View android:background="@drawable/lrc_pic_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:id="@id/shareImageLrcCamera" android:padding="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lrc_icn_camera" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <TextView android:textSize="18.0sp" android:textColor="#ff3d3c38" android:id="@id/shareImageLrcLrc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginBottom="51.0dip" android:lineSpacingExtra="11.599976sp" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff3d3c38" android:gravity="right" android:id="@id/shareImageLrcMusicName" android:paddingLeft="60.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_marginBottom="30.0dip" />
+            <View android:background="@drawable/share_imagelrc_dashline" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layerType="software" />
+            <TextView android:textSize="13.0sp" android:typeface="serif" android:textColor="#ffa19b95" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/shareImageLrcToast" android:drawableLeft="@drawable/lrc_paper_logo" android:drawablePadding="6.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/videoContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.netease.cloudmusic.ui.MyVideoView android:id="@id/videoView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <View android:id="@id/mvMask" android:background="@drawable/mv_play_ban_mask" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/videoInfo" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mv_loading_logo" />
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip">
+                    <ProgressBar android:layout_width="13.299988dip" android:layout_height="13.299988dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/loading_small_anim" />
+                    <TextView android:textSize="14.669983sp" android:textColor="#ff8d8d8d" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/mvPreLoading" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rePlayArea" android:background="#cc000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:id="@id/loadingView" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="13.299988dip" android:layout_height="13.299988dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/loading_small_anim" />
+            <TextView android:textSize="14.0sp" android:textColor="#80ffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/mvLoading" />
+        </LinearLayout>
+        <TextView android:textSize="15.0sp" android:textColor="#7fffffff" android:gravity="center" android:id="@id/loadFailView" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/volumeToast" android:background="@drawable/volume_toast_bg" android:visibility="gone" android:layout_width="@dimen/mvVolumeToastWidth" android:layout_height="@dimen/mvVolumeToastHeight">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="17.0dip" android:src="@drawable/mv_icn_speaker" />
+            <TextView android:textSize="22.0sp" android:textColor="#ccffffff" android:id="@id/volumePercent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/fastForwardToast" android:background="@drawable/volume_toast_bg" android:padding="14.0dip" android:visibility="gone" android:layout_width="@dimen/mvFastForwardToastWidth" android:layout_height="@dimen/mvFastForwardToastHeight">
+            <TextView android:textSize="25.0sp" android:textColor="#ffe31813" android:id="@id/fastForwardCurrentTime" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="25.0sp" android:textColor="#ffaea9a7" android:id="@id/fastForwardTotalTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/fastForwardCurrentTime" />
+            <ImageView android:id="@id/fastForwardIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="13.0dip" android:src="@drawable/mv_icn_speed" android:layout_below="@id/fastForwardCurrentTime" />
+            <ProgressBar android:id="@id/fastForwardProgress" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginTop="19.0dip" android:indeterminateOnly="false" android:progressDrawable="@drawable/mv_fastforward_progressbar" android:layout_toRightOf="@id/fastForwardIcon" android:layout_below="@id/fastForwardCurrentTime" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/menuBar" android:background="@color/mvBarBg" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/mvMenuBarHeight">
+            <LinearLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:id="@id/mvTitleContainer" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/mvBackBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/mv_btn_back" android:scaleType="centerInside" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/mvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                        <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/mvSubTitile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/mvSubscribeBtn" android:paddingLeft="25.0dip" android:paddingRight="25.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/mv_btn_share" android:scaleType="centerInside" />
+            <ImageView android:id="@id/mvShareBtn" android:paddingLeft="25.0dip" android:paddingRight="25.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/mv_btn_share" android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center|right" android:id="@id/mvQualityWindowContainer" android:paddingRight="35.0dip" android:paddingBottom="77.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/mv_quality_window" android:visibility="gone" layout="@layout/mv_pop_window" />
+        </LinearLayout>
+        <include android:layout_gravity="bottom" android:id="@id/mediaController" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/mvControllerHeight" layout="@layout/media_controller" />
+    </FrameLayout>
+    <com.viewpagerindicator.TabPageIndicator android:id="@id/mvTab" android:layout_width="fill_parent" android:layout_height="39.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/mvDetailViewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="3.2999878dip" android:layout_alignTop="@id/mvDetailViewPager" />
+    </RelativeLayout>
+</LinearLayout>

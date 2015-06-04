@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/share2ContactItemCatalog" layout="@layout/list_section" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_selector" android:paddingLeft="13.299988dip" android:paddingRight="28.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.699982sp" android:textColor="#ff333333" android:id="@id/share2ContactItemName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/share2ContactItemNickname" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:id="@id/share2ContactItemSelectedIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_icn_slt" />
+    </LinearLayout>
+</LinearLayout>

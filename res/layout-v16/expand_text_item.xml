@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.ExpandableTextView android:orientation="vertical" android:id="@id/expand_text_view" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:maxCollapsedLines="3">
+        <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:id="@id/expandable_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:lineSpacingExtra="3.0dip" android:fontFamily="sans-serif-light" />
+        <ImageButton android:layout_gravity="bottom|center|right" android:id="@id/expand_collapse_img" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="10.0dip" />
+    </com.netease.cloudmusic.ui.ExpandableTextView>
+</LinearLayout>

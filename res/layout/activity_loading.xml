@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/loadingLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="92.0dip" android:src="@drawable/login_logo" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/loadingCopyRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/copyright" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/copyrightStyle" />
+    <ImageView android:id="@id/bdLogo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:layout_above="@id/loadingCopyRight" android:layout_centerHorizontal="true" />
+</RelativeLayout>

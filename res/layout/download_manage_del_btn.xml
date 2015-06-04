@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/downloadManageDelBtn" android:background="@drawable/blk_btmlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="49.69998dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:background="@drawable/common_selector" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btmlay_icn_dlt" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:text="@string/delete" />
+    </LinearLayout>
+</RelativeLayout>

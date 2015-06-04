@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="17.0sp" android:textColor="#ff333333" android:textColorHint="#ff888888" android:gravity="center|left|top" android:id="@id/editCommentContent" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="10.0dip" android:minHeight="120.0dip" android:hint="@string/writeSomething" android:layout_weight="1.0" android:imeOptions="actionSend" android:imeActionLabel="@string/publishCmt" />
+    <RelativeLayout android:background="@drawable/blk_btmlay" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@id/atBtn" android:padding="12.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/msg_btn_at" android:scaleType="center" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/emotionBtn" android:padding="12.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/msg_btn_face" android:scaleType="center" android:layout_toRightOf="@id/atBtn" android:layout_centerVertical="true" />
+        <TextView android:textSize="17.0sp" android:textColor="#ff888888" android:gravity="center" android:id="@id/remainCount" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginRight="10.0dip" android:text="140" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <com.netease.cloudmusic.ui.EmotionView android:gravity="center" android:id="@id/emotionView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

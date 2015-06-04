@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.netease.cloudmusic" platformBuildVersionCode="21" platformBuildVersionName="APKTOOL">
+    <application android:hardwareAccelerated="true" android:icon="@drawable/logo" android:label="@string/appName" android:largeHeap="true" android:name="NeteaseMusicApplication" android:theme="@style/AppTheme">
+        <meta-data android:name="appid" android:value="appid:006155384247521230"  android:versionCode="2" android:versionName="1.1" />
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.MyPrivateCloudActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ArtistCategoryActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.TopicActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ApplyForRadioActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.MusicListActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ShareImageLrcActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.SimilarRecommendActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ClearCacheActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.PlayListExpertListActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.IdentifyActivity" android:screenOrientation="portrait" android:theme="@style/blackTabTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.SearchActivity" android:screenOrientation="portrait" android:theme="@style/searchActivityActionBarTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.AlbumActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.FindRecommendNewAlbumActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.FindRecommendDayMusicActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.AddToPlayListActivity" android:screenOrientation="portrait" android:theme="@style/cornerTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.AboutActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.RecordProgramActivty" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.SettingActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.MessageActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.LoginActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.PlayerActivity" android:screenOrientation="portrait" android:theme="@style/playerActivityActionBarTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.PlayerRadioActivity" android:screenOrientation="portrait" android:theme="@style/myActionBarTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.RelativePeopleActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name=".activity.MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ProfileModifyActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ImportMusicActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.NotifySettingActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.LoadingActivity" android:screenOrientation="portrait" android:theme="@style/loadingActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="orpheus"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ArtistListActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.PlayListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ScanMusicActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.FindRecommendNewMusicActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ArtistActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ShareActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.Share2FreindActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.InviteFriendActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.BindSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.BindAccountActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.FeedbackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.TrackDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.EditCommentActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.MusicQualityActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.RecommendFriendActivity" android:screenOrientation="portrait" android:theme="@style/cornerTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.StarUserActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.UserTrackActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.CommentActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.PrivateMsgDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.EditPlayListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.FindAndInviteFriendActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.BindCellphoneNumActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.BindCellphoneSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.IntroduceActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Sherlock.Light.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name=".activity.EmbedBrowserActivity" android:process=":embedbrowser" android:theme="@style/Theme.Sherlock.Light.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name=".wxapi.WXEntryActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name=".yxapi.YXEntryActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.MVActivity" android:theme="@style/mvActivityActionBarTheme" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.UserAndProgramBillboardActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ClassSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.MyDownloadMusicActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.EditInviteActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.RedirectActivity" android:screenOrientation="portrait" android:theme="@style/TransparentActivity.NoTitle"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.AtSomebodyActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ForwardTrackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.MyRecentMusicActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity-alias android:icon="@drawable/identify_widget_icn" android:label="@string/identifyShortcutLabel" android:name=".activity.IdentifyShortcutActivity" android:targetActivity=".activity.LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.CAR_MODE"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:icon="@drawable/radio_widget_icn" android:label="@string/radioShortcutLabel" android:name=".activity.RadioShortcutActivity" android:targetActivity=".activity.LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.CAR_MODE"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.CollectedRadioListActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.CommonShareActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name=".activity.CommonSubjectActivity" android:process=":embedbrowser" android:screenOrientation="portrait" android:theme="@style/Theme.Sherlock.Light.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.UnicomFreeActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.SharePanelActivity" android:screenOrientation="portrait" android:theme="@style/DialogActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent100495085"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.FakeLockScreenActivity" android:screenOrientation="portrait" android:taskAffinity="com.netease.cloudmusic.locakscreen" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.InvitePairsFollowActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ThemeConfigActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.CollectedArtistListActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.OperatorFreeDialogActivity" android:screenOrientation="portrait" android:theme="@style/DialogActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.CollectedMVListActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.RadioDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.FindRecommendMVActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.RadioCategoryListActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ProgramUploadActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.PublishProgramActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.BindPassActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.ReportActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.BlacklistActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name=".activity.DeprecateTencentAccountActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:exported="false" android:name="com.alipay.sdk.app.H5PayActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:exported="false" android:name="com.alipay.sdk.auth.AuthActivity" android:screenOrientation="behind"/>
+        <service android:name=".service.PlayService"/>
+        <service android:name=".service.LocalMusicMatchService"/>
+        <service android:name=".service.upgrade.LocalMusicTaskService"/>
+        <service android:name=".service.PushService"/>
+        <service android:name=".service.download.DownloadService"/>
+        <service android:name=".service.upload.UploadService"/>
+        <service android:name=".service.UpdateService"/>
+        <service android:exported="true" android:name=".service.LogicService"/>
+        <service android:enabled="true" android:name="com.baidu.location.f" android:process=":remote"/>
+        <receiver android:name=".receiver.MediaButtonEventReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/widgetName4x1" android:name=".widget.PlayerWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.netease.music.action.STAR_MUSIC"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/player_widget_provider_4x1"/>
+        </receiver>
+        <receiver android:label="@string/widgetName4x2" android:name=".widget.PlayerWidgetFourTwo">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.netease.music.action.STAR_MUSIC"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/player_widget_provider_4x2"/>
+        </receiver>
+        <receiver android:label="@string/widgetName4x4" android:name=".widget.PlayerWidgetFourFour">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.netease.music.action.STAR_MUSIC"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/player_widget_provider_4x4"/>
+        </receiver>
+        <receiver android:enabled="false" android:name=".activity.IntroduceActivity$PackageInstalledReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.SEND_SMS"/>
+</manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#bfffffff" android:gravity="center" android:id="@id/musicMatchBtn" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="43.0dip" android:layout_marginBottom="10.0dip" android:text="@string/getLI" />
+    <ViewFlipper android:id="@id/musicOpContainer" android:paddingLeft="23.0dip" android:paddingRight="23.0dip" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/likeBtn" android:layout_width="55.0dip" android:layout_height="fill_parent" android:src="@drawable/play_icn_love" android:scaleType="center" />
+            <View android:id="@id/likeLine" android:background="@drawable/play_icn_spline" android:layout_width="0.6700001dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <ImageView android:id="@id/downLoadBtn" android:layout_width="55.0dip" android:layout_height="fill_parent" android:src="@drawable/play_icn_dld" android:scaleType="center" />
+            <View android:id="@id/downloadLine" android:background="@drawable/play_icn_spline" android:layout_width="0.6700001dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:layout_width="55.0dip" android:layout_height="fill_parent">
+                <ImageView android:id="@id/commentBtn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/play_icn_cmt" android:scaleType="center" />
+                <TextView android:textSize="9.0sp" android:id="@id/commentCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <View android:id="@id/commentLine" android:background="@drawable/play_icn_spline" android:layout_width="0.6700001dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <ImageView android:id="@id/shareBtn" android:layout_width="55.0dip" android:layout_height="fill_parent" android:src="@drawable/play_icn_share" android:scaleType="center" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="#ccffffff" android:gravity="center" android:id="@id/radioSubscribeBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-16.0dip" android:text="@string/subscribe" android:drawablePadding="-10.0dip" />
+            </LinearLayout>
+            <View android:background="@drawable/play_icn_spline" android:layout_width="0.6700001dip" android:layout_height="20.0dip" />
+            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="#ccffffff" android:gravity="center" android:id="@id/commentBtn2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-16.0dip" android:text="@string/comment" android:drawablePadding="-10.0dip" />
+            </LinearLayout>
+            <View android:background="@drawable/play_icn_spline" android:layout_width="0.6700001dip" android:layout_height="20.0dip" />
+            <LinearLayout android:gravity="center" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="#ccffffff" android:gravity="center" android:id="@id/praiseBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-16.0dip" android:text="@string/doLike" android:drawablePadding="-10.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ViewFlipper>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="34.0dip">
+        <TextView android:textSize="9.0sp" android:textColor="#ccd9d9d9" android:id="@id/currentTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+        <com.netease.cloudmusic.ui.PlayerSeekBarNew android:id="@id/playSeekBar" android:paddingLeft="3.0dip" android:paddingTop="6.0dip" android:paddingRight="3.0dip" android:paddingBottom="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:maxHeight="8.0dip" android:progressDrawable="@drawable/play_seekbar" android:minHeight="8.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="9.0sp" android:textColor="#4cd9d9d9" android:id="@id/totalTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="74.0dip">
+        <ImageView android:id="@id/modeBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/play_icn_loop" />
+        <ImageView android:id="@id/downLoadBtn2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/play_btn_prew" />
+        <ImageView android:id="@id/preBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/playerControlMarginLeft" android:src="@drawable/play_btn_prew" />
+        <ImageView android:id="@id/playBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/playerControlMarginLeft" android:src="@drawable/play_btn_play" />
+        <ImageView android:id="@id/nextBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/playerControlMarginLeft" android:src="@drawable/play_btn_next" />
+        <ImageView android:id="@id/sourceName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/playerControlMarginLeft" android:src="@drawable/play_icn_src" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/normalBackground" android:paddingLeft="@dimen/leftRightMargin" android:paddingRight="@dimen/leftRightMargin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.EditTextWithClear android:textSize="15.0sp" android:textColor="@color/inputTextColor" android:textColorHint="@color/inputTextHintColor" android:id="@id/input" android:background="@drawable/login_ipt_focus" android:paddingLeft="10.0dip" android:paddingRight="13.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:hint="@string/inputNickname" android:singleLine="true" android:drawablePadding="5.0dip" android:imeOptions="actionDone" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:gravity="center_vertical" android:id="@id/tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:drawablePadding="5.0dip" />
+</LinearLayout>

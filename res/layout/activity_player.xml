@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/playerAlbumCover" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageSwitcher android:id="@id/bigAlbumCover" android:background="#ff262626" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:background="@drawable/play_bg_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/artistImageContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <View android:id="@id/topShadow" android:background="@drawable/play_topbar_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/playerTopShadowHeight" />
+        <ImageView android:id="@id/playDiscBg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/discMarginTop" android:src="@drawable/play_disc_halo" android:layout_centerHorizontal="true" />
+        <com.netease.cloudmusic.ui.PlayerDiscViewFlipper android:id="@id/discSwitcher" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/discMarginTop">
+            <com.netease.cloudmusic.ui.RotateAntiAliasRelativelayout android:layout_gravity="center_horizontal" android:id="@id/disc0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.netease.cloudmusic.ui.NetImageView android:id="@id/smallAlbumCover0" android:layout_width="@dimen/albumMiddleSize" android:layout_height="@dimen/albumMiddleSize" android:scaleType="fitXY" android:layout_centerInParent="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/play_disc" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            </com.netease.cloudmusic.ui.RotateAntiAliasRelativelayout>
+            <com.netease.cloudmusic.ui.RotateAntiAliasRelativelayout android:layout_gravity="center_horizontal" android:id="@id/disc1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.netease.cloudmusic.ui.NetImageView android:id="@id/smallAlbumCover1" android:layout_width="@dimen/albumMiddleSize" android:layout_height="@dimen/albumMiddleSize" android:scaleType="fitXY" android:layout_centerInParent="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/play_disc" android:layout_centerInParent="true" />
+            </com.netease.cloudmusic.ui.RotateAntiAliasRelativelayout>
+        </com.netease.cloudmusic.ui.PlayerDiscViewFlipper>
+        <ImageView android:id="@id/discHead" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/playerDiscNeedleMarginTop" android:layout_marginRight="66.0dip" android:src="@drawable/play_needle" android:layout_alignRight="@id/playDiscBg" />
+        <TextView android:textSize="11.0sp" android:textColor="#30ffffff" android:gravity="center" android:id="@id/miguMusicPlayerHint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/findPageNormalPading" android:layout_marginRight="@dimen/findPageNormalPading" android:text="@string/miguMusicPlayer" android:drawableLeft="@drawable/play_icn_migu" android:drawablePadding="2.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/programViewContainer" android:background="@color/volumeBg" android:paddingBottom="113.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="#1effffff" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+        <TextView android:textSize="17.0sp" android:textColor="#fff9f9f9" android:ellipsize="end" android:id="@id/radioName" android:padding="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:drawableRight="@drawable/rdi_icn_arr" />
+        <View android:background="#1effffff" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+        <TextView android:textSize="17.0sp" android:textColor="#fff9f9f9" android:id="@id/programContainMusics" android:padding="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableRight="@drawable/rdi_icn_arr" />
+        <View android:id="@id/programContainMusicsLine" android:background="#1effffff" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#fff9f9f9" android:id="@id/programName" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="#99ffffff" android:id="@id/programOtherInfo" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="15.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="#80f9f9f9" android:id="@id/programDesc" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="3.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/lrcViewContainer" android:background="@color/lrcShareHintBgColor" android:paddingBottom="113.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/lrcViewContainerInner" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_gravity="center_vertical" android:id="@id/playCurLyricLine" android:background="#14ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.6700001dip" android:layout_toLeftOf="@id/playCurLyricTime" android:layout_toRightOf="@id/playCurLyric" android:layout_alignTop="@id/playCurLyricTime" />
+            <com.shimmer.ShimmerTextView android:textSize="15.329987sp" android:textColor="#ffd70909" android:gravity="center_horizontal" android:id="@id/lrcShareHint" android:paddingTop="@dimen/lyricViewHintPaddingHeight" android:paddingBottom="@dimen/lyricViewHintPaddingHeight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/lyricViewHintHeight" android:text="@string/shareLrcByPressScreen" />
+            <com.netease.cloudmusic.ui.LyricView android:textColor="#ffffffff" android:gravity="center" android:id="@id/lrc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/lrcShareHint" />
+            <LinearLayout android:orientation="vertical" android:id="@id/lyricAdjustContainer" android:visibility="gone" android:layout_width="43.0dip" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <LinearLayout android:id="@id/lyricAdjustDecreaseBtn" android:background="@drawable/lrc_sidebar_top" android:layout_width="fill_parent" android:layout_height="66.0dip">
+                    <TextView android:id="@id/lyricAdjustDecreaseTv" android:text="@string/lyricControlDecreaseOffsetTimeHint" android:drawableTop="@drawable/lrc_btn_slower" style="@style/userLyricOffsetAdjustView" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/lyricAdjustRecoveryBtn" android:background="@drawable/lrc_sidebar_mid" android:layout_width="fill_parent" android:layout_height="66.0dip">
+                    <TextView android:id="@id/lyricAdjustRecoveryTv" android:text="@string/lyricControlRecoveryUserOffsetTimeHint" android:drawableTop="@drawable/lrc_btn_restore" android:drawablePadding="4.0dip" style="@style/userLyricOffsetAdjustView" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/lyricAdjustIncreaseBtn" android:background="@drawable/lrc_sidebar_mid" android:layout_width="fill_parent" android:layout_height="66.0dip">
+                    <TextView android:id="@id/lyricAdjustIncreaseTv" android:text="@string/lyricControlIncreaseOffsetTimeHint" android:drawableTop="@drawable/lrc_btn_faster" style="@style/userLyricOffsetAdjustView" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/lyricAdjustSaveBtn" android:background="@drawable/lrc_sidebar_btm" android:layout_width="fill_parent" android:layout_height="49.0dip">
+                    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/lyricAdjustSaveImg" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/playCurLyricHint" android:background="@drawable/lrc_time_guide_mask" android:paddingLeft="30.0dip" android:visibility="gone" android:layout_width="231.0dip" android:layout_height="32.599976dip" android:text="@string/playFromTriangle" android:layout_centerVertical="true" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/playCurLyric" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/playCurLyricTimeSize" android:layout_centerVertical="true" />
+            <TextView android:textSize="11.0sp" android:textColor="#b2ffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/playCurLyricTime" android:visibility="gone" android:layout_width="42.0dip" android:layout_height="@dimen/playCurLyricTimeSize" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/musicOptionBtn" android:paddingLeft="18.0dip" android:paddingTop="5.0dip" android:paddingRight="18.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lrc_btn_more" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/musicOptionContainer" android:background="@drawable/lrc_blk_tip" android:layout_width="153.0dip" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" android:layout_marginBottom="33.329987dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center_vertical" android:id="@id/musicOptionLyricQfyBtn" android:layout_width="fill_parent" android:layout_height="47.0dip">
+                <TextView android:id="@id/musicOptionQfyTv" android:duplicateParentState="true" android:layout_width="wrap_content" android:text="@string/lyricOptionQfyHint" android:drawableLeft="@drawable/lrc_icn_adjust" style="@style/userLyricOptionTextView" />
+            </LinearLayout>
+            <View android:background="@drawable/lrc_blk_tip_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/musicOptionLyricAdjustBtn" android:layout_width="fill_parent" android:layout_height="47.0dip">
+                <TextView android:id="@id/musicOptionAdjustTv" android:duplicateParentState="true" android:layout_width="wrap_content" android:text="@string/lyricOptionAdjustHint" android:drawableLeft="@drawable/lrc_icn_adjust" style="@style/userLyricOptionTextView" />
+            </LinearLayout>
+            <View android:background="@drawable/lrc_blk_tip_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/musicOptionLyricBugreportBtn" android:layout_width="fill_parent" android:layout_height="47.0dip">
+                <TextView android:id="@id/musicOptionLyricBugreportTv" android:duplicateParentState="true" android:text="@string/lyricOptionBugreportHint" android:drawableLeft="@drawable/lrc_icn_help" style="@style/userLyricOptionTextView" />
+            </LinearLayout>
+            <View android:background="@drawable/lrc_blk_tip_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/musicOptionSongBugreportBtn" android:layout_width="fill_parent" android:layout_height="47.0dip">
+                <TextView android:id="@id/musicOptionLyricBugreportTv2" android:duplicateParentState="true" android:text="@string/lyricOptionSongBugreportHint" android:drawableLeft="@drawable/lrc_icn_help2" style="@style/userLyricOptionTextView" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/volumeSeekBarContainer" android:paddingLeft="23.0dip" android:paddingTop="10.0dip" android:paddingRight="23.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/volumeHeight">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:src="@drawable/play_icn_speaker" />
+        <SeekBar android:id="@id/volumeSeekBar" android:paddingLeft="3.0dip" android:paddingTop="9.0dip" android:paddingRight="3.0dip" android:paddingBottom="9.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="2.0dip" android:progress="30" android:progressDrawable="@drawable/volume_seekbar" android:minHeight="2.0dip" android:thumb="@drawable/play_volumebar_btn" android:thumbOffset="3.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ViewStub android:id="@id/switchDiscGuide" android:layout="@layout/switchdisc_guide" android:inflatedId="@id/switchDiscGuide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="143.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ViewStub android:id="@id/playerControlContainer" android:layout="@layout/player_new" android:inflatedId="@id/playerControlContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/playerControlContainer2" android:layout="@layout/player_old" android:inflatedId="@id/playerControlContainer2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

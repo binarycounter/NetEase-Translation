@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_selector" android:paddingLeft="@dimen/recommendPageNormalPading" android:paddingRight="@dimen/recommendPageNormalPading" android:layout_width="fill_parent" android:layout_height="77.0dip">
+        <RelativeLayout android:paddingLeft="4.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.netease.cloudmusic.ui.NetImageView android:id="@id/subjectCover" android:layout_width="63.0dip" android:layout_height="63.0dip" android:src="@drawable/default_disc_180" android:scaleType="fitXY" android:layout_centerVertical="true" />
+            <ImageView android:background="@drawable/list_cover_withbg" android:layout_width="63.0dip" android:layout_height="63.0dip" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+            <TextView android:textSize="16.0sp" android:id="@id/subjectTitle" style="@style/recommendTextViewStyle" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:id="@id/subjectSubTitle" android:layout_marginTop="@dimen/listTextLineSpaceingSize" style="@style/recommendTextViewStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

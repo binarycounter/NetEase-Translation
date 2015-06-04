@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffeef0f1" android:paddingLeft="11.0dip" android:paddingRight="8.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:gravity="center" android:id="@id/timeLine" android:background="@drawable/chat_time_bg" android:paddingLeft="10.0dip" android:paddingTop="4.0dip" android:paddingRight="10.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:text="14-15-16" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/leftContent" android:paddingTop="17.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.netease.cloudmusic.ui.VFaceImage android:id="@id/otherAvatar" android:layout_width="@dimen/privateMsgVFace" android:layout_height="@dimen/privateMsgVFace" android:layout_marginTop="5.3299866dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/msgArea" android:background="@drawable/private_msg_left_selector" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_toRightOf="@id/otherAvatar">
+            <com.netease.cloudmusic.ui.TextViewFixTouchConsume android:textSize="16.0sp" android:id="@id/textContent" android:lineSpacingExtra="2.0dip" style="@style/privateMsgDetailTextStyle" />
+            <View android:id="@id/textContentDivideLine" android:background="#ffcccccc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="5.0dip" android:minWidth="240.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/attachedContentArea" android:background="@drawable/chat_white_iner_blk" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:minWidth="240.0dip">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.netease.cloudmusic.ui.VFaceImage android:layout_gravity="center" android:id="@id/profileImg" android:visibility="gone" android:layout_width="@dimen/userItemImgNormalWidth" android:layout_height="@dimen/userItemImgNormalWidth" />
+                    <com.netease.cloudmusic.ui.NetImageView android:id="@id/resourceImg" android:background="@drawable/list_cover" style="@style/trackImageStyle" />
+                    <ImageView android:id="@id/lCoverImg" style="@style/trackMvImageStyle" />
+                </FrameLayout>
+                <RelativeLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/profileContainer" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="16.0sp" android:textColor="#ff3773b0" android:id="@id/profileName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <ImageView android:layout_width="8.0dip" android:layout_height="13.329987dip" android:src="@drawable/list_icn_arr" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/normalPrivateTypeContainer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:id="@id/resourceName" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:id="@id/resourceCreator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:drawablePadding="2.0dip" />
+                    <com.netease.cloudmusic.ui.FlowLayout android:id="@id/playListInfoArea" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:horizontalSpacing="7.0dip" app:verticalSpacing="5.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="10.599976dip" android:textColor="#ff9b9b9b" android:id="@id/timeRight" android:paddingLeft="7.0dip" android:paddingTop="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.6999817dip" android:singleLine="true" android:layout_below="@id/msgArea" android:layout_alignLeft="@id/msgArea" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="right" android:id="@id/rightContent" android:paddingTop="17.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/msgAreaRight" android:background="@drawable/private_msg_right_selector" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_alignParentRight="true">
+            <com.netease.cloudmusic.ui.TextViewFixTouchConsume android:textSize="16.0sp" android:id="@id/textContentRight" android:lineSpacingExtra="2.0dip" style="@style/privateMsgDetailTextStyle" />
+            <View android:id="@id/textContentDivideLineRight" android:background="#ffcccccc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="5.0dip" android:minWidth="240.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/attachedContentAreaRight" android:background="@drawable/chat_white_iner_blk" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:minWidth="240.0dip">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.netease.cloudmusic.ui.VFaceImage android:layout_gravity="center" android:id="@id/profileImgRight" android:visibility="gone" android:layout_width="@dimen/userItemImgNormalWidth" android:layout_height="@dimen/userItemImgHeight" />
+                    <com.netease.cloudmusic.ui.NetImageView android:layout_gravity="center" android:id="@id/resourceImgRight" style="@style/trackImageStyle" />
+                    <ImageView android:id="@id/rCoverImg" style="@style/trackMvImageStyle" />
+                </FrameLayout>
+                <RelativeLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/profileContainerRight" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="16.0sp" android:textColor="#ff3773b0" android:id="@id/profileNameRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <ImageView android:layout_width="8.0dip" android:layout_height="13.329987dip" android:src="@drawable/list_icn_arr" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/normalPrivateTypeContainerRight" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:id="@id/resourceNameRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="中国好声音" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:id="@id/resourceCreatorRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="华少" android:drawablePadding="2.0dip" />
+                    <com.netease.cloudmusic.ui.FlowLayout android:id="@id/playListInfoAreaRight" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:horizontalSpacing="7.0dip" app:verticalSpacing="5.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:textColor="#ffffffff" android:id="@id/failed_tag" android:background="@drawable/chat_icn_fail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/msgAreaRight" android:layout_alignBottom="@id/msgAreaRight" />
+        <TextView android:textSize="11.0dip" android:textColor="#ff999999" android:id="@id/timeLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginRight="8.0dip" android:text="12:30" android:singleLine="true" android:layout_below="@id/msgAreaRight" android:layout_alignRight="@id/msgAreaRight" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.viewpagerindicator.TabPageIndicator android:id="@id/searchTab" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    <android.support.v4.view.ViewPager android:id="@id/searchPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/searchTab" />
+    <View android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_alignTop="@id/searchPager" />
+</RelativeLayout>

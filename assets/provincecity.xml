@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+xmlns:context="http://www.springframework.org/schema/context"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-2.5.xsd
+http://www.springframework.org/schema/aop
+http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
+
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="110000" />
+		<property name="name" value="北京市" />
+		<property name="type" value="1" />
+		<property name="alias" value="北京" />
+		<property name="cities">
+			<map>
+				<entry key="110101" value="东城区" />
+				<entry key="110102" value="西城区" />
+				<entry key="110103" value="崇文区" />
+				<entry key="110104" value="宣武区" />
+				<entry key="110105" value="朝阳区" />
+				<entry key="110106" value="丰台区" />
+				<entry key="110107" value="石景山区" />
+				<entry key="110108" value="海淀区" />
+				<entry key="110109" value="门头沟区" />
+				<entry key="110111" value="房山区" />
+				<entry key="110112" value="通州区" />
+				<entry key="110113" value="顺义区" />
+				<entry key="110114" value="昌平区" />
+				<entry key="110115" value="大兴区" />
+				<entry key="110116" value="怀柔区" />
+				<entry key="110117" value="平谷区" />
+				<entry key="110228" value="密云县" />
+				<entry key="110229" value="延庆县" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="120000" />
+		<property name="name" value="天津市" />
+		<property name="type" value="1" />
+		<property name="alias" value="天津" />
+		<property name="cities">
+			<map>
+				<entry key="120101" value="和平区" />
+				<entry key="120102" value="河东区" />
+				<entry key="120103" value="河西区" />
+				<entry key="120104" value="南开区" />
+				<entry key="120105" value="河北区" />
+				<entry key="120106" value="红桥区" />
+				<entry key="120110" value="东丽区" />
+				<entry key="120111" value="西青区" />
+				<entry key="120112" value="津南区" />
+				<entry key="120113" value="北辰区" />
+				<entry key="120114" value="武清区" />
+				<entry key="120115" value="宝坻区" />
+				<entry key="120116" value="滨海新区" />
+				<entry key="120221" value="宁河县" />
+				<entry key="120223" value="静海县" />
+				<entry key="120225" value="蓟县" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="130000" />
+		<property name="name" value="河北省" />
+		<property name="type" value="0" />
+		<property name="alias" value="河北" />
+		<property name="cities">
+			<map>
+				<entry key="130100" value="石家庄市" />
+				<entry key="130200" value="唐山市" />
+				<entry key="130300" value="秦皇岛市" />
+				<entry key="130400" value="邯郸市" />
+				<entry key="130500" value="邢台市" />
+				<entry key="130600" value="保定市" />
+				<entry key="130700" value="张家口市" />
+				<entry key="130800" value="承德市" />
+				<entry key="130900" value="沧州市" />
+				<entry key="131000" value="廊坊市" />
+				<entry key="131100" value="衡水市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="140000" />
+		<property name="name" value="山西省" />
+		<property name="type" value="0" />
+		<property name="alias" value="山西" />
+		<property name="cities">
+			<map>
+				<entry key="140100" value="太原市" />
+				<entry key="140200" value="大同市" />
+				<entry key="140300" value="阳泉市" />
+				<entry key="140400" value="长治市" />
+				<entry key="140500" value="晋城市" />
+				<entry key="140600" value="朔州市" />
+				<entry key="140700" value="晋中市" />
+				<entry key="140800" value="运城市" />
+				<entry key="140900" value="忻州市" />
+				<entry key="141000" value="临汾市" />
+				<entry key="141100" value="吕梁市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="150000" />
+		<property name="name" value="内蒙古" />
+		<property name="cities">
+			<map>
+				<entry key="150100" value="呼和浩特市" />
+				<entry key="150200" value="包头市" />
+				<entry key="150300" value="乌海市" />
+				<entry key="150400" value="赤峰市" />
+				<entry key="150500" value="通辽市" />
+				<entry key="150600" value="鄂尔多斯市" />
+				<entry key="150700" value="呼伦贝尔市" />
+				<entry key="150800" value="巴彦淖尔市" />
+				<entry key="150900" value="乌兰察布市" />
+				<entry key="152200" value="兴安盟" />
+				<entry key="152500" value="锡林郭勒盟" />
+				<entry key="152900" value="阿拉善盟" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="210000" />
+		<property name="name" value="辽宁省" />
+		<property name="type" value="0" />
+		<property name="alias" value="辽宁" />
+		<property name="cities">
+			<map>
+				<entry key="210100" value="沈阳市" />
+				<entry key="210200" value="大连市" />
+				<entry key="210300" value="鞍山市" />
+				<entry key="210400" value="抚顺市" />
+				<entry key="210500" value="本溪市" />
+				<entry key="210600" value="丹东市" />
+				<entry key="210700" value="锦州市" />
+				<entry key="210800" value="营口市" />
+				<entry key="210900" value="阜新市" />
+				<entry key="211000" value="辽阳市" />
+				<entry key="211100" value="盘锦市" />
+				<entry key="211200" value="铁岭市" />
+				<entry key="211300" value="朝阳市" />
+				<entry key="211400" value="葫芦岛市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="220000" />
+		<property name="name" value="吉林省" />
+		<property name="type" value="0" />
+		<property name="alias" value="吉林" />
+		<property name="cities">
+			<map>
+				<entry key="220100" value="长春市" />
+				<entry key="220200" value="吉林市" />
+				<entry key="220300" value="四平市" />
+				<entry key="220400" value="辽源市" />
+				<entry key="220500" value="通化市" />
+				<entry key="220600" value="白山市" />
+				<entry key="220700" value="松原市" />
+				<entry key="220800" value="白城市" />
+				<entry key="222400" value="延边朝鲜族自治州" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="230000" />
+		<property name="name" value="黑龙江省" />
+		<property name="type" value="0" />
+		<property name="alias" value="黑龙江" />
+		<property name="cities">
+			<map>
+				<entry key="230100" value="哈尔滨市" />
+				<entry key="230200" value="齐齐哈尔市" />
+				<entry key="230300" value="鸡西市" />
+				<entry key="230400" value="鹤岗市" />
+				<entry key="230500" value="双鸭山市" />
+				<entry key="230600" value="大庆市" />
+				<entry key="230700" value="伊春市" />
+				<entry key="230800" value="佳木斯市" />
+				<entry key="230900" value="七台河市" />
+				<entry key="231000" value="牡丹江市" />
+				<entry key="231100" value="黑河市" />
+				<entry key="231200" value="绥化市" />
+				<entry key="232700" value="大兴安岭地区" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="310000" />
+		<property name="name" value="上海市" />
+		<property name="type" value="1" />
+		<property name="alias" value="上海" />
+		<property name="cities">
+			<map>
+				<entry key="310101" value="黄浦区" />
+				<entry key="310103" value="卢湾区" />
+				<entry key="310104" value="徐汇区" />
+				<entry key="310105" value="长宁区" />
+				<entry key="310106" value="静安区" />
+				<entry key="310107" value="普陀区" />
+				<entry key="310108" value="闸北区" />
+				<entry key="310109" value="虹口区" />
+				<entry key="310110" value="杨浦区" />
+				<entry key="310112" value="闵行区" />
+				<entry key="310113" value="宝山区" />
+				<entry key="310114" value="嘉定区" />
+				<entry key="310115" value="浦东新区" />
+				<entry key="310116" value="金山区" />
+				<entry key="310117" value="松江区" />
+				<entry key="310118" value="青浦区" />
+				<entry key="310120" value="奉贤区" />
+				<entry key="310230" value="崇明县" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="320000" />
+		<property name="name" value="江苏省" />
+		<property name="type" value="0" />
+		<property name="alias" value="江苏" />
+		<property name="cities">
+			<map>
+				<entry key="320100" value="南京市" />
+				<entry key="320200" value="无锡市" />
+				<entry key="320300" value="徐州市" />
+				<entry key="320400" value="常州市" />
+				<entry key="320500" value="苏州市" />
+				<entry key="320600" value="南通市" />
+				<entry key="320700" value="连云港市" />
+				<entry key="320800" value="淮安市" />
+				<entry key="320900" value="盐城市" />
+				<entry key="321000" value="扬州市" />
+				<entry key="321100" value="镇江市" />
+				<entry key="321200" value="泰州市" />
+				<entry key="321300" value="宿迁市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="330000" />
+		<property name="name" value="浙江省" />
+		<property name="type" value="0" />
+		<property name="alias" value="浙江" />
+		<property name="cities">
+			<map>
+				<entry key="330100" value="杭州市" />
+				<entry key="330200" value="宁波市" />
+				<entry key="330300" value="温州市" />
+				<entry key="330400" value="嘉兴市" />
+				<entry key="330500" value="湖州市" />
+				<entry key="330600" value="绍兴市" />
+				<entry key="330700" value="金华市" />
+				<entry key="330800" value="衢州市" />
+				<entry key="330900" value="舟山市" />
+				<entry key="331000" value="台州市" />
+				<entry key="331100" value="丽水市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="340000" />
+		<property name="name" value="安徽省" />
+		<property name="type" value="0" />
+		<property name="alias" value="安徽" />
+		<property name="cities">
+			<map>
+				<entry key="340100" value="合肥市" />
+				<entry key="340200" value="芜湖市" />
+				<entry key="340300" value="蚌埠市" />
+				<entry key="340400" value="淮南市" />
+				<entry key="340500" value="马鞍山市" />
+				<entry key="340600" value="淮北市" />
+				<entry key="340700" value="铜陵市" />
+				<entry key="340800" value="安庆市" />
+				<entry key="341000" value="黄山市" />
+				<entry key="341100" value="滁州市" />
+				<entry key="341200" value="阜阳市" />
+				<entry key="341300" value="宿州市" />
+				<entry key="341400" value="巢湖市" />
+				<entry key="341500" value="六安市" />
+				<entry key="341600" value="亳州市" />
+				<entry key="341700" value="池州市" />
+				<entry key="341800" value="宣城市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="350000" />
+		<property name="name" value="福建省" />
+		<property name="type" value="0" />
+		<property name="alias" value="福建" />
+		<property name="cities">
+			<map>
+				<entry key="350100" value="福州市" />
+				<entry key="350200" value="厦门市" />
+				<entry key="350300" value="莆田市" />
+				<entry key="350400" value="三明市" />
+				<entry key="350500" value="泉州市" />
+				<entry key="350600" value="漳州市" />
+				<entry key="350700" value="南平市" />
+				<entry key="350800" value="龙岩市" />
+				<entry key="350900" value="宁德市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="360000" />
+		<property name="name" value="江西省" />
+		<property name="type" value="0" />
+		<property name="alias" value="江西" />
+		<property name="cities">
+			<map>
+				<entry key="360100" value="南昌市" />
+				<entry key="360200" value="景德镇市" />
+				<entry key="360300" value="萍乡市" />
+				<entry key="360400" value="九江市" />
+				<entry key="360500" value="新余市" />
+				<entry key="360600" value="鹰潭市" />
+				<entry key="360700" value="赣州市" />
+				<entry key="360800" value="吉安市" />
+				<entry key="360900" value="宜春市" />
+				<entry key="361000" value="抚州市" />
+				<entry key="361100" value="上饶市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="370000" />
+		<property name="name" value="山东省" />
+		<property name="type" value="0" />
+		<property name="alias" value="山东" />
+		<property name="cities">
+			<map>
+				<entry key="370100" value="济南市" />
+				<entry key="370200" value="青岛市" />
+				<entry key="370300" value="淄博市" />
+				<entry key="370400" value="枣庄市" />
+				<entry key="370500" value="东营市" />
+				<entry key="370600" value="烟台市" />
+				<entry key="370700" value="潍坊市" />
+				<entry key="370800" value="济宁市" />
+				<entry key="370900" value="泰安市" />
+				<entry key="371000" value="威海市" />
+				<entry key="371100" value="日照市" />
+				<entry key="371200" value="莱芜市" />
+				<entry key="371300" value="临沂市" />
+				<entry key="371400" value="德州市" />
+				<entry key="371500" value="聊城市" />
+				<entry key="371600" value="滨州市" />
+				<entry key="371700" value="菏泽市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="410000" />
+		<property name="name" value="河南省" />
+		<property name="type" value="0" />
+		<property name="alias" value="河南" />
+		<property name="cities">
+			<map>
+				<entry key="410100" value="郑州市" />
+				<entry key="410200" value="开封市" />
+				<entry key="410300" value="洛阳市" />
+				<entry key="410400" value="平顶山市" />
+				<entry key="410500" value="安阳市" />
+				<entry key="410600" value="鹤壁市" />
+				<entry key="410700" value="新乡市" />
+				<entry key="410800" value="焦作市" />
+				<entry key="410900" value="濮阳市" />
+				<entry key="411000" value="许昌市" />
+				<entry key="411100" value="漯河市" />
+				<entry key="411200" value="三门峡市" />
+				<entry key="411300" value="南阳市" />
+				<entry key="411400" value="商丘市" />
+				<entry key="411500" value="信阳市" />
+				<entry key="411600" value="周口市" />
+				<entry key="411700" value="驻马店市" />
+				<entry key="419001" value="济源市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="420000" />
+		<property name="name" value="湖北省" />
+		<property name="type" value="0" />
+		<property name="alias" value="湖北" />
+		<property name="cities">
+			<map>
+				<entry key="420100" value="武汉市" />
+				<entry key="420200" value="黄石市" />
+				<entry key="420300" value="十堰市" />
+				<entry key="420500" value="宜昌市" />
+				<entry key="420600" value="襄樊市" />
+				<entry key="420700" value="鄂州市" />
+				<entry key="420800" value="荆门市" />
+				<entry key="420900" value="孝感市" />
+				<entry key="421000" value="荆州市" />
+				<entry key="421100" value="黄冈市" />
+				<entry key="421200" value="咸宁市" />
+				<entry key="421300" value="随州市" />
+				<entry key="422800" value="恩施土家族苗族自治州" />
+				<entry key="429004" value="仙桃市" />
+				<entry key="429005" value="潜江市" />
+				<entry key="429006" value="天门市" />
+				<entry key="429021" value="神农架林区" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="430000" />
+		<property name="name" value="湖南省" />
+		<property name="type" value="0" />
+		<property name="alias" value="湖南" />
+		<property name="cities">
+			<map>
+				<entry key="430100" value="长沙市" />
+				<entry key="430200" value="株洲市" />
+				<entry key="430300" value="湘潭市" />
+				<entry key="430400" value="衡阳市" />
+				<entry key="430500" value="邵阳市" />
+				<entry key="430600" value="岳阳市" />
+				<entry key="430700" value="常德市" />
+				<entry key="430800" value="张家界市" />
+				<entry key="430900" value="益阳市" />
+				<entry key="431000" value="郴州市" />
+				<entry key="431100" value="永州市" />
+				<entry key="431200" value="怀化市" />
+				<entry key="431300" value="娄底市" />
+				<entry key="433100" value="湘西土家族苗族自治州" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="440000" />
+		<property name="name" value="广东省" />
+		<property name="type" value="0" />
+		<property name="alias" value="广东" />
+		<property name="cities">
+			<map>
+				<entry key="440100" value="广州市" />
+				<entry key="440200" value="韶关市" />
+				<entry key="440300" value="深圳市" />
+				<entry key="440400" value="珠海市" />
+				<entry key="440500" value="汕头市" />
+				<entry key="440600" value="佛山市" />
+				<entry key="440700" value="江门市" />
+				<entry key="440800" value="湛江市" />
+				<entry key="440900" value="茂名市" />
+				<entry key="441200" value="肇庆市" />
+				<entry key="441300" value="惠州市" />
+				<entry key="441400" value="梅州市" />
+				<entry key="441500" value="汕尾市" />
+				<entry key="441600" value="河源市" />
+				<entry key="441700" value="阳江市" />
+				<entry key="441800" value="清远市" />
+				<entry key="441900" value="东莞市" />
+				<entry key="442000" value="中山市" />
+				<entry key="445100" value="潮州市" />
+				<entry key="445200" value="揭阳市" />
+				<entry key="445300" value="云浮市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="450000" />
+		<property name="name" value="广西" />
+		<property name="cities">
+			<map>
+				<entry key="450100" value="南宁市" />
+				<entry key="450200" value="柳州市" />
+				<entry key="450300" value="桂林市" />
+				<entry key="450400" value="梧州市" />
+				<entry key="450500" value="北海市" />
+				<entry key="450600" value="防城港市" />
+				<entry key="450700" value="钦州市" />
+				<entry key="450800" value="贵港市" />
+				<entry key="450900" value="玉林市" />
+				<entry key="451000" value="百色市" />
+				<entry key="451100" value="贺州市" />
+				<entry key="451200" value="河池市" />
+				<entry key="451300" value="来宾市" />
+				<entry key="451400" value="崇左市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="460000" />
+		<property name="name" value="海南省" />
+		<property name="type" value="0" />
+		<property name="alias" value="海南" />
+		<property name="cities">
+			<map>
+				<entry key="460100" value="海口市" />
+				<entry key="460200" value="三亚市" />
+				<entry key="469001" value="五指山市" />
+				<entry key="469002" value="琼海市" />
+				<entry key="469003" value="儋州市" />
+				<entry key="469005" value="文昌市" />
+				<entry key="469006" value="万宁市" />
+				<entry key="469007" value="东方市" />
+				<entry key="469021" value="定安县" />
+				<entry key="469022" value="屯昌县" />
+				<entry key="469023" value="澄迈县" />
+				<entry key="469024" value="临高县" />
+				<entry key="469025" value="白沙黎族自治县" />
+				<entry key="469026" value="昌江黎族自治县" />
+				<entry key="469027" value="乐东黎族自治县" />
+				<entry key="469028" value="陵水黎族自治县" />
+				<entry key="469029" value="保亭黎族苗族自治县" />
+				<entry key="469030" value="琼中黎族苗族自治县" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="500000" />
+		<property name="name" value="重庆市" />
+		<property name="type" value="1" />
+		<property name="alias" value="重庆" />
+		<property name="cities">
+			<map>
+				<entry key="500101" value="万州区" />
+				<entry key="500102" value="涪陵区" />
+				<entry key="500103" value="渝中区" />
+				<entry key="500104" value="大渡口区" />
+				<entry key="500105" value="江北区" />
+				<entry key="500106" value="沙坪坝区" />
+				<entry key="500107" value="九龙坡区" />
+				<entry key="500108" value="南岸区" />
+				<entry key="500109" value="北碚区" />
+				<entry key="500110" value="万盛区" />
+				<entry key="500111" value="双桥区" />
+				<entry key="500112" value="渝北区" />
+				<entry key="500113" value="巴南区" />
+				<entry key="500114" value="黔江区" />
+				<entry key="500115" value="长寿区" />
+				<entry key="500116" value="江津区" />
+				<entry key="500117" value="合川区" />
+				<entry key="500118" value="永川区" />
+				<entry key="500119" value="南川区" />
+				<entry key="500222" value="綦江县" />
+				<entry key="500223" value="潼南县" />
+				<entry key="500224" value="铜梁县" />
+				<entry key="500225" value="大足县" />
+				<entry key="500226" value="荣昌县" />
+				<entry key="500227" value="璧山县" />
+				<entry key="500228" value="梁平县" />
+				<entry key="500229" value="城口县" />
+				<entry key="500230" value="丰都县" />
+				<entry key="500231" value="垫江县" />
+				<entry key="500232" value="武隆县" />
+				<entry key="500233" value="忠县" />
+				<entry key="500234" value="开县" />
+				<entry key="500235" value="云阳县" />
+				<entry key="500236" value="奉节县" />
+				<entry key="500237" value="巫山县" />
+				<entry key="500238" value="巫溪县" />
+				<entry key="500240" value="石柱土家族自治县" />
+				<entry key="500241" value="秀山土家族苗族自治县" />
+				<entry key="500242" value="酉阳土家族苗族自治县" />
+				<entry key="500243" value="彭水苗族土家族自治县" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="510000" />
+		<property name="name" value="四川省" />
+		<property name="type" value="0" />
+		<property name="alias" value="四川" />
+		<property name="cities">
+			<map>
+				<entry key="510100" value="成都市" />
+				<entry key="510300" value="自贡市" />
+				<entry key="510400" value="攀枝花市" />
+				<entry key="510500" value="泸州市" />
+				<entry key="510600" value="德阳市" />
+				<entry key="510700" value="绵阳市" />
+				<entry key="510800" value="广元市" />
+				<entry key="510900" value="遂宁市" />
+				<entry key="511000" value="内江市" />
+				<entry key="511100" value="乐山市" />
+				<entry key="511300" value="南充市" />
+				<entry key="511400" value="眉山市" />
+				<entry key="511500" value="宜宾市" />
+				<entry key="511600" value="广安市" />
+				<entry key="511700" value="达州市" />
+				<entry key="511800" value="雅安市" />
+				<entry key="511900" value="巴中市" />
+				<entry key="512000" value="资阳市" />
+				<entry key="513200" value="阿坝藏族羌族自治州" />
+				<entry key="513300" value="甘孜藏族自治州" />
+				<entry key="513400" value="凉山彝族自治州" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="520000" />
+		<property name="name" value="贵州省" />
+		<property name="type" value="0" />
+		<property name="alias" value="贵州" />
+		<property name="cities">
+			<map>
+				<entry key="520100" value="贵阳市" />
+				<entry key="520200" value="六盘水市" />
+				<entry key="520300" value="遵义市" />
+				<entry key="520400" value="安顺市" />
+				<entry key="522200" value="铜仁地区" />
+				<entry key="522300" value="黔西南布依族苗族自治州" />
+				<entry key="522400" value="毕节地区" />
+				<entry key="522600" value="黔东南苗族侗族自治州" />
+				<entry key="522700" value="黔南布依族苗族自治州" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="530000" />
+		<property name="name" value="云南省" />
+		<property name="type" value="0" />
+		<property name="alias" value="云南" />
+		<property name="cities">
+			<map>
+				<entry key="530100" value="昆明市" />
+				<entry key="530300" value="曲靖市" />
+				<entry key="530400" value="玉溪市" />
+				<entry key="530500" value="保山市" />
+				<entry key="530600" value="昭通市" />
+				<entry key="530700" value="丽江市" />
+				<entry key="530800" value="普洱市" />
+				<entry key="530900" value="临沧市" />
+				<entry key="532300" value="楚雄彝族自治州" />
+				<entry key="532500" value="红河哈尼族彝族自治州" />
+				<entry key="532600" value="文山壮族苗族自治州" />
+				<entry key="532800" value="西双版纳傣族自治州" />
+				<entry key="532900" value="大理白族自治州" />
+				<entry key="533100" value="德宏傣族景颇族自治州" />
+				<entry key="533300" value="怒江傈僳族自治州" />
+				<entry key="533400" value="迪庆藏族自治州" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="540000" />
+		<property name="name" value="西藏" />
+		<property name="cities">
+			<map>
+				<entry key="540100" value="拉萨市" />
+				<entry key="542100" value="昌都地区" />
+				<entry key="542200" value="山南地区" />
+				<entry key="542300" value="日喀则地区" />
+				<entry key="542400" value="那曲地区" />
+				<entry key="542500" value="阿里地区" />
+				<entry key="542600" value="林芝地区" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="610000" />
+		<property name="name" value="陕西省" />
+		<property name="type" value="0" />
+		<property name="alias" value="陕西" />
+		<property name="cities">
+			<map>
+				<entry key="610100" value="西安市" />
+				<entry key="610200" value="铜川市" />
+				<entry key="610300" value="宝鸡市" />
+				<entry key="610400" value="咸阳市" />
+				<entry key="610500" value="渭南市" />
+				<entry key="610600" value="延安市" />
+				<entry key="610700" value="汉中市" />
+				<entry key="610800" value="榆林市" />
+				<entry key="610900" value="安康市" />
+				<entry key="611000" value="商洛市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="620000" />
+		<property name="name" value="甘肃省" />
+		<property name="type" value="0" />
+		<property name="alias" value="甘肃" />
+		<property name="cities">
+			<map>
+				<entry key="620100" value="兰州市" />
+				<entry key="620200" value="嘉峪关市" />
+				<entry key="620300" value="金昌市" />
+				<entry key="620400" value="白银市" />
+				<entry key="620500" value="天水市" />
+				<entry key="620600" value="武威市" />
+				<entry key="620700" value="张掖市" />
+				<entry key="620800" value="平凉市" />
+				<entry key="620900" value="酒泉市" />
+				<entry key="621000" value="庆阳市" />
+				<entry key="621100" value="定西市" />
+				<entry key="621200" value="陇南市" />
+				<entry key="622900" value="临夏回族自治州" />
+				<entry key="623000" value="甘南藏族自治州" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="630000" />
+		<property name="name" value="青海省" />
+		<property name="type" value="0" />
+		<property name="alias" value="青海" />
+		<property name="cities">
+			<map>
+				<entry key="630100" value="西宁市" />
+				<entry key="632100" value="海东地区" />
+				<entry key="632200" value="海北藏族自治州" />
+				<entry key="632300" value="黄南藏族自治州" />
+				<entry key="632500" value="海南藏族自治州" />
+				<entry key="632600" value="果洛藏族自治州" />
+				<entry key="632700" value="玉树藏族自治州" />
+				<entry key="632800" value="海西蒙古族藏族自治州" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="640000" />
+		<property name="name" value="宁夏" />
+		<property name="cities">
+			<map>
+				<entry key="640100" value="银川市" />
+				<entry key="640200" value="石嘴山市" />
+				<entry key="640300" value="吴忠市" />
+				<entry key="640400" value="固原市" />
+				<entry key="640500" value="中卫市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="650000" />
+		<property name="name" value="新疆" />
+		<property name="cities">
+			<map>
+				<entry key="650100" value="乌鲁木齐市" />
+				<entry key="650200" value="克拉玛依市" />
+				<entry key="652100" value="吐鲁番地区" />
+				<entry key="652200" value="哈密地区" />
+				<entry key="652300" value="昌吉回族自治州" />
+				<entry key="652700" value="博尔塔拉蒙古自治州" />
+				<entry key="652800" value="巴音郭楞蒙古自治州" />
+				<entry key="652900" value="阿克苏地区" />
+				<entry key="653000" value="克孜勒苏柯尔克孜自治州" />
+				<entry key="653100" value="喀什地区" />
+				<entry key="653200" value="和田地区" />
+				<entry key="654000" value="伊犁哈萨克自治州" />
+				<entry key="654200" value="塔城地区" />
+				<entry key="654300" value="阿勒泰地区" />
+				<entry key="659001" value="石河子市" />
+				<entry key="659002" value="阿拉尔市" />
+				<entry key="659003" value="图木舒克市" />
+				<entry key="659004" value="五家渠市" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="710000" />
+		<property name="name" value="台湾省" />
+		<property name="type" value="0" />
+		<property name="alias" value="台湾" />
+		<property name="cities">
+			<map>
+				<entry key="710100" value="台北市" />
+				<entry key="710200" value="高雄市" />
+				<entry key="710300" value="基隆市" />
+				<entry key="710400" value="台中市" />
+				<entry key="710500" value="台南市" />
+				<entry key="710600" value="新竹市" />
+				<entry key="710700" value="嘉义市" />
+				<entry key="710900" value="台北县" />
+				<entry key="711000" value="宜兰县" />
+				<entry key="711100" value="桃园县" />
+				<entry key="711200" value="新竹县" />
+				<entry key="711300" value="苗栗县" />
+				<entry key="711400" value="台中县" />
+				<entry key="711500" value="彰化县" />
+				<entry key="711600" value="南投县" />
+				<entry key="711700" value="云林县" />
+				<entry key="711800" value="嘉义县" />
+				<entry key="711900" value="台南县" />
+				<entry key="712000" value="高雄县" />
+				<entry key="712100" value="屏东县" />
+				<entry key="712200" value="澎湖县" />
+				<entry key="712300" value="台东县" />
+				<entry key="712400" value="花莲县" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="810000" />
+		<property name="name" value="香港" />
+		<property name="type" value="2" />
+		<property name="cities">
+			<map>
+				<entry key="810100" value="中西区" />
+				<entry key="810200" value="东区" />
+				<entry key="810300" value="九龙城区" />
+				<entry key="810400" value="观塘区" />
+				<entry key="810500" value="南区" />
+				<entry key="810600" value="深水埗区" />
+				<entry key="810700" value="黄大仙区" />
+				<entry key="810800" value="湾仔区" />
+				<entry key="810900" value="油尖旺区" />
+				<entry key="811000" value="离岛区" />
+				<entry key="811100" value="葵青区" />
+				<entry key="811200" value="北区" />
+				<entry key="811300" value="西贡区" />
+				<entry key="811400" value="沙田区" />
+				<entry key="811500" value="屯门区" />
+				<entry key="811600" value="大埔区" />
+				<entry key="811700" value="荃湾区" />
+				<entry key="811800" value="元朗区" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="820000" />
+		<property name="name" value="澳门" />
+		<property name="type" value="2" />
+		<property name="cities">
+			<map>
+				<entry key="820100" value="澳门" />
+			</map>
+		</property>
+	</bean>
+	<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="1000000" />
+		<property name="name" value="海外" />
+		<property name="type" value="3" />
+		<property name="alias" value="海外" />
+		<property name="cities">
+			<map>
+				<entry key="1000100" value="阿尔及利亚" />
+				<entry key="1000200" value="阿根廷" />
+				<entry key="1000300" value="阿联酋" />
+				<entry key="1000400" value="埃及" />
+				<entry key="1000500" value="爱尔兰" />
+				<entry key="1000600" value="奥地利" />
+				<entry key="1000700" value="澳大利亚" />
+				<entry key="1000800" value="巴哈马" />
+				<entry key="1000900" value="巴基斯坦" />
+				<entry key="1001000" value="巴西"/>
+				<entry key="1001100" value="白俄罗斯"/>
+				<entry key="1001200" value="比利时"/>
+				<entry key="1001300" value="冰岛"/>
+				<entry key="1001400" value="波兰"/>
+				<entry key="1001500" value="玻利维亚"/>
+				<entry key="1001600" value="伯利兹" />
+				<entry key="1001700" value="朝鲜" />
+				<entry key="1001800" value="丹麦" />
+				<entry key="1001900" value="德国" />
+				<entry key="1002000" value="俄罗斯"/>
+				<entry key="1002100" value="厄瓜多尔"/>
+				<entry key="1002200" value="法国"/>
+				<entry key="1002300" value="菲律宾"/>
+				<entry key="1002400" value="芬兰"/>
+				<entry key="1002500" value="哥伦比亚"/>
+				<entry key="1002600" value="古巴" />
+				<entry key="1002700" value="关岛" />
+				<entry key="1002800" value="哈萨克斯坦" />
+				<entry key="1002900" value="韩国" />
+				<entry key="1003000" value="荷兰"/>
+				<entry key="1003100" value="加拿大"/>
+				<entry key="1003200" value="加纳"/>
+				<entry key="1003300" value="柬埔寨"/>
+				<entry key="1003400" value="捷克"/>
+				<entry key="1003500" value="卡塔尔"/>
+				<entry key="1003600" value="科威特" />
+				<entry key="1003700" value="克罗地亚" />
+				<entry key="1003800" value="肯尼亚" />
+				<entry key="1003900" value="老挝" />
+				<entry key="1004000" value="卢森堡"/>
+				<entry key="1004100" value="罗马尼亚"/>
+				<entry key="1004200" value="马尔代夫"/>
+				<entry key="1004300" value="马来西亚"/>
+				<entry key="1004400" value="美国"/>
+				<entry key="1004500" value="蒙古"/>
+				<entry key="1004600" value="孟加拉" />
+				<entry key="1004700" value="秘鲁" />
+				<entry key="1004800" value="缅甸" />
+				<entry key="1004900" value="摩洛哥" />
+				<entry key="1005000" value="墨西哥"/>
+				<entry key="1005100" value="南非"/>
+				<entry key="1005200" value="尼日利亚"/>
+				<entry key="1005300" value="挪威"/>
+				<entry key="1005400" value="葡萄牙"/>
+				<entry key="1005500" value="日本"/>
+				<entry key="1005600" value="瑞典" />
+				<entry key="1005700" value="瑞士" />
+				<entry key="1005800" value="沙特阿拉伯" />
+				<entry key="1005900" value="斯里兰卡" />
+				<entry key="1006000" value="苏丹"/>
+				<entry key="1006100" value="泰国"/>
+				<entry key="1006200" value="坦桑尼亚"/>
+				<entry key="1006300" value="土耳其"/>
+				<entry key="1006400" value="委内瑞拉"/>
+				<entry key="1006500" value="乌克兰"/>
+				<entry key="1006600" value="西班牙" />
+				<entry key="1006700" value="希腊" />
+				<entry key="1006800" value="新加坡" />
+				<entry key="1006900" value="新西兰" />
+				<entry key="1007000" value="匈牙利"/>
+				<entry key="1007100" value="伊拉克"/>
+				<entry key="1007200" value="伊朗"/>
+				<entry key="1007300" value="以色列"/>
+				<entry key="1007400" value="意大利"/>
+				<entry key="1007500" value="印度"/>
+				<entry key="1007600" value="印度尼西亚" />
+				<entry key="1007700" value="英国" />
+				<entry key="1007800" value="越南" />
+				<entry key="1007900" value="智利" />
+				<entry key="1010000" value="其它"/>
+			</map>
+		</property>
+	</bean>
+<!--<bean class="com.netease.music.common.service.province.Province">
+		<property name="id" value="0" />
+		<property name="name" value="其他地区" />
+		<property name="type" value="4" />
+		<property name="alias" value="其他" />
+		<property name="cities">
+			<map>
+				<entry key="100" value="其他" />
+			</map>
+		</property>
+	</bean>-->
+</beans>

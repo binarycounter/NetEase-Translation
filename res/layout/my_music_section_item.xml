@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/listItemColor" android:layout_width="fill_parent" android:layout_height="27.0dip" android:minHeight="27.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="#ff888888" android:id="@id/myMusicSectionName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listLeftRightMargin" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/myMusicSectionOverflowBtn" android:paddingLeft="@dimen/listLeftRightMargin" android:paddingRight="@dimen/listLeftRightMargin" android:layout_width="wrap_content" android:layout_height="27.0dip" android:src="@drawable/my_music_section_overflow_btn" android:layout_alignParentRight="true" />
+    <include layout="@layout/heavy_divider" />
+</RelativeLayout>

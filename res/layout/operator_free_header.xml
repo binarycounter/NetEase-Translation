@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:gravity="bottom" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/sectionHeight" android:layout_marginLeft="@dimen/listLeftRightMargin" android:text="@string/unicom" />
+    <include layout="@layout/heavy_divider" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/unicomFree" android:background="@drawable/list_selector_noline" android:paddingLeft="@dimen/listLeftRightMargin" android:paddingRight="@dimen/listLeftRightMargin" android:layout_width="fill_parent" android:layout_height="@dimen/listItemHeight">
+        <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/unicomTrafficMonthlyPayment" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff888888" android:id="@id/unicomFreeStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include layout="@layout/light_divider" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/unicomRingtone" android:background="@drawable/list_selector_noline" android:paddingLeft="@dimen/listLeftRightMargin" android:paddingRight="@dimen/listLeftRightMargin" android:layout_width="fill_parent" android:layout_height="@dimen/listItemHeight" android:text="@string/unicomRingtoneZone" />
+    <include layout="@layout/light_divider" />
+</LinearLayout>

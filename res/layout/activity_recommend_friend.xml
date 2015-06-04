@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:background="@drawable/dialog_header_bg" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="43.0dip" android:text="@string/headerRecommendNew" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.netease.cloudmusic.ui.PagerListView android:id="@id/recommendFriendList" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/recommendNewOk" android:background="@drawable/lay_btn_red" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/complete" />
+</LinearLayout>

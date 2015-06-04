@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="-1.0dip">
+        <shape>
+            <solid android:color="@color/normalBackground" />
+            <corners android:topLeftRadius="0.00999999dip" android:topRightRadius="0.00999999dip" android:bottomLeftRadius="@dimen/dialogRadius" android:bottomRightRadius="@dimen/dialogRadius" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.SquareRelativeLayout android:id="@id/imgArea" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.netease.cloudmusic.ui.NetImageView android:id="@id/recommendHotsoptCover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/default_disc_360" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/recommendHotsoptItemCoverImg" android:background="@drawable/index_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pl_or_album_item_mask" android:scaleType="fitXY" />
+        <TextView android:id="@id/recommendHotsoptNumer" android:paddingTop="2.669983dip" android:paddingRight="7.0dip" android:layout_alignParentRight="true" style="@style/listenNumStyle" />
+    </com.netease.cloudmusic.ui.SquareRelativeLayout>
+    <TextView android:textColor="@color/mainTextColor" android:ellipsize="end" android:id="@id/recommendHotsoptName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="2" android:shadowDy="0.5" android:shadowRadius="0.5" android:layout_below="@id/imgArea" />
+</RelativeLayout>

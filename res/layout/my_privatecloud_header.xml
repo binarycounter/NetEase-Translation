@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/listLeftRightMargin" android:paddingRight="@dimen/listLeftRightMargin" android:layout_width="fill_parent" android:layout_height="47.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="@color/mainTextColor" android:id="@id/privateCloudLeftSpaceTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" android:text="@string/privateCloudLeftSpace" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/privateCloudLeftSpaceTxt" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ProgressBar android:id="@id/privateCloudUsed" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="14.0dip" android:maxHeight="14.0dip" android:max="10" android:progress="5" android:progressDrawable="@drawable/cloud_progressbar" android:minHeight="14.0dip" android:thumb="@null" style="?android:attr/progressBarStyleHorizontal" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/mainTextColor" android:id="@id/privateCloudUsedTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0GB / 2TB" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <View android:background="@color/listDivider" android:layout_width="fill_parent" android:layout_height="@dimen/listDividerHeight" android:layout_marginTop="@dimen/listLeftRightMargin" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

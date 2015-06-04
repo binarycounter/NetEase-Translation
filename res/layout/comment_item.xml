@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.VFaceImage android:id="@id/commentAvatar" android:layout_width="41.0dip" android:layout_height="41.0dip" android:layout_marginLeft="@dimen/listLeftRightMargin" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/commentInfoBlock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="@dimen/listLeftRightMargin" android:layout_toRightOf="@id/commentAvatar">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:id="@id/commentNickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="9.0sp" android:textColor="#ff888888" android:gravity="center" android:id="@id/commentSameCity" android:background="@drawable/act_tag_gray" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/sameCity" />
+            </LinearLayout>
+            <TextView android:textSize="9.0sp" android:textColor="#ff999999" android:id="@id/commentTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="11.0sp" android:textColor="#ff999999" android:id="@id/commentLikedCount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/commentLikedIcon" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.netease.cloudmusic.ui.TextViewFixTouchConsume android:textSize="14.0sp" android:textColor="#ff333333" android:id="@id/commentContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/listLeftRightMargin" android:layout_below="@id/commentInfoBlock" android:layout_alignLeft="@id/commentInfoBlock" />
+    <com.netease.cloudmusic.ui.TextViewFixTouchConsume android:textSize="14.0sp" android:textColor="#ff999999" android:id="@id/commentOriginContent" android:background="@drawable/blk_cmt_quote" android:padding="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/listLeftRightMargin" android:layout_below="@id/commentContent" android:layout_alignLeft="@id/commentContent" />
+    <View android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_below="@id/commentOriginContent" android:layout_alignParentBottom="true" />
+    <include layout="@layout/light_divider" />
+</RelativeLayout>

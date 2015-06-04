@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="#ccffffff" android:gravity="center_vertical" android:id="@id/rePlayIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/replay" android:drawablePadding="6.0dip" />
+    <View android:id="@id/similarMVSep" android:background="@drawable/mv_btn_replay_line" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginTop="27.0dip" android:layout_marginBottom="10.0dip" />
+    <RelativeLayout android:id="@id/similarMVContainer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:id="@id/similarMV0" android:layout_width="@dimen/mvRecommendWidth" android:layout_height="wrap_content" layout="@layout/mv_item_for_recommend" />
+        <include android:id="@id/similarMV1" android:layout_width="@dimen/mvRecommendWidth" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_toRightOf="@id/similarMV0" layout="@layout/mv_item_for_recommend" />
+        <include android:id="@id/similarMV2" android:layout_width="@dimen/mvRecommendWidth" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_below="@id/similarMV0" layout="@layout/mv_item_for_recommend" />
+        <include android:id="@id/similarMV3" android:layout_width="@dimen/mvRecommendWidth" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="13.0dip" android:layout_toRightOf="@id/similarMV2" android:layout_below="@id/similarMV1" layout="@layout/mv_item_for_recommend" />
+    </RelativeLayout>
+</LinearLayout>

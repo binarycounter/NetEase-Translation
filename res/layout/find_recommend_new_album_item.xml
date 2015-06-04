@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.RatioSquareRelativeLayout android:id="@id/newAlbumImgContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" app:ratio="1.142">
+        <com.netease.cloudmusic.ui.NetImageView android:id="@id/newAlbumCover" android:background="@drawable/index_alb_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <ImageView android:id="@id/album_exclusive_flag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/first_sup_only" />
+        <ImageView android:id="@id/albumItemCoverImg" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:paddingRight="0.6700001dip" android:paddingBottom="2.0dip" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pl_or_album_item_mask" />
+    </com.netease.cloudmusic.ui.RatioSquareRelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/newAlbumInfoContainer" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/newAlbumName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="sssss" android:singleLine="true" style="@style/shadowfff80Y" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:ellipsize="end" android:id="@id/newAlbumArtistName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="sss" android:singleLine="true" android:shadowColor="#ccffffff" style="@style/shadowfff80Y" />
+    </LinearLayout>
+</LinearLayout>

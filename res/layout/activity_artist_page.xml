@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/artistContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/artistHeader" android:layout_width="fill_parent" android:layout_height="@dimen/artistBgMinHeight" android:minHeight="@dimen/artistBgMinHeight">
+        <com.netease.cloudmusic.ui.NetImageView android:id="@id/artistBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <View android:background="@drawable/profile_artist_ban_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="11.0sp" android:textColor="#fff1f2f3" android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/subscribeBtn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="18.0dip" android:drawablePadding="6.0dip" />
+        <com.viewpagerindicator.TabPageIndicator android:layout_gravity="bottom" android:id="@id/artistTab" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

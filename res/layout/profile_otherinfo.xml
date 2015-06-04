@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#99f1f2f3" android:id="@id/profileSignTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:text="@string/profileSign" android:drawableLeft="@drawable/profile_icn_edit" android:drawablePadding="7.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="#fff1f2f3" android:ellipsize="end" android:gravity="center|left" android:id="@id/sign" android:background="@drawable/profile_intr_blk" android:paddingLeft="10.0dip" android:paddingTop="13.0dip" android:paddingRight="10.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="13.0dip" android:minHeight="40.0dip" android:maxLines="2" />
+    <TextView android:textSize="12.0sp" android:textColor="#99f1f2f3" android:id="@id/profileSnsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="20.0dip" android:text="@string/profileSns" android:drawableLeft="@drawable/profile_icn_user" android:drawablePadding="7.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="39.0dip" android:layout_marginTop="9.0dip">
+        <ImageView android:id="@id/sinaBtn" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="17.0dip" android:src="@drawable/logo_pro_logo_sina" />
+        <ImageView android:id="@id/qqBtn" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="17.0dip" android:src="@drawable/logo_pro_logo_tencent" />
+        <ImageView android:id="@id/renrenBtn" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="17.0dip" android:src="@drawable/logo_pro_logo_renren" />
+        <ImageView android:id="@id/doubanBtn" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="17.0dip" android:src="@drawable/logo_pro_logo_douban" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="#99f1f2f3" android:id="@id/location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="10.0dip" android:drawableLeft="@drawable/profile_icn_position" android:drawablePadding="7.0dip" />
+</LinearLayout>

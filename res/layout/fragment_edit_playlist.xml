@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@id/editpl_container" android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/editpl_change_cover" android:background="@drawable/list_selector" android:paddingLeft="@dimen/findPageNormalPading" android:paddingTop="6.6999817dip" android:paddingRight="@dimen/findPageNormalPading" android:paddingBottom="6.6999817dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/changePlCover" android:layout_weight="1.0" />
+                <RelativeLayout android:layout_width="69.0dip" android:layout_height="69.0dip">
+                    <ImageView android:id="@id/editpl_cover_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/default_disc_180" android:scaleType="centerCrop" />
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/list_cover_withbg" android:scaleType="fitXY" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/editpl_change_name" android:background="@drawable/list_selector" android:paddingLeft="@dimen/findPageNormalPading" android:paddingTop="12.0dip" android:paddingRight="@dimen/findPageNormalPading" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plName" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:gravity="center|right" android:id="@id/editpl_name_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/editpl_change_tags" android:background="@drawable/list_selector" android:paddingLeft="@dimen/findPageNormalPading" android:paddingTop="12.0dip" android:paddingRight="@dimen/findPageNormalPading" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plTags" />
+                <LinearLayout android:gravity="center|right" android:layout_gravity="center|right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.netease.cloudmusic.ui.FlowLayout android:id="@id/editpl_playListTagContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" app:horizontalSpacing="7.0dip" app:verticalSpacing="5.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/editpl_change_desc_btn" android:background="@drawable/list_selector" android:paddingLeft="@dimen/findPageNormalPading" android:paddingTop="12.0dip" android:paddingRight="@dimen/findPageNormalPading" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plIntro" />
+                <TextView android:textSize="14.669983sp" android:textColor="#ff666666" android:textColorHint="#ff999999" android:gravity="center|right" android:id="@id/editpl_desc_dsp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:minHeight="54.0dip" android:hint="@string/plDesc1" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="14.669983sp" android:textColor="#ff666666" android:textColorHint="#ff999999" android:id="@id/editpl_name_edit" android:background="@drawable/login_ipt" android:paddingLeft="@dimen/inputPadding" android:paddingRight="@dimen/inputPadding" android:layout_width="fill_parent" android:layout_height="45.299988dip" android:hint="@string/plEditNameHint" android:singleLine="true" android:imeOptions="actionDone" android:imeActionLabel="@string/complete" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:textSize="17.0sp" android:textColor="#ff333333" android:textColorHint="#ff888888" android:gravity="center|left|top" android:id="@id/editpl_desc" android:background="@null" android:padding="@dimen/inputPadding" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="10.0dip" android:minHeight="120.0dip" android:hint="@string/plDesc2" android:layout_weight="1.0" android:imeOptions="actionSend" android:imeActionLabel="@string/complete" />
+        <TextView android:textSize="17.0sp" android:textColor="#ff888888" android:gravity="center|right" android:id="@id/editpl_desc_num" android:background="@drawable/blk_btmlay" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="140" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:gravity="center_vertical" android:id="@id/top_hint" android:background="@drawable/list_slt_note_lay" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="35.329987dip" android:text="@string/changeTagTip" android:drawableLeft="@drawable/list_slt_icn_light" android:drawablePadding="7.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.netease.cloudmusic.ui.PagerListView android:id="@id/tags_list" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="@null" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+            <include android:id="@id/tags_list_head" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/list_section" />
+        </RelativeLayout>
+    </LinearLayout>
+</ViewFlipper>

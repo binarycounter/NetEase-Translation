@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/localMusicListSection" android:visibility="gone" layout="@layout/common_section" />
+        <com.netease.cloudmusic.ui.MusicItemContainer android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/realItemArea" android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="@dimen/playListHeight" android:layout_below="@id/localMusicListSection">
+            <CheckBox android:id="@id/localMusicCB" android:background="@drawable/togglebutton_bg" android:layout_width="@dimen/listCheckboxWidth" android:layout_height="@dimen/listCheckboxHeight" android:layout_marginLeft="13.0dip" android:button="@null" />
+            <ViewStub android:id="@id/playingMarkViewStub1" android:layout="@layout/playing_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listLeftRightMargin" />
+            <com.netease.cloudmusic.ui.NetImageView android:id="@id/image" android:visibility="gone" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginLeft="14.0dip" android:scaleType="centerCrop" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="13.0dip" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:id="@id/songNameContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+                    <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:id="@id/localMusicName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                    <ImageView android:id="@id/mvIcon" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-6.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="12.0sp" android:textColor="#ff9b9b9b" android:id="@id/localMusicSingerName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/actionBtnStyle" />
+                <ViewStub android:layout_gravity="center|right" android:id="@id/playingMarkViewStub2" android:layout="@layout/playing_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/listLeftRightMargin" />
+            </FrameLayout>
+        </com.netease.cloudmusic.ui.MusicItemContainer>
+    </RelativeLayout>
+    <com.netease.cloudmusic.ui.LocalMusicExpandCollapseMenu android:id="@id/songMenu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.2999878dip" />
+</LinearLayout>

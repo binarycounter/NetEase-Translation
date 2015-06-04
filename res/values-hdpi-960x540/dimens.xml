@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="playerDiscNeedleOffset">23.299988dip</dimen>
+    <dimen name="playerDiscNeedleMarginTop">-23.299988dip</dimen>
+    <dimen name="discMarginTop">46.0dip</dimen>
+    <dimen name="albumMiddleSize">153.0dip</dimen>
+    <dimen name="playerControlMarginLeft">25.0dip</dimen>
+    <dimen name="test">14.0dip</dimen>
+</resources>

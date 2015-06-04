@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/dialog_item_selector" android:paddingTop="22.0dip" android:paddingBottom="22.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sharePanelItemImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/sharePanelItemName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+</LinearLayout>

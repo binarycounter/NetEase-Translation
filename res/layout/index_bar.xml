@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.IndexBar android:id="@id/indexBar" android:visibility="gone" android:layout_width="@dimen/listIndexBarWidth" android:layout_height="fill_parent" android:layout_alignParentRight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

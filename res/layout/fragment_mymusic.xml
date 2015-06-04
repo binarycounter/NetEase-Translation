@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/myMusicDownloading" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="28.699982dip">
+        <ProgressBar android:id="@id/myMusicDownloadProgressBar" android:layout_width="16.0dip" android:layout_height="16.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/actionbar_loading" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff9b9b9b" android:id="@id/myMusicDownloadProgressText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.6999817dip" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/myMusicDownloading">
+        <com.netease.cloudmusic.ui.NPullToFreshContainer android:id="@id/myMusicListContainer" android:background="@drawable/refresh_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.netease.cloudmusic.ui.PinnedHeaderListView android:id="@id/myMusicList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" />
+        </com.netease.cloudmusic.ui.NPullToFreshContainer>
+        <include android:id="@id/myMusicCoverHeader" android:visibility="gone" layout="@layout/my_music_section_item" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@id/mainPageRightHintContainer" android:background="@drawable/guide_slide_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="133.29999dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <com.shimmer.ShimmerTextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/mainPageRightHint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mainPagerRightSlideHint" android:drawableLeft="@drawable/guide_slide_right_arr" android:drawablePadding="7.0dip" />
+    </LinearLayout>
+</RelativeLayout>

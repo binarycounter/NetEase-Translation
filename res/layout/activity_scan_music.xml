@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/localMusicContainer" android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewFlipper android:id="@id/matchContainer" android:background="@drawable/local_upgrade_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="66.0dip">
+            <RelativeLayout android:orientation="horizontal" android:background="@drawable/local_upgrade_bg" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:id="@id/matchingText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="8.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:id="@id/localMusicMatchProcess" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" android:layout_toRightOf="@id/matchingText" android:layout_alignBottom="@id/matchingText" />
+                <ProgressBar android:id="@id/identifyProcessBar" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="13.0dip" android:layout_below="@id/matchingText" style="@style/DownloadProgressbarStyle" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:gravity="center_vertical" android:id="@id/controlCancelBtn" android:layout_width="56.0dip" android:layout_height="28.0dip" android:layout_marginTop="11.0dip" android:text="@string/stop" android:drawablePadding="6.0dip" android:layout_alignParentRight="true" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:gravity="center_vertical" android:id="@id/controlBtn" android:layout_width="56.0dip" android:layout_height="28.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="13.0dip" android:text="@string/pause" android:drawablePadding="6.0dip" android:layout_toLeftOf="@id/controlCancelBtn" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/localMusicMatchDoneToast" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/local_fb_icn_ok" android:drawablePadding="5.0dip" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ff2491c9" android:id="@id/localMusicMatchDoneToast2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gotoPlaylistPage" />
+                </LinearLayout>
+                <ImageView android:id="@id/localMusicCloseBtn" android:padding="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </ViewFlipper>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/upgradeView" android:background="@drawable/local_upgrade_bg" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="66.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:id="@id/upgradingText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:text="@string/localMusicUpgrading" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:id="@id/localMusicUpgradeProcess" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" android:layout_toRightOf="@id/upgradingText" android:layout_alignBottom="@id/upgradingText" />
+            <ProgressBar android:id="@id/upgradeProcessBar" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="13.0dip" android:layout_below="@id/upgradingText" style="@style/DownloadProgressbarStyle" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:gravity="center_vertical" android:id="@id/controlUpgradeCancelView" android:layout_width="69.0dip" android:layout_height="31.0dip" android:layout_marginTop="11.0dip" android:text="@string/stop" android:drawablePadding="6.0dip" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.viewpagerindicator.TabPageIndicator android:id="@id/matchTab" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/topContainer" />
+    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/matchViewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/matchTab" />
+    <View android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_alignTop="@id/matchViewPager" />
+</RelativeLayout>

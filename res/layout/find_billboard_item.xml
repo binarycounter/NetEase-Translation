@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/find_billboard_container" android:background="@drawable/list_selector" android:paddingLeft="@dimen/findPageNormalPading" android:paddingRight="@dimen/findPageNormalPading" android:layout_width="fill_parent" android:layout_height="71.32999dip" android:minHeight="71.32999dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.netease.cloudmusic.ui.NetImageView android:id="@id/billboardImg" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="centerCrop" />
+        <View android:background="@drawable/list_cover_withbg" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="1.6699829dip">
+        <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/billboardName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="云音乐排行榜" android:singleLine="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff999999" android:id="@id/billboardUpdateDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.6699829dip" android:text="@string/updateToday" />
+    </LinearLayout>
+</LinearLayout>

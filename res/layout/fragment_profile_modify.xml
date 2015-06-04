@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/normalBackground" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/profileModifyWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:id="@id/profileModifyAvatarContainer" android:background="@drawable/list_selector" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="75.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:gravity="center|left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/changeAvatar" android:layout_weight="1.0" />
+                <com.netease.cloudmusic.ui.VFaceImage android:id="@id/profileModifyAvatar" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:gravity="center|left" android:id="@id/profileModifyBgContainer" android:background="@drawable/list_selector" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/changeProfileBg" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/profileModifyNicknameContainer" android:background="@drawable/list_selector" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nickname" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:ellipsize="marquee" android:gravity="right" android:id="@id/profileModifyNickname" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@id/profileModifyGenderContainer" android:background="@drawable/list_selector" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gender" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:gravity="right" android:id="@id/profileModifyGender" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@id/profileModifyBirthdayContainer" android:background="@drawable/list_selector" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/birthday" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:gravity="right" android:id="@id/profileModifyBirthday" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@id/profileModifyLocationContainer" android:background="@drawable/list_selector" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:gravity="right" android:id="@id/profileModifyLocation" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:background="@drawable/list_selector" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:minHeight="70.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signature" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:gravity="right" android:id="@id/profileModifyDesc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="49.0dip" android:hint="@string/profileModifyDescHint1" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

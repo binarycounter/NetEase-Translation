@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/normalBackground" android:paddingLeft="@dimen/leftRightMargin" android:paddingTop="37.0dip" android:paddingRight="@dimen/leftRightMargin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="#ff999999" android:id="@id/cellphoneBindedLogin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="7.0sp" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff999999" android:id="@id/cellphoneBindedResetPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" />
+</LinearLayout>

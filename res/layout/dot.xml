@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:layout_marginRight="6.0dip" style="@style/dot_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

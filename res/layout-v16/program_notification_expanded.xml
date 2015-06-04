@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/notifyAlbumCover" android:layout_width="@dimen/statusBarAlbumCoverSize" android:layout_height="@dimen/statusBarAlbumCoverSize" android:src="@drawable/default_disc_360" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/playNotificationStop" android:background="@drawable/status_bar_btn_selector" android:padding="12.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/md_btn2_close" android:scaleType="center" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/playNotificationTxt" android:layout_width="wrap_content" android:layout_height="64.0dip" android:layout_marginLeft="10.0dip" android:layout_toLeftOf="@id/playNotificationStop" android:layout_toRightOf="@id/notifyAlbumCover" android:layout_alignParentTop="true">
+        <TextView android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent.Title" android:id="@id/notifyTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:singleLine="true" />
+        <TextView android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent" android:id="@id/notifyText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/playNotificationLine" android:background="#4d808080" android:layout_width="fill_parent" android:layout_height="1.3299866dip" android:layout_toRightOf="@id/notifyAlbumCover" android:layout_below="@id/playNotificationTxt" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/playNotificationBtns" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_toRightOf="@id/notifyAlbumCover" android:layout_below="@id/playNotificationLine">
+        <ImageView android:id="@id/playNotificationLike" android:background="@drawable/status_bar_btn_selector" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="1.3299866dip" android:src="@drawable/note_btn_praise" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:background="#4d808080" android:layout_width="1.3299866dip" android:layout_height="26.0dip" />
+        <ImageView android:id="@id/playNotificationPre" android:background="@drawable/status_bar_btn_selector" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="1.3299866dip" android:src="@drawable/note_btn_pre" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:background="#4d808080" android:layout_width="1.3299866dip" android:layout_height="26.0dip" />
+        <ImageView android:id="@id/playNotificationToggle" android:background="@drawable/status_bar_btn_selector" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="1.3299866dip" android:src="@drawable/note_btn_play" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:background="#4d808080" android:layout_width="1.3299866dip" android:layout_height="26.0dip" />
+        <ImageView android:id="@id/playNotificationNext" android:background="@drawable/status_bar_btn_selector" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="1.3299866dip" android:src="@drawable/note_btn_next" android:scaleType="center" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

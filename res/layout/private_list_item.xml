@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_selector" android:paddingLeft="@dimen/listLinePaddingLeft" android:paddingRight="@dimen/listLinePaddingLeft" android:layout_width="fill_parent" android:layout_height="82.66998dip" android:minHeight="82.66998dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.netease.cloudmusic.ui.VFaceImage android:id="@id/avatar_image" android:layout_width="54.0dip" android:layout_height="54.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/newmsg_number" android:background="@drawable/msg_head_msgbub" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/user_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:id="@id/msg_time" android:layout_marginRight="2.0dip" style="@style/commonClockTv" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="7.0dip">
+            <ImageView android:id="@id/failedTag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:src="@drawable/chat_icn_fail" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:ellipsize="end" android:id="@id/msg_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/lhQ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lhQ" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:ellipsize="end" android:id="@id/msg_cotent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/rhQ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rhQ" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

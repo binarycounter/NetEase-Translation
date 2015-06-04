@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/InviteContact" style="@style/invitefriendContainer">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:src="@drawable/logo_mobile" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/cellphoneContact" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/InviteSina" style="@style/invitefriendContainer">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:src="@drawable/logo_sina" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/sinaFriend" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/InviteTecent" style="@style/invitefriendContainer">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:src="@drawable/logo_tencent" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/tencentFriend" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/InviteWeixin" style="@style/invitefriendContainer">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:src="@drawable/logo_weixin" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/weixinFriend" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/InviteYixin" style="@style/invitefriendContainer">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:src="@drawable/logo_yixin" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/yixinFriend" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/classificationTagsLlContainer" android:paddingLeft="@dimen/findPageNormalPading" android:paddingTop="@dimen/findPageNormalPading" android:paddingRight="@dimen/findPageNormalPading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/classificationNameRl" android:background="@drawable/list_slt_tag" android:layout_width="88.0dip" android:layout_height="87.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:gravity="center_horizontal" android:id="@id/classificationNameImg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff888888" android:gravity="center_horizontal" android:id="@id/classificationNameTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:shadowColor="#ffffffff" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/tagsLlContainer" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-1.0dip" android:layout_weight="3.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/firstRowTagsLl" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <include android:id="@id/tag1Item" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/find_classification_tag_inner_item" />
+            <include android:id="@id/tag2Item" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-1.0dip" android:layout_weight="1.0" layout="@layout/find_classification_tag_inner_item" />
+            <include android:id="@id/tag3Item" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-1.0dip" android:layout_weight="1.0" layout="@layout/find_classification_tag_inner_item" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/secondRowTagsLl" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="-1.0dip">
+            <include android:id="@id/tag4Item" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/find_classification_tag_inner_item" />
+            <include android:id="@id/tag5Item" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-1.0dip" android:layout_weight="1.0" layout="@layout/find_classification_tag_inner_item" />
+            <include android:id="@id/tag6Item" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-1.0dip" android:layout_weight="1.0" layout="@layout/find_classification_tag_inner_item" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

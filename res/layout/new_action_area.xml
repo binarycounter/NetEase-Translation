@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/actionArea" android:background="#fffafcfc" android:paddingLeft="@dimen/findPageNormalPading" android:paddingTop="7.0dip" android:paddingRight="@dimen/findPageNormalPading" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/subscribeBlock" style="@style/plActionAreaContainer">
+        <ImageView android:id="@id/subscribeBtn" style="@style/plActionAreatImageView" />
+        <TextView android:id="@id/subscribeNum" android:text="@string/menuSubscribe" style="@style/plActionAreaText" />
+    </LinearLayout>
+    <View style="@style/plActionAreaDivideLine" />
+    <LinearLayout android:id="@id/commentBlock" style="@style/plActionAreaContainer">
+        <ImageView android:id="@id/commentBtn" style="@style/plActionAreatImageView" />
+        <TextView android:id="@id/commentNum" android:text="@string/menuComment" style="@style/plActionAreaText" />
+    </LinearLayout>
+    <View style="@style/plActionAreaDivideLine" />
+    <LinearLayout android:id="@id/shareBlock" style="@style/plActionAreaContainer">
+        <ImageView android:id="@id/shareBtn" style="@style/plActionAreatImageView" />
+        <TextView android:id="@id/shareNum" android:text="@string/menuShare" style="@style/plActionAreaText" />
+    </LinearLayout>
+    <View style="@style/plActionAreaDivideLine" />
+    <LinearLayout android:id="@id/downloadBlock" style="@style/plActionAreaContainer">
+        <ImageView android:id="@id/downloadBtn" style="@style/plActionAreatImageView" />
+        <TextView android:id="@id/downloadNum" android:text="@string/downloadMusicAction" style="@style/plActionAreaText" />
+    </LinearLayout>
+</LinearLayout>
