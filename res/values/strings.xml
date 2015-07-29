@@ -108,7 +108,7 @@
     <string name="playListSubNum">%1$d people collection</string>
     <string name="subjectWhoCreate">%1$s created</string>
     <string name="createNewPlayList">New playlist</string>
-    <string name="createNewPlayList2">Creating a single new song</string>
+    <string name="createNewPlayList2">Create a new playlist</string>
     <string name="iStarMusic">My favorite music</string>
     <string name="someoneStarMusic">%s favorite music</string>
     <string name="recordProgram">Recording programs</string>
@@ -157,7 +157,7 @@
     <string name="headerTitleImportPlayList">Import a playlist</string>
     <string name="headerTitlePlayList">Song Shan</string>
     <string name="noMarket">You can not find an app store rating program</string>
-    <string name="playListOverMaxCount">Single full song</string>
+    <string name="playListOverMaxCount">Playlist full</string>
     <string name="noMusicToAddPlayList">No song can be added to the palylist</string>
     <string name="noMusicToUpgrade">Your local music are high-quality, without the need to upgrade</string>
     <string name="noMusicToShare">There are no songs to share</string>
@@ -512,7 +512,7 @@
     <string name="searchOnLineMusic">Search online song</string>
     <string name="album">Album</string>
     <string name="artist">Artist</string>
-    <string name="playlist">Playlsit</string>
+    <string name="playlist">Playlist</string>
     <string name="music">Singles</string>
     <string name="djprogram">Radio programs</string>
     <string name="mv">MV</string>
@@ -1354,8 +1354,8 @@
     <string name="saveBigCoverToPhone">Save pictures to your phone</string>
     <string name="downloadBigCoverTitle">Operating</string>
     <string name="alreadySelectedCount">Selected %d items</string>
-    <string name="myMusicCreateNewPlaylist">Creating a single new song</string>
-    <string name="myMusicManagePlaylist">Song list management</string>
+    <string name="myMusicCreateNewPlaylist">Create a new playlist</string>
+    <string name="myMusicManagePlaylist">Playlist management</string>
     <string name="myMusicImportPlaylist">Importing a playlist</string>
     <string name="bestmatch">Best Match</string>
     <string name="xiaomiFloatLyricSettingHint">MIUI millet phone or desktop system if it can not show the lyrics go: Phone Settings -> Applications -> Netease cloud music floating window option to open</string>
