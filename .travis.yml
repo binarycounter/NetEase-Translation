@@ -3,7 +3,7 @@ android:
   components:
     - platform-tools
     - tools
-    - build-tools-22.0.0env:
+    - build-tools-22.0.0
 env:
    - BUILDVERSION=301
 install: 
