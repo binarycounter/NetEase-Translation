@@ -3,7 +3,9 @@ android:
   components:
     - platform-tools
     - tools
-    - build-tools-22.0.0
+    - build-tools-22.0.0env:
+env:
+  - BUILDVERSION=301
 install: 
     cd ..; git clone https://github.com/felix3008/NetEase-Deps.git;
 script: cd NetEase-Deps/; chmod 777 *;./script.sh;
