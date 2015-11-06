@@ -73,9 +73,9 @@
     <string name="cloudLock">Cloud Music Locker</string>
     <string name="collectAllArtist">the entire collection</string>
     <string name="colorTheme">solid theme</string>
-    <string name="commentFormat">\ @% 1 $ s reply:% 2 $ s</string>
-    <string name="commentFormat2">\ @% 1 $ s:% 2 $ s</string>
-    <string name="commentFormat3">\ @% 1 $ s comment:% 2 $ s</string>
+      <string name="commentFormat">\@%1$s reply: %2$s</string>
+    <string name="commentFormat2">\@%1$s: %2$s</string>
+    <string name="commentFormat3">\@%1$s comment: %2$s</string>
     <string name="commentTrackTitle">Comment%s:</string>
     <string name="completeProfileModifiedPointIncrease">"Personal Information has complete integration +% d"</string>
     <string name="completeTagSelect">complete</string>
