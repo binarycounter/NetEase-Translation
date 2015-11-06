@@ -34,7 +34,6 @@
     <string name="aboutCreamPlaylistLink">什么是精品歌单</string>
     <string name="ad">推广</string>
     <string name="addFollowFailDueToBlack">由于黑名单设置，该用户无法关注</string>
-
     <string name="addMusicToStatus">给动态配上音乐</string>
     <string name="addSubscribeSucForTrack">收藏成功！将为你推荐相关动态</string>
     <string name="adjustMainPageOrderHint">现在可以根据个人喜好，自由调整首页栏目顺序啦~</string>
@@ -44,7 +43,6 @@
     <string name="allContacts">所有联系人</string>
     <string name="allPhoto">全部照片</string>
     <string name="anonimousDrawerHeaderHint">"This app just got ripped open by BinaryCounter"</string>
- 
     <string name="anonimousSubscribeOverHint">匿名收藏歌曲数已满，请先登录</string>
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="artistName">Artist：%s</string>
@@ -59,11 +57,9 @@
     <string name="billBoardInRadioBarSubtitle">最火的节目和电台，每天更新！</string>
     <string name="billboardInMainRadioTitle">主播电台排行榜</string>
     <string name="billboardTopUpdateTime">最近更新 : %1$s</string>
- 
-    <string name="buffering">缓冲中...</string>
+     <string name="buffering">缓冲中...</string>
     <string name="buy">购买</string>
     <string name="bySomething">by %s</string>
-
     <string name="canSyncToWeibo">可同时分享到微博</string>
     <string name="cantIdentifyDueToPermission">无法开始识别，请确认没有禁用网易云音乐录音权限</string>
     <string name="checkMusicInfo">查看歌曲信息</string>
@@ -81,8 +77,7 @@
     <string name="commentFormat2">\@%1$s：%2$s</string>
     <string name="commentFormat3">\@%1$s评论：%2$s</string>
     <string name="commentTrackTitle">评论%s：</string>
-    <string name="completeProfileModifiedPointIncrease">"个人信息已完善
-积分+%d"</string>
+    <string name="completeProfileModifiedPointIncrease">"个人信息已完善积分+%d"</string>
     <string name="completeTagSelect">完 成</string>
     <string name="computingFileSize">正在计算文件大小…</string>
     <string name="confirmReportAskForLyric">求歌词</string>
@@ -111,7 +106,6 @@
     <string name="deleteOldThemeToast">为了最好的视觉体验，请您重新下载皮肤</string>
     <string name="deletePlAndKeepDownloadFile">删除歌单，保留下载文件</string>
     <string name="deletePlAndNotKeepDownloadFile">删除歌单，不保留下载文件</string>
-
     <string name="delete_downloaded_q">确定要删除已下载文件？</string>
     <string name="delete_music_cache_q_Btn">清除</string>
     <string name="delete_mv_q">确定要删除MV下载文件吗？</string>
@@ -160,7 +154,6 @@
     <string name="downloadNetWorkSwitcherPromptTitle">确定打开2G/3G/4G网络下载开关吗？</string>
     <string name="downloadNetWorkSwitcherTitle">确定使用2G/3G/4G网络下载？</string>
     <string name="downloadOfficialVersion">下载正式版</string>
-
     <string name="downloadThemeNeedMoney">该皮肤需花费%s元，确定下载？</string>
     <string name="downloadThemeNeedPoints">该皮肤需花费%s积分，确定下载？</string>
     <string name="downloadTone">下载音质</string>
@@ -171,15 +164,10 @@
     <string name="emptyStatusPrompt">请输入动态内容</string>
     <string name="enterScreen">正在进入%s</string>
     <string name="expire">到期</string>
-
-
     <string name="finish">结束</string>
     <string name="flacMusic">无损</string>
     <string name="flowCostNotUnicomFree">当前处在非WIFI环境下，视频直播将消耗较多流量</string>
     <string name="flowCostUnicomFree">视频直播不参与畅听流量包，将会消耗你的流量</string>
-
-
-
     <string name="fragment_collected_recommend_artist">推荐你可能感兴趣的歌手</string>
     <string name="free">免费</string>
     <string name="getLIOnMibileNetworkHintBtn">继续获取</string>
@@ -210,14 +198,12 @@
     <string name="hotTrack">热门动态</string>
     <string name="hotestRadioBillboardInfo">选取云音乐中热度最高的电台。热度由电台播放、订阅、分享数量总和计算。</string>
     <string name="httpLinkHint">img网页链接</string>
-
     <string name="iAmAnonymous">我是路人</string>
     <string name="iPasser">我是路人</string>
     <string name="illegalImageSize">无法选择小于100x100的图片</string>
     <string name="initRcmd">开启个性化推荐</string>
     <string name="json_type_main_page_recommend">{\"position\":%1$d,\"alg\":\"%2$s\",\"id\":%3$s,\"scene\":\"%4$s\", \"type\":\"%5$s\", \"url\":\"%6$s\"}</string>
     <string name="kaolaBundleInstallDes">安装网易考拉海购APP，首单立减8元</string>
-
     <string name="lackOfPointForDownload">积分不足，无法下载</string>
     <string name="lackOfPointForSend">积分不足，无法发送</string>
     <string name="letsTalkAboutMusic">一起聊聊音乐吧~</string>
@@ -246,7 +232,6 @@
     <string name="localMusicScanAll">全盘扫描</string>
     <string name="localMusicScanCustom">自定义扫描</string>
     <string name="localMusicScaning">正在扫描...</string>
-
     <string name="localMusicWalkFolderError">无法读取该目录，请检查SD卡是否插好或者是否有读取权限</string>
     <string name="lockScreenPattern">锁屏显示方式</string>
     <string name="lockscreenIndicate">使用云音乐锁屏可能会导致部分外部设备(如手表、蓝牙音箱等)不能正常显示播放信息和控制播放。</string>
@@ -314,7 +299,6 @@
     <string name="newestTrack">最新动态</string>
     <string name="nightMode">夜间模式</string>
     <string name="noAppFound">未找到相关应用</string>
-
     <string name="noDjScriber">暂时还没有关注者</string>
     <string name="noDownloadedTheme">没有已下载的皮肤</string>
     <string name="noLatestRadio">暂无更新</string>
@@ -323,7 +307,6 @@
     <string name="noMoreRcmdTrack">不再显示推荐动态</string>
     <string name="noMoreRcmdTrackHint">今后将不再出现新的推荐动态</string>
     <string name="noMoreSubRadioBtn">不再订阅</string>
-
     <string name="noMusicInResouce">暂无歌曲</string>
     <string name="notificationColor">通知栏颜色</string>
     <string name="officialRed">官方红</string>
@@ -385,20 +368,14 @@
     <string name="postStatus">发动态</string>
     <string name="postSuccess">发布成功</string>
     <string name="postSuccessAndDeductPoint">发布成功。积分-%d</string>
-
     <string name="preview">预览</string>
     <string name="priceFormat">￥ %s</string>
     <string name="privateCloudCantOpt">音乐云盘文件暂时无法操作</string>
-
     <string name="privateCloudMusicBitrate">云盘文件（%s）</string>
-
     <string name="profileListenCount">累计听歌%d首</string>
     <string name="profileListenRankLimit">由于对方设置你无法查看TA的听歌排行</string>
-
     <string name="programCountFormat">%d期节目</string>
     <string name="programName">电台节目：%s</string>
-
-
     <string name="promptUseFlowBtn">允许建立连接</string>
     <string name="purchaseExpired">购买已过期</string>
     <string name="quality128">128k</string>
@@ -427,8 +404,7 @@
     <string name="restoreMainPagerItemOrder"><u>恢复默认排序</u></string>
     <string name="restoreMainPagerItemOrderHint">想调整首页栏目的顺序？按住右边的按钮拖动即可</string>
     <string name="restoreMusicInfo">还原歌曲信息</string>
-    <string name="safetyCertificatePrompt">"由于您目前的积分数额较高，为避免安全风险，请尽快完成安全认证！
-（若未完成认证，后续获得的积分将被冻结）"</string>
+    <string name="safetyCertificatePrompt">"由于您目前的积分数额较高，为避免安全风险，请尽快完成安全认证！（若未完成认证，后续获得的积分将被冻结）"</string>
     <string name="saveShareLrcImageFail">图片没有加载完成，无法保存和分享</string>
     <string name="saveTagFailPleaseRetry">保存音乐标签失败，请重试</string>
     <string name="searchHintForSelect">选择音乐</string>
@@ -439,7 +415,6 @@
     <string name="selectSortManner">请选择排序方式</string>
     <string name="selectYourSupportArtist">选择你要支持的歌手</string>
     <string name="send">发送</string>
-
     <string name="sendContactMsgInTrack">为了找到你的朋友，我们需要获取通讯录联系人列表。</string>
     <string name="sendFailed">发送失败</string>
     <string name="setMusicDownloadDesc1Btn">转移</string>
@@ -447,10 +422,8 @@
     <string name="share">分享</string>
     <string name="shareComment">分享评论</string>
     <string name="shareCommentImg">评论分享</string>
-
     <string name="shareLrc">歌词分享</string>
-    <string name="shareSuccessWithPoint">"分享成功
-积分+%d"</string>
+    <string name="shareSuccessWithPoint">"分享成功积分+%d"</string>
     <string name="shareWXHint">已准备好分享到微信的歌曲信息，请打开微信后，长按输入框粘贴。</string>
     <string name="shareWXInfoHint">已准备好分享到微信的信息，请打开微信后，长按输入框粘贴。</string>
     <string name="sharedComment">分享评论</string>
@@ -459,8 +432,7 @@
     <string name="signInSuccess">签到成功，积分增加%1$d</string>
     <string name="signedIn">已签到</string>
     <string name="smsShareCommentFormat">分享评论: %1$s (来自@网易云音乐)</string>
-    <string name="snsBindedPointIncrease">"成功绑定手机号码和社交网络
-积分+%d"</string>
+    <string name="snsBindedPointIncrease">"成功绑定手机号码和社交网络积分+%d"</string>
     <string name="snsShareArtistContentFormat">分享歌手%1$s</string>
     <string name="snsShareCommentContentFormat">分享评论：</string>
     <string name="songName">单曲：%s</string>
@@ -470,7 +442,6 @@
     <string name="sortManner">选择排序方式</string>
     <string name="spaceBind"> 绑  定 </string>
     <string name="sqFullHint">本月无损下载限额已满，是否将下载音质改为320K</string>
-
     <string name="stopUpgrade">停止升级</string>
     <string name="subscribedCount">%s人订阅</string>
     <string name="switchDownloadQuality">更改下载音质</string>
@@ -481,7 +452,6 @@
     <string name="systemColor">系统底色</string>
     <string name="systemLock">系统锁屏</string>
     <string name="systemNotSupportPlayLosslessMusic">系统版本过低，不支持播放无损音乐</string>
-
     <string name="themeDetail">主题详情</string>
     <string name="topUp">充值</string>
     <string name="totalSizeFormat">（共%s）</string>
@@ -502,11 +472,9 @@
     <string name="updateTitle">升级到%1$s版本</string>
     <string name="useSystemColor">使用系统底色</string>
     <string name="useWhiteColor">使用纯白底色</string>
-
     <string name="userPoint">%1$d积分</string>
     <string name="userRank">用户贡献榜</string>
     <string name="using">使用中</string>
-
     <string name="vipNotOpen">未订购</string>
     <string name="vipRemain">剩余</string>
     <string name="voteFinished">投票已截止</string>
@@ -523,7 +491,6 @@
     <string name="writeBarrageToast">发送彩色弹幕需要花费%d积分，是否继续？</string>
     <string name="write_private_msg"> 写私信</string>
     <string name="xCount">%d次</string>
-
 	
 	
 	
@@ -1383,7 +1350,6 @@
     <string name="failServerTimeout">Network connection timed out. Please try again</string>
     <string name="importantUpdate">Important Update</string>
     <string name="forceUpdatePrompt">"In order to use your normal recommended immediate update function is more stable, easier to use the latest version of Netease cloud music.
-
 "</string>
     <string name="sdcardUnavailable">SD card unavailable</string>
     <string name="sdcardUnavailableAndCheck">SD card is not available, please check the SD card</string>
@@ -2128,9 +2094,7 @@
     <string name="miguMusic">Migu music</string>
     <string name="miguMusicDownload">(Img Migu music download)</string>
     <string name="miguMusicInfoFail">Get Migu music information failed, please click Retry</string>
-    <string name="prepareAPKWhenWifi">"Wifi ready in under the new version for your installation package
- 
-"</string>
+    <string name="prepareAPKWhenWifi">"Wifi ready in under the new version for your installation package"</string>
     <string name="radioOrder">Order</string>
     <string name="radioOrderReverse">Reverse</string>
     <string name="radioOrderSaveFail">Failed to save the radio order</string>
