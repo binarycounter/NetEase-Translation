@@ -77,7 +77,7 @@
     <string name="commentFormat2">\@%1$s: %2$s</string>
     <string name="commentFormat3">\@%1$s comment: %2$s</string>
     <string name="commentTrackTitle">Comment%s:</string>
-    <string name="completeProfileModifiedPointIncrease">"Personal Information has complete integration +% d"</string>
+    <string name="completeProfileModifiedPointIncrease">"Personal Information has complete integration +%d"</string>
     <string name="completeTagSelect">complete</string>
     <string name="computingFileSize">Calculating the file size ...</string>
     <string name="confirmReportAskForLyric">seek lyrics</string>
@@ -202,7 +202,7 @@
     <string name="iPasser">I am a passerby</string>
     <string name="illegalImageSize">You can not select images less than 100x100</string>
     <string name="initRcmd">open personalized recommendation</string>
-    <string name="json_type_main_page_recommend">{\ "position \":% 1 $ d, \ "alg \": \ "% 2 $ s \", \ "id \":% 3 $ s, \ "scene \ ": \"% 4 $ s \ ", \" type \ ": \"% 5 $ s \ ", \" url \ ": \" $% 6 s \ "}</string>
+    <string name="json_type_main_page_recommend">{\"position\":%1$d,\"alg\":\"%2$s\",\"id\":%3$s,\"scene\":\"%4$s\", \"type\":\"%5$s\", \"url\":\"%6$s\"}</string>
     <string name="kaolaBundleInstallDes">Installation Netease test Lahaina buy APP, the first single, minus 8 yuan</string>
     <string name="lackOfPointForDownload">Points Insufficient download</string>
     <string name="lackOfPointForSend">Points Insufficient send</string>
@@ -219,7 +219,7 @@
     <string name="localFileBitrate">local file (%s)</string>
     <string name="localMusicAlreadSQ">This song is SQ sound quality, without having to upgrade</string>
     <string name="localMusicAlreadyFilter">Filtered</string>
-    <string name="localMusicAutoScanIncreaseCount">Added% d first</string>
+    <string name="localMusicAutoScanIncreaseCount">Added%d first</string>
     <string name="localMusicBackToList">back to my music</string>
     <string name="localMusicDelPrompt1First">Delete music, keep the local file</string>
     <string name="localMusicDelPrompt1HintContent">Please choose whether to keep the local file</string>
@@ -263,12 +263,12 @@
     <string name="menuViewAlbumPage">View Album page</string>
     <string name="menuViewArtistPage">View Singer Page</string>
     <string name="menuViewFolderInfo">Folder:%s</string>
-    <string name="messageNoticeHint">% 1 $ s: "% 2 $ s"</string>
-    <string name="messageNoticeHint2">% 1 $ s:% 2 $ s</string>
+    <string name="messageNoticeHint">%1$s: "%2$s"</string>
+    <string name="messageNoticeHint2">%1$s: %2$s</string>
     <string name="messageNoticeHint3">[image]</string>
     <string name="missingFileReason">to move or delete the downloaded file, it will cause the file fail</string>
     <string name="missingMusic">Failure Music</string>
-    <string name="missingSomeFiles">There are% d song file fails, click View</string>
+    <string name="missingSomeFiles">There are%d song file fails, click View</string>
     <string name="moreListenMorePreciseRcmd">hear more, recommend the quasi</string>
     <string name="msgLikeYourProgramHint">Like your show</string>
     <string name="musicAlreadyInDownloadQueue">music already in the download queue</string>
@@ -286,8 +286,8 @@
     <string name="musicTitle">Song:%s</string>
     <string name="musicUpdateMessage">Note: The upgrade is only Wi-Fi, the handset will occupy some space</string>
     <string name="mvAlreadyInDownloadQueue">MV already in the download queue</string>
-    <string name="mvCountFormat">% d first MV</string>
-    <string name="mvInfoFormat">% 1 $ s% 2 $ s</string>
+    <string name="mvCountFormat">%d first MV</string>
+    <string name="mvInfoFormat">%1$s%2$s</string>
     <string name="mvPayHint">The MV fee to use</string>
     <string name="mvRedownloadNeedPoint">(re-download the corresponding points to be deducted again)</string>
     <string name="mvSelectFinish">complete</string>
@@ -341,7 +341,7 @@
     <string name="payVip2link">single first purchase</string>
     <string name="payVipbutton">Now go Order</string>
     <string name="pfAutoCloseOffToast">timer to stop playing has been canceled</string>
-    <string name="pfAutoCloseOnToast">set successfully, will be closed for% d minutes</string>
+    <string name="pfAutoCloseOnToast">set successfully, will be closed for%d minutes</string>
     <string name="pfFaq">FAQ</string>
     <string name="pfNewAttr">cloud music can do that play?</string>
     <string name="pfPersonalSetting">Privacy Settings</string>
@@ -363,18 +363,18 @@
     <string name="pleaseInputContent">Please enter the content</string>
     <string name="pleaseLogin">Login</string>
     <string name="pleaseSelectLiveScreen">Please select viewing screen</string>
-    <string name="pointIncrease">Points +% d</string>
+    <string name="pointIncrease">Points +%d</string>
     <string name="postFailed">Publish failed</string>
     <string name="postStatus">send dynamic</string>
     <string name="postSuccess">successfully posted</string>
-    <string name="postSuccessAndDeductPoint">release success.Points -% d</string>
+    <string name="postSuccessAndDeductPoint">release success.Points -%d</string>
     <string name="preview">Preview</string>
     <string name="priceFormat">¥%s</string>
     <string name="privateCloudCantOpt">music cloud disk file is temporarily inoperable</string>
     <string name="privateCloudMusicBitrate">cloud disk file (%s)</string>
-    <string name="profileListenCount">Cumulative% d songs first</string>
+    <string name="profileListenCount">Cumulative%d songs first</string>
     <string name="profileListenRankLimit">because the other set of songs you can not view TA ranking</string>
-    <string name="programCountFormat">% d of the program</string>
+    <string name="programCountFormat">%d of the program</string>
     <string name="programName">radio program:%s</string>
     <string name="promptUseFlowBtn">allow the connection</string>
     <string name="purchaseExpired">purchase has expired</string>
@@ -389,8 +389,8 @@
     <string name="rcmdCommentTitile">Wonderful comments</string>
     <string name="reLogin">replacement account login</string>
     <string name="redTeam">[red team]</string>
-    <string name="renrenShareCommentContent">Share Comments:% 1 $ s from% 2 $ s (@ Netease cloud music)</string>
-    <string name="replyCommentContentInTrack">\ @% 1 $ s reply:% 2 $ s</string>
+    <string name="renrenShareCommentContent">Share Comments:%1$s from%2$s (@ Netease cloud music)</string>
+    <string name="replyCommentContentInTrack">\ @%1$s reply:%2$s</string>
     <string name="reportBugSucAndCreditConsumed">deduct points% 1 $ d</string>
     <string name="reportTrack">@ string / report</string>
     <string name="resolution1080">1080P</string>
@@ -423,7 +423,7 @@
     <string name="shareComment">Share Comments</string>
     <string name="shareCommentImg">Comments Share</string>
     <string name="shareLrc">lyrics Share</string>
-    <string name="shareSuccessWithPoint">"Sharing successful integration +% d"</string>
+    <string name="shareSuccessWithPoint">"Sharing successful integration +%d"</string>
     <string name="shareWXHint">is ready to share to micro-channel song information. Please open the micro-channel, long press the input box Paste.</string>
     <string name="shareWXInfoHint">is ready to share information on the micro-letter. Please open the micro letter, press the input box Paste.</string>
     <string name="sharedComment">Share Comments</string>
@@ -431,9 +431,9 @@
     <string name="signInFail">sign failed, please try again later</string>
     <string name="signInSuccess">sign successful integration increase% 1 $ d</string>
     <string name="signedIn">has signed in</string>
-    <string name="smsShareCommentFormat">Share Comments:% 1 $ s (from @ Netease cloud music)</string>
-    <string name="snsBindedPointIncrease">"Success bound phone number, and social networking integration +% d"</string>
-    <string name="snsShareArtistContentFormat">Share Singer% 1 $ s</string>
+    <string name="smsShareCommentFormat">Share Comments:%1$s (from @ Netease cloud music)</string>
+    <string name="snsBindedPointIncrease">"Success bound phone number, and social networking integration +%d"</string>
+    <string name="snsShareArtistContentFormat">Share Singer%1$s</string>
     <string name="snsShareCommentContentFormat">Share Comments:</string>
     <string name="songName">Singles:%s</string>
     <string name="sort">Sort</string>
@@ -469,7 +469,7 @@
     <string name="unsubPlAndNotKeepDownloadFile">Favorite songs no longer single, does not retain the download file</string>
     <string name="unsubscribe_mv_q">collection of the MV determined not it?</string>
     <string name="unsupportSystrmlock">This system version does not support the system lock screen</string>
-    <string name="updateTitle">Upgrade to version% 1 $ s</string>
+    <string name="updateTitle">Upgrade to version%1$s</string>
     <string name="useSystemColor">Use system background</string>
     <string name="useWhiteColor">Use pure white background</string>
     <string name="userPoint">% 1 $ d integral</string>
@@ -488,9 +488,9 @@
     <string name="whiteTeam">[White Team]</string>
     <string name="writeBarrage">hair barrage</string>
     <string name="writeBarragePortrait">horizontal screen can be sent barrage oh ~</string>
-    <string name="writeBarrageToast">send a color barrage takes% d points, continue?</string>
+    <string name="writeBarrageToast">send a color barrage takes%d points, continue?</string>
     <string name="write_private_msg">write private letters</string>
-    <string name="xCount">% d times</string>
+    <string name="xCount">%d times</string>
 
 	
 	
