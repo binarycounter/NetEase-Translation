@@ -389,8 +389,8 @@
     <string name="rcmdCommentTitile">Wonderful comments</string>
     <string name="reLogin">replacement account login</string>
     <string name="redTeam">[red team]</string>
-    <string name="renrenShareCommentContent">Share Comments:%1$s from%2$s (@ Netease cloud music)</string>
-    <string name="replyCommentContentInTrack">\@%1$s reply:%2$s</string>
+    <string name="renrenShareCommentContent">Share Comments: %1$s from%2$s</string>
+    <string name="replyCommentContentInTrack">\@%1$s reply: %2$s</string>
     <string name="reportBugSucAndCreditConsumed">deduct points %1$d</string>
     <string name="reportTrack">@string/report</string>
     <string name="resolution1080">1080P</string>
@@ -429,7 +429,7 @@
     <string name="sharedComment">Share Comments</string>
     <string name="signIn">sign</string>
     <string name="signInFail">sign failed, please try again later</string>
-    <string name="signInSuccess">sign successful integration increase% 1 $ d</string>
+    <string name="signInSuccess">sign successful integration increase %1$d</string>
     <string name="signedIn">has signed in</string>
     <string name="smsShareCommentFormat">Share Comments:%1$s (from @ Netease cloud music)</string>
     <string name="snsBindedPointIncrease">"Success bound phone number, and social networking integration +%d"</string>
@@ -454,7 +454,7 @@
     <string name="systemNotSupportPlayLosslessMusic">System version is too low, does not support playback of lossless music</string>
     <string name="themeDetail">Theme Details</string>
     <string name="topUp">top</string>
-    <string name="totalSizeFormat">(Total%s)</string>
+    <string name="totalSizeFormat">(Total %s)</string>
     <string name="trackActivity">topic</string>
     <string name="trackAddPicPermissonToast">level reaches Lv.4, you can add pictures</string>
     <string name="trackPostFailed">sending fails, Touch to send again</string>
@@ -469,10 +469,10 @@
     <string name="unsubPlAndNotKeepDownloadFile">Favorite songs no longer single, does not retain the download file</string>
     <string name="unsubscribe_mv_q">collection of the MV determined not it?</string>
     <string name="unsupportSystrmlock">This system version does not support the system lock screen</string>
-    <string name="updateTitle">Upgrade to version%1$s</string>
+    <string name="updateTitle">Upgrade to version %1$s</string>
     <string name="useSystemColor">Use system background</string>
     <string name="useWhiteColor">Use pure white background</string>
-    <string name="userPoint">% 1 $ d integral</string>
+    <string name="userPoint">%1$d integral</string>
     <string name="userRank">User contributions standings</string>
     <string name="using">use</string>
     <string name="vipNotOpen">No Order</string>
