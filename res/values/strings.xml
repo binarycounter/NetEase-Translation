@@ -674,7 +674,7 @@
     <string name="headerTitleSubscriber">Collectors</string>
     <string name="headerTitleModifyProfile">Modify data</string>
     <string name="headerTitleImportPlayList">Import a playlist</string>
-    <string name="headerTitlePlayList">Song Shan</string>
+    <string name="headerTitlePlayList">Playlist</string>
     <string name="noMarket">You can not find an app store rating program</string>
     <string name="playListOverMaxCount">Playlist full</string>
     <string name="noMusicToAddPlayList">No song can be added to the palylist</string>
@@ -1622,7 +1622,7 @@
     <string name="bannerNewMusic">@string/newHitSub2</string>
     <string name="bannerNewAlbum">Starting new album</string>
     <string name="bannerStarProfile">Stars Home</string>
-    <string name="bannerPlayList">Song Shan</string>
+    <string name="bannerPlayList">PlayList</string>
     <string name="bannerDJProgram">@string/profileDjTitle</string>
     <string name="bannerActivity">Activity</string>
     <string name="bannerSpecial">Special topic</string>
@@ -1855,7 +1855,7 @@
     <string name="getLISucHint">Get Cover Lyrics success</string>
     <string name="searchHistory">History Search</string>
     <string name="searchHot">Popular searches</string>
-    <string name="playlistDeailTitle">Song Shan</string>
+    <string name="playlistDeailTitle">PlayList</string>
     <string name="albumDeailTitle">Album</string>
     <string name="lrcShareDeailTitle">Share Lyrics</string>
     <string name="loadingImage">Downloading the ...</string>
