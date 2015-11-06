@@ -457,7 +457,7 @@
     <string name="totalSizeFormat">(Total%s)</string>
     <string name="trackActivity">topic</string>
     <string name="trackAddPicPermissonToast">level reaches Lv.4, you can add pictures</string>
-    <string name="trackPostFailed">sending fails, Touch to send</string> again
+    <string name="trackPostFailed">sending fails, Touch to send again</string>
     <string name="trackPostFailedHint">Send failed</string>
     <string name="trackPosting">Sending ...</string>
     <string name="trackRcmdHint">Friends page shows the recommended dynamic</string>
