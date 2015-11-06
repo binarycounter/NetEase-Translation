@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <com.netease.cloudmusic.ui.PagerListView android:id="@id/filterMvList" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:divider="@null" />
-    <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:gravity="center" android:id="@id/curFilterTags" android:background="#f9ffffff" android:paddingLeft="@dimen/findPageNormalPading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/mvFilterHeight" />
-    <View android:id="@id/tabShadow" android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="3.2999878dip" android:layout_below="@id/curFilterTags" />
+    <com.netease.cloudmusic.theme.ui.CustomBackgroundLinearLayout android:orientation="vertical" android:id="@id/curFilterTagsContent" android:layout_width="fill_parent" android:layout_height="@dimen/mvFilterHeight" app:nightSpecialBackgroundColor="@color/nightY0" app:normalBackgroundColor="#f9ffffff">
+        <com.netease.cloudmusic.theme.ui.CustomThemeLine android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="14.0sp" android:textColor="#ff666666" android:gravity="center" android:layout_gravity="center" android:id="@id/curFilterTags" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/mvFilterHeight" android:drawableRight="@drawable/list_icn_arrow" android:drawablePadding="4.0dip" />
+    </com.netease.cloudmusic.theme.ui.CustomBackgroundLinearLayout>
     <LinearLayout android:orientation="vertical" android:id="@id/filterMvTagContainerOuter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:orientation="vertical" android:id="@id/filterMvTagContainer" android:background="#f9ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <View android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="3.2999878dip" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeLine android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/filterMvTagContainer" android:background="#f9ffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/OutBackgrandView" android:background="@color/allMVShadeViewBackgrandColor" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     </LinearLayout>
 </RelativeLayout>

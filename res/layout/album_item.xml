@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/realItemArea" android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="67.0dip">
-        <com.netease.cloudmusic.ui.NetImageView android:id="@id/albumImage" android:background="@drawable/list_cover_alb" android:paddingLeft="0.33000004dip" android:paddingTop="0.33000004dip" android:paddingRight="10.329987dip" android:paddingBottom="0.33000004dip" android:layout_width="54.0dip" android:layout_height="46.0dip" android:layout_marginLeft="@dimen/listLinePaddingLeft" android:layout_marginRight="12.0dip" android:scaleType="centerCrop" />
-        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-            <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:id="@id/albumName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:singleLine="true" />
-            <TextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/albumInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-        </LinearLayout>
-        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/actionBtnStyle" />
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/realItemArea" android:paddingLeft="@dimen/leftRightMargin" android:paddingTop="5.0dip" android:paddingRight="@dimen/leftRightMargin" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/listItemHeight60" playlist:bgPaddingLeft="83.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:playlist="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/albumImage" android:background="@drawable/list_cover_alb" android:paddingLeft="0.33000004dip" android:paddingTop="0.33000004dip" android:paddingRight="11.0dip" android:paddingBottom="0.33000004dip" android:layout_width="61.0dip" android:layout_height="50.0dip" android:layout_marginRight="12.0dip" playlist:placeholderImage="@drawable/placeholder_disk_150" playlist:placeholderImageScaleType="fitXY" playlist:actualImageScaleType="centerCrop" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.netease.cloudmusic.theme.ui.CustomThemeHighlightTextView android:textSize="@dimen/listMainTextSize" android:textColor="@color/normalC3" android:id="@id/albumName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:singleLine="true" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeHighlightTextView android:textSize="@dimen/listSubTextSize" android:textColor="@color/normalC5" android:id="@id/albumInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
     </LinearLayout>
-    <com.netease.cloudmusic.ui.AlbumExpandCollapseMenu android:id="@id/albumMenu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.2999878dip" />
-</LinearLayout>
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

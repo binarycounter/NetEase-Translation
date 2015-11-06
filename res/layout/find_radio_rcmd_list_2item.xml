@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.MultiListBgLinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:paddingLeft="@dimen/padding10Dp" android:paddingRight="@dimen/padding10Dp" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/hotRadioItem1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="1.0" layout="@layout/radio_hot_item" />
+    <include android:id="@id/hotRadioItem2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0" layout="@layout/radio_hot_item" />
+</com.netease.cloudmusic.ui.MultiListBgLinearLayout>

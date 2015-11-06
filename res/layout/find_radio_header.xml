@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingTop="9.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/dotCategoryParent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
-    <View android:orientation="vertical" android:id="@id/titleDivideLine" android:background="#ffd2d5d7" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" />
-    <RelativeLayout android:gravity="center_vertical" android:id="@id/categoryProgramTitleView" android:paddingLeft="@dimen/findPageNormalPading" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:gravity="center_vertical" android:id="@id/titleContainer" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <com.netease.cloudmusic.ui.CustomThemeIconImageView android:id="@id/titleLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/index_icn_title" />
-            <TextView android:textSize="@dimen/titleSize" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/recommendPageNormalPading" />
+<LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/dotCategoryParent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.netease.cloudmusic.ui.RadioBillboardLinerLayoutView android:gravity="center" android:orientation="horizontal" android:id="@id/radio_billboard_header" android:padding="0.6700001dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="7.0dip" android:layout_marginBottom="1.0dip">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_weight="1.0">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center|left" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/billboardInMainRadioTitle" android:singleLine="true" android:drawableRight="@drawable/radio_box_icn_arr" android:drawablePadding="5.0dip" app:needApplyNormalDrawableColor="false" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff666666" android:gravity="center|left" android:id="@id/radio_header_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:singleLine="true" />
         </LinearLayout>
-    </RelativeLayout>
+        <RelativeLayout android:layout_width="124.0dip" android:layout_height="64.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="4.669983dip" android:layout_marginBottom="10.0dip">
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="17.0dip">
+                <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/billboardTop1ImageView" android:layout_width="16.0dip" android:layout_height="47.0dip" android:scaleType="centerCrop" />
+                <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/billboardTop2ImageView" android:layout_width="58.0dip" android:layout_height="64.0dip" android:scaleType="centerCrop" />
+                <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/billboardTop3ImageView" android:layout_width="16.0dip" android:layout_height="47.0dip" android:scaleType="centerCrop" />
+            </LinearLayout>
+            <ImageView android:id="@id/radioBoxPicImageView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="6.0dip" />
+        </RelativeLayout>
+    </com.netease.cloudmusic.ui.RadioBillboardLinerLayoutView>
 </LinearLayout>

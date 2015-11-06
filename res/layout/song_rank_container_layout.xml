@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/songRankContainer" android:layout_width="@dimen/musicListCountWidth" android:layout_height="wrap_content" android:minWidth="@dimen/musicListCountWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textColor="#ff999999" android:gravity="center" android:id="@id/songRank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <include android:id="@id/songRankPlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="0.0dip" layout="@layout/playing_mark" />
+</LinearLayout>

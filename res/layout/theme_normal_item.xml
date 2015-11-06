@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginRight="5.0dip" fresco:placeholderImage="@drawable/placeholder_nact_pic" fresco:placeholderImageScaleType="fitXY" fresco:actualImageScaleType="centerCrop" />
+    <ImageView android:id="@id/newMark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/skin_icn_new" android:layout_alignLeft="@id/thumbnail" android:layout_alignTop="@id/thumbnail" />
+    <ImageView android:id="@id/deleteBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:layout_marginRight="-5.0dip" android:src="@drawable/skin_btn_del" android:layout_alignTop="@id/thumbnail" android:layout_alignRight="@id/thumbnail" />
+    <ImageView android:id="@id/applyMark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-5.0dip" android:src="@drawable/skin_icn_selected" android:layout_alignBottom="@id/thumbnail" android:layout_alignParentRight="true" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/font_size_f6_12dp" android:textColor="@color/theme_color_c3_333" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/thumbnail" />
+    <TextView android:textSize="@dimen/font_size_f8_10dp" android:id="@id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/name" />
+</RelativeLayout>

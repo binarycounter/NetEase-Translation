@@ -5,7 +5,7 @@
         <View android:id="@id/floatLyricMask" android:background="#9a000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/floatLyricHeight" />
         <LinearLayout android:orientation="vertical" android:id="@id/floatLyricDrawArea" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
             <com.netease.cloudmusic.module.floatlyric.FloatLyricView android:id="@id/firstFloatLyricLine" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-            <com.netease.cloudmusic.module.floatlyric.FloatLyricView android:id="@id/secondFloatLyricLine" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+            <com.netease.cloudmusic.module.floatlyric.FloatLyricView android:id="@id/secondFloatLyricLine" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
         </LinearLayout>
         <ImageView android:id="@id/floatLyricCloseBtn" android:background="@drawable/float_lrc_btn_30_000_selector" android:visibility="invisible" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/md_btn2_close" android:scaleType="center" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
     </RelativeLayout>

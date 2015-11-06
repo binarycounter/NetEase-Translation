@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/new_music_thematic_banner" layout="@layout/banner_music_thematic_layout" />
-    <include android:id="@id/new_music_play_all" layout="@layout/new_playall_area" />
-</LinearLayout>

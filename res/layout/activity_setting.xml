@@ -1,96 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:id="@id/preferenceScrollView" android:background="@color/normalBackground" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView android:id="@id/preferenceScrollView" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout style="@style/settingTitleContainer">
-            <TextView android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="@string/settingNetwork" style="@style/settingTitleTv" />
-            <View style="@style/titleLine" />
-        </LinearLayout>
-        <RelativeLayout android:id="@id/pfConnectOnlyInWIFIContainer" style="@style/settingTwoLineContainer">
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:text="@string/settingNetwork" style="@style/categoryTitleTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/pfConnectOnlyInWIFIContainer" style="@style/settingTwoLineContainer">
             <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
-                <TextView android:id="@id/pfConnectOnlyInWIFIText" android:text="@string/pfConnectOnlyInWIFI" style="@style/settingContentTv" />
-                <TextView android:textSize="12.0sp" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/connectOnlyInWIFI" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/pfConnectOnlyInWIFIText" android:text="@string/pfConnectOnlyInWIFI" style="@style/settingContentTv" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/connectOnlyInWIFI" style="@style/settingSmallContentTv" />
             </LinearLayout>
-            <CheckBox android:id="@id/pfConnectOnlyInWIFI" style="@style/settingCheckbox" />
-        </RelativeLayout>
-        <RelativeLayout android:id="@id/pfPlayOnlyInWIFIContainer" style="@style/settingContainer">
-            <TextView android:id="@id/pfPlayOnlyInWIFIText" android:text="@string/pfPlayOnlyInWIFI" android:layout_centerVertical="true" style="@style/settingContentTv" />
-            <com.netease.cloudmusic.ui.DelayClickToggleButton android:id="@id/pfPlayOnlyInWIFI" android:clickable="true" android:textOn="" android:textOff="" style="@style/settingFlagCheckbox" />
-        </RelativeLayout>
-        <RelativeLayout android:id="@id/pfDownloadOnlyInWIFIContainer" style="@style/settingContainer">
-            <TextView android:id="@id/pfDownloadOnlyInWIFIText" android:text="@string/pfDownloadOnlyInWIFI" android:layout_centerVertical="true" style="@style/settingContentTv" />
-            <com.netease.cloudmusic.ui.DelayClickToggleButton android:id="@id/pfDownloadOnlyInWIFI" android:clickable="true" android:textOn="" android:textOff="" style="@style/settingFlagCheckbox" />
-        </RelativeLayout>
-        <LinearLayout style="@style/settingTitleContainer">
-            <TextView android:text="@string/settingTool" style="@style/settingTitleTv" />
-            <View style="@style/titleLine" />
-        </LinearLayout>
-        <RelativeLayout android:id="@id/pfChangeFace" style="@style/settingContainer">
-            <TextView android:text="@string/pfChangeFace" android:drawableRight="@drawable/skin_icn_clothes" android:drawablePadding="5.0dip" style="@style/settingContentTv" />
-            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/newTheme" android:background="@drawable/account_num_bg" android:paddingLeft="6.0dip" android:paddingTop="1.0dip" android:paddingRight="6.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/newTheme" android:layout_alignParentRight="true" />
-        </RelativeLayout>
-        <RelativeLayout android:id="@id/pfFloatLyric" style="@style/settingContainer">
-            <TextView android:id="@id/pfFloatLyricText" android:text="@string/floatLyricSetting" android:layout_centerVertical="true" style="@style/settingContentTv" />
-            <CheckBox android:id="@id/pfFloatLyricCb" style="@style/settingCheckbox" />
-        </RelativeLayout>
-        <RelativeLayout android:id="@id/pfFloatLyricUnlock" android:visibility="gone" style="@style/settingContainer">
-            <TextView android:text="@string/floatLyricSettingUnlock" android:layout_centerVertical="true" style="@style/settingContentTv" />
-            <CheckBox android:id="@id/pfFloatLyricUnlockCb" style="@style/settingCheckbox" />
-        </RelativeLayout>
-        <RelativeLayout android:id="@id/pfRemoteControlContainer" style="@style/settingContainer">
-            <TextView android:text="@string/lockScreenNeedShow" android:layout_centerVertical="true" style="@style/settingContentTv" />
-            <CheckBox android:id="@id/pfRemoteControlToggleButton" style="@style/settingCheckbox" />
-        </RelativeLayout>
-        <LinearLayout android:orientation="horizontal" android:id="@id/pfChinaUnicomUnLimitFolow" style="@style/settingContainer">
-            <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/pfChinaUnicomUnLimitFlow" android:layout_weight="1.0" />
-            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/chinaUnicomUnLimitFlowNew" android:background="@drawable/account_num_bg" android:paddingLeft="6.0dip" android:paddingTop="1.0dip" android:paddingRight="6.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New" />
-        </LinearLayout>
-        <TextView android:id="@id/playlistImport" android:visibility="visible" android:text="@string/myMusicImportPlaylist" style="@style/settingContainerTv" />
-        <LinearLayout style="@style/settingTitleContainer">
-            <TextView android:text="@string/settingPlay" style="@style/settingTitleTv" />
-            <View style="@style/titleLine" />
-        </LinearLayout>
-        <RelativeLayout android:orientation="horizontal" android:id="@id/pfConfigQualityContainer" style="@style/settingContainer">
-            <TextView android:text="@string/pfConfigQuality" style="@style/settingContentTv" />
-            <TextView android:textSize="15.0sp" android:textColor="#ff888888" android:id="@id/pfConfigQuality" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
-        </RelativeLayout>
-        <TextView android:id="@id/pfAudioEffect" android:visibility="visible" android:text="@string/pfAudioEffect" style="@style/settingContainerTv" />
-        <RelativeLayout android:id="@id/pfAutoCloseArea" style="@style/settingContainer">
-            <TextView android:id="@id/pfAutoClose" android:text="@string/pfAutoClose" style="@style/settingContentTv" />
-            <TextView android:textSize="15.0sp" android:textColor="#ff888888" android:id="@id/pfAutoCloseContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/closed" android:drawablePadding="6.0dip" android:layout_alignParentRight="true" />
-        </RelativeLayout>
-        <RelativeLayout android:id="@id/pfLyricTranslate" style="@style/settingTwoLineContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/pfConnectOnlyInWIFI" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/pfPlayOnlyInWIFIContainer" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/pfPlayOnlyInWIFIText" android:text="@string/pfPlayOnlyInWIFI" android:layout_centerVertical="true" style="@style/settingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/pfPlayOnlyInWIFI" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/pfDownloadOnlyInWIFIContainer" style="@style/settingContainer_nobg">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/pfDownloadOnlyInWIFIText" android:text="@string/pfDownloadOnlyInWIFI" android:layout_centerVertical="true" style="@style/settingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/pfDownloadOnlyInWIFI" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:layout_marginTop="10.0dip" android:text="@string/settingPlayDnload" style="@style/categoryTitleTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/pfPlayOnLineTone" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/pfOnLineTone" android:text="@string/playSoundQuality" style="@style/settingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/pfOnLineToneContent" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/QualityNormalNodesc" android:layout_alignParentRight="true" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/pfDownloadTone" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/pfDnTone" android:text="@string/downloadTone" style="@style/settingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/pfDnToneContent" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/QualityHigherNodesc" android:layout_alignParentRight="true" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/pfAudioEffect" android:text="@string/pfAudioEffect" style="@style/settingContainerTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/pfSetMusicDownloadDirectoryArea" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/pfSetMusicDownloadDirectory" android:text="@string/pfSetMusicDownloadDirectory" style="@style/settingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/pfSetMusicDownloadContent" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_alignParentRight="true" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/pfClearCache" android:text="@string/pfClearCache" style="@style/settingContainerTv_nobg" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/accountTitle" android:layout_marginTop="10.0dip" android:text="@string/settingAccount" style="@style/categoryTitleTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/pfSnsSetting" android:text="@string/pfSnsSetting" style="@style/settingContainerTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/pfNotifySetting" android:text="@string/pfNotifySetting" style="@style/settingContainerTv_nobg" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:layout_marginTop="10.0dip" android:text="@string/settingTool" style="@style/categoryTitleTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/pfFloatLyric" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/pfFloatLyricText" android:text="@string/floatLyricSetting" android:layout_centerVertical="true" style="@style/settingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/pfFloatLyricCb" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/pfFloatLyricUnlock" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/floatLyricSettingUnlock" android:layout_centerVertical="true" style="@style/settingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/pfFloatLyricUnlockCb" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/pfLyricTranslate" style="@style/settingTwoLineContainer">
             <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
-                <TextView android:id="@id/pfLyricTranslateText" android:text="@string/lyricTranslate" style="@style/settingContentTv" />
-                <TextView android:textSize="12.0dip" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/lyricTranslateHint" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/pfLyricTranslateText" android:text="@string/lyricTranslate" style="@style/settingContentTv" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/lyricTranslateHint" style="@style/settingSmallContentTv" />
             </LinearLayout>
-            <CheckBox android:id="@id/pfLyricTranslateCb" style="@style/settingCheckbox" />
-        </RelativeLayout>
-        <LinearLayout style="@style/settingTitleContainer">
-            <TextView android:text="@string/settingDownload" style="@style/settingTitleTv" />
-            <View style="@style/titleLine" />
-        </LinearLayout>
-        <RelativeLayout android:id="@id/pfSetMusicDownloadDirectoryArea" style="@style/settingContainer">
-            <TextView android:id="@id/pfSetMusicDownloadDirectory" android:text="@string/pfSetMusicDownloadDirectory" style="@style/settingContentTv" />
-            <TextView android:textSize="15.0sp" android:textColor="#ff888888" android:id="@id/pfSetMusicDownloadContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_alignParentRight="true" />
-        </RelativeLayout>
-        <TextView android:id="@id/pfClearCache" android:text="@string/pfClearCache" style="@style/settingContainerTv" />
-        <LinearLayout android:id="@id/accountTitle" style="@style/settingTitleContainer">
-            <TextView android:text="@string/settingAccount" style="@style/settingTitleTv" />
-            <View style="@style/titleLine" />
-        </LinearLayout>
-        <TextView android:id="@id/pfSnsSetting" android:paddingLeft="@dimen/listLinePaddingLeftWithNum" android:text="@string/pfSnsSetting" style="@style/settingContainerTv" />
-        <TextView android:id="@id/pfNotifySetting" android:text="@string/pfNotifySetting" style="@style/settingContainerTv" />
-        <LinearLayout style="@style/settingTitleContainer">
-            <TextView android:text="@string/settingAbout" style="@style/settingTitleTv" />
-            <View style="@style/titleLine" />
-        </LinearLayout>
-        <RelativeLayout android:gravity="center_vertical" android:id="@id/pfAboutAppContainer" style="@style/settingContainerTv">
-            <TextView android:text="@string/pfAboutApp" style="@style/settingContentTv" />
-            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/pfAboutApp" android:background="@drawable/account_num_bg" android:paddingLeft="6.0dip" android:paddingTop="1.0dip" android:paddingRight="6.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/newAppVersion" android:layout_alignParentRight="true" />
-        </RelativeLayout>
-        <TextView android:id="@id/pfFeedback" android:text="@string/pfFeedback" style="@style/settingContainerTv" />
-        <TextView android:id="@id/pfDomainChange" android:text="@string/pfDomainChange" style="@style/settingContainerTv" />
-        <TextView android:textSize="16.0sp" android:textColor="#ffd52b2a" android:gravity="center" android:id="@id/pfLogout" android:background="@drawable/btn_white_normal" android:layout_width="fill_parent" android:layout_height="43.329987dip" android:layout_marginLeft="@dimen/findPageNormalPading" android:layout_marginTop="48.669983dip" android:layout_marginRight="@dimen/findPageNormalPading" android:layout_marginBottom="48.669983dip" android:text="@string/pfLogout" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/pfLyricTranslateCb" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/pfRemoteControlContainer" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/pfLockLyric" android:text="@string/lockScreenNeedShow" style="@style/settingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/pfRemoteControlSwitch" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloudLock" android:layout_alignParentRight="true" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/pfDlnaArea" style="@style/settingTwoLineContainer">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/dlnaTitle" android:text="@string/connectToDlnaDevice" style="@style/settingContentTv" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/dlnaDescription" style="@style/settingSmallContentTv" />
+            </LinearLayout>
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff888888" android:gravity="center_vertical" android:id="@id/pfDlnaSwitcher" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/switchOff" android:layout_alignParentRight="true" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/pfLineControl" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/pfCtrlSwitch" android:text="@string/LineControl" style="@style/settingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/pfCtrlSwitchContent" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/switchOn" android:layout_alignParentRight="true" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/pfNotificationBackgroundBlock" style="@style/settingContainer_nobg">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/notificationColor" style="@style/settingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/pfNotificationBackgroundName" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/switchOn" android:layout_alignParentRight="true" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:layout_marginTop="10.0dip" android:text="@string/settingAbout" style="@style/categoryTitleTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/pfNewAttr" android:text="@string/pfNewAttr" style="@style/settingContainerTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/pfFaq" android:text="@string/pfFaq" style="@style/settingContainerTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/pfFeedback" android:text="@string/pfFeedback" style="@style/settingContainerTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/pfDomainChange" android:text="@string/pfDomainChange" style="@style/settingContainerTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/pfAboutAppContainer" style="@style/settingContainer_nobg">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/pfAboutApp" style="@style/settingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="10.0sp" android:textColor="#ffffffff" android:id="@id/pfAboutApp" android:background="@drawable/account_num_bg" android:paddingLeft="6.0dip" android:paddingTop="1.0dip" android:paddingRight="6.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/newAppVersion" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:textSize="16.0sp" android:textColor="@color/nightY1" android:gravity="center" android:id="@id/pfLogout" android:layout_marginTop="10.0dip" android:layout_marginBottom="43.0dip" android:text="@string/pfLogout" app:needApplyNormalTextThemeColor="true" style="@style/settingContainer_nobg" />
     </LinearLayout>
 </ScrollView>

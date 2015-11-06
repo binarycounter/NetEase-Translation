@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/live_intr_vote_note" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/artistImage" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="3.5dip" android:scaleType="centerCrop" app:placeholderImage="@drawable/placeholder_avatar_150" app:placeholderImageScaleType="centerCrop" app:actualImageScaleType="centerCrop" app:roundAsCircle="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#fffa7272" android:id="@id/msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/liveVotePlus1" />
+</LinearLayout>

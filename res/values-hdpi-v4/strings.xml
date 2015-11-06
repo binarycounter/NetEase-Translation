@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selectDefaultDownloadQuality">"选择默认下载音质
+可在账号-设置页修改"</string>
+    <string name="selectPlayQualityWithAllQualityPay">"选择在线播放音质
+当前歌曲为付费独享"</string>
+    <string name="selectPlayQualityWithHighQualityPay">"选择在线播放音质
+当前歌曲的高音质为付费独享"</string>
+</resources>

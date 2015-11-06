@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/friendListSection" android:paddingLeft="@dimen/findPageNormalPading" android:paddingRight="@dimen/findPageNormalPading" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textSize="13.0sp" android:textColor="#ff888888" android:id="@id/friendListSectionTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
-        <View android:layout_marginTop="4.0dip" style="@style/normalDivideLine" />
-    </LinearLayout>
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/realItemArea" android:background="@drawable/list_selector" android:paddingLeft="@dimen/findPageNormalPading" android:layout_width="fill_parent" android:layout_height="53.0dip" android:layout_below="@id/friendListSection">
-        <com.netease.cloudmusic.ui.VFaceImage android:id="@id/peopleImage" android:layout_width="41.0dip" android:layout_height="41.0dip" />
-        <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:id="@id/peopleName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:singleLine="true" android:layout_weight="1.0" />
-        <ImageView android:id="@id/sendMailBtn" android:background="@drawable/common_selector" android:layout_width="44.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/findPageNormalPading" android:src="@drawable/list_icn_msg" android:scaleType="centerInside" />
-    </LinearLayout>
-</RelativeLayout>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/realItemArea" android:paddingLeft="@dimen/findPageNormalPading" android:layout_width="fill_parent" android:layout_height="60.0dip" android:minHeight="60.0dip" app:bgPaddingLeft="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.VFaceImage android:id="@id/peopleImage" android:layout_width="46.0dip" android:layout_height="46.0dip" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="#ff333333" android:id="@id/peopleName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/sendMailBtn" android:background="@drawable/common_selector" android:layout_width="44.0dip" android:layout_height="fill_parent" android:src="@drawable/list_icn_msg" android:scaleType="centerInside" app:needApplyNormalDrawableColor="false" app:normalForegroundColor="#ffb2b2b2" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

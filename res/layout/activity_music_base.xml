@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/contentContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/musicContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/toolbarStub" android:layout="@layout/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+    </LinearLayout>
+    <include android:id="@id/minPlayerBar" layout="@layout/mini_player" />
+</FrameLayout>

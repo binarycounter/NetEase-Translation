@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="btn_letter">false</item>
+    <item type="drawable" name="btn_letter_red">false</item>
+    <item type="drawable" name="btn_login_line_dis">false</item>
+    <item type="drawable" name="calendar_body">false</item>
+    <item type="drawable" name="calendar_head">false</item>
+    <item type="drawable" name="calendar_mask">false</item>
+    <item type="drawable" name="discover_cover_shadow">false</item>
+    <item type="drawable" name="discover_icn_earphone">false</item>
+    <item type="drawable" name="guide_play_arr">false</item>
+    <item type="drawable" name="guide_play_hand">false</item>
+    <item type="drawable" name="i_btn_white">false</item>
+    <item type="drawable" name="i_btn_white_prs">false</item>
+    <item type="drawable" name="icn_update_arr">false</item>
+    <item type="drawable" name="rdi_guide_bg1">false</item>
+    <item type="drawable" name="rdi_icn_subscribe_unable">false</item>
+    <item type="drawable" name="tab_tag">false</item>
+</resources>

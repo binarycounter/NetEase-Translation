@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/collectedArtistItem" android:background="@drawable/list_selector_noline" android:layout_width="fill_parent" android:layout_height="@dimen/listItemHeight">
-        <com.netease.cloudmusic.ui.NetImageView android:id="@id/artistAvatar" android:background="@drawable/list_cover" android:padding="@dimen/playListCoverBgStrokeWidth" android:layout_width="@dimen/listImageSize" android:layout_height="@dimen/listImageSize" android:layout_marginLeft="@dimen/listLeftRightMargin" android:scaleType="centerCrop" />
-        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listImageTextMargin" android:layout_weight="1.0">
-            <TextView android:textSize="@dimen/listTextSize" android:textColor="@color/listTextColor" android:id="@id/artistName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-            <TextView android:textSize="@dimen/listSubTextSize" android:textColor="@color/listSubTextColor" android:id="@id/artistInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/listTextLineSpaceingSize" android:singleLine="true" />
-        </LinearLayout>
-        <include layout="@layout/expand_menu_toggle_btn" />
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/collectedArtistItem" android:layout_width="fill_parent" android:layout_height="@dimen/listItemHeight60" app:bgPaddingLeft="75.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/artistAvatar" android:padding="@dimen/playListCoverBgStrokeWidth" android:layout_width="@dimen/listImageSize" android:layout_height="@dimen/listImageSize" android:layout_marginLeft="@dimen/listLeftRightMargin" android:scaleType="centerCrop" app:placeholderImage="@drawable/placeholder_avatar_150" app:placeholderImageScaleType="centerCrop" app:actualImageScaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listImageTextMargin" android:layout_weight="1.0">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/listTextSize" android:textColor="@color/normalC3" android:id="@id/artistName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/listSubTextSize" android:textColor="@color/normalC5" android:id="@id/artistInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/listTextLineSpaceSize" android:singleLine="true" />
     </LinearLayout>
-    <include layout="@layout/light_divider" />
-    <com.netease.cloudmusic.ui.ArtistExpandCollapseMenu android:id="@id/artistItemMenu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-0.6700001dip" />
-</LinearLayout>
+    <include layout="@layout/song_menu_btn_layout" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

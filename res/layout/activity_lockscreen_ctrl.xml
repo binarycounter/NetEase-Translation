@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/padding10Dp" android:layout_marginBottom="0.0dip">
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/lockCtrlItem" style="@style/settingContainer_nobg">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/lockScreenNeedShow" android:layout_centerVertical="true" style="@style/settingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/linectrlSwitch" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="#ff888888" android:id="@id/lockScreenText" android:paddingLeft="@dimen/padding10Dp" android:paddingRight="@dimen/padding10Dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/lockScreenPattern" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/LockSwitch" android:paddingLeft="@dimen/padding10Dp" android:paddingRight="@dimen/padding10Dp" android:layout_width="fill_parent" android:layout_height="@dimen/lockScreenBtnHeight" android:layout_marginTop="20.0dip">
+            <LinearLayout android:gravity="center_horizontal" android:id="@id/lockScreenCloud" android:paddingTop="10.0dip" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:gravity="bottom|center" android:id="@id/cloudText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/cloudLock" />
+            </LinearLayout>
+            <View android:layout_width="20.0dip" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center_horizontal" android:id="@id/lockScreenSystem" android:paddingTop="10.0dip" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:gravity="bottom|center" android:id="@id/systemText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/systemLock" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="#ff888888" android:paddingLeft="@dimen/padding10Dp" android:paddingRight="@dimen/padding10Dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/lockscreenIndicate" android:lineSpacingExtra="8.0dip" />
+    </LinearLayout>
+</ScrollView>

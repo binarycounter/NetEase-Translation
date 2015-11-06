@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/mainActivityDecoView" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</RelativeLayout>
+<com.netease.cloudmusic.ui.HackyDrawerLayout android:id="@id/mainActivityContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/mainActivityRealContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:contentInsetStart="0.0dip" app:layout_scrollFlags="enterAlways|scroll" app:theme="@style/ToolbarStyle">
+            <ImageView android:id="@id/mainDrawerIcon" android:background="@drawable/toolbarItemBackground" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:src="@drawable/actionbar_menu" android:scaleType="centerInside" />
+            <android.support.design.widget.TabLayout android:layout_gravity="center" android:id="@id/mainActivityTab" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" app:tabIndicatorColor="@android:color/transparent" app:tabIndicatorHeight="0.0dip" app:tabMode="fixed" app:tabGravity="center" app:tabMinWidth="56.0dip" app:tabMaxWidth="56.0dip" app:tabPaddingStart="0.0dip" app:tabPaddingEnd="0.0dip" />
+        </android.support.v7.widget.Toolbar>
+        <FrameLayout android:id="@id/mainActivityViewPagerContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/mainActivityViewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+    <android.support.design.internal.ScrimInsetsFrameLayout android:layout_gravity="start" android:background="#ffffffff" android:fitsSystemWindows="false" android:layout_width="wrap_content" android:layout_height="fill_parent" app:insetForeground="#44000000">
+        <ListView android:layout_gravity="start" android:id="@id/mainActivityDrawerListView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:choiceMode="singleChoice" android:overScrollMode="never" />
+    </android.support.design.internal.ScrimInsetsFrameLayout>
+</com.netease.cloudmusic.ui.HackyDrawerLayout>

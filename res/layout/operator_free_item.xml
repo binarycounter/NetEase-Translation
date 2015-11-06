@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/operatorFreeSectionBlock" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/sectionHeight">
-        <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:id="@id/operatorFreeSectionName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listLeftRightMargin" />
-        <include layout="@layout/heavy_divider" />
-    </LinearLayout>
-    <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/operatorFreeName" android:background="@drawable/list_selector_noline" android:paddingLeft="@dimen/listLeftRightMargin" android:paddingRight="@dimen/listLeftRightMargin" android:layout_width="fill_parent" android:layout_height="@dimen/listItemHeight" android:singleLine="true" />
-    <include layout="@layout/light_divider" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/operatorFreeSectionName" android:layout_marginTop="@dimen/padding10Dp" style="@style/categoryTitleTv" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/operatorFreeName" android:focusable="true" style="@style/settingContainerTv" />
 </LinearLayout>

@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout style="@style/musicItemRealItemBgPadding15"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/index_section" />
-    <RelativeLayout android:id="@id/downloadedMusicItem" android:background="@drawable/list_selector_noline" android:layout_width="fill_parent" android:layout_height="@dimen/listItemHeight">
-        <RelativeLayout android:id="@id/playingMarkContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
-            <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listLeftRightMargin" layout="@layout/playing_mark" />
-            <CheckBox android:id="@id/checkedImage" android:background="@drawable/list_checkbox_bg" android:focusable="true" android:visibility="gone" android:layout_width="@dimen/listCheckboxWidth" android:layout_height="@dimen/listCheckboxHeight" android:layout_marginLeft="@dimen/listLeftRightMargin" android:button="@null" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
-        </RelativeLayout>
-        <include android:id="@id/expandMenuToggleBtn" layout="@layout/expand_menu_toggle_btn" />
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listLeftRightMargin" android:layout_toLeftOf="@id/expandMenuToggleBtn" android:layout_toRightOf="@id/playingMarkContainer" android:layout_centerVertical="true">
-            <com.netease.cloudmusic.ui.MusicItemContainer android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                <TextView android:textSize="@dimen/listTextSize" android:textColor="@color/listTextColor" android:id="@id/songName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
-                <ImageView android:id="@id/mvIcon" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-6.0dip" />
-            </com.netease.cloudmusic.ui.MusicItemContainer>
-            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/listTextLineSpaceingSize">
-                <ImageView android:id="@id/downloadIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/musicDownloadIconPadding" android:src="@drawable/list_icn_dld_ok" />
-                <TextView android:textSize="@dimen/listSubTextSize" android:textColor="@color/listSubTextColor" android:id="@id/songInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-            </LinearLayout>
-        </LinearLayout>
-        <include layout="@layout/light_divider" />
-    </RelativeLayout>
-    <com.netease.cloudmusic.ui.MusicExpandCollapseMenu android:id="@id/songMenu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-0.6700001dip" />
-</LinearLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" layout="@layout/playing_mark" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeCheckBox android:id="@id/checkedImage" android:background="@drawable/togglebutton_bg" android:focusable="true" android:visibility="gone" android:layout_width="@dimen/listCheckboxWidth" android:layout_height="@dimen/listCheckboxHeight" android:layout_marginRight="15.0dip" android:button="@null" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <include layout="@layout/song_name_and_info_area_layout" />
+    <include layout="@layout/song_menu_btn_layout" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

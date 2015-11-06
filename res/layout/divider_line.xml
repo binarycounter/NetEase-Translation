@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLine android:background="@color/listDividerColor" android:layout_width="fill_parent" android:layout_height="0.33000004dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

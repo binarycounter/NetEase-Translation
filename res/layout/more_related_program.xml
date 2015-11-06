@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:id="@id/moreRelatedPrograms" android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="59.329987dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/moreRelatedProgramsTv" android:layout_width="wrap_content" android:layout_height="59.329987dip" android:text="@string/moreRelatedPrograms" android:drawableRight="@drawable/list_icn_arr_packup" />
-</LinearLayout>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center" android:id="@id/moreRelatedPrograms" android:layout_width="fill_parent" android:layout_height="59.329987dip" app:bgType="noline"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="16.0sp" android:textColor="@color/normalC3" android:gravity="center" android:id="@id/moreRelatedProgramsTv" android:layout_width="wrap_content" android:layout_height="59.329987dip" android:text="@string/moreRelatedPrograms" android:drawableRight="@drawable/list_icn_arr_packup" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

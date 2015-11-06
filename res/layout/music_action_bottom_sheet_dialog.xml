@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.BottomSheetDialog.ClosableSlidingLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.BottomSheetDialog.BottomSheetListView android:id="@id/bottomSheetListview" style="?bs_listStyle" />
+</com.netease.cloudmusic.ui.BottomSheetDialog.ClosableSlidingLayout>

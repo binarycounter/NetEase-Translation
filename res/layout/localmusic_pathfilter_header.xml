@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:text="@string/localMusicDurationFilter" style="@style/categoryTitleTv" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout app:bgPaddingLeft="0.0dip" app:bgType="noline" style="@style/settingContainer">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/localMusicScanDesc" android:layout_weight="1.0" style="@style/settingContentTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/localmusicDurationFilterBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/settingCheckbox" />
+    </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:layout_marginTop="@dimen/padding10Dp" android:text="@string/localMusicFolderFilter" style="@style/categoryTitleTv" />
+</LinearLayout>

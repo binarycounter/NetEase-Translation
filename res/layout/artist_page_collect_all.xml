@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/artistCollectAll" android:background="@drawable/list_selector" android:paddingLeft="13.299988dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/collectHot50Song" android:shadowColor="#ffffffff" android:shadowDy="1.0" android:shadowRadius="0.5" android:drawableLeft="@drawable/list_icn_fav_red" android:drawablePadding="6.6999817dip" />
-</LinearLayout>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:bgPaddingLeft="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="16.0sp" android:textColor="@color/normalC3" android:gravity="center_vertical" android:id="@id/artistCollectAll" android:background="@drawable/list_selector" android:paddingLeft="15.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/collectHot50Song" android:drawableLeft="@drawable/list_icn_fav_red" android:drawablePadding="15.0dip" app:needApplyDrawableColor="true" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

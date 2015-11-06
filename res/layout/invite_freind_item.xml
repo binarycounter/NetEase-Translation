@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/index_section" />
-    <RelativeLayout android:id="@id/inviteFreindItem" android:background="@drawable/list_selector_noline" android:layout_width="fill_parent" android:layout_height="@dimen/listItemHeight">
-        <LinearLayout android:id="@id/inviteFreindItemActionBlock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
-            <TextView android:textSize="12.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/inviteFreindItemAction" android:visibility="gone" android:layout_width="55.0dip" android:layout_height="25.0dip" android:layout_marginRight="@dimen/listLeftRightMargin" />
-            <TextView android:textSize="12.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/inviteFreindItemFollowAction" android:background="@drawable/follow_btn_selector" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginRight="@dimen/listLeftRightMargin" android:drawableLeft="@drawable/btn_icn_add" android:drawablePadding="4.0dip" />
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/common_section" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/inviteFreindItem" android:layout_width="fill_parent" android:layout_height="@dimen/listItemHeight60" app:bgPaddingLeft="@dimen/padding10Dp">
+        <LinearLayout android:id="@id/inviteFreindItemActionBlock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/listLeftRightMargin" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/inviteFreindItemAction" android:visibility="gone" android:layout_width="55.0dip" android:layout_height="25.0dip" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/inviteFreindItemFollowAction" android:background="@drawable/follow_btn_selector" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="55.0dip" android:layout_height="25.0dip" android:drawableLeft="@drawable/btn_icn_add" android:drawablePadding="4.0dip" app:nightSpecialForegroundColor="@color/nightY1" app:needApplyDrawableColor="true" />
         </LinearLayout>
         <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listLeftRightMargin" android:layout_toLeftOf="@id/inviteFreindItemActionBlock" android:layout_centerVertical="true">
-            <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:id="@id/inviteFreindItemName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-            <TextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/inviteFreindItemNickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/listTextLineSpaceingSize" android:singleLine="true" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="14.0sp" android:textColor="#ff333333" android:id="@id/inviteFreindItemName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/inviteFreindItemNickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/listTextLineSpaceSize" android:singleLine="true" />
         </LinearLayout>
-        <include layout="@layout/light_divider" />
-    </RelativeLayout>
+    </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
 </LinearLayout>

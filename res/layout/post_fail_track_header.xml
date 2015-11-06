@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/postFailTrackHeader" android:background="@drawable/list_selector_nopadding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:gravity="center" android:layout_gravity="center" android:id="@id/trackFailHint" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hasPostFailedTracks" android:drawableLeft="@drawable/nact_icn_err" android:drawablePadding="3.0dip" android:layout_centerInParent="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/nact_icn_arr" android:layout_toRightOf="@id/trackFailHint" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

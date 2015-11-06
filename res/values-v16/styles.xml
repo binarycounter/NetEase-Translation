@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="trackPicBasicStyle">
+        <item name="android:background">@drawable/track_pic_shape</item>
+        <item name="android:padding">@dimen/picPadding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:cropToPadding">true</item>
+    </style>
+    <style name="Text.Headline" parent="@style/Text">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/theme_color_c5_888</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Text.Subhead" parent="@style/Text">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>

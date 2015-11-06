@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/MainPage.GroupContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include style="@style/MainPage.LinearLayoutGridLeft" layout="@layout/main_pager_rcmd_new_music_item" />
+    <include style="@style/MainPage.LinearLayoutGridMiddle" layout="@layout/main_pager_rcmd_new_music_item" />
+    <include style="@style/MainPage.LinearLayoutGridRight" layout="@layout/main_pager_rcmd_new_music_item" />
+</LinearLayout>

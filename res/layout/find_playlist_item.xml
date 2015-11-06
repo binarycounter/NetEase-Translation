@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.netease.cloudmusic.ui.SquareRelativeLayout android:id="@id/playListContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <com.netease.cloudmusic.ui.NetImageView android:id="@id/playListCover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
-        <ImageView android:id="@id/playListItemCoverImg" android:background="@drawable/index_list_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pl_or_album_item_mask" />
-        <TextView android:id="@id/playListNumber" android:paddingTop="4.0dip" android:paddingRight="4.6999817dip" android:layout_alignParentRight="true" style="@style/listenNumStyle" />
-        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/playListCreatorNameContainer" android:padding="6.6999817dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
-            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/playListCreatorName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="2.0dip" />
-        </LinearLayout>
-    </com.netease.cloudmusic.ui.SquareRelativeLayout>
-    <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/findPlayListName" android:paddingTop="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/playListContainer" />
+<RelativeLayout android:id="@id/playListContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/playListCover" android:layout_width="wrap_content" android:layout_height="wrap_content" fresco:placeholderImage="@drawable/placeholder_disk_660" fresco:placeholderImageScaleType="centerCrop" fresco:actualImageScaleType="centerCrop" fresco:overlayImage="@drawable/cover_border_mask_full" fresco:pressedStateOverlayImage="@color/theme_color_cover_dark" />
+    <TextView android:id="@id/playListNumber" android:paddingTop="2.0dip" android:paddingRight="4.6999817dip" android:layout_alignParentRight="true" style="@style/listenNumStyle" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/theme_color_fff" android:ellipsize="end" android:id="@id/playListCreatorName" android:padding="6.6999817dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="2.0dip" android:layout_alignBottom="@id/playListCover" />
+    <include layout="@layout/high_quality_playlist_icon_big" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/findPlayListName" android:paddingTop="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/playListCover" />
 </RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:id="@id/picture" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:scaleType="centerCrop" class="com.netease.cloudmusic.adapter.PictureChooserAdapter$RecyclingImageView" />
+    <View android:id="@id/cover" android:background="@drawable/picture_cover_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" />
+    <LinearLayout android:id="@id/checkBtn" android:padding="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/picture" android:layout_alignRight="@id/picture">
+        <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/checkText" android:layout_width="26.0dip" android:layout_height="26.0dip" />
+    </LinearLayout>
+</RelativeLayout>

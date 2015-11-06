@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="horizontal" android:paddingLeft="@dimen/md_dialog_frame_margin" android:paddingTop="@dimen/md_simplelistitem_padding_top" android:paddingRight="@dimen/md_dialog_frame_margin" android:paddingBottom="@dimen/md_simplelistitem_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/md_listitem_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/menuIcon" android:visibility="gone" android:layout_width="@dimen/md_simplelist_icon" android:layout_height="@dimen/md_simplelist_icon" android:layout_marginRight="@dimen/md_simplelist_icon_margin" android:scaleType="fitXY" />
+        <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/menuCover" android:visibility="gone" android:layout_width="@dimen/md_simplelist_icon" android:layout_height="@dimen/md_simplelist_icon" android:layout_marginRight="@dimen/md_simplelist_icon_margin" fresco:placeholderImage="@drawable/placeholder_avatar_138" fresco:placeholderImageScaleType="centerCrop" fresco:actualImageScaleType="centerCrop" />
+    </FrameLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/md_listitem_textsize" android:textColor="#ff333333" android:id="@id/menuTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" fresco:nightSpecialForegroundColor="@color/nightY3" />
+    <ToggleButton android:id="@id/menuSelectedIcon" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="18.0dip" android:layout_height="18.0dip" android:textOn="" android:textOff="" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/md_listitem_textsize" android:textColor="#ff333333" android:id="@id/menuHintRight" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" fresco:nightSpecialForegroundColor="@color/nightY3" />
+</LinearLayout>

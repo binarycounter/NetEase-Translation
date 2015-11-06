@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:background="@drawable/list_selector_noline" android:paddingLeft="@dimen/padding10Dp" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bgPaddingLeft="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/creamPlaylistImageContainer" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerVertical="true">
+        <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/creamPlaylistCover" android:background="@drawable/list_cover" android:layout_width="@dimen/creamPlaylistImgCoverWidth" android:layout_height="@dimen/creamPlaylistImgCoverWidth" app:placeholderImage="@drawable/placeholder_disk_180" app:placeholderImageScaleType="centerCrop" app:overlayImage="@drawable/cover_border_mask_top" app:pressedStateOverlayImage="@color/theme_color_cover_dark" />
+        <include layout="@layout/high_quality_playlist_icon_big" />
+        <TextView android:id="@id/creamPlayListNumber" android:paddingTop="2.0dip" android:paddingRight="4.0dip" android:layout_alignRight="@id/creamPlaylistCover" android:layout_alignParentTop="true" style="@style/listenNumStyle" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/creamPlaylistAllText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listImageTextMargin" android:layout_toRightOf="@id/creamPlaylistImageContainer">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="14.0sp" android:textColor="#ff333333" android:ellipsize="end" android:layout_gravity="top" android:id="@id/creamPlaylistName" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:maxLines="2" android:lineSpacingExtra="4.0sp" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="10.0sp" android:textColor="#ff888888" android:ellipsize="end" android:gravity="center|left" android:id="@id/creamPlaylistCreatorName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="2.0dip" android:layout_alignLeft="@id/creamPlaylistAllText" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="#ff666666" android:ellipsize="end" android:gravity="center|left" android:id="@id/creamPlaylistInfo" android:paddingTop="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

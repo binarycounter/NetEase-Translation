@@ -1,51 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="id" name="abs__home" />
-    <item type="id" name="abs__up" />
-    <item type="id" name="abs__action_menu_divider" />
-    <item type="id" name="abs__action_menu_presenter" />
-    <item type="id" name="abs__progress_circular" />
-    <item type="id" name="abs__progress_horizontal" />
+    <item type="id" name="actionBtn" />
+    <item type="id" name="action_bar_activity_content" />
+    <item type="id" name="action_bar_spinner" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="adBanner" />
+    <item type="id" name="bs_more" />
     <item type="id" name="drag_handle" />
-    <item type="id" name="expandable_text" />
     <item type="id" name="expand_collapse_img" />
+    <item type="id" name="expandable_text" />
+    <item type="id" name="home" />
+    <item type="id" name="item_touch_helper_previous_elevation" />
+    <item type="id" name="mainPagerGridLeft" />
+    <item type="id" name="mainPagerGridMiddle" />
+    <item type="id" name="mainPagerGridRight" />
+    <item type="id" name="musicListItemContainer" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="split_action_bar" />
+    <item type="id" name="statusBarView" />
+    <item type="id" name="statusBarViewForActionMode" />
+    <item type="id" name="statusBarViewForFragment" />
     <item type="id" name="textview_content" />
     <item type="id" name="textview_tag" />
-    <item type="id" name="actionBtn" />
-    <item type="id" name="abs__action_bar_title">false</item>
-    <item type="id" name="abs__action_bar_subtitle">false</item>
-    <item type="id" name="abs__imageButton">false</item>
-    <item type="id" name="abs__textButton">false</item>
-    <item type="id" name="abs__action_mode_close_button">false</item>
-    <item type="id" name="abs__activity_chooser_view_content">false</item>
-    <item type="id" name="abs__expand_activities_button">false</item>
-    <item type="id" name="abs__image">false</item>
-    <item type="id" name="abs__default_activity_button">false</item>
-    <item type="id" name="abs__list_item">false</item>
-    <item type="id" name="abs__icon">false</item>
-    <item type="id" name="abs__title">false</item>
-    <item type="id" name="abs__checkbox">false</item>
-    <item type="id" name="abs__shortcut">false</item>
-    <item type="id" name="abs__radio">false</item>
-    <item type="id" name="abs__action_bar_container">false</item>
-    <item type="id" name="abs__action_bar">false</item>
-    <item type="id" name="abs__action_context_bar">false</item>
-    <item type="id" name="abs__content">false</item>
-    <item type="id" name="abs__split_action_bar">false</item>
-    <item type="id" name="abs__action_mode_bar_stub">false</item>
-    <item type="id" name="abs__action_mode_bar">false</item>
+    <item type="id" name="up" />
+    <item type="id" name="view_offset_helper" />
+    <item type="id" name="action_bar_title">false</item>
+    <item type="id" name="action_bar_subtitle">false</item>
+    <item type="id" name="action_mode_close_button">false</item>
+    <item type="id" name="activity_chooser_view_content">false</item>
+    <item type="id" name="expand_activities_button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="default_activity_button">false</item>
+    <item type="id" name="list_item">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="parentPanel">false</item>
+    <item type="id" name="topPanel">false</item>
+    <item type="id" name="title_template">false</item>
+    <item type="id" name="alertTitle">false</item>
+    <item type="id" name="contentPanel">false</item>
+    <item type="id" name="scrollView">false</item>
+    <item type="id" name="textSpacerNoButtons">false</item>
+    <item type="id" name="customPanel">false</item>
+    <item type="id" name="custom">false</item>
+    <item type="id" name="buttonPanel">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="action_bar_root">false</item>
+    <item type="id" name="action_mode_bar_stub">false</item>
+    <item type="id" name="action_mode_bar">false</item>
+    <item type="id" name="decor_content_parent">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_context_bar">false</item>
     <item type="id" name="edit_query">false</item>
-    <item type="id" name="abs__search_bar">false</item>
-    <item type="id" name="abs__search_badge">false</item>
-    <item type="id" name="abs__search_button">false</item>
-    <item type="id" name="abs__search_edit_frame">false</item>
-    <item type="id" name="abs__search_mag_icon">false</item>
-    <item type="id" name="abs__search_plate">false</item>
-    <item type="id" name="abs__search_src_text">false</item>
-    <item type="id" name="abs__search_close_btn">false</item>
-    <item type="id" name="abs__submit_area">false</item>
-    <item type="id" name="abs__search_go_btn">false</item>
-    <item type="id" name="abs__search_voice_btn">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_badge">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_mag_icon">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="search_close_btn">false</item>
+    <item type="id" name="submit_area">false</item>
+    <item type="id" name="search_go_btn">false</item>
+    <item type="id" name="search_voice_btn">false</item>
+    <item type="id" name="select_dialog_listview">false</item>
     <item type="id" name="preferenceScrollView">false</item>
     <item type="id" name="appIcon">false</item>
     <item type="id" name="appVersion">false</item>
@@ -54,11 +78,13 @@
     <item type="id" name="appNewVersionNumHint">false</item>
     <item type="id" name="appNewVersionNum">false</item>
     <item type="id" name="pfUserSatisfaction">false</item>
-    <item type="id" name="pfIntroduce">false</item>
     <item type="id" name="pfAppRaise">false</item>
     <item type="id" name="serviceLink">false</item>
+    <item type="id" name="managementDetailRulesLink">false</item>
     <item type="id" name="add2PlaylistHeader">false</item>
     <item type="id" name="myCreatePlayList">false</item>
+    <item type="id" name="dragSortMainPagerOrderList">false</item>
+    <item type="id" name="playListContainer">false</item>
     <item type="id" name="albumFragment">false</item>
     <item type="id" name="container">false</item>
     <item type="id" name="applyForRadioFragment">false</item>
@@ -67,14 +93,13 @@
     <item type="id" name="artistHeader">false</item>
     <item type="id" name="artistBackground">false</item>
     <item type="id" name="subscribeBtn">false</item>
-    <item type="id" name="artistTab">false</item>
-    <item type="id" name="artistCategory">false</item>
-    <item type="id" name="list">false</item>
+    <item type="id" name="profileHomePageBtn">false</item>
+    <item type="id" name="pagerListview">false</item>
     <item type="id" name="atSomeBodyFragment">false</item>
+    <item type="id" name="contentContainer">false</item>
     <item type="id" name="bindCellphoneNum">false</item>
     <item type="id" name="account">false</item>
     <item type="id" name="password">false</item>
-    <item type="id" name="bindSettingheadBlock">false</item>
     <item type="id" name="bindSettingLoginBlock">false</item>
     <item type="id" name="bindSettingLoginIcon">false</item>
     <item type="id" name="bindSettingLoginState">false</item>
@@ -132,11 +157,11 @@
     <item type="id" name="otherCacheNum">false</item>
     <item type="id" name="autoClearCache">false</item>
     <item type="id" name="autoClearCacheTxt">false</item>
-    <item type="id" name="textView1">false</item>
+    <item type="id" name="com.netease.cloudmusic.theme.ui.CustomThemeTextView1">false</item>
     <item type="id" name="autoClearCacheCB">false</item>
     <item type="id" name="collectedArtistContainer">false</item>
     <item type="id" name="collectedMVList">false</item>
-    <item type="id" name="collectedRadioList">false</item>
+    <item type="id" name="collectedRadiosList">false</item>
     <item type="id" name="commentFragment">false</item>
     <item type="id" name="shareImg">false</item>
     <item type="id" name="remainCount">false</item>
@@ -149,8 +174,20 @@
     <item type="id" name="commonSubjectCommentBtn">false</item>
     <item type="id" name="commonSubjectCommentCount">false</item>
     <item type="id" name="commonSubjectWebview">false</item>
+    <item type="id" name="playlistCreamFragment">false</item>
     <item type="id" name="djTopListFragment">false</item>
+    <item type="id" name="pfDlnaArea">false</item>
+    <item type="id" name="pfDlnaToggleButton">false</item>
+    <item type="id" name="dlnaIntro">false</item>
+    <item type="id" name="goToSelectDlnaDevice">false</item>
+    <item type="id" name="downloadNormal">false</item>
+    <item type="id" name="downloadHigh">false</item>
+    <item type="id" name="downloadHigher">false</item>
+    <item type="id" name="downloadLosslessDesc">false</item>
+    <item type="id" name="downloadLossless">false</item>
+    <item type="id" name="editCommentContentReal">false</item>
     <item type="id" name="editCommentContent">false</item>
+    <item type="id" name="editCommentContentBottomBar">false</item>
     <item type="id" name="atBtn">false</item>
     <item type="id" name="emotionBtn">false</item>
     <item type="id" name="emotionView">false</item>
@@ -159,11 +196,9 @@
     <item type="id" name="editPlayListFragment">false</item>
     <item type="id" name="embedBrowserContentView">false</item>
     <item type="id" name="embedBrowserWebview">false</item>
-    <item type="id" name="embedBrowserControlPanel">false</item>
-    <item type="id" name="embedBrowserPreBtn">false</item>
-    <item type="id" name="embedBrowserNextBtn">false</item>
-    <item type="id" name="embedBrowserRefreshToggle">false</item>
-    <item type="id" name="scrollView">false</item>
+    <item type="id" name="reload">false</item>
+    <item type="id" name="toolbar">false</item>
+    <item type="id" name="progressBar">false</item>
     <item type="id" name="typeint">false</item>
     <item type="id" name="playGroup">false</item>
     <item type="id" name="functionBtn">false</item>
@@ -182,6 +217,12 @@
     <item type="id" name="editForwardContent">false</item>
     <item type="id" name="atSomebodyIcon">false</item>
     <item type="id" name="emotionIcon">false</item>
+    <item type="id" name="position">false</item>
+    <item type="id" name="origin">false</item>
+    <item type="id" name="download">false</item>
+    <item type="id" name="positionTextView">false</item>
+    <item type="id" name="imageViewOriginal">false</item>
+    <item type="id" name="imageDownload">false</item>
     <item type="id" name="importMusicFragment">false</item>
     <item type="id" name="introduceViewPager">false</item>
     <item type="id" name="loginContainer">false</item>
@@ -192,28 +233,115 @@
     <item type="id" name="bundleInstall">false</item>
     <item type="id" name="bundleInstallText">false</item>
     <item type="id" name="inviteFriendFragmentWraper">false</item>
+    <item type="id" name="lineCtrlItem">false</item>
+    <item type="id" name="linectrlSwitch">false</item>
+    <item type="id" name="profileListenRankLimit">false</item>
+    <item type="id" name="liveContentContainer">false</item>
+    <item type="id" name="videoBlock">false</item>
+    <item type="id" name="videoView">false</item>
+    <item type="id" name="barrageView">false</item>
+    <item type="id" name="infoFlipper">false</item>
+    <item type="id" name="infoTitle">false</item>
+    <item type="id" name="infoSubTitle">false</item>
+    <item type="id" name="loadFailView">false</item>
+    <item type="id" name="loadingView">false</item>
+    <item type="id" name="loadingTxt">false</item>
+    <item type="id" name="liveOverPic">false</item>
+    <item type="id" name="liveMask">false</item>
+    <item type="id" name="bufferingIndicator">false</item>
+    <item type="id" name="bufferingText">false</item>
+    <item type="id" name="menuBar">false</item>
+    <item type="id" name="titleContainer">false</item>
+    <item type="id" name="videoBackBtn">false</item>
+    <item type="id" name="videoTitle">false</item>
+    <item type="id" name="videoSubTitle">false</item>
+    <item type="id" name="switchScreenFullBtn">false</item>
+    <item type="id" name="videoShareBtn">false</item>
+    <item type="id" name="barrageEditBlock">false</item>
+    <item type="id" name="backBtn">false</item>
+    <item type="id" name="postBtn">false</item>
+    <item type="id" name="barrageEditContainer">false</item>
+    <item type="id" name="barrageEdit">false</item>
+    <item type="id" name="colorWhiteBtn">false</item>
+    <item type="id" name="colorBlueBtn">false</item>
+    <item type="id" name="colorPinkBtn">false</item>
+    <item type="id" name="colorYellowBtn">false</item>
+    <item type="id" name="colorGreenBtn">false</item>
+    <item type="id" name="colorPurpleBtn">false</item>
+    <item type="id" name="colorRedBtn">false</item>
+    <item type="id" name="controlBar">false</item>
+    <item type="id" name="barrageEditBtn">false</item>
+    <item type="id" name="barrageToggleBtn">false</item>
+    <item type="id" name="videoQualityBtn">false</item>
+    <item type="id" name="fullScreenBtn2">false</item>
+    <item type="id" name="supportArtistContainer">false</item>
+    <item type="id" name="fullScreenBtn">false</item>
+    <item type="id" name="switchScreenBtn">false</item>
+    <item type="id" name="voteContainer">false</item>
+    <item type="id" name="voteBar">false</item>
+    <item type="id" name="voteFlag">false</item>
+    <item type="id" name="voteRed">false</item>
+    <item type="id" name="voteWhite">false</item>
+    <item type="id" name="contentFlipper">false</item>
+    <item type="id" name="videoTab">false</item>
+    <item type="id" name="viewPagerContainer">false</item>
+    <item type="id" name="videoDetailViewPager">false</item>
+    <item type="id" name="liveCommentAction">false</item>
+    <item type="id" name="supportIcon">false</item>
+    <item type="id" name="commentEditView">false</item>
+    <item type="id" name="commentSendBtn">false</item>
+    <item type="id" name="rightBar">false</item>
+    <item type="id" name="supportFullIcon">false</item>
+    <item type="id" name="voteBtn">false</item>
+    <item type="id" name="voteLeftCount">false</item>
+    <item type="id" name="videoQualityWindowContainer">false</item>
+    <item type="id" name="mv_quality_window">false</item>
     <item type="id" name="loadingLogo">false</item>
     <item type="id" name="loadingCopyRight">false</item>
     <item type="id" name="bdLogo">false</item>
-    <item type="id" name="mainActivityDecoView">false</item>
+    <item type="id" name="skipBtn">false</item>
+    <item type="id" name="selectBtn">false</item>
+    <item type="id" name="allWindowLayout">false</item>
+    <item type="id" name="albumImage">false</item>
+    <item type="id" name="lockScreenCurrentTime">false</item>
+    <item type="id" name="closeDeadtime">false</item>
+    <item type="id" name="lockScreenDate">false</item>
+    <item type="id" name="musicName">false</item>
+    <item type="id" name="artistName">false</item>
+    <item type="id" name="lockScreenLyric">false</item>
+    <item type="id" name="lockScreenControlPanel">false</item>
+    <item type="id" name="rawTranslateLyric">false</item>
+    <item type="id" name="translatedLockScreenLyric">false</item>
+    <item type="id" name="lockSlider">false</item>
+    <item type="id" name="trashButton">false</item>
+    <item type="id" name="lockScreenPre">false</item>
+    <item type="id" name="lockScreenPlay">false</item>
+    <item type="id" name="lockScreenNext">false</item>
+    <item type="id" name="praiseButton">false</item>
+    <item type="id" name="starButton">false</item>
+    <item type="id" name="lockCtrlItem">false</item>
+    <item type="id" name="lockScreenText">false</item>
+    <item type="id" name="LockSwitch">false</item>
+    <item type="id" name="lockScreenCloud">false</item>
+    <item type="id" name="cloudText">false</item>
+    <item type="id" name="lockScreenSystem">false</item>
+    <item type="id" name="systemText">false</item>
+    <item type="id" name="mainActivityContainer">false</item>
+    <item type="id" name="mainActivityRealContainer">false</item>
+    <item type="id" name="mainDrawerIcon">false</item>
+    <item type="id" name="mainActivityTab">false</item>
+    <item type="id" name="mainActivityViewPagerContainer">false</item>
+    <item type="id" name="mainActivityViewPager">false</item>
+    <item type="id" name="mainActivityDrawerListView">false</item>
     <item type="id" name="musicContainer">false</item>
     <item type="id" name="minPlayerBar">false</item>
+    <item type="id" name="toolbarStub">false</item>
     <item type="id" name="musicListFragment">false</item>
-    <item type="id" name="onlineAuto">false</item>
-    <item type="id" name="onlineNormal">false</item>
-    <item type="id" name="onlineHigher">false</item>
-    <item type="id" name="onlineHighest">false</item>
-    <item type="id" name="downloadGroup">false</item>
-    <item type="id" name="downloadNormal">false</item>
-    <item type="id" name="downloadHigher">false</item>
-    <item type="id" name="downloadHighest">false</item>
-    <item type="id" name="videoContainer">false</item>
-    <item type="id" name="videoView">false</item>
     <item type="id" name="mvMask">false</item>
     <item type="id" name="videoInfo">false</item>
+    <item type="id" name="videoInfoProgressBar">false</item>
+    <item type="id" name="videoInfoTextView">false</item>
     <item type="id" name="rePlayArea">false</item>
-    <item type="id" name="loadingView">false</item>
-    <item type="id" name="loadFailView">false</item>
     <item type="id" name="volumeToast">false</item>
     <item type="id" name="volumePercent">false</item>
     <item type="id" name="fastForwardToast">false</item>
@@ -221,32 +349,31 @@
     <item type="id" name="fastForwardTotalTime">false</item>
     <item type="id" name="fastForwardIcon">false</item>
     <item type="id" name="fastForwardProgress">false</item>
-    <item type="id" name="menuBar">false</item>
     <item type="id" name="mvTitleContainer">false</item>
     <item type="id" name="mvBackBtn">false</item>
     <item type="id" name="mvTitle">false</item>
     <item type="id" name="mvSubTitile">false</item>
     <item type="id" name="mvSubscribeBtn">false</item>
+    <item type="id" name="mvDownloadBtn">false</item>
     <item type="id" name="mvShareBtn">false</item>
     <item type="id" name="mvQualityWindowContainer">false</item>
-    <item type="id" name="mv_quality_window">false</item>
     <item type="id" name="mediaController">false</item>
     <item type="id" name="mvTab">false</item>
     <item type="id" name="mvDetailViewPager">false</item>
     <item type="id" name="kitkatDownloadChange">false</item>
     <item type="id" name="kitkatDownloadChangePrompt">false</item>
     <item type="id" name="kitkatDownloadChangeClose">false</item>
-    <item type="id" name="downloadManagerTab">false</item>
     <item type="id" name="downloadManagerViewPager">false</item>
     <item type="id" name="myPrivateCloudFragment">false</item>
     <item type="id" name="myRecentMusicFragment">false</item>
-    <item type="id" name="newAlbumFragment">false</item>
     <item type="id" name="shareSettingArea">false</item>
     <item type="id" name="shareSetting">false</item>
     <item type="id" name="allowSubArea">false</item>
     <item type="id" name="allowSubscriptionNotify">false</item>
     <item type="id" name="allowListShareArea">false</item>
     <item type="id" name="allowPlayListSharedNotify">false</item>
+    <item type="id" name="allowRadioSub">false</item>
+    <item type="id" name="allowRadioSubNotify">false</item>
     <item type="id" name="allowLikedArea">false</item>
     <item type="id" name="allowLikedNotify">false</item>
     <item type="id" name="allowNewFollowerArea">false</item>
@@ -254,17 +381,29 @@
     <item type="id" name="canbeSeenArea">false</item>
     <item type="id" name="canBeSeenText">false</item>
     <item type="id" name="peopleNearbyCanSeeMe">false</item>
+    <item type="id" name="trackRcmdArea">false</item>
+    <item type="id" name="trackRcmdText">false</item>
+    <item type="id" name="trackRcmdToggleBtn">false</item>
+    <item type="id" name="hearSongSettingArea">false</item>
+    <item type="id" name="hearSongSettingNotify">false</item>
+    <item type="id" name="allowPeopleCanSeeMyPlayRecordBtn">false</item>
     <item type="id" name="backgroundNotifyArea">false</item>
     <item type="id" name="backgroundNotify">false</item>
     <item type="id" name="backgroundNotifyBtn">false</item>
-    <item type="id" name="title">false</item>
-    <item type="id" name="content">false</item>
-    <item type="id" name="negtiveButton">false</item>
-    <item type="id" name="positiveButton">false</item>
+    <item type="id" name="onlineAutoDesc">false</item>
+    <item type="id" name="onlineAuto">false</item>
+    <item type="id" name="onlineNormal">false</item>
+    <item type="id" name="onlineHigh">false</item>
+    <item type="id" name="onlineHigher">false</item>
+    <item type="id" name="onlineLosslessDesc">false</item>
+    <item type="id" name="onlineLossless">false</item>
+    <item type="id" name="pictureList">false</item>
+    <item type="id" name="categoryBg">false</item>
+    <item type="id" name="toggleBtn">false</item>
+    <item type="id" name="previewBtn">false</item>
     <item type="id" name="playerAlbumCover">false</item>
     <item type="id" name="bigAlbumCover">false</item>
     <item type="id" name="artistImageContainer">false</item>
-    <item type="id" name="topShadow">false</item>
     <item type="id" name="playDiscBg">false</item>
     <item type="id" name="discSwitcher">false</item>
     <item type="id" name="disc0">false</item>
@@ -273,13 +412,6 @@
     <item type="id" name="smallAlbumCover1">false</item>
     <item type="id" name="discHead">false</item>
     <item type="id" name="miguMusicPlayerHint">false</item>
-    <item type="id" name="programViewContainer">false</item>
-    <item type="id" name="radioName">false</item>
-    <item type="id" name="programContainMusics">false</item>
-    <item type="id" name="programContainMusicsLine">false</item>
-    <item type="id" name="programName">false</item>
-    <item type="id" name="programOtherInfo">false</item>
-    <item type="id" name="programDesc">false</item>
     <item type="id" name="lrcViewContainer">false</item>
     <item type="id" name="lrcViewContainerInner">false</item>
     <item type="id" name="playCurLyricLine">false</item>
@@ -289,57 +421,74 @@
     <item type="id" name="lrc">false</item>
     <item type="id" name="lyricAdjustContainer">false</item>
     <item type="id" name="lyricAdjustDecreaseBtn">false</item>
-    <item type="id" name="lyricAdjustDecreaseTv">false</item>
     <item type="id" name="lyricAdjustRecoveryBtn">false</item>
-    <item type="id" name="lyricAdjustRecoveryTv">false</item>
     <item type="id" name="lyricAdjustIncreaseBtn">false</item>
-    <item type="id" name="lyricAdjustIncreaseTv">false</item>
     <item type="id" name="lyricAdjustSaveBtn">false</item>
-    <item type="id" name="lyricAdjustSaveImg">false</item>
     <item type="id" name="playCurLyricHint">false</item>
     <item type="id" name="musicOptionBtn">false</item>
     <item type="id" name="musicOptionContainer">false</item>
-    <item type="id" name="musicOptionLyricQfyBtn">false</item>
-    <item type="id" name="musicOptionQfyTv">false</item>
     <item type="id" name="musicOptionLyricAdjustBtn">false</item>
-    <item type="id" name="musicOptionAdjustTv">false</item>
+    <item type="id" name="musicOptionLine1">false</item>
+    <item type="id" name="musicOptionLyricQfyBtn">false</item>
+    <item type="id" name="musicOptionLine2">false</item>
     <item type="id" name="musicOptionLyricBugreportBtn">false</item>
-    <item type="id" name="musicOptionLyricBugreportTv">false</item>
+    <item type="id" name="musicOptionLine3">false</item>
     <item type="id" name="musicOptionSongBugreportBtn">false</item>
-    <item type="id" name="musicOptionLyricBugreportTv2">false</item>
     <item type="id" name="volumeSeekBarContainer">false</item>
     <item type="id" name="volumeSeekBar">false</item>
-    <item type="id" name="switchDiscGuide">false</item>
+    <item type="id" name="dlna">false</item>
     <item type="id" name="playerControlContainer">false</item>
-    <item type="id" name="playerControlContainer2">false</item>
+    <item type="id" name="musicMatchBtn">false</item>
+    <item type="id" name="musicOpContainer">false</item>
+    <item type="id" name="likeBtn">false</item>
+    <item type="id" name="downLoadBtn">false</item>
+    <item type="id" name="commentBtn">false</item>
+    <item type="id" name="commentCount">false</item>
+    <item type="id" name="moreBtn">false</item>
+    <item type="id" name="currentTime">false</item>
+    <item type="id" name="playSeekBar">false</item>
+    <item type="id" name="totalTime">false</item>
+    <item type="id" name="modeBtn">false</item>
+    <item type="id" name="preBtn">false</item>
+    <item type="id" name="playBtn">false</item>
+    <item type="id" name="nextBtn">false</item>
+    <item type="id" name="sourceName">false</item>
+    <item type="id" name="radioInfoContainer">false</item>
+    <item type="id" name="radioCover">false</item>
+    <item type="id" name="radioSubscribeBtn">false</item>
+    <item type="id" name="radioInfoTxtContainer">false</item>
+    <item type="id" name="radioName">false</item>
+    <item type="id" name="radioSubscribeCount">false</item>
+    <item type="id" name="programViewContainer">false</item>
+    <item type="id" name="radioName2">false</item>
+    <item type="id" name="programContainMusics">false</item>
+    <item type="id" name="programContainMusicsLine">false</item>
+    <item type="id" name="programName">false</item>
+    <item type="id" name="programOtherInfo">false</item>
+    <item type="id" name="programDesc">false</item>
+    <item type="id" name="praiseBtn">false</item>
+    <item type="id" name="praiseCount">false</item>
+    <item type="id" name="downloadBtn">false</item>
+    <item type="id" name="autoCloseBtn">false</item>
     <item type="id" name="radioRootView">false</item>
     <item type="id" name="smallAlbumCover">false</item>
-    <item type="id" name="musicName">false</item>
-    <item type="id" name="artistName">false</item>
-    <item type="id" name="playBtn">false</item>
-    <item type="id" name="likeBtn">false</item>
     <item type="id" name="trashBtn">false</item>
-    <item type="id" name="nextBtn">false</item>
-    <item type="id" name="radioPlayerSeekBarTimeContainer">false</item>
-    <item type="id" name="currentTime">false</item>
-    <item type="id" name="totalTime">false</item>
-    <item type="id" name="playSeekBar">false</item>
-    <item type="id" name="playListContainer">false</item>
     <item type="id" name="playListFragment">false</item>
+    <item type="id" name="playListSearchFragmentContainer">false</item>
     <item type="id" name="playlistExpertTagList">false</item>
     <item type="id" name="playlistExpertList">false</item>
     <item type="id" name="pMsgDetailFragment">false</item>
+    <item type="id" name="profileContainer">false</item>
     <item type="id" name="profileFragment">false</item>
     <item type="id" name="profileModifyFragment">false</item>
     <item type="id" name="programTopListFragment">false</item>
     <item type="id" name="programUploadList">false</item>
     <item type="id" name="publishProgramFragment">false</item>
-    <item type="id" name="radioCategoryListFragment">false</item>
     <item type="id" name="radioDetailFragment">false</item>
-    <item type="id" name="dayMusicFragment">false</item>
-    <item type="id" name="recommendFriendList">false</item>
-    <item type="id" name="recommendNewOk">false</item>
+    <item type="id" name="musicListContainer">false</item>
+    <item type="id" name="dailyRcmdMusicFragment">false</item>
     <item type="id" name="recordContainer">false</item>
+    <item type="id" name="recordContainerReal">false</item>
     <item type="id" name="recordView">false</item>
     <item type="id" name="recordOpContainer">false</item>
     <item type="id" name="startRecordAnim">false</item>
@@ -370,17 +519,19 @@
     <item type="id" name="localMusicMatchDoneToast">false</item>
     <item type="id" name="localMusicMatchDoneToast2">false</item>
     <item type="id" name="localMusicCloseBtn">false</item>
+    <item type="id" name="autoScanView">false</item>
+    <item type="id" name="scaning">false</item>
     <item type="id" name="upgradeView">false</item>
     <item type="id" name="upgradingText">false</item>
     <item type="id" name="localMusicUpgradeProcess">false</item>
     <item type="id" name="upgradeProcessBar">false</item>
     <item type="id" name="controlUpgradeCancelView">false</item>
+    <item type="id" name="topContainerLine">false</item>
     <item type="id" name="matchTab">false</item>
     <item type="id" name="matchViewPager">false</item>
     <item type="id" name="searchResult">false</item>
-    <item type="id" name="searchTabContainer">false</item>
-    <item type="id" name="searchTab">false</item>
-    <item type="id" name="searchPager">false</item>
+    <item type="id" name="searchActivityTab">false</item>
+    <item type="id" name="searchActivityViewPager">false</item>
     <item type="id" name="pfConnectOnlyInWIFIContainer">false</item>
     <item type="id" name="pfConnectOnlyInWIFIText">false</item>
     <item type="id" name="pfConnectOnlyInWIFI">false</item>
@@ -390,27 +541,13 @@
     <item type="id" name="pfDownloadOnlyInWIFIContainer">false</item>
     <item type="id" name="pfDownloadOnlyInWIFIText">false</item>
     <item type="id" name="pfDownloadOnlyInWIFI">false</item>
-    <item type="id" name="pfChangeFace">false</item>
-    <item type="id" name="newTheme">false</item>
-    <item type="id" name="pfFloatLyric">false</item>
-    <item type="id" name="pfFloatLyricText">false</item>
-    <item type="id" name="pfFloatLyricCb">false</item>
-    <item type="id" name="pfFloatLyricUnlock">false</item>
-    <item type="id" name="pfFloatLyricUnlockCb">false</item>
-    <item type="id" name="pfRemoteControlContainer">false</item>
-    <item type="id" name="pfRemoteControlToggleButton">false</item>
-    <item type="id" name="pfChinaUnicomUnLimitFolow">false</item>
-    <item type="id" name="chinaUnicomUnLimitFlowNew">false</item>
-    <item type="id" name="playlistImport">false</item>
-    <item type="id" name="pfConfigQualityContainer">false</item>
-    <item type="id" name="pfConfigQuality">false</item>
+    <item type="id" name="pfPlayOnLineTone">false</item>
+    <item type="id" name="pfOnLineTone">false</item>
+    <item type="id" name="pfOnLineToneContent">false</item>
+    <item type="id" name="pfDownloadTone">false</item>
+    <item type="id" name="pfDnTone">false</item>
+    <item type="id" name="pfDnToneContent">false</item>
     <item type="id" name="pfAudioEffect">false</item>
-    <item type="id" name="pfAutoCloseArea">false</item>
-    <item type="id" name="pfAutoClose">false</item>
-    <item type="id" name="pfAutoCloseContent">false</item>
-    <item type="id" name="pfLyricTranslate">false</item>
-    <item type="id" name="pfLyricTranslateText">false</item>
-    <item type="id" name="pfLyricTranslateCb">false</item>
     <item type="id" name="pfSetMusicDownloadDirectoryArea">false</item>
     <item type="id" name="pfSetMusicDownloadDirectory">false</item>
     <item type="id" name="pfSetMusicDownloadContent">false</item>
@@ -418,14 +555,44 @@
     <item type="id" name="accountTitle">false</item>
     <item type="id" name="pfSnsSetting">false</item>
     <item type="id" name="pfNotifySetting">false</item>
-    <item type="id" name="pfAboutAppContainer">false</item>
-    <item type="id" name="pfAboutApp">false</item>
+    <item type="id" name="pfFloatLyric">false</item>
+    <item type="id" name="pfFloatLyricText">false</item>
+    <item type="id" name="pfFloatLyricCb">false</item>
+    <item type="id" name="pfFloatLyricUnlock">false</item>
+    <item type="id" name="pfFloatLyricUnlockCb">false</item>
+    <item type="id" name="pfLyricTranslate">false</item>
+    <item type="id" name="pfLyricTranslateText">false</item>
+    <item type="id" name="pfLyricTranslateCb">false</item>
+    <item type="id" name="pfRemoteControlContainer">false</item>
+    <item type="id" name="pfLockLyric">false</item>
+    <item type="id" name="pfRemoteControlSwitch">false</item>
+    <item type="id" name="dlnaTitle">false</item>
+    <item type="id" name="pfDlnaSwitcher">false</item>
+    <item type="id" name="pfLineControl">false</item>
+    <item type="id" name="pfCtrlSwitch">false</item>
+    <item type="id" name="pfCtrlSwitchContent">false</item>
+    <item type="id" name="pfNotificationBackgroundBlock">false</item>
+    <item type="id" name="pfNotificationBackgroundName">false</item>
+    <item type="id" name="pfNewAttr">false</item>
+    <item type="id" name="pfFaq">false</item>
     <item type="id" name="pfFeedback">false</item>
     <item type="id" name="pfDomainChange">false</item>
+    <item type="id" name="pfAboutAppContainer">false</item>
+    <item type="id" name="pfAboutApp">false</item>
     <item type="id" name="pfLogout">false</item>
     <item type="id" name="shareFragment">false</item>
     <item type="id" name="share2FriendContainer">false</item>
     <item type="id" name="share2FriendListFragment">false</item>
+    <item type="id" name="shareImageStub">false</item>
+    <item type="id" name="shareImageContainer">false</item>
+    <item type="id" name="musicCover">false</item>
+    <item type="id" name="musicCoverMask">false</item>
+    <item type="id" name="musicCoverTag">false</item>
+    <item type="id" name="shareTitleOne">false</item>
+    <item type="id" name="shareTitleTwo">false</item>
+    <item type="id" name="shareTitleThree">false</item>
+    <item type="id" name="wxShareScrollView">false</item>
+    <item type="id" name="wxShareContainer">false</item>
     <item type="id" name="share2WeixinImageWrapper">false</item>
     <item type="id" name="share2WeixinImage">false</item>
     <item type="id" name="share2WeixinCover">false</item>
@@ -444,6 +611,8 @@
     <item type="id" name="verticalWeixinFriendText">false</item>
     <item type="id" name="inviteWeixinFriendCircleBtn">false</item>
     <item type="id" name="verticalWeixinCircleText">false</item>
+    <item type="id" name="yxShareScrollView">false</item>
+    <item type="id" name="yxShareContainer">false</item>
     <item type="id" name="share2YixinImageWrapper">false</item>
     <item type="id" name="share2YixinImage">false</item>
     <item type="id" name="share2YixinCover">false</item>
@@ -454,28 +623,41 @@
     <item type="id" name="share2YixinFriendCircleBtn">false</item>
     <item type="id" name="share2YixinFriendCircleText">false</item>
     <item type="id" name="panel">false</item>
+    <item type="id" name="target">false</item>
+    <item type="id" name="shareImageLrcFragment">false</item>
+    <item type="id" name="model">false</item>
+    <item type="id" name="palette">false</item>
+    <item type="id" name="thumbnail">false</item>
+    <item type="id" name="name">false</item>
+    <item type="id" name="size">false</item>
+    <item type="id" name="price">false</item>
+    <item type="id" name="button">false</item>
+    <item type="id" name="buttonImage">false</item>
+    <item type="id" name="buttonText">false</item>
+    <item type="id" name="divider">false</item>
+    <item type="id" name="desc">false</item>
+    <item type="id" name="list">false</item>
     <item type="id" name="themeList">false</item>
     <item type="id" name="topicFragment">false</item>
+    <item type="id" name="trackActivityFragment">false</item>
     <item type="id" name="trackDetailFragment">false</item>
     <item type="id" name="operatorFreeList">false</item>
+    <item type="id" name="uniqueResourceFragment">false</item>
     <item type="id" name="userTrackFragment">false</item>
-    <item type="id" name="tabPageIndicator">false</item>
-    <item type="id" name="tabShadow">false</item>
-    <item type="id" name="input">false</item>
-    <item type="id" name="closeBtn">false</item>
-    <item type="id" name="albumBigCover">false</item>
-    <item type="id" name="albumName">false</item>
-    <item type="id" name="albumBriefDesc">false</item>
+    <item type="id" name="commonTab">false</item>
+    <item type="id" name="detailContainer">false</item>
+    <item type="id" name="scroolInnerInfoArea">false</item>
+    <item type="id" name="plALBigCover">false</item>
     <item type="id" name="albumHeadContainer">false</item>
+    <item type="id" name="infoHeaderArea">false</item>
+    <item type="id" name="infoHeaderPlArea">false</item>
+    <item type="id" name="musicTitle">false</item>
+    <item type="id" name="creatorInfoBlock">false</item>
+    <item type="id" name="musicCreatorName">false</item>
+    <item type="id" name="musicUpdateTime">false</item>
     <item type="id" name="realItemArea">false</item>
-    <item type="id" name="albumImage">false</item>
+    <item type="id" name="albumName">false</item>
     <item type="id" name="albumInfo">false</item>
-    <item type="id" name="albumMenu">false</item>
-    <item type="id" name="songRank">false</item>
-    <item type="id" name="songRankPlay">false</item>
-    <item type="id" name="songName">false</item>
-    <item type="id" name="mvIcon">false</item>
-    <item type="id" name="songMenu">false</item>
     <item type="id" name="anonimousContainer">false</item>
     <item type="id" name="anonimousTitle">false</item>
     <item type="id" name="loginNowBtn">false</item>
@@ -505,28 +687,30 @@
     <item type="id" name="musicFavoriteBtn">false</item>
     <item type="id" name="recommendReason">false</item>
     <item type="id" name="bestmatchContainer">false</item>
-    <item type="id" name="image">false</item>
-    <item type="id" name="arr">false</item>
     <item type="id" name="avatar">false</item>
     <item type="id" name="removeBtn">false</item>
+    <item type="id" name="nickTv">false</item>
     <item type="id" name="nickname">false</item>
+    <item type="id" name="actionMenuDivider">false</item>
+    <item type="id" name="bs_list_item">false</item>
+    <item type="id" name="bs_list_image">false</item>
+    <item type="id" name="bs_list_title">false</item>
     <item type="id" name="province">false</item>
     <item type="id" name="city">false</item>
+    <item type="id" name="closeBtn">false</item>
     <item type="id" name="collectedArtistItem">false</item>
     <item type="id" name="artistAvatar">false</item>
     <item type="id" name="artistInfo">false</item>
-    <item type="id" name="artistItemMenu">false</item>
     <item type="id" name="collectedMVItem">false</item>
     <item type="id" name="mvCover">false</item>
     <item type="id" name="mvPlayCount">false</item>
     <item type="id" name="mvName">false</item>
-    <item type="id" name="mvInfo">false</item>
-    <item type="id" name="mvItemMenu">false</item>
+    <item type="id" name="downloadIcon">false</item>
+    <item type="id" name="info">false</item>
     <item type="id" name="collectedRadioItem">false</item>
-    <item type="id" name="radioCover">false</item>
     <item type="id" name="radioNewProgramCount">false</item>
     <item type="id" name="radioInfo">false</item>
-    <item type="id" name="radioItemMenu">false</item>
+    <item type="id" name="latestRadio">false</item>
     <item type="id" name="commentHeader">false</item>
     <item type="id" name="commentResImageBlock">false</item>
     <item type="id" name="commentResImage">false</item>
@@ -538,48 +722,78 @@
     <item type="id" name="commentNickname">false</item>
     <item type="id" name="commentSameCity">false</item>
     <item type="id" name="commentTime">false</item>
+    <item type="id" name="commentLikedContainer">false</item>
     <item type="id" name="commentLikedCount">false</item>
     <item type="id" name="commentLikedIcon">false</item>
     <item type="id" name="commentContent">false</item>
     <item type="id" name="commentOriginContent">false</item>
+    <item type="id" name="commonIntroducationRel">false</item>
+    <item type="id" name="commonIntroducationContainer">false</item>
+    <item type="id" name="commonIntroducationAlbumCover">false</item>
+    <item type="id" name="commonIntroducationImageView">false</item>
+    <item type="id" name="cancelImage">false</item>
+    <item type="id" name="commonIntroducationInfoRel">false</item>
+    <item type="id" name="commonIntroducationInfo">false</item>
+    <item type="id" name="commonIntroducationTitle">false</item>
+    <item type="id" name="commonIntroducationSubTitle">false</item>
+    <item type="id" name="commonIntroducationTextInfo">false</item>
+    <item type="id" name="commonIntroducationBtnTry">false</item>
+    <item type="id" name="commonPaySingleSong">false</item>
+    <item type="id" name="tabLayout">false</item>
+    <item type="id" name="indexSection">false</item>
     <item type="id" name="sectionName">false</item>
+    <item type="id" name="commonViewPager">false</item>
+    <item type="id" name="contributionListNum">false</item>
+    <item type="id" name="meIcon">false</item>
+    <item type="id" name="contributionFaceIcon">false</item>
+    <item type="id" name="contributionUserName">false</item>
+    <item type="id" name="contributionVoteCount">false</item>
+    <item type="id" name="creamPlaylistClassChooseView">false</item>
+    <item type="id" name="classification_tags_list">false</item>
+    <item type="id" name="playListHeaderIcon">false</item>
+    <item type="id" name="playListHeadTitle">false</item>
     <item type="id" name="playListCover">false</item>
     <item type="id" name="playListName">false</item>
-    <item type="id" name="downloadIcon">false</item>
     <item type="id" name="playListMusicCount">false</item>
     <item type="id" name="playListOverMaxCount">false</item>
-    <item type="id" name="contentContainer">false</item>
-    <item type="id" name="buttonContainer">false</item>
-    <item type="id" name="thirdButton">false</item>
     <item type="id" name="menuIcon">false</item>
     <item type="id" name="menuText">false</item>
     <item type="id" name="selectedIcon">false</item>
     <item type="id" name="menuTextRight">false</item>
+    <item type="id" name="customThemeShadow">false</item>
+    <item type="id" name="new_music_thematic_banner">false</item>
+    <item type="id" name="snackbar_text">false</item>
+    <item type="id" name="snackbar_action">false</item>
     <item type="id" name="text">false</item>
-    <item type="id" name="checkbox">false</item>
-    <item type="id" name="downloadManageDelBtn">false</item>
-    <item type="id" name="myDownloadMusicPlayBlock">false</item>
-    <item type="id" name="playAllText">false</item>
-    <item type="id" name="musicCount">false</item>
-    <item type="id" name="downloadManagerSortBtn">false</item>
-    <item type="id" name="downloadControlBlock">false</item>
-    <item type="id" name="allCancelBtn">false</item>
-    <item type="id" name="allStartPauseToggleBtn">false</item>
-    <item type="id" name="downloadedMusicItem">false</item>
-    <item type="id" name="playingMarkContainer">false</item>
+    <item type="id" name="delete">false</item>
     <item type="id" name="checkedImage">false</item>
-    <item type="id" name="expandMenuToggleBtn">false</item>
-    <item type="id" name="songInfo">false</item>
-    <item type="id" name="downloadedProgramItem">false</item>
-    <item type="id" name="programCover">false</item>
-    <item type="id" name="programInfo">false</item>
-    <item type="id" name="programItemMenu">false</item>
-    <item type="id" name="downloadingItem">false</item>
+    <item type="id" name="cover">false</item>
+    <item type="id" name="coverMask">false</item>
+    <item type="id" name="resolution">false</item>
+    <item type="id" name="checkBox">false</item>
+    <item type="id" name="controlBlock">false</item>
+    <item type="id" name="startAll">false</item>
+    <item type="id" name="pauseAll">false</item>
+    <item type="id" name="clear">false</item>
+    <item type="id" name="type">false</item>
     <item type="id" name="cancelBtn">false</item>
-    <item type="id" name="name">false</item>
-    <item type="id" name="programMark">false</item>
-    <item type="id" name="downloadProgress">false</item>
-    <item type="id" name="info">false</item>
+    <item type="id" name="songLabel">false</item>
+    <item type="id" name="mark">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="drawerAnomimousHeader">false</item>
+    <item type="id" name="drawerAnomimousHeaderHint">false</item>
+    <item type="id" name="drawerAnomimousHeaderLogin">false</item>
+    <item type="id" name="drawerUserHeader">false</item>
+    <item type="id" name="drawerUserHeaderCover">false</item>
+    <item type="id" name="drawerUserAvatar">false</item>
+    <item type="id" name="drawerUserNameContainer">false</item>
+    <item type="id" name="drawerUserSignIn">false</item>
+    <item type="id" name="drawerUserName">false</item>
+    <item type="id" name="drawerUserNewFansCount">false</item>
+    <item type="id" name="editBlock">false</item>
+    <item type="id" name="post">false</item>
+    <item type="id" name="line">false</item>
+    <item type="id" name="edit">false</item>
     <item type="id" name="loading_view_pb">false</item>
     <item type="id" name="loading_view_text">false</item>
     <item type="id" name="emptyText">false</item>
@@ -588,6 +802,9 @@
     <item type="id" name="billboardImg">false</item>
     <item type="id" name="billboardName">false</item>
     <item type="id" name="billboardUpdateDate">false</item>
+    <item type="id" name="mainPagerBillboardTitleView">false</item>
+    <item type="id" name="titleLabel">false</item>
+    <item type="id" name="mainPagerBillboardTitle">false</item>
     <item type="id" name="restTagsLlContainer">false</item>
     <item type="id" name="restTag1Item">false</item>
     <item type="id" name="restTag2Item">false</item>
@@ -595,6 +812,7 @@
     <item type="id" name="restTag4Item">false</item>
     <item type="id" name="tagItemContainer">false</item>
     <item type="id" name="tagNameTv">false</item>
+    <item type="id" name="playlistClassIsHotSpIcon">false</item>
     <item type="id" name="classificationTagsLlContainer">false</item>
     <item type="id" name="classificationNameRl">false</item>
     <item type="id" name="classificationNameImg">false</item>
@@ -608,74 +826,59 @@
     <item type="id" name="tag4Item">false</item>
     <item type="id" name="tag5Item">false</item>
     <item type="id" name="tag6Item">false</item>
+    <item type="id" name="restCreamTag1Item">false</item>
+    <item type="id" name="restCreamTag2Item">false</item>
+    <item type="id" name="restCreamTag3Item">false</item>
+    <item type="id" name="restCreamTag4Item">false</item>
     <item type="id" name="mv_item_1">false</item>
     <item type="id" name="mv_item_2">false</item>
     <item type="id" name="mvContainer">false</item>
     <item type="id" name="mvCoverImg">false</item>
     <item type="id" name="mvWatchNumber">false</item>
-    <item type="id" name="mvSimpleIntroduction">false</item>
+    <item type="id" name="mvTimeDuration">false</item>
     <item type="id" name="mvDetailIntroduction">false</item>
     <item type="id" name="mvArtistName">false</item>
-    <item type="id" name="titleContainer">false</item>
-    <item type="id" name="pager_list">false</item>
-    <item type="id" name="findRecommendTitle">false</item>
+    <item type="id" name="find_official_billboard_container">false</item>
+    <item type="id" name="mainBillboardItemTop1Name">false</item>
+    <item type="id" name="mainBillboardItemTop1Hot">false</item>
+    <item type="id" name="mainBillboardItemTop2Name">false</item>
+    <item type="id" name="mainBillboardItemTop2Hot">false</item>
+    <item type="id" name="mainBillboardItemTop3Name">false</item>
+    <item type="id" name="mainBillboardItemTop3Hot">false</item>
     <item type="id" name="play_item_1">false</item>
     <item type="id" name="play_item_2">false</item>
+    <item type="id" name="playlistCreamItem">false</item>
+    <item type="id" name="playlistCreamCover">false</item>
+    <item type="id" name="playlistCreamName">false</item>
+    <item type="id" name="playlistCreamInfo">false</item>
     <item type="id" name="selectedClass">false</item>
     <item type="id" name="chooseClass">false</item>
-    <item type="id" name="playListItemCoverImg">false</item>
     <item type="id" name="playListNumber">false</item>
-    <item type="id" name="playListCreatorNameContainer">false</item>
     <item type="id" name="playListCreatorName">false</item>
     <item type="id" name="findPlayListName">false</item>
     <item type="id" name="dotCategoryParent">false</item>
-    <item type="id" name="titleDivideLine">false</item>
-    <item type="id" name="categoryProgramTitleView">false</item>
-    <item type="id" name="titleLabel">false</item>
+    <item type="id" name="radio_billboard_header">false</item>
+    <item type="id" name="radio_header_subtitle">false</item>
+    <item type="id" name="billboardTop1ImageView">false</item>
+    <item type="id" name="billboardTop2ImageView">false</item>
+    <item type="id" name="billboardTop3ImageView">false</item>
+    <item type="id" name="radioBoxPicImageView">false</item>
+    <item type="id" name="rcmdRadioCover">false</item>
+    <item type="id" name="rcmdRadioName">false</item>
+    <item type="id" name="hotRadioItem1">false</item>
+    <item type="id" name="hotRadioItem2">false</item>
+    <item type="id" name="rcmdRadioItem1">false</item>
+    <item type="id" name="rcmdRadioItem2">false</item>
+    <item type="id" name="rcmdRadioItem3">false</item>
     <item type="id" name="titleView">false</item>
     <item type="id" name="realTitle">false</item>
-    <item type="id" name="imgArea">false</item>
-    <item type="id" name="recommendHotsoptCover">false</item>
-    <item type="id" name="recommendHotsoptItemCoverImg">false</item>
-    <item type="id" name="recommendHotsoptNumer">false</item>
-    <item type="id" name="recommendHotsoptName">false</item>
-    <item type="id" name="recommendHotsoptItem1">false</item>
-    <item type="id" name="recommendHotsoptItem2">false</item>
-    <item type="id" name="recommendHotsoptItem3">false</item>
-    <item type="id" name="oneRowContainer">false</item>
-    <item type="id" name="recommendOnerowContainer">false</item>
-    <item type="id" name="recommendOnerowRadioContainer">false</item>
-    <item type="id" name="recommendOnerowNoTasteContainer">false</item>
-    <item type="id" name="recommendOnerowThematicContainer">false</item>
-    <item type="id" name="recommendOnerowThematic">false</item>
-    <item type="id" name="roundCover">false</item>
-    <item type="id" name="calendarInfoContainer">false</item>
-    <item type="id" name="calendarInfoWeek">false</item>
-    <item type="id" name="calendarInfoDate">false</item>
-    <item type="id" name="listIcnArrView">false</item>
-    <item type="id" name="recommendGuessYouLikeContainer">false</item>
-    <item type="id" name="tagFlag">false</item>
-    <item type="id" name="recommendOnerowTitle">false</item>
-    <item type="id" name="recommendOnerowReason">false</item>
-    <item type="id" name="recommendOnerowFlipView">false</item>
-    <item type="id" name="imageView1">false</item>
-    <item type="id" name="recommendOnerowNewMusicTitle">false</item>
+    <item type="id" name="titleDivideLine">false</item>
     <item type="id" name="newAlbumImgContainer">false</item>
     <item type="id" name="newAlbumCover">false</item>
-    <item type="id" name="album_exclusive_flag">false</item>
-    <item type="id" name="albumItemCoverImg">false</item>
-    <item type="id" name="newAlbumInfoContainer">false</item>
     <item type="id" name="newAlbumName">false</item>
     <item type="id" name="newAlbumArtistName">false</item>
     <item type="id" name="newAlbumItem1">false</item>
     <item type="id" name="newAlbumItem2">false</item>
-    <item type="id" name="findProgramRealContainer">false</item>
-    <item type="id" name="findRecommendProgramCover">false</item>
-    <item type="id" name="programPic">false</item>
-    <item type="id" name="listenNumContainer">false</item>
-    <item type="id" name="listenNum">false</item>
-    <item type="id" name="programTitleContainer">false</item>
-    <item type="id" name="programTitle ">false</item>
     <item type="id" name="floatLyricContainer">false</item>
     <item type="id" name="floatLyricArea">false</item>
     <item type="id" name="floatLyricMask">false</item>
@@ -707,10 +910,13 @@
     <item type="id" name="floatLyricNotificationLock">false</item>
     <item type="id" name="userFaceImageContainer">false</item>
     <item type="id" name="userFaceImage">false</item>
-    <item type="id" name="desc">false</item>
     <item type="id" name="line1">false</item>
     <item type="id" name="line2">false</item>
+    <item type="id" name="radioCoverLinearLayoutContainer">false</item>
+    <item type="id" name="radioNameLinearLayoutContainer">false</item>
+    <item type="id" name="radioCategoryLinearLayoutContainer">false</item>
     <item type="id" name="radioCategory">false</item>
+    <item type="id" name="radioInfoLinearLayoutContainer">false</item>
     <item type="id" name="agreePrivacy">false</item>
     <item type="id" name="submitBtn">false</item>
     <item type="id" name="atSomebodySearchTop">false</item>
@@ -731,14 +937,9 @@
     <item type="id" name="cellphoneLoginAccount">false</item>
     <item type="id" name="cellphoneLoginPassword">false</item>
     <item type="id" name="cellphoneLoginBtn">false</item>
-    <item type="id" name="cellphoneRegisterBtn">false</item>
     <item type="id" name="cellphoneLoginForgotPassword">false</item>
+    <item type="id" name="cellphoneRegisterTextView">false</item>
     <item type="id" name="collectedArtistList">false</item>
-    <item type="id" name="commentList">false</item>
-    <item type="id" name="commentWrite">false</item>
-    <item type="id" name="atIcon">false</item>
-    <item type="id" name="commentEdit">false</item>
-    <item type="id" name="commentBtn">false</item>
     <item type="id" name="descTitle">false</item>
     <item type="id" name="description">false</item>
     <item type="id" name="setPasswordBlock">false</item>
@@ -747,7 +948,6 @@
     <item type="id" name="button2">false</item>
     <item type="id" name="downloadedMusicList">false</item>
     <item type="id" name="downloadedProgramList">false</item>
-    <item type="id" name="downloadingList">false</item>
     <item type="id" name="editpl_container">false</item>
     <item type="id" name="editpl_change_cover">false</item>
     <item type="id" name="editpl_cover_img">false</item>
@@ -764,19 +964,18 @@
     <item type="id" name="tags_list">false</item>
     <item type="id" name="tags_list_head">false</item>
     <item type="id" name="filterMvList">false</item>
+    <item type="id" name="curFilterTagsContent">false</item>
     <item type="id" name="curFilterTags">false</item>
     <item type="id" name="filterMvTagContainerOuter">false</item>
     <item type="id" name="filterMvTagContainer">false</item>
-    <item type="id" name="findTabPageIndicator">false</item>
-    <item type="id" name="findPager">false</item>
-    <item type="id" name="mainPageLeftHintContainer">false</item>
-    <item type="id" name="mainPageLeftHint">false</item>
+    <item type="id" name="OutBackgrandView">false</item>
     <item type="id" name="friendPrivateMessageList">false</item>
     <item type="id" name="friendSideBar">false</item>
     <item type="id" name="friendSidebarIndexText">false</item>
     <item type="id" name="identifyMusicViewFlipper">false</item>
-    <item type="id" name="identifyBtn">false</item>
+    <item type="id" name="identifyBg">false</item>
     <item type="id" name="waveView">false</item>
+    <item type="id" name="identifyBtn">false</item>
     <item type="id" name="circleMask">false</item>
     <item type="id" name="mic">false</item>
     <item type="id" name="stopRecTV">false</item>
@@ -789,7 +988,6 @@
     <item type="id" name="actionContainer">false</item>
     <item type="id" name="multiToast">false</item>
     <item type="id" name="matchMultiList">false</item>
-    <item type="id" name="importMusicContainer">false</item>
     <item type="id" name="importResultArea">false</item>
     <item type="id" name="importResult">false</item>
     <item type="id" name="importResultDesc">false</item>
@@ -809,17 +1007,30 @@
     <item type="id" name="initProfileWelcome">false</item>
     <item type="id" name="initProfileInput">false</item>
     <item type="id" name="editNicknameTip">false</item>
+    <item type="id" name="inputCaptchaContainer">false</item>
     <item type="id" name="inputCaptchaPhoneNumEcho">false</item>
     <item type="id" name="inputCaptchaInput">false</item>
     <item type="id" name="inputCaptchaResendCountDownTimer">false</item>
     <item type="id" name="inputCaptchaResend">false</item>
+    <item type="id" name="inputPhoneNumInputContainer">false</item>
     <item type="id" name="phoneNumCode">false</item>
     <item type="id" name="inputPhoneNumInput">false</item>
     <item type="id" name="inputPhoneVerifyCodeTip">false</item>
     <item type="id" name="inviteFreindExternalList">false</item>
+    <item type="id" name="livelistview">false</item>
+    <item type="id" name="liveShare">false</item>
+    <item type="id" name="liveLine">false</item>
+    <item type="id" name="liveName">false</item>
+    <item type="id" name="live_intro_subtitle">false</item>
+    <item type="id" name="liveIntroduce">false</item>
+    <item type="id" name="live_artists_subtitle">false</item>
+    <item type="id" name="liveArtistViewContainerScroll">false</item>
+    <item type="id" name="liveArtistViewContainer">false</item>
+    <item type="id" name="live_discusslist">false</item>
+    <item type="id" name="folderUpBtn">false</item>
+    <item type="id" name="scanBtn">false</item>
     <item type="id" name="sdCardSongList">false</item>
     <item type="id" name="sideBar">false</item>
-    <item type="id" name="importBtnContainerShadow">false</item>
     <item type="id" name="localmusicScanBtn">false</item>
     <item type="id" name="managePlaylistBtnContainer">false</item>
     <item type="id" name="leftText">false</item>
@@ -828,14 +1039,17 @@
     <item type="id" name="scaningIcon">false</item>
     <item type="id" name="localmusicScanProcess">false</item>
     <item type="id" name="localmusicScanDetail">false</item>
-    <item type="id" name="localmusicScanDesc">false</item>
-    <item type="id" name="localmusicScanRecoverBtn">false</item>
+    <item type="id" name="localmusicLrcPicBtn">false</item>
+    <item type="id" name="mobileContainer">false</item>
+    <item type="id" name="localmusicScanAllBtn">false</item>
+    <item type="id" name="localmusicScanCustomBtn">false</item>
     <item type="id" name="localmusicScanSettingBtn">false</item>
     <item type="id" name="loginCellphoneBlock">false</item>
     <item type="id" name="loginSinaBlock">false</item>
     <item type="id" name="loginTencentBlock">false</item>
     <item type="id" name="loginPassBlock">false</item>
     <item type="id" name="loginAnonimousBlock">false</item>
+    <item type="id" name="loginContainerLinearLayout">false</item>
     <item type="id" name="anonimousText">false</item>
     <item type="id" name="anonimousImage">false</item>
     <item type="id" name="searchBoxContainer">false</item>
@@ -851,40 +1065,19 @@
     <item type="id" name="musicInfoList">false</item>
     <item type="id" name="plSortBar">false</item>
     <item type="id" name="plSortBarText">false</item>
-    <item type="id" name="mvBillboardTabPageIndicator">false</item>
-    <item type="id" name="divideLine">false</item>
-    <item type="id" name="mvBillboardPager">false</item>
-    <item type="id" name="myAtListContainer">false</item>
-    <item type="id" name="myAtList">false</item>
-    <item type="id" name="myRecentMusicList">false</item>
-    <item type="id" name="myMusicDownloading">false</item>
-    <item type="id" name="myMusicDownloadProgressBar">false</item>
-    <item type="id" name="myMusicDownloadProgressText">false</item>
-    <item type="id" name="myMusicListContainer">false</item>
+    <item type="id" name="refreshLayout">false</item>
     <item type="id" name="myMusicList">false</item>
     <item type="id" name="myMusicCoverHeader">false</item>
-    <item type="id" name="mainPageRightHintContainer">false</item>
-    <item type="id" name="mainPageRightHint">false</item>
-    <item type="id" name="notifyMsgListContainer">false</item>
-    <item type="id" name="notifyMsgList">false</item>
     <item type="id" name="listContainer">false</item>
-    <item type="id" name="friendTrackLine">false</item>
-    <item type="id" name="classification_tags_list">false</item>
     <item type="id" name="classification_tags_empty">false</item>
     <item type="id" name="loginAccount">false</item>
     <item type="id" name="loginPassword">false</item>
     <item type="id" name="loginBtn">false</item>
     <item type="id" name="loginForgotPassword">false</item>
     <item type="id" name="plSearchPagerList">false</item>
-    <item type="id" name="privateMsgListContainer">false</item>
-    <item type="id" name="privateMsgList">false</item>
     <item type="id" name="strangerHintBlock">false</item>
     <item type="id" name="strangeHint">false</item>
     <item type="id" name="closeHintBtn">false</item>
-    <item type="id" name="write_privatemsg_layout">false</item>
-    <item type="id" name="privatemsg_edit">false</item>
-    <item type="id" name="submit_privatemsg_button">false</item>
-    <item type="id" name="profileContainer">false</item>
     <item type="id" name="profileList">false</item>
     <item type="id" name="coverTitleHeader">false</item>
     <item type="id" name="profileModifyWrapper">false</item>
@@ -900,45 +1093,52 @@
     <item type="id" name="profileModifyLocationContainer">false</item>
     <item type="id" name="profileModifyLocation">false</item>
     <item type="id" name="profileModifyDesc">false</item>
-    <item type="id" name="publiclistenTabPageIndicator">false</item>
     <item type="id" name="publiclisten_pager">false</item>
+    <item type="id" name="trackToast">false</item>
+    <item type="id" name="sendNewTrack">false</item>
     <item type="id" name="playContainer">false</item>
     <item type="id" name="publishProgramPlayCurrentTime">false</item>
     <item type="id" name="publishProgramSeekBar">false</item>
     <item type="id" name="publishProgramPlayTotalTime">false</item>
+    <item type="id" name="publishProgramCoverContainer">false</item>
     <item type="id" name="publishProgramCover">false</item>
+    <item type="id" name="publishProgramNameContainer">false</item>
     <item type="id" name="publishProgramName">false</item>
+    <item type="id" name="publishProgramDescContainer">false</item>
     <item type="id" name="publishProgramDesc">false</item>
     <item type="id" name="line3">false</item>
     <item type="id" name="publishOnTimeContainer">false</item>
     <item type="id" name="publishProgramOnTime">false</item>
-    <item type="id" name="publishProgramOnTimeCB">false</item>
+    <item type="id" name="publishProgramOnTimeCBSwitch">false</item>
     <item type="id" name="shareContainer">false</item>
     <item type="id" name="shareSinaBtn">false</item>
     <item type="id" name="shareTencentBtn">false</item>
     <item type="id" name="shareRenrenBtn">false</item>
     <item type="id" name="shareDoubanBtn">false</item>
-    <item type="id" name="radioProgramList">false</item>
     <item type="id" name="recommendArtistHeader">false</item>
     <item type="id" name="recommendArtistPanel">false</item>
     <item type="id" name="recommendArtistCollectBtn">false</item>
     <item type="id" name="recommendArtistSkipBtn">false</item>
-    <item type="id" name="wrapperArea">false</item>
-    <item type="id" name="refreshList">false</item>
-    <item type="id" name="trackToast">false</item>
-    <item type="id" name="scanSettingToast">false</item>
+    <item type="id" name="refreshListview">false</item>
     <item type="id" name="selectedMvList">false</item>
-    <item type="id" name="shareInfoWrapper">false</item>
-    <item type="id" name="shareImageWrapper">false</item>
-    <item type="id" name="shareImage">false</item>
-    <item type="id" name="shareMvCoverImg">false</item>
-    <item type="id" name="shareAlbumImage">false</item>
-    <item type="id" name="shareName">false</item>
-    <item type="id" name="shareInfo1">false</item>
-    <item type="id" name="shareInfo2">false</item>
-    <item type="id" name="shareTo">false</item>
-    <item type="id" name="shareFeel">false</item>
-    <item type="id" name="shareSnsBlock">false</item>
+    <item type="id" name="main">false</item>
+    <item type="id" name="content">false</item>
+    <item type="id" name="status">false</item>
+    <item type="id" name="infoBlock">false</item>
+    <item type="id" name="imageContainer">false</item>
+    <item type="id" name="subText">false</item>
+    <item type="id" name="detailMark">false</item>
+    <item type="id" name="syncStub">false</item>
+    <item type="id" name="syncBlock">false</item>
+    <item type="id" name="tools">false</item>
+    <item type="id" name="pictureBtn">false</item>
+    <item type="id" name="shareComment">false</item>
+    <item type="id" name="resImage">false</item>
+    <item type="id" name="resName">false</item>
+    <item type="id" name="resSubtext">false</item>
+    <item type="id" name="comment">false</item>
+    <item type="id" name="originBlock">false</item>
+    <item type="id" name="originComment">false</item>
     <item type="id" name="searchPaddingTop">false</item>
     <item type="id" name="share2FriendSearch">false</item>
     <item type="id" name="share2FriendSearchInput">false</item>
@@ -947,35 +1147,34 @@
     <item type="id" name="controlContainer">false</item>
     <item type="id" name="shareBtn">false</item>
     <item type="id" name="saveBtn">false</item>
+    <item type="id" name="shareImageLrcRealContainer">false</item>
     <item type="id" name="shareImageLrcContainer">false</item>
+    <item type="id" name="shareImageLrcImgsContainer">false</item>
     <item type="id" name="shareImageLrcImg">false</item>
     <item type="id" name="shareImageLrcCamera">false</item>
     <item type="id" name="shareImageLrcLrc">false</item>
     <item type="id" name="shareImageLrcMusicName">false</item>
+    <item type="id" name="input">false</item>
     <item type="id" name="tips">false</item>
     <item type="id" name="textarea">false</item>
     <item type="id" name="leftCount">false</item>
     <item type="id" name="trashMusicToast">false</item>
-    <item type="id" name="userCommentListContainer">false</item>
-    <item type="id" name="userCommentList">false</item>
     <item type="id" name="verifyNicknameCellphoneBinded">false</item>
     <item type="id" name="verifyNicknameBlock">false</item>
     <item type="id" name="verifyNicknameInput">false</item>
     <item type="id" name="verifyNicknameTip">false</item>
     <item type="id" name="verifyPasswordInput">false</item>
-    <item type="id" name="friendListSection">false</item>
-    <item type="id" name="friendListSectionTv">false</item>
     <item type="id" name="peopleName">false</item>
     <item type="id" name="sendMailBtn">false</item>
     <item type="id" name="sectionDivider">false</item>
+    <item type="id" name="highQualityplaylistIcon">false</item>
+    <item type="id" name="imgArea">false</item>
     <item type="id" name="album_cover">false</item>
     <item type="id" name="album_numer">false</item>
     <item type="id" name="album_desc_container">false</item>
     <item type="id" name="album_name">false</item>
     <item type="id" name="album_creator_name">false</item>
     <item type="id" name="indexBar">false</item>
-    <item type="id" name="indexSection">false</item>
-    <item type="id" name="indexSectionName">false</item>
     <item type="id" name="indexToast">false</item>
     <item type="id" name="inviteFreindItem">false</item>
     <item type="id" name="inviteFreindItemActionBlock">false</item>
@@ -983,35 +1182,120 @@
     <item type="id" name="inviteFreindItemFollowAction">false</item>
     <item type="id" name="inviteFreindItemName">false</item>
     <item type="id" name="inviteFreindItemNickname">false</item>
-    <item type="id" name="loading_toast_text">false</item>
-    <item type="id" name="localMusicListSection">false</item>
+    <item type="id" name="plALBlurBg">false</item>
+    <item type="id" name="infoHeaderMask">false</item>
+    <item type="id" name="actionArea">false</item>
+    <item type="id" name="subscribeBlock">false</item>
+    <item type="id" name="subscribeNum">false</item>
+    <item type="id" name="commentBlock">false</item>
+    <item type="id" name="commentNum">false</item>
+    <item type="id" name="shareNum">false</item>
+    <item type="id" name="downloadBlock">false</item>
+    <item type="id" name="downloadNum">false</item>
+    <item type="id" name="musicDetailIcon">false</item>
+    <item type="id" name="editBtnContainer">false</item>
+    <item type="id" name="editBtn">false</item>
+    <item type="id" name="saveCoverBtn">false</item>
+    <item type="id" name="plAlDescText">false</item>
+    <item type="id" name="plAlName">false</item>
+    <item type="id" name="mainRcmdGenerateView">false</item>
+    <item type="id" name="mainRcmdGenerateImg">false</item>
+    <item type="id" name="mainRcmdGenerateTvContaniner">false</item>
+    <item type="id" name="mainRcmdGenerateTv">false</item>
+    <item type="id" name="mainRcmdGenerateAnimation">false</item>
+    <item type="id" name="mainRcmdGenerateHint">false</item>
+    <item type="id" name="trackActivityTextContainer">false</item>
+    <item type="id" name="artistSelected">false</item>
+    <item type="id" name="comment_userIcon">false</item>
+    <item type="id" name="comment_userInfo">false</item>
+    <item type="id" name="comment_userName">false</item>
+    <item type="id" name="comment_userFlag">false</item>
+    <item type="id" name="comment_userContent">false</item>
+    <item type="id" name="liveArtistIcon">false</item>
+    <item type="id" name="liveVoteCount">false</item>
+    <item type="id" name="liveArtistName">false</item>
+    <item type="id" name="live_topartist_title">false</item>
+    <item type="id" name="liveArtistGridView">false</item>
+    <item type="id" name="live_topuser_title">false</item>
+    <item type="id" name="subtitle_content">false</item>
+    <item type="id" name="msg">false</item>
+    <item type="id" name="directoryName">false</item>
+    <item type="id" name="musicCount">false</item>
+    <item type="id" name="alreadFilter">false</item>
     <item type="id" name="localMusicCB">false</item>
     <item type="id" name="playingMarkViewStub1">false</item>
-    <item type="id" name="songNameContainer">false</item>
-    <item type="id" name="localMusicName">false</item>
-    <item type="id" name="localMusicSingerName">false</item>
     <item type="id" name="playingMarkViewStub2">false</item>
-    <item type="id" name="randomPlayArea">false</item>
-    <item type="id" name="localMusicRandomPlay">false</item>
-    <item type="id" name="localMusicUpgradeBtn">false</item>
+    <item type="id" name="localmusicDurationFilterBtn">false</item>
+    <item type="id" name="pathname">false</item>
+    <item type="id" name="path">false</item>
     <item type="id" name="upgradeSuccessInfo">false</item>
     <item type="id" name="upgradePromotoRl">false</item>
     <item type="id" name="upgradePromotoArrow">false</item>
     <item type="id" name="upgradePromotoTitle">false</item>
     <item type="id" name="upgradePromotoRange">false</item>
     <item type="id" name="upgradeMusicFailReason">false</item>
-    <item type="id" name="upgradePromotoGood">false</item>
-    <item type="id" name="upgradePromotoGood1">false</item>
-    <item type="id" name="upgradePromotoGood2">false</item>
-    <item type="id" name="upgradePromotoGood3">false</item>
-    <item type="id" name="upgradeCancelBtn">false</item>
-    <item type="id" name="upgradeOkBtn">false</item>
     <item type="id" name="lyricsItemContainer">false</item>
     <item type="id" name="lyricsFlag">false</item>
     <item type="id" name="lyricsSentense">false</item>
-    <item type="id" name="icon">false</item>
-    <item type="id" name="txt">false</item>
-    <item type="id" name="msgNew">false</item>
+    <item type="id" name="drawerActionMenuContainer">false</item>
+    <item type="id" name="drawerActionMenuIcon">false</item>
+    <item type="id" name="drawerActionMenuTitle">false</item>
+    <item type="id" name="drawerActionMenuNewMsg">false</item>
+    <item type="id" name="drawerActionMenuNewCoverContainer">false</item>
+    <item type="id" name="drawerActionMenuNewCover">false</item>
+    <item type="id" name="bubbleView">false</item>
+    <item type="id" name="drawerActionMenuSwitch">false</item>
+    <item type="id" name="drawerActionMenuDivideLine">false</item>
+    <item type="id" name="mainPagerRadioTitleView">false</item>
+    <item type="id" name="mainPagerRadioTitle">false</item>
+    <item type="id" name="mainPagerRadioTitleHeaderLine">false</item>
+    <item type="id" name="mainPagerAdjustOrderHint">false</item>
+    <item type="id" name="mainPagerAdjustOrderTv">false</item>
+    <item type="id" name="layout_rcmd_generate_viewstub">false</item>
+    <item type="id" name="mainRcmdResultView">false</item>
+    <item type="id" name="mainPageHeaderFm">false</item>
+    <item type="id" name="fmIcon">false</item>
+    <item type="id" name="mainPageHeaderDayRcmd">false</item>
+    <item type="id" name="mainPageHeaderDayRcmdTvPrimary">false</item>
+    <item type="id" name="mainPageHeaderDayRcmdTvSecond">false</item>
+    <item type="id" name="mainPageHeaderBillboard">false</item>
+    <item type="id" name="upBillIcon">false</item>
+    <item type="id" name="mainPageHeaderRcmdBillboard">false</item>
+    <item type="id" name="mainPagerRcmdTitleView">false</item>
+    <item type="id" name="mainPagerRcmdIcon">false</item>
+    <item type="id" name="mainPagerRcmdTitle">false</item>
+    <item type="id" name="mainPagerRcmdMore">false</item>
+    <item type="id" name="divider_line">false</item>
+    <item type="id" name="mainPagerGridBottom">false</item>
+    <item type="id" name="mainPageRcmdTagContainerCloseBtn">false</item>
+    <item type="id" name="mainPageRcmdTagContainerTitle">false</item>
+    <item type="id" name="mainPageRcmdTagContainerScroll">false</item>
+    <item type="id" name="mainPageRcmdTagContainer">false</item>
+    <item type="id" name="mainPageRcmdTagFinishBtn">false</item>
+    <item type="id" name="restoreDefaultOrder">false</item>
+    <item type="id" name="mainPagerListenTextView">false</item>
+    <item type="id" name="mainPagerGridTextViewPrimary">false</item>
+    <item type="id" name="mainPagerGridTextViewSecond">false</item>
+    <item type="id" name="mainPagerGridTextViewThird">false</item>
+    <item type="id" name="mainPagerGridImg">false</item>
+    <item type="id" name="mainPagerRadioGridPlayBtn">false</item>
+    <item type="id" name="mainPagerGridIcon">false</item>
+    <item type="id" name="contentScrollView">false</item>
+    <item type="id" name="root">false</item>
+    <item type="id" name="customViewFrame">false</item>
+    <item type="id" name="minMax">false</item>
+    <item type="id" name="contentListViewFrame">false</item>
+    <item type="id" name="contentListView">false</item>
+    <item type="id" name="control">false</item>
+    <item type="id" name="menuCover">false</item>
+    <item type="id" name="menuTitle">false</item>
+    <item type="id" name="menuSelectedIcon">false</item>
+    <item type="id" name="menuHintRight">false</item>
+    <item type="id" name="buttonDefaultNeutral">false</item>
+    <item type="id" name="buttonDefaultNegative">false</item>
+    <item type="id" name="buttonDefaultPositive">false</item>
+    <item type="id" name="label">false</item>
+    <item type="id" name="titleFrame">false</item>
     <item type="id" name="mc_play_pause_btn">false</item>
     <item type="id" name="mc_time_now_text">false</item>
     <item type="id" name="mc_play_progress">false</item>
@@ -1019,7 +1303,7 @@
     <item type="id" name="mc_quality_btn">false</item>
     <item type="id" name="mc_fullscreen_btn">false</item>
     <item type="id" name="messageArea">false</item>
-    <item type="id" name="newMessageTag">false</item>
+    <item type="id" name="noticeBlock">false</item>
     <item type="id" name="noticeNickName">false</item>
     <item type="id" name="noticeAction">false</item>
     <item type="id" name="noticeTime">false</item>
@@ -1029,37 +1313,43 @@
     <item type="id" name="musicPlayBar">false</item>
     <item type="id" name="musicRealPlayBar">false</item>
     <item type="id" name="musicAlbum">false</item>
+    <item type="id" name="albumCover">false</item>
     <item type="id" name="minNextBtn">false</item>
     <item type="id" name="minPlayBtn">false</item>
     <item type="id" name="artistNameAndAlbumName">false</item>
     <item type="id" name="minPlaySeekBar">false</item>
+    <item type="id" name="missingFileBlock">false</item>
+    <item type="id" name="missingFile">false</item>
     <item type="id" name="moreRelatedPrograms">false</item>
     <item type="id" name="moreRelatedProgramsTv">false</item>
-    <item type="id" name="songRankContainer">false</item>
-    <item type="id" name="playingMark">false</item>
+    <item type="id" name="bottomSheetListview">false</item>
+    <item type="id" name="bottomSheetListviewHeaderIcon">false</item>
+    <item type="id" name="bottomSheetListviewHeaderTitle">false</item>
     <item type="id" name="new_music_viewstub_image">false</item>
-    <item type="id" name="relativeArea">false</item>
-    <item type="id" name="exclusiveIcon">false</item>
-    <item type="id" name="songInfoContainer">false</item>
-    <item type="id" name="downloadStat">false</item>
-    <item type="id" name="musicLrc">false</item>
-    <item type="id" name="playIcon">false</item>
+    <item type="id" name="listenMusicRankPlayCount">false</item>
+    <item type="id" name="songName">false</item>
+    <item type="id" name="songInfo">false</item>
     <item type="id" name="addIcon">false</item>
     <item type="id" name="playProgressBar">false</item>
-    <item type="id" name="line">false</item>
     <item type="id" name="deleteIcon">false</item>
     <item type="id" name="songPlayTime">false</item>
+    <item type="id" name="playIcon">false</item>
     <item type="id" name="mvRankContainer">false</item>
     <item type="id" name="mvRank">false</item>
     <item type="id" name="mvRankChangeTv">false</item>
     <item type="id" name="mvArtisit">false</item>
     <item type="id" name="mvDetailHeader">false</item>
     <item type="id" name="mvSubscribeCount">false</item>
+    <item type="id" name="mvDownload">false</item>
     <item type="id" name="mvPublishTime">false</item>
+    <item type="id" name="mvIcon">false</item>
     <item type="id" name="mvImage">false</item>
+    <item type="id" name="mvCoverMask">false</item>
+    <item type="id" name="mvPlayIcon">false</item>
+    <item type="id" name="mvCamreraIcon">false</item>
     <item type="id" name="mvDate">false</item>
-    <item type="id" name="highQuality">false</item>
-    <item type="id" name="midQuality">false</item>
+    <item type="id" name="mvQualityChecked">false</item>
+    <item type="id" name="mvQuality">false</item>
     <item type="id" name="rePlayIcon">false</item>
     <item type="id" name="similarMVSep">false</item>
     <item type="id" name="similarMVContainer">false</item>
@@ -1067,52 +1357,15 @@
     <item type="id" name="similarMV1">false</item>
     <item type="id" name="similarMV2">false</item>
     <item type="id" name="similarMV3">false</item>
-    <item type="id" name="trackContentArea">false</item>
-    <item type="id" name="forwardAvatarContainer">false</item>
-    <item type="id" name="forwardAvatar">false</item>
-    <item type="id" name="newAtTag">false</item>
-    <item type="id" name="forwardFromAction">false</item>
-    <item type="id" name="forwardFrom">false</item>
-    <item type="id" name="trackTime">false</item>
-    <item type="id" name="forwardDesc">false</item>
-    <item type="id" name="forwardArea">false</item>
-    <item type="id" name="innerForwardArea">false</item>
-    <item type="id" name="forwardLine">false</item>
-    <item type="id" name="innerDesc">false</item>
-    <item type="id" name="trackDelArea">false</item>
-    <item type="id" name="trackDeleted">false</item>
-    <item type="id" name="resourceUnknow">false</item>
-    <item type="id" name="weightTrackContentArea">false</item>
-    <item type="id" name="resourceImg">false</item>
-    <item type="id" name="coverImg">false</item>
-    <item type="id" name="myAtlhQ">false</item>
-    <item type="id" name="resourceName">false</item>
-    <item type="id" name="myAtrhQ">false</item>
-    <item type="id" name="myMusicHeadItem">false</item>
-    <item type="id" name="myMusicHeadIcon">false</item>
-    <item type="id" name="myMusicHeadName">false</item>
-    <item type="id" name="myMusicHeadCount">false</item>
-    <item type="id" name="myMusicHeadNewProgramIcon">false</item>
-    <item type="id" name="myMusicHeadProgressContainer">false</item>
-    <item type="id" name="myMusicHeadProgressBar">false</item>
-    <item type="id" name="myMusicHeadProgressInfo">false</item>
-    <item type="id" name="myMusicImportPlaylistBlock">false</item>
-    <item type="id" name="myMusicImportPlaylistBtn">false</item>
-    <item type="id" name="myMusicPlaylistItem">false</item>
-    <item type="id" name="myMusicPlaylistCoverBlock">false</item>
-    <item type="id" name="myMusicPlaylistCover">false</item>
-    <item type="id" name="myMusicPlaylistUpdateIcon">false</item>
-    <item type="id" name="myMusicPlaylistName">false</item>
-    <item type="id" name="myMusicPlaylistDownloadIcon">false</item>
-    <item type="id" name="myMusicPlaylistInfo">false</item>
-    <item type="id" name="myMusicPlaylistMenu">false</item>
+    <item type="id" name="item">false</item>
+    <item type="id" name="count">false</item>
+    <item type="id" name="newMark">false</item>
+    <item type="id" name="progressContainer">false</item>
+    <item type="id" name="progressInfo">false</item>
+    <item type="id" name="update">false</item>
+    <item type="id" name="rightBlock">false</item>
     <item type="id" name="myMusicSectionName">false</item>
     <item type="id" name="myMusicSectionOverflowBtn">false</item>
-    <item type="id" name="myPlaylistCheckBox">false</item>
-    <item type="id" name="myPlaylistCover">false</item>
-    <item type="id" name="myPlaylistName">false</item>
-    <item type="id" name="myPlaylistDownloadIcon">false</item>
-    <item type="id" name="myPlaylistInfo">false</item>
     <item type="id" name="privateCloudLeftSpaceTxt">false</item>
     <item type="id" name="privateCloudUsed">false</item>
     <item type="id" name="privateCloudUsedTxt">false</item>
@@ -1128,63 +1381,52 @@
     <item type="id" name="nearbyTrackFirst">false</item>
     <item type="id" name="nearbyPersonImg">false</item>
     <item type="id" name="nearbyPersonName">false</item>
+    <item type="id" name="distance">false</item>
+    <item type="id" name="sexIcon">false</item>
     <item type="id" name="sinaIcon">false</item>
     <item type="id" name="QQIcon">false</item>
     <item type="id" name="renrenIcon">false</item>
     <item type="id" name="doubanIcon">false</item>
-    <item type="id" name="distance">false</item>
     <item type="id" name="nearbyTrackSecond">false</item>
     <item type="id" name="songSinger">false</item>
     <item type="id" name="time">false</item>
-    <item type="id" name="actionArea">false</item>
-    <item type="id" name="subscribeBlock">false</item>
-    <item type="id" name="subscribeNum">false</item>
-    <item type="id" name="commentBlock">false</item>
-    <item type="id" name="commentNum">false</item>
-    <item type="id" name="shareNum">false</item>
-    <item type="id" name="downloadBlock">false</item>
-    <item type="id" name="downloadBtn">false</item>
-    <item type="id" name="downloadNum">false</item>
-    <item type="id" name="infoHeaderArea">false</item>
-    <item type="id" name="musicCover">false</item>
-    <item type="id" name="musicCoverMask">false</item>
-    <item type="id" name="musicDetailIcon">false</item>
-    <item type="id" name="musicTitle">false</item>
-    <item type="id" name="creatorInfoBlock">false</item>
-    <item type="id" name="musicCreatorName">false</item>
-    <item type="id" name="musicUpdateTime">false</item>
-    <item type="id" name="plDivideLine">false</item>
     <item type="id" name="newHitItemImage">false</item>
     <item type="id" name="newHitItemText">false</item>
-    <item type="id" name="new_music_thematic_banner">false</item>
-    <item type="id" name="new_music_play_all">false</item>
     <item type="id" name="newMusicImg">false</item>
-    <item type="id" name="musicListenCount">false</item>
-    <item type="id" name="creatorFaceImage">false</item>
-    <item type="id" name="goFlag">false</item>
-    <item type="id" name="playAllContainer">false</item>
     <item type="id" name="playAllArea">false</item>
     <item type="id" name="playAllTextView">false</item>
     <item type="id" name="musicsCount">false</item>
     <item type="id" name="managePlayListImg">false</item>
-    <item type="id" name="playAllAreaShadow">false</item>
-    <item type="id" name="noNetworkToast">false</item>
-    <item type="id" name="noNetworkText">false</item>
+    <item type="id" name="notifyAlbumCover">false</item>
     <item type="id" name="playNotificationToggle">false</item>
     <item type="id" name="playNotificationNext">false</item>
-    <item type="id" name="notifyAlbumCover">false</item>
     <item type="id" name="playNotificationStop">false</item>
-    <item type="id" name="playNotificationTxt">false</item>
+    <item type="id" name="playNotificationText">false</item>
     <item type="id" name="playNotificationLine">false</item>
     <item type="id" name="playNotificationBtns">false</item>
     <item type="id" name="playNotificationStar">false</item>
     <item type="id" name="playNotificationPre">false</item>
+    <item type="id" name="action0">false</item>
+    <item type="id" name="cancel_action">false</item>
+    <item type="id" name="status_bar_latest_event_content">false</item>
+    <item type="id" name="media_actions">false</item>
+    <item type="id" name="action_divider">false</item>
+    <item type="id" name="chronometer">false</item>
+    <item type="id" name="text2">false</item>
+    <item type="id" name="end_padder">false</item>
     <item type="id" name="unicomFree">false</item>
     <item type="id" name="unicomFreeStatus">false</item>
-    <item type="id" name="unicomRingtone">false</item>
-    <item type="id" name="operatorFreeSectionBlock">false</item>
     <item type="id" name="operatorFreeSectionName">false</item>
     <item type="id" name="operatorFreeName">false</item>
+    <item type="id" name="bucketName">false</item>
+    <item type="id" name="check">false</item>
+    <item type="id" name="camera">false</item>
+    <item type="id" name="picture">false</item>
+    <item type="id" name="checkBtn">false</item>
+    <item type="id" name="checkText">false</item>
+    <item type="id" name="pager_list">false</item>
+    <item type="id" name="findRecommendTitle">false</item>
+    <item type="id" name="plalDetailBackground">false</item>
     <item type="id" name="list_item1">false</item>
     <item type="id" name="list_btn1">false</item>
     <item type="id" name="list_recomm1">false</item>
@@ -1201,21 +1443,6 @@
     <item type="id" name="list_btn4">false</item>
     <item type="id" name="list_recomm4">false</item>
     <item type="id" name="list_selected_4">false</item>
-    <item type="id" name="musicMatchBtn">false</item>
-    <item type="id" name="musicOpContainer">false</item>
-    <item type="id" name="likeLine">false</item>
-    <item type="id" name="downLoadBtn">false</item>
-    <item type="id" name="downloadLine">false</item>
-    <item type="id" name="commentCount">false</item>
-    <item type="id" name="commentLine">false</item>
-    <item type="id" name="radioSubscribeBtn">false</item>
-    <item type="id" name="commentBtn2">false</item>
-    <item type="id" name="praiseBtn">false</item>
-    <item type="id" name="modeBtn">false</item>
-    <item type="id" name="downLoadBtn2">false</item>
-    <item type="id" name="preBtn">false</item>
-    <item type="id" name="sourceName">false</item>
-    <item type="id" name="playSeekBarContainer">false</item>
     <item type="id" name="widgetBg">false</item>
     <item type="id" name="widgetCover">false</item>
     <item type="id" name="widgetText">false</item>
@@ -1237,22 +1464,31 @@
     <item type="id" name="widgetLyric1">false</item>
     <item type="id" name="widgetLyric2">false</item>
     <item type="id" name="widgetLyric3">false</item>
-    <item type="id" name="playListInfoArea">false</item>
-    <item type="id" name="editBtn">false</item>
-    <item type="id" name="playListBigCover">false</item>
-    <item type="id" name="descArea">false</item>
-    <item type="id" name="playListDescText">false</item>
-    <item type="id" name="tagsArea">false</item>
+    <item type="id" name="playingMark">false</item>
+    <item type="id" name="creamPlaylistImageContainer">false</item>
+    <item type="id" name="creamPlaylistCover">false</item>
+    <item type="id" name="creamPlayListNumber">false</item>
+    <item type="id" name="creamPlaylistAllText">false</item>
+    <item type="id" name="creamPlaylistName">false</item>
+    <item type="id" name="creamPlaylistCreatorName">false</item>
+    <item type="id" name="creamPlaylistInfo">false</item>
+    <item type="id" name="plTagsArea">false</item>
     <item type="id" name="playListTagsContainer">false</item>
     <item type="id" name="playListHeader">false</item>
-    <item type="id" name="plLoadingImg">false</item>
-    <item type="id" name="plLoadingTv">false</item>
-    <item type="id" name="musicListSection">false</item>
+    <item type="id" name="playListHeaderAd">false</item>
+    <item type="id" name="musicListenCount">false</item>
+    <item type="id" name="creatorFaceImage">false</item>
+    <item type="id" name="goFlag">false</item>
+    <item type="id" name="songRankContainer">false</item>
+    <item type="id" name="songRank">false</item>
+    <item type="id" name="songRankPlay">false</item>
     <item type="id" name="songRankChangeTv">false</item>
-    <item type="id" name="musicStat">false</item>
     <item type="id" name="playListSubscriberView">false</item>
     <item type="id" name="playListSubscriberContainer">false</item>
     <item type="id" name="playListSubNum">false</item>
+    <item type="id" name="postFailTrackHeader">false</item>
+    <item type="id" name="trackFailHint">false</item>
+    <item type="id" name="avatarContainer">false</item>
     <item type="id" name="avatar_image">false</item>
     <item type="id" name="newmsg_number">false</item>
     <item type="id" name="user_name">false</item>
@@ -1263,35 +1499,31 @@
     <item type="id" name="msg_cotent">false</item>
     <item type="id" name="rhQ">false</item>
     <item type="id" name="timeLine">false</item>
-    <item type="id" name="leftContent">false</item>
+    <item type="id" name="priMsgContent">false</item>
     <item type="id" name="otherAvatar">false</item>
+    <item type="id" name="timeTag">false</item>
     <item type="id" name="msgArea">false</item>
     <item type="id" name="textContent">false</item>
     <item type="id" name="textContentDivideLine">false</item>
+    <item type="id" name="trackCommentViewContainer">false</item>
+    <item type="id" name="priMsgcommentDelete">false</item>
+    <item type="id" name="trackCommentContainer">false</item>
+    <item type="id" name="trackCommentContent">false</item>
+    <item type="id" name="trackCommentOriginContentContainer">false</item>
+    <item type="id" name="trackCommentOriginContentLine">false</item>
+    <item type="id" name="trackCommentOriginContent">false</item>
+    <item type="id" name="trackCommentResInfo">false</item>
     <item type="id" name="attachedContentArea">false</item>
     <item type="id" name="profileImg">false</item>
-    <item type="id" name="lCoverImg">false</item>
+    <item type="id" name="resourceImg">false</item>
+    <item type="id" name="coverImg">false</item>
     <item type="id" name="profileName">false</item>
     <item type="id" name="normalPrivateTypeContainer">false</item>
+    <item type="id" name="resourceName">false</item>
     <item type="id" name="resourceCreator">false</item>
-    <item type="id" name="timeRight">false</item>
-    <item type="id" name="rightContent">false</item>
-    <item type="id" name="msgAreaRight">false</item>
-    <item type="id" name="textContentRight">false</item>
-    <item type="id" name="textContentDivideLineRight">false</item>
-    <item type="id" name="attachedContentAreaRight">false</item>
-    <item type="id" name="profileImgRight">false</item>
-    <item type="id" name="resourceImgRight">false</item>
-    <item type="id" name="rCoverImg">false</item>
-    <item type="id" name="profileContainerRight">false</item>
-    <item type="id" name="profileNameRight">false</item>
-    <item type="id" name="normalPrivateTypeContainerRight">false</item>
-    <item type="id" name="resourceNameRight">false</item>
-    <item type="id" name="resourceCreatorRight">false</item>
-    <item type="id" name="playListInfoAreaRight">false</item>
     <item type="id" name="failed_tag">false</item>
-    <item type="id" name="timeLeft">false</item>
     <item type="id" name="bigAvatarImg">false</item>
+    <item type="id" name="changeAvatarBtn">false</item>
     <item type="id" name="profileInfoContainer">false</item>
     <item type="id" name="profileBackgroundImg">false</item>
     <item type="id" name="profileInfoMask">false</item>
@@ -1304,6 +1536,9 @@
     <item type="id" name="profileInfo">false</item>
     <item type="id" name="followBtn">false</item>
     <item type="id" name="mailBtn">false</item>
+    <item type="id" name="level">false</item>
+    <item type="id" name="gender">false</item>
+    <item type="id" name="tag">false</item>
     <item type="id" name="profileOtherInfo">false</item>
     <item type="id" name="profileInfoDots">false</item>
     <item type="id" name="profileSignTitle">false</item>
@@ -1317,6 +1552,10 @@
     <item type="id" name="programImage">false</item>
     <item type="id" name="programSerial">false</item>
     <item type="id" name="playNotificationLike">false</item>
+    <item type="id" name="programRcmdContainer">false</item>
+    <item type="id" name="programRcmdCover">false</item>
+    <item type="id" name="programRcmdName">false</item>
+    <item type="id" name="programRcmdInfo">false</item>
     <item type="id" name="programUploadItem">false</item>
     <item type="id" name="programUploadPlayBtn">false</item>
     <item type="id" name="programUploadPlayProgress">false</item>
@@ -1324,11 +1563,16 @@
     <item type="id" name="programUploadProgress">false</item>
     <item type="id" name="programUploadState">false</item>
     <item type="id" name="programUploadInfo">false</item>
-    <item type="id" name="programUploadMenu">false</item>
-    <item type="id" name="pull_to_refresh_progress">false</item>
-    <item type="id" name="pull_to_refresh_image">false</item>
-    <item type="id" name="pull_to_refresh_text">false</item>
-    <item type="id" name="pull_to_refresh_updated_at">false</item>
+    <item type="id" name="userTopRankContainer">false</item>
+    <item type="id" name="rankNum">false</item>
+    <item type="id" name="rankChangeNum">false</item>
+    <item type="id" name="userImgContener">false</item>
+    <item type="id" name="userImg">false</item>
+    <item type="id" name="listCoverBillboardPlayIcon">false</item>
+    <item type="id" name="userViewInfo">false</item>
+    <item type="id" name="userName">false</item>
+    <item type="id" name="userSubName">false</item>
+    <item type="id" name="hotLevel">false</item>
     <item type="id" name="category1">false</item>
     <item type="id" name="category2">false</item>
     <item type="id" name="category3">false</item>
@@ -1338,8 +1582,8 @@
     <item type="id" name="categoryTv">false</item>
     <item type="id" name="radioCategoryListContainer">false</item>
     <item type="id" name="radioCategoryListRealContainer">false</item>
-    <item type="id" name="radioCategoryListCover">false</item>
     <item type="id" name="radioCategoryListPic">false</item>
+    <item type="id" name="programTitleContainer">false</item>
     <item type="id" name="cateTagFlag">false</item>
     <item type="id" name="radioCategoryListTitle">false</item>
     <item type="id" name="radioCategoryListSubTitle">false</item>
@@ -1359,19 +1603,18 @@
     <item type="id" name="startRecord">false</item>
     <item type="id" name="sectionContainer">false</item>
     <item type="id" name="radioOrder">false</item>
+    <item type="id" name="radioProgramItemContainer">false</item>
     <item type="id" name="programRank">false</item>
-    <item type="id" name="programRankPlay">false</item>
+    <item type="id" name="songInfoContainer">false</item>
     <item type="id" name="programStat">false</item>
     <item type="id" name="programDate">false</item>
     <item type="id" name="programLike">false</item>
     <item type="id" name="programPlayCount">false</item>
-    <item type="id" name="lastProgramMark">false</item>
     <item type="id" name="programTime">false</item>
-    <item type="id" name="programMenu">false</item>
-    <item type="id" name="radioIntroducationTitle">false</item>
-    <item type="id" name="radioIntroducationSubTitle">false</item>
-    <item type="id" name="radioIntroducationImg">false</item>
-    <item type="id" name="radioIntroducationBtn">false</item>
+    <item type="id" name="lastProgramMark">false</item>
+    <item type="id" name="hotRadioCover">false</item>
+    <item type="id" name="hotRadioBookedNumber">false</item>
+    <item type="id" name="hotRadioName">false</item>
     <item type="id" name="playNotificationTrash">false</item>
     <item type="id" name="recommendArtistCheckBox">false</item>
     <item type="id" name="recommendArtistAvatar">false</item>
@@ -1388,34 +1631,30 @@
     <item type="id" name="myDarenTv">false</item>
     <item type="id" name="playListExpertNew">false</item>
     <item type="id" name="recentView">false</item>
-    <item type="id" name="recommendFriendHeader">false</item>
-    <item type="id" name="recommendFriendCheckAll">false</item>
     <item type="id" name="recommendFriendAvatar">false</item>
     <item type="id" name="recommendFriendNickname">false</item>
     <item type="id" name="recommendFriendGender">false</item>
     <item type="id" name="recommendFriendDesc">false</item>
     <item type="id" name="recommendCB">false</item>
-    <item type="id" name="centerCoords">false</item>
-    <item type="id" name="star1">false</item>
-    <item type="id" name="star2">false</item>
-    <item type="id" name="star3">false</item>
-    <item type="id" name="star4">false</item>
-    <item type="id" name="star5">false</item>
-    <item type="id" name="star6">false</item>
     <item type="id" name="starImg">false</item>
     <item type="id" name="starName">false</item>
     <item type="id" name="guidePager">false</item>
     <item type="id" name="inviteFriendContainer">false</item>
     <item type="id" name="findAndInviteFriendContainer">false</item>
-    <item type="id" name="myRecentFriendDivideLine">false</item>
-    <item type="id" name="newTag">false</item>
     <item type="id" name="peopleOtherInfo">false</item>
     <item type="id" name="followArea">false</item>
     <item type="id" name="recommendFriendFollowed">false</item>
     <item type="id" name="recommendFriendFollowAction">false</item>
+    <item type="id" name="itemName">false</item>
     <item type="id" name="artistCateContainer">false</item>
+    <item type="id" name="searchHot">false</item>
+    <item type="id" name="hotKeywordsContainer">false</item>
     <item type="id" name="searchKeywordContent">false</item>
     <item type="id" name="searchKeywordDelete">false</item>
+    <item type="id" name="musicListen">false</item>
+    <item type="id" name="songNameAndInfoArea">false</item>
+    <item type="id" name="musicAlias">false</item>
+    <item type="id" name="musicLrc">false</item>
     <item type="id" name="queryCorrectContainer">false</item>
     <item type="id" name="queryCorrectText">false</item>
     <item type="id" name="setMusicDirectoryProgressBar">false</item>
@@ -1427,12 +1666,22 @@
     <item type="id" name="share2FreindListItemAvatar">false</item>
     <item type="id" name="share2FreindListItemNickname">false</item>
     <item type="id" name="share2FreindListItemSelectedIcon">false</item>
-    <item type="id" name="sharePanelItemImg">false</item>
-    <item type="id" name="sharePanelItemName">false</item>
+    <item type="id" name="leftLine">false</item>
+    <item type="id" name="syncDesc">false</item>
+    <item type="id" name="rightLine">false</item>
+    <item type="id" name="sinaText">false</item>
+    <item type="id" name="tencentBtn">false</item>
+    <item type="id" name="tencentText">false</item>
+    <item type="id" name="renrenText">false</item>
+    <item type="id" name="doubanText">false</item>
     <item type="id" name="similarUserTitle">false</item>
     <item type="id" name="similarPlaylistTitle">false</item>
     <item type="id" name="similarMusicTitle">false</item>
     <item type="id" name="artistImageCover">false</item>
+    <item type="id" name="songIcon">false</item>
+    <item type="id" name="songNameContainer">false</item>
+    <item type="id" name="songStat">false</item>
+    <item type="id" name="delPicBtn">false</item>
     <item type="id" name="returnSourceApp">false</item>
     <item type="id" name="returnSourceAppText">false</item>
     <item type="id" name="stayCloudmusic">false</item>
@@ -1440,35 +1689,70 @@
     <item type="id" name="subjectCover">false</item>
     <item type="id" name="subjectTitle">false</item>
     <item type="id" name="subjectSubTitle">false</item>
-    <item type="id" name="guideFinger">false</item>
+    <item type="id" name="swipe">false</item>
     <item type="id" name="textview_tag_contaniner">false</item>
-    <item type="id" name="themeThumbnail">false</item>
-    <item type="id" name="newThemeMark">false</item>
-    <item type="id" name="themeName">false</item>
-    <item type="id" name="currentThemeMark">false</item>
-    <item type="id" name="themeDownloadBtn">false</item>
-    <item type="id" name="themeDownloadProgressBar">false</item>
-    <item type="id" name="themeDownloadProgressText">false</item>
-    <item type="id" name="themeDeleteBtn">false</item>
-    <item type="id" name="trackInfoArea">false</item>
+    <item type="id" name="color">false</item>
+    <item type="id" name="applyMark">false</item>
+    <item type="id" name="back">false</item>
+    <item type="id" name="colorPicker">false</item>
+    <item type="id" name="deleteBtn">false</item>
+    <item type="id" name="trackViewContainer">false</item>
+    <item type="id" name="trackActivityImg">false</item>
+    <item type="id" name="trackActivityCloseBtn">false</item>
+    <item type="id" name="trackActivityInfo">false</item>
+    <item type="id" name="trackActivityAttendBtn">false</item>
+    <item type="id" name="trackActivityAttendCount">false</item>
+    <item type="id" name="trackBasicHeaderInfoContainer">false</item>
     <item type="id" name="trackCreatorAvatar">false</item>
-    <item type="id" name="trackInfoHead">false</item>
-    <item type="id" name="trackCreator">false</item>
-    <item type="id" name="trackCreatorDo">false</item>
+    <item type="id" name="trackSimpleHeaderName">false</item>
+    <item type="id" name="trackActionContainer">false</item>
+    <item type="id" name="trackUserName">false</item>
+    <item type="id" name="trackUserAction">false</item>
+    <item type="id" name="trackTimeInfo">false</item>
+    <item type="id" name="trackFollowBtn">false</item>
+    <item type="id" name="trackMoreBtn">false</item>
+    <item type="id" name="trackFlag">false</item>
+    <item type="id" name="trackMainContainer">false</item>
+    <item type="id" name="trackInteractLayoutViewStub">false</item>
+    <item type="id" name="trackRmcdFailContainer">false</item>
+    <item type="id" name="trackPicContainer">false</item>
+    <item type="id" name="trackPicOne">false</item>
+    <item type="id" name="trackPicTwo">false</item>
+    <item type="id" name="trackPicThree">false</item>
+    <item type="id" name="trackPicFour">false</item>
+    <item type="id" name="trackDeleteHint">false</item>
     <item type="id" name="trackDesc">false</item>
-    <item type="id" name="resourceContentArea">false</item>
-    <item type="id" name="realTrackDesc">false</item>
-    <item type="id" name="realContentArea">false</item>
-    <item type="id" name="resourceCover">false</item>
-    <item type="id" name="resourceLikedArea">false</item>
-    <item type="id" name="likedPeopleText">false</item>
-    <item type="id" name="resourceLikedPeopleContainer">false</item>
-    <item type="id" name="forwardBtn">false</item>
+    <item type="id" name="trackResourceInteractArea">false</item>
+    <item type="id" name="trackLikedPeopleText">false</item>
+    <item type="id" name="trackResourceLikedPeopleContainer">false</item>
+    <item type="id" name="trackLikeBtn">false</item>
+    <item type="id" name="trackCmtBtn">false</item>
+    <item type="id" name="trackRepostBtn">false</item>
+    <item type="id" name="trackMvImgContainer">false</item>
+    <item type="id" name="trackMvImg">false</item>
+    <item type="id" name="trackMvName">false</item>
+    <item type="id" name="trackMvArtistName">false</item>
+    <item type="id" name="trackMvIcon">false</item>
+    <item type="id" name="artistViewContainerScroll">false</item>
+    <item type="id" name="artistViewContainer">false</item>
+    <item type="id" name="trackRmcdReasonFlag">false</item>
+    <item type="id" name="trackRmcdReason">false</item>
+    <item type="id" name="trackRepostDesc">false</item>
+    <item type="id" name="trackResContainer">false</item>
+    <item type="id" name="trackResImg">false</item>
+    <item type="id" name="trackResCoverImg">false</item>
+    <item type="id" name="trackResName">false</item>
+    <item type="id" name="trackResCreator">false</item>
+    <item type="id" name="trackUnknowContainer">false</item>
+    <item type="id" name="trackUnknowType">false</item>
+    <item type="id" name="uniqeResourceContainer">false</item>
+    <item type="id" name="uniqeResourceCover">false</item>
+    <item type="id" name="uniqeResourceName">false</item>
+    <item type="id" name="uniqeResourceTime">false</item>
+    <item type="id" name="uniqeResourceIcon">false</item>
     <item type="id" name="updateProgressText">false</item>
     <item type="id" name="updateProgressBar">false</item>
-    <item type="id" name="userCommentAvatarContainer">false</item>
     <item type="id" name="userCommentAvatar">false</item>
-    <item type="id" name="usercommentNewIcn">false</item>
     <item type="id" name="userCommentFromAction">false</item>
     <item type="id" name="userCommentNickname">false</item>
     <item type="id" name="userCommentTime">false</item>
@@ -1477,39 +1761,8 @@
     <item type="id" name="headText">false</item>
     <item type="id" name="infoBtn">false</item>
     <item type="id" name="userToplistHeaderLine">false</item>
-    <item type="id" name="userTopRankContainer">false</item>
-    <item type="id" name="rankNum">false</item>
-    <item type="id" name="rankChangeNum">false</item>
-    <item type="id" name="userImg">false</item>
-    <item type="id" name="userName">false</item>
-    <item type="id" name="userSubName">false</item>
-    <item type="id" name="hotLevel">false</item>
-    <item type="id" name="hotTrackContentArea">false</item>
-    <item type="id" name="hotTrackIcon">false</item>
-    <item type="id" name="hotTrackContentContainer">false</item>
-    <item type="id" name="hotTrackCloseBtn">false</item>
-    <item type="id" name="hotTrackContent">false</item>
-    <item type="id" name="hotTrackOtherInfo">false</item>
-    <item type="id" name="eventTrackContentArea">false</item>
-    <item type="id" name="eventTrackCover">false</item>
-    <item type="id" name="eventTrackCloseBtn">false</item>
-    <item type="id" name="eventTrackContent">false</item>
-    <item type="id" name="trackUserInfoAndLightTrackContainer">false</item>
-    <item type="id" name="trackUserInfoContainer">false</item>
-    <item type="id" name="trackFromAction">false</item>
-    <item type="id" name="trackInfoContainer">false</item>
-    <item type="id" name="trackFrom">false</item>
-    <item type="id" name="trackAction">false</item>
-    <item type="id" name="lightTrackContentArea">false</item>
-    <item type="id" name="lightTrackContentName">false</item>
-    <item type="id" name="lightTrackContentByWho">false</item>
-    <item type="id" name="unknowTrackTypeArea">false</item>
-    <item type="id" name="trackLeftHQ">false</item>
-    <item type="id" name="trackRightHQ">false</item>
-    <item type="id" name="extraInfoArea">false</item>
-    <item type="id" name="likeBlock">false</item>
-    <item type="id" name="likedNum">false</item>
-    <item type="id" name="forwardBlock">false</item>
-    <item type="id" name="forwardNum">false</item>
     <item type="id" name="progress_indicator">false</item>
+    <item type="id" name="realToastBg">false</item>
+    <item type="id" name="menuClose">false</item>
+    <item type="id" name="menuSelectedAll">false</item>
 </resources>

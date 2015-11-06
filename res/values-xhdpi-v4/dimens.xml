@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recordProgramOpHeight">168.0dip</dimen>
+    <dimen name="recordProgramViewHeight">195.0dip</dimen>
+    <dimen name="playlistExpertTagWidth">73.0dip</dimen>
+    <dimen name="albumMiddleSize">178.0dip</dimen>
+    <dimen name="localScanMobileHeight">277.0dip</dimen>
+    <dimen name="localScanMobileWidth">145.0dip</dimen>
+    <dimen name="localScanSearchMarginTop">90.0dip</dimen>
+    <dimen name="localScanSearchSize">62.0dip</dimen>
+    <dimen name="loginLogoMarginTop">76.0dip</dimen>
+    <item type="dimen" name="playerActionItemHeight">@dimen/playerActionItemSize</item>
+    <dimen name="playerActionItemSize">60.0dip</dimen>
+    <dimen name="playerActionMarginRight">11.0dip</dimen>
+    <dimen name="playerCommentCountTop">15.0dip</dimen>
+    <dimen name="playerOpHeight">84.0dip</dimen>
+    <dimen name="playerOpMarginBottom">7.0dip</dimen>
+    <dimen name="playerProgramActionMarginRight">32.0dip</dimen>
+    <dimen name="programDiscSize">260.66406dip</dimen>
+    <dimen name="scanDownMaskHeight">54.0dip</dimen>
+    <dimen name="scanDownMaskMarginBottom">32.0dip</dimen>
+    <dimen name="scanDownMaskMarginTop">26.0dip</dimen>
+    <dimen name="scanDownMaskWidth">130.0dip</dimen>
+</resources>

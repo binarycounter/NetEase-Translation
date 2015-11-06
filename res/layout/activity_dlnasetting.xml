@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/preferenceScrollView" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/padding10Dp">
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/pfDlnaArea" style="@style/settingContainer_nobg">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/connectToDlnaDevice" android:layout_centerVertical="true" style="@style/settingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/pfDlnaToggleButton" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:paddingLeft="@dimen/listLinePaddingWithContent" android:paddingTop="24.0dip" android:paddingRight="@dimen/listLinePaddingWithContent" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/guide_dlna" android:scaleType="centerInside" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="#ff666666" android:paddingLeft="@dimen/listLinePaddingWithContent" android:paddingRight="@dimen/listLinePaddingWithContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dlnaUsage" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="14.0sp" android:textColor="#ff477aac" android:id="@id/dlnaIntro" android:paddingLeft="@dimen/listLinePaddingWithContent" android:paddingTop="20.0dip" android:paddingRight="@dimen/listLinePaddingWithContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dlnaAbout" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/goToSelectDlnaDevice" android:background="@drawable/btn_white_oval_selector" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="@dimen/listLinePaddingWithContent" android:layout_marginTop="55.0dip" android:layout_marginRight="@dimen/listLinePaddingWithContent" android:layout_marginBottom="15.0dip" android:text="@string/selectDlanDevice" />
+    </LinearLayout>
+</ScrollView>

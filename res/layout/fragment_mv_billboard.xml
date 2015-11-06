@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.viewpagerindicator.TabPageIndicator android:id="@id/mvBillboardTabPageIndicator" android:layout_width="wrap_content" android:layout_height="47.669983dip" android:layout_marginLeft="@dimen/findPageNormalPading" />
-    <View android:id="@id/divideLine" android:background="#ffd9d9d9" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/findPageNormalPading" android:layout_marginRight="@dimen/findPageNormalPading" android:layout_below="@id/mvBillboardTabPageIndicator" />
-    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/mvBillboardPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/divideLine" />
-    <include android:visibility="gone" layout="@layout/nonetwork" />
-</RelativeLayout>

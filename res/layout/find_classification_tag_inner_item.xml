@@ -2,6 +2,7 @@
 <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <RelativeLayout android:id="@id/tagItemContainer" style="@style/classificationSmallTagRlStyle">
-        <TextView android:id="@id/tagNameTv" style="@style/classificationSmallTagTvStyle" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/tagNameTv" style="@style/classificationSmallTagTvStyle" />
     </RelativeLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/playlistClassIsHotSpIcon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/lists_icn_hot" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
 </RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/camera" android:background="@drawable/picture_camera_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:src="@drawable/nact_chose_camera" android:scaleType="center" />
+    <View android:id="@id/cover" android:background="@color/pictureCoverDisable" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" />
+</RelativeLayout>

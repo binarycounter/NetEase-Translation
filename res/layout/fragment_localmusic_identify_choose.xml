@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-        <com.netease.cloudmusic.ui.PagerListView android:id="@id/sdCardSongList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/sideBar" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.netease.cloudmusic.ui.PagerListView android:id="@id/sdCardSongList" android:layout_width="fill_parent" android:layout_height="fill_parent" />
         <com.netease.cloudmusic.ui.IndexBar android:id="@id/sideBar" android:layout_width="@dimen/sideBarWidth" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
-        <TextView android:textSize="50.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/indexText" android:background="@drawable/index_toast_bg" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="70.0dip" android:minWidth="70.0dip" android:layout_centerInParent="true" />
-        <View android:id="@id/importBtnContainerShadow" android:background="@drawable/alb_btmtab_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_alignParentBottom="true" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="50.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/indexText" android:background="@drawable/index_toast_bg" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="70.0dip" android:minWidth="70.0dip" android:layout_centerInParent="true" />
         <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@android:id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
             <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:src="@drawable/icn_nomusic" />
             <TextView android:textSize="14.0sp" android:textColor="#ff888888" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="52.0dip" android:text="@string/localMusicEmptyText" />
-            <Button android:textSize="16.0sp" android:textColor="#ff333333" android:id="@id/localmusicScanBtn" android:background="@drawable/btn_white_oval_selector" android:layout_width="248.0dip" android:layout_height="40.0dip" android:layout_marginTop="24.0dip" android:text="@string/localMusicScanNow" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/localmusicScanBtn" android:background="@drawable/btn_white_oval_selector" android:layout_width="248.0dip" android:layout_height="40.0dip" android:layout_marginTop="24.0dip" android:text="@string/localMusicScanNow" />
         </LinearLayout>
     </RelativeLayout>
     <LinearLayout android:gravity="center_vertical" android:id="@id/managePlaylistBtnContainer" android:background="#ffffffff" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="47.0dip">
-        <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-            <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:id="@id/leftText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menuAddLocalMusicToPlayList" android:drawableLeft="@drawable/btmlay_icn_addlist" android:drawablePadding="14.0dip" />
-        </LinearLayout>
-        <View android:background="#ffc1c1c2" android:layout_width="1.0px" android:layout_height="20.0dip" />
-        <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-            <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/rightText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menuDelete" android:drawableLeft="@drawable/btmlay_icn_dlt" android:drawablePadding="14.0dip" />
-        </LinearLayout>
+        <com.netease.cloudmusic.ui.DrawableCenterTextView android:textSize="13.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/leftText" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/menuAddLocalMusicToPlayList" android:drawableLeft="@drawable/btmlay_icn_addlist" android:drawablePadding="14.0dip" android:layout_weight="1.0" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeLine android:background="#ffc1c1c2" android:layout_width="0.33000004dip" android:layout_height="20.0dip" />
+        <com.netease.cloudmusic.ui.DrawableCenterTextView android:textSize="13.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/rightText" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/menuDelete" android:drawableLeft="@drawable/btmlay_icn_dlt" android:drawablePadding="14.0dip" android:layout_weight="1.0" />
     </LinearLayout>
 </LinearLayout>

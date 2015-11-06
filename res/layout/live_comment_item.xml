@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.VFaceImage android:id="@id/comment_userIcon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/comment_userInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/comment_userIcon">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/comment_userName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/name" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="9.0sp" android:textColor="#ff9b9da2" android:gravity="center" android:id="@id/comment_userFlag" android:background="@drawable/live_tag" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="13.329987dip" android:layout_marginLeft="4.0dip" android:text="@string/iPasser" />
+    </LinearLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="#ff333333" android:id="@id/comment_userContent" android:paddingTop="4.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/comment_userInfo" android:lineSpacingExtra="2.3299866dip" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeLine android:background="#30000000" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_alignLeft="@id/comment_userContent" android:layout_alignParentBottom="true" />
+</RelativeLayout>

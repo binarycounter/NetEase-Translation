@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/normalBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dslv="http://schemas.android.com/apk/res-auto">
     <com.mobeta.android.dslv.DragSortListView android:id="@id/dragSortPlayListList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@color/listDivider" android:dividerHeight="0.6700001dip" android:layout_above="@id/managePlaylistBtnContainer" android:footerDividersEnabled="false" dslv:collapsed_height="2.0dip" dslv:drag_scroll_start="0.33" dslv:max_drag_scroll_speed="0.5" dslv:float_background_color="@android:color/transparent" dslv:remove_mode="flingRemove" dslv:track_drag_sort="false" dslv:float_alpha="0.6" dslv:slide_shuffle_speed="0.3" dslv:drag_enabled="true" dslv:sort_enabled="true" dslv:remove_enabled="false" dslv:drag_start_mode="onDown" dslv:drag_handle_id="@id/drag_handle" dslv:use_default_controller="true" />
-    <View android:background="@drawable/alb_btmtab_shadow" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_above="@id/managePlaylistBtnContainer" />
     <LinearLayout android:gravity="center_vertical" android:id="@id/managePlaylistBtnContainer" android:background="#ffffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="47.0dip" android:layout_alignParentBottom="true">
         <LinearLayout android:gravity="center" android:id="@id/manageAddPlaylistBtn" android:background="@drawable/pl_action_area_item_mask" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-            <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:id="@id/leftText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/addToPlayListBlank" android:drawableLeft="@drawable/btmlay_icn_addlist" android:drawablePadding="7.0dip" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="@color/normalC3" android:id="@id/leftText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/addToPlayListBlank" android:drawableLeft="@drawable/btmlay_icn_addlist" android:drawablePadding="7.0dip" />
         </LinearLayout>
-        <View android:background="#ffc1c1c2" android:layout_width="1.0px" android:layout_height="20.0dip" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeLine android:layout_width="0.33000004dip" android:layout_height="20.0dip" />
         <LinearLayout android:gravity="center" android:id="@id/manageDelPlaylistBtn" android:background="@drawable/pl_action_area_item_mask" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-            <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:id="@id/rightText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delFileBlank" android:drawableLeft="@drawable/btmlay_icn_dlt" android:drawablePadding="7.0dip" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="@color/normalC3" android:id="@id/rightText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delFileBlank" android:drawableLeft="@drawable/btmlay_icn_dlt" android:drawablePadding="7.0dip" />
         </LinearLayout>
-        <View android:background="#ffc1c1c2" android:layout_width="1.0px" android:layout_height="20.0dip" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeLine android:layout_width="0.33000004dip" android:layout_height="20.0dip" />
         <LinearLayout android:gravity="center" android:id="@id/batchDownloadPlaylistBtn" android:background="@drawable/pl_action_area_item_mask" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-            <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:id="@id/batchDownloadText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/batchDownloadText" android:drawableLeft="@drawable/btmlay_icn_dld" android:drawablePadding="7.0dip" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="@color/normalC3" android:id="@id/batchDownloadText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/batchDownloadText" android:drawableLeft="@drawable/btmlay_icn_dld" android:drawablePadding="7.0dip" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

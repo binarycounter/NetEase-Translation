@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="bs_list_divider">false</item>
+    <item type="layout" name="heavy_divider">false</item>
+    <item type="layout" name="migrate_data_info">false</item>
+</resources>

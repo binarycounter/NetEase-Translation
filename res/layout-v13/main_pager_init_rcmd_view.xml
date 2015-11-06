@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#e5000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="right" android:id="@id/mainPageRcmdTagContainerCloseBtn" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:src="@drawable/list_full_btn_close" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/theme_color_fff" android:layout_gravity="center" android:id="@id/mainPageRcmdTagContainerTitle" android:paddingBottom="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mainPagerSelectedInterestTag" android:layout_below="@id/mainPageRcmdTagContainerCloseBtn" android:layout_centerHorizontal="true" />
+    <ScrollView android:id="@id/mainPageRcmdTagContainerScroll" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:scrollbars="none" android:fadingEdge="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_below="@id/mainPageRcmdTagContainerTitle" android:overScrollMode="never" android:requiresFadingEdge="vertical">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.netease.cloudmusic.ui.flowlayout.FlowLayout android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/mainPageRcmdTagContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </ScrollView>
+    <TextView android:textSize="17.0dip" android:textColor="@color/theme_color_fff" android:gravity="center_horizontal" android:id="@id/mainPageRcmdTagFinishBtn" android:background="#e0000000" android:padding="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="27.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="27.0dip" android:text="@string/completeTagSelect" android:layout_below="@id/mainPageRcmdTagContainerScroll" />
+</RelativeLayout>

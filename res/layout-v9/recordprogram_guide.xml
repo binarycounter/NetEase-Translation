@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="#d8000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_gravity="center" android:background="@drawable/recordprogram_guide_bg" android:layout_width="278.0dip" android:layout_height="441.0dip">
-        <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/guidePager" android:layout_width="266.0dip" android:layout_height="410.0dip" android:layout_centerInParent="true" android:overScrollMode="never" />
-        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/dotParent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true" />
-    </RelativeLayout>
-</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding10Dp">
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:orientation="horizontal" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="#ff333333" android:paddingLeft="@dimen/padding10Dp" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/musicQualityNormal" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="#ff888888" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/musicSizeNormal" android:layout_weight="1.0" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/downloadNormal" style="@style/dnloadQualityIv" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:orientation="horizontal" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="#ff333333" android:paddingLeft="@dimen/padding10Dp" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/musicQualityHigh" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="#ff888888" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/musicSizeHigh" android:layout_weight="1.0" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/downloadHigh" style="@style/dnloadQualityIv" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:orientation="horizontal" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="#ff333333" android:paddingLeft="@dimen/padding10Dp" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/musicQualityHigher" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="#ff888888" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/musicSizeHigher" android:layout_weight="1.0" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/downloadHigher" style="@style/dnloadQualityIv" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:orientation="horizontal" style="@style/settingContainer_nobg">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/padding10Dp" android:layout_width="150.0dip" android:layout_height="wrap_content">
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_gravity="center_vertical" android:id="@id/downloadLosslessDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/musicQualityLossless" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lay_icn_memsq" />
+            </LinearLayout>
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="#ff888888" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/musicSizeLossless" android:layout_weight="1.0" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/downloadLossless" style="@style/dnloadQualityIv" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/mainPagerGridImg" android:layout_width="wrap_content" android:layout_height="wrap_content" fresco:fadeDuration="300" fresco:placeholderImage="@drawable/placeholder_disk_321" fresco:placeholderImageScaleType="fitXY" fresco:actualImageScaleType="centerCrop" fresco:overlayImage="@drawable/cover_border_mask_top" fresco:pressedStateOverlayImage="@color/theme_color_cover_dark" />
+    <include layout="@layout/high_quality_playlist_icon_sml" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" layout="@layout/main_pager_rcmd_grid_textview_listen_layout" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/mainPagerGridImg" layout="@layout/main_pager_rcmd_grid_textview_primary_layout" />
+</RelativeLayout>

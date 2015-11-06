@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout style="@style/musicItemRealItemBgPadding10"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/musicListen" android:layout="@layout/music_listen" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/songNameAndInfoArea" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_height="wrap_content" style="@style/musicItemNameAndInfo">
+        <include layout="@layout/song_name_container_layout" />
+        <include layout="@layout/song_info_container_layout" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/songInfoContainer" layout="@layout/search_music_item_lrc_alias_layout" />
+    </RelativeLayout>
+    <include layout="@layout/song_menu_btn_layout" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

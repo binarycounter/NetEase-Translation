@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/commentHeader" android:background="@drawable/common_selector" android:paddingLeft="@dimen/listLeftRightMargin" android:paddingRight="@dimen/listLeftRightMargin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip">
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/commentHeader" android:paddingLeft="@dimen/listLeftRightMargin" android:paddingRight="@dimen/listLeftRightMargin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/listLeftRightMargin" android:layout_marginBottom="@dimen/listLeftRightMargin" app:bgType="noline">
         <FrameLayout android:id="@id/commentResImageBlock" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <ImageView android:id="@id/commentResImage" android:layout_width="65.0dip" android:layout_height="65.0dip" android:src="@drawable/default_disc_180" android:scaleType="fitXY" />
-            <ImageView android:layout_width="65.0dip" android:layout_height="65.0dip" android:src="@drawable/list_cover" android:scaleType="fitXY" />
+            <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/commentResImage" android:layout_width="65.0dip" android:layout_height="65.0dip" app:placeholderImage="@drawable/placeholder_disk_150" app:placeholderImageScaleType="fitXY" app:actualImageScaleType="centerCrop" app:overlayImage="@drawable/cover_border" />
+            <include layout="@layout/high_quality_playlist_icon_sml" />
         </FrameLayout>
-        <ImageView android:id="@id/commentAlbumImage" android:background="@drawable/srch_cover_alb" android:paddingLeft="1.0dip" android:paddingTop="1.0dip" android:paddingRight="14.399994dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="81.69998dip" android:layout_height="68.29999dip" />
+        <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/commentAlbumImage" android:background="@drawable/srch_cover_alb" android:paddingLeft="1.0dip" android:paddingTop="1.0dip" android:paddingRight="14.399994dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="81.69998dip" android:layout_height="68.29999dip" app:placeholderImage="@drawable/placeholder_disk_150" app:placeholderImageScaleType="fitXY" app:actualImageScaleType="centerCrop" />
         <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_weight="1.0">
-            <TextView android:textSize="17.0sp" android:textColor="#ff333333" android:id="@id/commentResName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-            <TextView android:textSize="13.0sp" android:textColor="#ff666666" android:id="@id/commentResInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:singleLine="true" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="16.0sp" android:textColor="#ff333333" android:id="@id/commentResName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="#ff666666" android:id="@id/commentResInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:singleLine="true" />
         </LinearLayout>
-        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_icn_arr_packup" />
-    </LinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lists_icn_arr" app:nightSpecialForegroundColor="@color/nightY6" app:needApplyNormalDrawableColor="false" />
+    </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
 </LinearLayout>

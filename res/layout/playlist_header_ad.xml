@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.AdImageView android:id="@id/playListHeaderAd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY" app:adWidth="215.0dip" app:adHeight="@dimen/playlistAdHeight" app:actualImageScaleType="fitXY" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

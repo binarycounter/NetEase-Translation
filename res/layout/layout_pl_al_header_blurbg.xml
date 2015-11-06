@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/plALBlurBg" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:fadeDuration="618" fresco:actualImageScaleType="centerCrop"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" />

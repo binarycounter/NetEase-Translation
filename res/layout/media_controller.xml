@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/mvBarBg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/transparent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageButton android:id="@id/mc_play_pause_btn" android:background="@null" android:paddingLeft="25.0dip" android:paddingRight="25.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/mc_play_pause_btn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
     <TextView android:textSize="11.0sp" android:textColor="@android:color/white" android:id="@id/mc_time_now_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:shadowColor="#ff000000" android:shadowDy="1.0" android:shadowRadius="0.5" />
     <com.netease.cloudmusic.ui.MvSeekBar android:id="@id/mc_play_progress" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="4.0dip" android:progressDrawable="@drawable/mv_seekbar" android:minHeight="4.0dip" android:thumb="@drawable/mv_playbar_btn" android:layout_weight="1.0" />
     <TextView android:textSize="11.0sp" android:textColor="#ff999999" android:id="@id/mc_time_all_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:shadowColor="#ff000000" android:shadowDy="1.0" android:shadowRadius="0.5" />

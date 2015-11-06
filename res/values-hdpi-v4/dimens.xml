@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="loginItemHeight">50.0dip</dimen>
+    <dimen name="recordProgramOpHeight">126.0dip</dimen>
+    <dimen name="recordProgramViewHeight">180.0dip</dimen>
+    <dimen name="albumMiddleSize">157.29999dip</dimen>
+    <dimen name="localScanMobileHeight">221.0dip</dimen>
+    <dimen name="localScanMobileWidth">116.0dip</dimen>
+    <dimen name="localScanSearchMarginTop">72.0dip</dimen>
+    <dimen name="localScanSearchSize">50.0dip</dimen>
+    <dimen name="loginAnonimousPaddingBottom">27.0dip</dimen>
+    <dimen name="loginAnonimousTxtPaddingBottom">20.0dip</dimen>
+    <dimen name="loginAnonimousTxtPaddingTop">10.0dip</dimen>
+    <dimen name="loginLogoMarginTop">46.0dip</dimen>
+    <dimen name="playerActionItemHeight">36.0dip</dimen>
+    <dimen name="playerActionItemSize">64.0dip</dimen>
+    <dimen name="playerActionMarginRight">0.0dip</dimen>
+    <dimen name="playerCommentCountTop">3.0dip</dimen>
+    <dimen name="playerOpHeight">64.0dip</dimen>
+    <dimen name="playerOpMarginBottom">5.3299866dip</dimen>
+    <dimen name="playerProgramActionMarginRight">20.0dip</dimen>
+    <dimen name="programDiscSize">230.0dip</dimen>
+    <dimen name="scanDownMaskHeight">43.0dip</dimen>
+    <dimen name="scanDownMaskMarginBottom">26.0dip</dimen>
+    <dimen name="scanDownMaskMarginTop">20.0dip</dimen>
+    <dimen name="scanDownMaskWidth">104.0dip</dimen>
+    <dimen name="yixinWeiXinMarginTop">36.0dip</dimen>
+    <dimen name="yixinWeiXinPaddingTop">41.0dip</dimen>
+</resources>

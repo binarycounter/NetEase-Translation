@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="loginItemHeight">54.0dip</dimen>
+    <dimen name="recordProgramOpHeight">168.0dip</dimen>
+    <dimen name="recordProgramViewHeight">195.0dip</dimen>
+    <dimen name="loginAnonimousPaddingBottom">57.669983dip</dimen>
+    <dimen name="loginAnonimousTxtPaddingBottom">30.0dip</dimen>
+    <dimen name="loginAnonimousTxtPaddingTop">15.0dip</dimen>
+    <dimen name="loginLogoMarginTop">76.0dip</dimen>
+    <dimen name="yixinWeiXinMarginTop">54.0dip</dimen>
+    <dimen name="yixinWeiXinPaddingTop">67.0dip</dimen>
+</resources>

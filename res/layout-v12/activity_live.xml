@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/liveContentContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/videoBlock" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <tv.danmaku.ijk.media.widget.VideoView android:id="@id/videoView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <master.flame.danmaku.ui.widget.DanmakuSurfaceView android:id="@id/barrageView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.netease.cloudmusic.ui.NeteaseMusicViewFlipper android:id="@id/infoFlipper" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="14.0sp" android:textColor="#fffefefe" android:id="@id/infoTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffe93b30" android:id="@id/infoSubTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="43.0dip" android:text="@string/goonWatch" />
+            </LinearLayout>
+            <TextView android:textSize="15.0sp" android:textColor="#7fffffff" android:gravity="center" android:id="@id/loadFailView" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <RelativeLayout android:gravity="center" android:id="@id/loadingView" android:background="@drawable/mv_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="14.0sp" android:textColor="#80ffffff" android:gravity="center" android:id="@id/loadingTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/liveLoading" android:drawableTop="@drawable/about_logo" android:drawablePadding="23.0dip" android:layout_centerInParent="true" />
+                    <com.netease.cloudmusic.theme.ui.CustomThemeProgressBar android:layout_width="13.299988dip" android:layout_height="13.299988dip" android:layout_marginLeft="-16.0dip" android:layout_marginBottom="1.0dip" android:indeterminate="true" android:layout_alignLeft="@id/loadingTxt" android:layout_alignBottom="@id/loadingTxt" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/liveOverPic" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" />
+        </com.netease.cloudmusic.ui.NeteaseMusicViewFlipper>
+        <View android:id="@id/liveMask" android:background="@drawable/live_play_mask" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:gravity="center" android:id="@id/bufferingIndicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="14.0sp" android:textColor="#80ffffff" android:gravity="center" android:id="@id/bufferingText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/buffering" android:drawablePadding="23.0dip" android:layout_centerInParent="true" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeProgressBar android:layout_width="13.299988dip" android:layout_height="13.299988dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="1.0dip" android:indeterminate="true" android:layout_toLeftOf="@id/bufferingText" android:layout_alignBottom="@id/bufferingText" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/menuBar" android:background="@color/mvBarBg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/mvMenuBarHeight">
+            <LinearLayout android:gravity="center_vertical" android:id="@id/titleContainer" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:id="@id/videoBackBtn" android:paddingLeft="10.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/actionbar_back" android:scaleType="centerInside" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/videoTitle" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                    <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/videoSubTitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textSize="9.0sp" android:textColor="#ffcdcdcd" android:gravity="center" android:id="@id/switchScreenFullBtn" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView android:id="@id/videoShareBtn" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/actionbar_share" android:scaleType="centerInside" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/barrageEditBlock" android:background="#9a000000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/backBtn" android:background="@drawable/common_white_selector" android:paddingLeft="@dimen/leftRightMargin" android:paddingRight="@dimen/leftRightMargin" android:layout_width="wrap_content" android:layout_height="49.0dip" android:src="@drawable/actionbar_back" android:scaleType="centerInside" />
+            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/postBtn" android:background="@drawable/common_white_selector" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="wrap_content" android:layout_height="49.0dip" android:layout_marginLeft="@dimen/leftRightMargin" android:layout_marginRight="@dimen/leftRightMargin" android:text="@string/send" android:layout_alignParentRight="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/barrageEditContainer" android:layout_width="fill_parent" android:layout_height="49.0dip" android:layout_toLeftOf="@id/postBtn" android:layout_toRightOf="@id/backBtn">
+                <EditText android:textSize="15.0sp" android:gravity="center_vertical" android:id="@id/barrageEdit" android:background="@drawable/live_input_bg" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:singleLine="true" android:imeOptions="flagNoExtractUi|flagNoFullscreen" android:textCursorDrawable="@null" />
+            </LinearLayout>
+            <ImageView android:id="@id/colorWhiteBtn" android:tag="colorBtn" android:paddingRight="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/barrageEditContainer" android:layout_alignLeft="@id/barrageEditContainer" />
+            <ImageView android:id="@id/colorBlueBtn" android:tag="colorBtn" android:paddingLeft="11.0dip" android:paddingRight="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/colorWhiteBtn" android:layout_alignTop="@id/colorWhiteBtn" />
+            <ImageView android:id="@id/colorPinkBtn" android:tag="colorBtn" android:paddingLeft="11.0dip" android:paddingRight="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/colorBlueBtn" android:layout_alignTop="@id/colorBlueBtn" />
+            <ImageView android:id="@id/colorYellowBtn" android:tag="colorBtn" android:paddingLeft="11.0dip" android:paddingRight="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/colorPinkBtn" android:layout_alignTop="@id/colorPinkBtn" />
+            <ImageView android:id="@id/colorGreenBtn" android:tag="colorBtn" android:paddingLeft="11.0dip" android:paddingRight="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/colorYellowBtn" android:layout_alignTop="@id/colorYellowBtn" />
+            <ImageView android:id="@id/colorPurpleBtn" android:tag="colorBtn" android:paddingLeft="11.0dip" android:paddingRight="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/colorGreenBtn" android:layout_alignTop="@id/colorGreenBtn" />
+            <ImageView android:id="@id/colorRedBtn" android:tag="colorBtn" android:paddingLeft="11.0dip" android:paddingRight="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/colorPurpleBtn" android:layout_alignTop="@id/colorPurpleBtn" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/controlBar" android:background="@color/mvBarBg" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_alignBottom="@id/videoView">
+            <TextView android:textSize="14.0sp" android:textColor="#ccffffff" android:gravity="center_vertical" android:id="@id/barrageEditBtn" android:background="@drawable/live_input_bg" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="25.0dip" android:layout_marginRight="13.0dip" android:text="@string/writeBarrage" android:drawableLeft="@drawable/live_icn_pen" android:drawablePadding="6.0dip" android:layout_weight="1.0" />
+            <CheckBox android:id="@id/barrageToggleBtn" android:background="@drawable/live_on_off_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" android:button="@null" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffdfdfdf" android:id="@id/videoQualityBtn" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/fullScreenBtn2" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/supportArtistContainer" android:background="#bf000000" android:visibility="gone" android:layout_width="227.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="46.0dip" android:text="@string/selectYourSupportArtist" />
+            <View android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="@dimen/listDividerHeight" />
+            <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/artistContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </ScrollView>
+        </LinearLayout>
+        <ImageView android:id="@id/fullScreenBtn" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="18.0dip" android:paddingBottom="10.0dip" android:layout_width="45.0dip" android:layout_height="37.0dip" android:layout_alignRight="@id/videoView" android:layout_alignBottom="@id/videoView" />
+        <TextView android:textSize="7.0sp" android:textColor="#ffeeeeee" android:gravity="center" android:id="@id/switchScreenBtn" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_toLeftOf="@id/fullScreenBtn" android:layout_alignBottom="@id/videoView" />
+        <RelativeLayout android:id="@id/voteContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_below="@id/videoView">
+            <ProgressBar android:id="@id/voteBar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:progressDrawable="@drawable/live_progressbar" style="?android:attr/progressBarStyleHorizontal" />
+            <ImageView android:id="@id/voteFlag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            <TextView android:textSize="9.0sp" android:textColor="#ffffffff" android:id="@id/voteRed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_centerVertical="true" />
+            <TextView android:textSize="9.0sp" android:textColor="#ffd33a31" android:id="@id/voteWhite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.netease.cloudmusic.ui.NeteaseMusicViewFlipper android:id="@id/contentFlipper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/videoBlock">
+        <include layout="@layout/empty_content_toast" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/videoTab" layout="@layout/common_tablayout" />
+            <RelativeLayout android:id="@id/viewPagerContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/videoDetailViewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.netease.cloudmusic.ui.NeteaseMusicViewFlipper>
+    <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/liveCommentAction" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:minHeight="@dimen/commentActionHeight" android:layout_alignParentBottom="true" app:forCard="true" app:bgType="noline">
+        <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/supportIcon" android:background="@drawable/live_circle_bg" android:padding="0.33000004dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="9.0dip" app:placeholderImage="@drawable/live_head_passerby" app:placeholderImageScaleType="centerCrop" app:actualImageScaleType="centerCrop" app:roundAsCircle="true" />
+        <EditText android:id="@id/commentEditView" android:background="@drawable/msg_cmt_ipt" android:layout_marginLeft="9.0dip" android:layout_marginBottom="5.0dip" android:hint="@string/writeBarragePortrait" android:imeOptions="actionSend" android:imeActionLabel="@string/publishComment" style="@style/editTextStyle" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="14.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/commentSendBtn" android:background="@drawable/btn_white_oval_selector" android:layout_width="50.669983dip" android:layout_height="33.669983dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/privatemsg_post" />
+    </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+    <RelativeLayout android:id="@id/rightBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_alignParentRight="true">
+        <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/supportFullIcon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="13.0dip" app:placeholderImage="@drawable/live_head_passerby" app:placeholderImageScaleType="centerCrop" app:actualImageScaleType="centerCrop" app:roundAsCircle="true" />
+        <com.netease.cloudmusic.ui.LiveVoteView android:id="@id/voteBtn" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/live_icn_vote" android:layout_below="@id/supportFullIcon" />
+        <TextView android:textSize="9.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/voteLeftCount" android:background="@drawable/live_icn_votemsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_alignTop="@id/voteBtn" android:layout_alignRight="@id/voteBtn" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="bottom|center|right" android:id="@id/videoQualityWindowContainer" android:paddingRight="35.0dip" android:paddingBottom="70.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/mv_quality_window" layout="@layout/mv_quality_window" />
+    </LinearLayout>
+</RelativeLayout>

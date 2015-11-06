@@ -3,6 +3,5 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true" android:drawable="@drawable/list_slt_tag_prs" />
     <item android:state_selected="true" android:drawable="@drawable/list_slt_tag_slted" />
-    <item android:drawable="@drawable/list_slt_tag_slted" />
     <item android:drawable="@drawable/list_slt_tag" />
 </selector>

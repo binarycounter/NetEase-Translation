@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/artistContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/artistContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <FrameLayout android:id="@id/artistHeader" android:layout_width="fill_parent" android:layout_height="@dimen/artistBgMinHeight" android:minHeight="@dimen/artistBgMinHeight">
-        <com.netease.cloudmusic.ui.NetImageView android:id="@id/artistBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
-        <View android:background="@drawable/profile_artist_ban_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <TextView android:textSize="11.0sp" android:textColor="#fff1f2f3" android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/subscribeBtn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="18.0dip" android:drawablePadding="6.0dip" />
-        <com.viewpagerindicator.TabPageIndicator android:layout_gravity="bottom" android:id="@id/artistTab" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/artistHeader" android:layout_width="fill_parent" android:layout_height="@dimen/artistBgMinHeight">
+        <com.netease.cloudmusic.ui.NetImageView android:id="@id/artistBackground" android:background="@drawable/profile_artist_ban_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/innerTabHeight" android:scaleType="centerCrop" />
+        <View android:background="@drawable/profile_artist_ban_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/innerTabHeight" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="#fff1f2f3" android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:id="@id/subscribeBtn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginRight="@dimen/padding10Dp" android:layout_marginBottom="62.0dip" android:drawablePadding="6.0dip" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="#fff1f2f3" android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:id="@id/profileHomePageBtn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginRight="91.0dip" android:layout_marginBottom="62.0dip" android:drawablePadding="6.0dip" />
+        <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/innerTabHeight" layout="@layout/common_tablayout" />
     </FrameLayout>
-</FrameLayout>
+    <include layout="@layout/toolbar" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

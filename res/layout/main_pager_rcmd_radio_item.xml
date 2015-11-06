@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/mainPagerGridImg" android:layout_width="wrap_content" android:layout_height="wrap_content" fresco:fadeDuration="300" fresco:placeholderImage="@drawable/placeholder_disk_321" fresco:placeholderImageScaleType="fitXY" fresco:actualImageScaleType="centerCrop" fresco:overlayImage="@drawable/cover_border_mask_btm" fresco:pressedStateOverlayImage="@color/theme_color_cover_dark" />
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignRight="@id/mainPagerGridImg" android:layout_alignBottom="@id/mainPagerGridImg">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:layout_weight="1.0" layout="@layout/main_pager_rcmd_grid_textview_thidly_layout" />
+        <ImageView android:id="@id/mainPagerRadioGridPlayBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/list_cover_radio_play" />
+    </LinearLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/mainPagerGridImg" layout="@layout/main_pager_rcmd_grid_textview_primary_layout" />
+</RelativeLayout>

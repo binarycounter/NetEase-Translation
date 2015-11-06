@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/layout_rcmd_generate_viewstub" android:layout="@layout/layout_rcmd_generate_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/mainRcmdResultView" android:background="@drawable/list_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/mainPageHeaderFm" style="@style/mainPagerRcmdHeaderContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/fmIcon" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/recommend_icn_fm" app:nightSpecialForegroundColor="@color/nightY13" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/headerTitleRadio" style="@style/mainPagerRcmdHeaderTextView" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/mainPageHeaderDayRcmd" style="@style/mainPagerRcmdHeaderContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="26.0dip" android:textColor="#ffd33a31" android:gravity="center" android:id="@id/mainPageHeaderDayRcmdTvPrimary" android:background="@drawable/recommend_icn_daily" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dayRecommend" app:nightSpecialForegroundColor="@color/nightY13" app:nightSpecialForegroundPressedColor="@color/nightY2" app:nightSpecialBackgroundColor="@color/nightY13" app:needApplyBackgroundColor="true" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/mainPageHeaderDayRcmdTvSecond" style="@style/mainPagerRcmdHeaderTextView" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/mainPageHeaderBillboard" style="@style/mainPagerRcmdHeaderContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/upBillIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/recommend_icn_upbill" app:nightSpecialForegroundColor="@color/nightY13" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/mainPageHeaderRcmdBillboard" android:text="@string/musicNewBillboard" style="@style/mainPagerRcmdHeaderTextView" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
