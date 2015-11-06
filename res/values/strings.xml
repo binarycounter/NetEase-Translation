@@ -390,9 +390,9 @@
     <string name="reLogin">replacement account login</string>
     <string name="redTeam">[red team]</string>
     <string name="renrenShareCommentContent">Share Comments:%1$s from%2$s (@ Netease cloud music)</string>
-    <string name="replyCommentContentInTrack">\ @%1$s reply:%2$s</string>
-    <string name="reportBugSucAndCreditConsumed">deduct points% 1 $ d</string>
-    <string name="reportTrack">@ string / report</string>
+    <string name="replyCommentContentInTrack">\@%1$s reply:%2$s</string>
+    <string name="reportBugSucAndCreditConsumed">deduct points %1$d</string>
+    <string name="reportTrack">@string/report</string>
     <string name="resolution1080">1080P</string>
     <string name="resolution240">SD</string>
     <string name="resolution480">HD</string>
