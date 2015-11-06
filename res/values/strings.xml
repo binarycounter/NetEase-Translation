@@ -130,7 +130,7 @@
     <string name="downloadFailSinceNeedPay">download fails, you need to pay to use</string>
     <string name="downloadFailSinceNetwork">download fails, network anomalies</string>
     <string name="downloadFailSinceNoSpaceLeft">download fails, the phone is full</string>
-    <string name="downloadFailSinceOverCountLimit">@ string / downloadFullHint</string>
+    <string name="downloadFailSinceOverCountLimit">@string/downloadFullHint</string>
     <string name="downloadFailSincePointNotEnough">download failed, integral inadequate</string>
     <string name="downloadFailSincePurchaseExpired">download fails, the purchase has expired</string>
     <string name="downloadFailSinceResourceNotFound">​​download failed resource is not found</string>
@@ -259,7 +259,7 @@
     <string name="menuPayMusicBag">paid music package</string>
     <string name="menuSearchByArtistCategory">Filter</string>
     <string name="menuStore">Points Mall</string>
-    <string name="menuTheme">@ string / pfChangeFace</string>
+    <string name="menuTheme">@string/pfChangeFace</string>
     <string name="menuViewAlbumPage">View Album page</string>
     <string name="menuViewArtistPage">View Singer Page</string>
     <string name="menuViewFolderInfo">Folder:%s</string>
