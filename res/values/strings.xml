@@ -18,7 +18,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="appName">网易云音乐</string>
+    <string name="appName">NetEase</string>
     <string name="DXImportExceedLimit">歌单达到%1$d个上限，剩余歌单导入失败</string>
     <string name="DXImportFailed">导入失败</string>
     <string name="DXImportNPlayListSuc">已导入%1$d个歌单</string>
@@ -62,12 +62,12 @@
     <string name="adjustMainPageOrderHint">现在可以根据个人喜好，自由调整首页栏目顺序啦~</string>
     <string name="adjustMainPagerOrderTv">调整栏目顺序</string>
     <string name="ads">广告推广</string>
-    <string name="album">专辑</string>
+    <string name="album">Album</string>
     <string name="albumArtistInfo">歌手：</string>
-    <string name="albumCantFind">无法找到该专辑信息</string>
-    <string name="albumDeailTitle">专辑</string>
-    <string name="albumName">专辑：%s</string>
-    <string name="albumOffSale">该专辑已删除</string>
+    <string name="albumCantFind">无法找到该Album信息</string>
+    <string name="albumDeailTitle">Album</string>
+    <string name="albumName">Album：%s</string>
+    <string name="albumOffSale">该Album已删除</string>
     <string name="albumOffShelfToast">@string/resourceOffShelfToast</string>
     <string name="albumPublishTime">发行时间: %s</string>
     <string name="albumTypeChina">华语</string>
@@ -75,7 +75,7 @@
     <string name="albumTypeHkMc">港台</string>
     <string name="albumTypeJpan">日本</string>
     <string name="albumTypeKorea">韩国</string>
-    <string name="albumTypeLastest">最新专辑</string>
+    <string name="albumTypeLastest">最新Album</string>
     <string name="albumTypeMainLand">大陆</string>
     <string name="albumUrl">http://%1$s/album/%2$s/</string>
     <string name="aliPay">支付宝</string>
@@ -123,15 +123,15 @@
     <string name="applyForRadioUseThisAccount">你将用此帐号申请做主播</string>
     <string name="argsErr">参数错误</string>
     <string name="artisitBillboardInfo">选取云音乐中热度最高的100名歌手，每天更新。热度由收藏歌手、歌手歌曲的播放、收藏、分享数量综合计算。</string>
-    <string name="artist">歌手</string>
+    <string name="artist">Artist</string>
     <string name="artistAlreadyIn">已入驻</string>
     <string name="artistCantFind">无法找到该歌手信息</string>
     <string name="artistCategoryCantFind">无法找到该歌手分类</string>
     <string name="artistDetail">歌手信息</string>
-    <string name="artistInfoFormat">专辑 : %1$s   MV : %2$s</string>
+    <string name="artistInfoFormat">Album : %1$s   MV : %2$s</string>
     <string name="artistIntro">%1$s简介</string>
     <string name="artistLabel">歌手: </string>
-    <string name="artistName">歌手：%s</string>
+    <string name="artistName">Artist：%s</string>
     <string name="artistOffSale">该歌手已删除</string>
     <string name="artistPre">歌手: </string>
     <string name="artistRank">歌手榜</string>
@@ -623,7 +623,7 @@ ljian，小熊，小边，小马，小马哥，cp，吴小超，阿甘，红姐�
     <string name="goonRecordProgram">继续录制</string>
     <string name="goonUpgrade">继续升级</string>
     <string name="goonWatch">继续观看</string>
-    <string name="gotoAlbumPage">查看专辑</string>
+    <string name="gotoAlbumPage">查看Album</string>
     <string name="gotoDynamicPage">查看动态</string>
     <string name="gotoMvPage">查看MV</string>
     <string name="gotoPlaylistPage">查看歌单</string>
@@ -635,7 +635,7 @@ ljian，小熊，小边，小马，小马哥，cp，吴小超，阿甘，红姐�
     <string name="grayTestVersion">内测版</string>
     <string name="guest">未登录</string>
     <string name="hasFollowed">已关注</string>
-    <string name="hasNoAlbumIntro">暂无专辑信息</string>
+    <string name="hasNoAlbumIntro">暂无Album信息</string>
     <string name="hasNoArtistIntro">暂无歌手信息</string>
     <string name="hasNoSimilarMv">暂时相关MV</string>
     <string name="hasNoVoteInfo">暂无投票信息</string>
@@ -809,7 +809,7 @@ ljian，小熊，小边，小马，小马哥，cp，吴小超，阿甘，红姐�
     <string name="loadLrcFail">加载歌词失败，点击重新加载</string>
     <string name="loadWXImageFailWithRetry">图片加载失败，请重试</string>
     <string name="loading">努力加载中…</string>
-    <string name="loadingAlbum">正在获取专辑...</string>
+    <string name="loadingAlbum">正在获取Album...</string>
     <string name="loadingFloatLrc">桌面歌词努力加载中…</string>
     <string name="loadingGetLoginUrl">正在获取登录链接...</string>
     <string name="loadingImage">开始下载图片</string>
@@ -991,10 +991,10 @@ ljian，小熊，小边，小马，小马哥，cp，吴小超，阿甘，红姐�
     <string name="menuSystemSearch">搜索本地歌曲</string>
     <string name="menuTheme">@string/pfChangeFace</string>
     <string name="menuUpgradeMusic">升级音质</string>
-    <string name="menuViewAlbum">专辑</string>
-    <string name="menuViewAlbumInfo">专辑：%s</string>
-    <string name="menuViewAlbumPage">查看专辑页</string>
-    <string name="menuViewArtist">歌手</string>
+    <string name="menuViewAlbum">Album</string>
+    <string name="menuViewAlbumInfo">Album：%s</string>
+    <string name="menuViewAlbumPage">查看Album页</string>
+    <string name="menuViewArtist">Artist</string>
     <string name="menuViewArtistInfo">歌手：%s</string>
     <string name="menuViewArtistPage">查看歌手页</string>
     <string name="menuViewFolderInfo">文件夹：%s</string>
@@ -1125,7 +1125,7 @@ ljian，小熊，小边，小马，小马哥，cp，吴小超，阿甘，红姐�
     <string name="noCameraApp">无法找到照相程序</string>
     <string name="noCollectedArtistHint">"暂无收藏的歌手
 
-收藏喜欢的歌手，及时接收他们的新专辑提醒"</string>
+收藏喜欢的歌手，及时接收他们的新Album提醒"</string>
     <string name="noCreatedPlaylist">暂无创建或收藏的歌单</string>
     <string name="noDelCommentPermission">没有删除的权限</string>
     <string name="noDjScriber">暂时还没有关注者</string>
@@ -1225,7 +1225,7 @@ ljian，小熊，小边，小马，小马哥，cp，吴小超，阿甘，红姐�
     <string name="paused">已暂停</string>
     <string name="pausedAndClickToContinue">已暂停，点击继续下载</string>
     <string name="payAlbum">唱片公司要求，当前资源须付费使用。</string>
-    <string name="payAlbumbutton">订购专辑</string>
+    <string name="payAlbumbutton">订购Album</string>
     <string name="payCommonQuality">唱片公司要求，当前歌曲该音质须付费使用，订购付费音乐包即可自由畅享。</string>
     <string name="payCommonQuality2">唱片公司要求，当前资源须付费使用。</string>
     <string name="payCommonQuality2button">包月购买</string>
@@ -1324,7 +1324,7 @@ ljian，小熊，小边，小马，小马哥，cp，吴小超，阿甘，红姐�
     <string name="playProgram">播放电台节目</string>
     <string name="playQualityChoice">在线播放音质选择</string>
     <string name="playSoundQuality">在线播放音质</string>
-    <string name="playSourceAlbum">来自专辑</string>
+    <string name="playSourceAlbum">来自Album</string>
     <string name="playSourceArea">来自%s新歌</string>
     <string name="playSourceArtist">来自歌手</string>
     <string name="playSourceCloudMusic">来自音乐云盘</string>
@@ -1522,7 +1522,7 @@ PC版下载地址：music.163.com"</string>
     <string name="recentContactPeopleSymbol">↑</string>
     <string name="recentPlay">最近播放</string>
     <string name="recommend">推荐</string>
-    <string name="recommendArtistAdWord">收藏喜欢的歌手，及时接收他们的新专辑提醒</string>
+    <string name="recommendArtistAdWord">收藏喜欢的歌手，及时接收他们的新Album提醒</string>
     <string name="recommendMaybeKnow">认识的人</string>
     <string name="recommendOfficial">官方</string>
     <string name="recommendStarUser">明星</string>
@@ -1665,8 +1665,8 @@ PC版下载地址：music.163.com"</string>
     <string name="share2Yixin">易信分享</string>
     <string name="share2YixinFriend">分享给易信好友</string>
     <string name="share2YixinFriendCircle">分享到易信朋友圈</string>
-    <string name="shareAlbum">分享专辑</string>
-    <string name="shareAlbumPre">分享专辑: </string>
+    <string name="shareAlbum">分享Album</string>
+    <string name="shareAlbumPre">分享Album: </string>
     <string name="shareArtist">分享歌手</string>
     <string name="shareAuthDenied">认证失败</string>
     <string name="shareCommError">通信错误</string>
@@ -1711,7 +1711,7 @@ PC版下载地址：music.163.com"</string>
     <string name="shareWXHint">已准备好分享到微信的歌曲信息，请打开微信后，长按输入框粘贴。</string>
     <string name="shareWXInfoHint">已准备好分享到微信的信息，请打开微信后，长按输入框粘贴。</string>
     <string name="shareWithPrivateMsg">私信分享</string>
-    <string name="sharedAlbum">分享专辑</string>
+    <string name="sharedAlbum">分享Album</string>
     <string name="sharedArtist">分享歌手</string>
     <string name="sharedComment">分享评论</string>
     <string name="sharedDJProgram">分享电台节目</string>
@@ -1735,7 +1735,7 @@ PC版下载地址：music.163.com"</string>
     <string name="sinaTokenExpired">新浪微博的授权已过期，请重新绑定</string>
     <string name="sinaWeibo">新浪微博</string>
     <string name="smsAppNotAvailable">短信程序不可用</string>
-    <string name="smsShareAlbumContentFormat">分享%1$s的专辑《%2$s》: %3$s (来自@网易云音乐)</string>
+    <string name="smsShareAlbumContentFormat">分享%1$s的Album《%2$s》: %3$s (来自@网易云音乐)</string>
     <string name="smsShareCommentFormat">分享评论: %1$s (来自@网易云音乐)</string>
     <string name="smsShareMVContentFormat">分享%1$s的MV《%2$s》: %3$s (来自@网易云音乐)</string>
     <string name="smsSharePlaylistContentFormat">分享%1$s创建的歌单「%2$s」: %3$s (来自@网易云音乐)</string>
@@ -1748,7 +1748,7 @@ PC版下载地址：music.163.com"</string>
     <string name="snsExpiredPromptPrefix">你绑定的</string>
     <string name="snsExpiredPromptSuffix">帐号已过期，请重新点亮图标后分享</string>
     <string name="snsSetting">绑定帐号</string>
-    <string name="snsShareAlbumContentFormat">分享%1$s的专辑《%2$s》</string>
+    <string name="snsShareAlbumContentFormat">分享%1$s的Album《%2$s》</string>
     <string name="snsShareArtistContentFormat">分享歌手%1$s</string>
     <string name="snsShareCommentContentFormat">分享评论：</string>
     <string name="snsShareMVContentFormat">分享%1$s的MV《%2$s》</string>
