@@ -7,7 +7,3 @@ Automated build bot via Travis CI: https://travis-ci.org/felix3008/NetEase-Trans
 
 
 Builds uploaded to Google Drive: https://drive.google.com/folderview?id=0B2zELYFwobkXfm1hYVh1NUZOcHlFQ3R5SWdEd0ZzZGlsamk1VWhWc0FrUGk2QnVySlVNdDg&usp=drive_web#list 
-
-  
-   
-      
