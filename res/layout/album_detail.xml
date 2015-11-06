@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:background="#f2000000" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:paddingLeft="15.0dip" android:paddingRight="13.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageView android:id="@id/closeBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:src="@drawable/list_detail_btn_close" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
-        <com.netease.cloudmusic.ui.NetImageView android:id="@id/albumBigCover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="96.66998dip" android:layout_centerHorizontal="true" />
-        <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/albumName" android:paddingLeft="5.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.2999878dip" android:layout_below="@id/albumBigCover" />
-        <TextView android:textSize="14.0sp" android:textColor="#ffb7bcc1" android:id="@id/albumBriefDesc" android:paddingLeft="16.0dip" android:paddingTop="20.0dip" android:paddingRight="16.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/albumName" android:layout_centerHorizontal="true" android:lineSpacingExtra="3.0dip" />
-    </RelativeLayout>
-</ScrollView>
+<RelativeLayout android:id="@id/detailContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/plal_detail_background" />
+    <ScrollView style="@style/pl_album_bigcover_scrollview_style">
+        <LinearLayout android:orientation="vertical" android:id="@id/scroolInnerInfoArea" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/albumDetailCoverHeight" android:layout_marginTop="96.0dip">
+                <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/plALBigCover" android:layout_width="@dimen/albumDetailCoverHeight" android:layout_height="@dimen/albumDetailCoverHeight" fresco:placeholderImage="@drawable/placeholder_disk_660" fresco:placeholderImageScaleType="centerCrop" fresco:actualImageScaleType="centerCrop" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="@dimen/albumDetailCoverHeight" android:src="@drawable/blk_detail_cover_alb" />
+            </LinearLayout>
+            <include layout="@layout/layout_plal_detail_plalname" />
+            <include layout="@layout/layout_gradual_divider_line" />
+            <include layout="@layout/layout_plal_detail_plal_desc" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/close_btn_layout" />
+    <include layout="@layout/layout_plal_btn_container" />
+</RelativeLayout>

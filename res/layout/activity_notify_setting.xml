@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:background="@color/normalBackground" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+<ScrollView android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip">
-        <LinearLayout style="@style/settingTitleContainer">
-            <TextView android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="@string/privateMsgSetting" style="@style/settingTitleTv" />
-            <View style="@style/titleLine" />
-        </LinearLayout>
-        <LinearLayout android:id="@id/shareSettingArea" style="@style/settingContainer">
-            <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/whoCanShareToMe" android:layout_weight="1.0" />
-            <TextView android:textSize="15.0sp" android:textColor="#ff888888" android:id="@id/shareSetting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="所有人" />
-        </LinearLayout>
-        <LinearLayout style="@style/settingTitleContainer">
-            <TextView android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="@string/msgNotifySetting" style="@style/settingTitleTv" />
-            <View style="@style/titleLine" />
-        </LinearLayout>
-        <LinearLayout android:id="@id/allowSubArea" style="@style/settingContainer">
-            <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/playListNotify" android:layout_weight="1.0" />
-            <ToggleButton android:id="@id/allowSubscriptionNotify" android:background="@drawable/setting_togglebutton_bg" android:layout_width="@dimen/listCheckboxWidth" android:layout_height="@dimen/listCheckboxWidth" android:textOn="" android:textOff="" />
-        </LinearLayout>
-        <LinearLayout android:id="@id/allowListShareArea" style="@style/settingContainer">
-            <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/playListSharedNotify" android:layout_weight="1.0" />
-            <ToggleButton android:id="@id/allowPlayListSharedNotify" android:background="@drawable/setting_togglebutton_bg" android:layout_width="@dimen/listCheckboxWidth" android:layout_height="@dimen/listCheckboxWidth" android:textOn="" android:textOff="" />
-        </LinearLayout>
-        <LinearLayout android:id="@id/allowLikedArea" style="@style/settingContainer">
-            <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/beLikedNotify" android:layout_weight="1.0" />
-            <ToggleButton android:id="@id/allowLikedNotify" android:background="@drawable/setting_togglebutton_bg" android:layout_width="@dimen/listCheckboxWidth" android:layout_height="@dimen/listCheckboxWidth" android:textOn="" android:textOff="" />
-        </LinearLayout>
-        <LinearLayout android:id="@id/allowNewFollowerArea" style="@style/settingContainer">
-            <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/newFanNotify" android:layout_weight="1.0" />
-            <ToggleButton android:id="@id/allowNewFollowerNotify" android:background="@drawable/setting_togglebutton_bg" android:layout_width="@dimen/listCheckboxWidth" android:layout_height="@dimen/listCheckboxWidth" android:textOn="" android:textOff="" />
-        </LinearLayout>
-        <LinearLayout style="@style/settingTitleContainer">
-            <TextView android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="@string/blacklistSetting" style="@style/settingTitleTv" />
-            <View style="@style/titleLine" />
-        </LinearLayout>
-        <LinearLayout android:id="@id/blacklist" style="@style/settingContainer">
-            <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blacklist" />
-        </LinearLayout>
-        <LinearLayout style="@style/settingTitleContainer">
-            <TextView android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="@string/nearBySetting" style="@style/settingTitleTv" />
-            <View style="@style/titleLine" />
-        </LinearLayout>
-        <LinearLayout android:id="@id/canbeSeenArea" style="@style/settingContainer">
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:text="@string/privateMsgSetting" style="@style/categoryTitleTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/shareSettingArea" style="@style/settingContainer_nobg">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/whoCanShareToMe" style="@style/notifysettingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/shareSetting" android:paddingRight="@dimen/padding10Dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="所有人" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:layout_marginTop="@dimen/padding10Dp" android:text="@string/msgNotifySetting" style="@style/categoryTitleTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/allowSubArea" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/playListNotify" style="@style/notifysettingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/allowSubscriptionNotify" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/allowListShareArea" android:visibility="gone" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/playListSharedNotify" style="@style/notifysettingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/allowPlayListSharedNotify" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/allowRadioSub" android:visibility="gone" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/RadioSubNotify" style="@style/notifysettingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/allowRadioSubNotify" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/allowLikedArea" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/beLikedNotify" style="@style/notifysettingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/allowLikedNotify" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/allowNewFollowerArea" style="@style/settingContainer_nobg">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/newFanNotify" style="@style/notifysettingContentTv" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/allowNewFollowerNotify" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:layout_marginTop="@dimen/padding10Dp" android:text="@string/blacklistSetting" style="@style/categoryTitleTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/blacklist" android:text="@string/blacklist" style="@style/settingContainerTv_nobg" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:layout_marginTop="@dimen/padding10Dp" android:text="@string/pfPersonalSetting" style="@style/categoryTitleTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/canbeSeenArea" style="@style/settingContainer">
             <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-                <TextView android:id="@id/canBeSeenText" android:text="@string/canbeSeenNotify" style="@style/settingContentTv" />
-                <TextView android:text="@string/canbeSeenNotifySecond" style="@style/settingSmallContentTv" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/canBeSeenText" android:text="@string/canbeSeenNotify" style="@style/settingContentTv" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:visibility="gone" android:text="@string/canbeSeenNotifySecond" style="@style/settingSmallContentTv" />
             </LinearLayout>
-            <com.netease.cloudmusic.ui.DelayClickToggleButton android:id="@id/peopleNearbyCanSeeMe" android:layout_width="64.0dip" android:layout_height="24.0dip" style="@style/settingCheckbox" />
-        </LinearLayout>
-        <LinearLayout style="@style/settingTitleContainer">
-            <TextView android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="@string/backgroundSetting" style="@style/settingTitleTv" />
-            <View style="@style/titleLine" />
-        </LinearLayout>
-        <LinearLayout android:id="@id/backgroundNotifyArea" style="@style/settingContainer">
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/peopleNearbyCanSeeMe" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/trackRcmdArea" style="@style/settingContainer">
             <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-                <TextView android:id="@id/backgroundNotify" android:text="@string/backgroundNotify" style="@style/settingContentTv" />
-                <TextView android:text="@string/backgroundNotifySecond" style="@style/settingSmallContentTv" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/trackRcmdText" android:text="@string/trackRcmdHint" style="@style/settingContentTv" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/trackRcmdHintSecond" style="@style/settingSmallContentTv" />
             </LinearLayout>
-            <com.netease.cloudmusic.ui.DelayClickToggleButton android:id="@id/backgroundNotifyBtn" android:layout_width="64.0dip" android:layout_height="24.0dip" style="@style/settingCheckbox" />
-        </LinearLayout>
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/trackRcmdToggleBtn" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/hearSongSettingArea" style="@style/settingContainer_nobg">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/hearSongSettingNotify" android:text="@string/hearSongPromt" style="@style/settingContentTv" />
+            </LinearLayout>
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/allowPeopleCanSeeMyPlayRecordBtn" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:layout_marginTop="@dimen/padding10Dp" android:text="@string/backgroundSetting" style="@style/categoryTitleTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/backgroundNotifyArea" style="@style/settingContainer_nobg">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/backgroundNotify" android:text="@string/backgroundNotify" style="@style/settingContentTv" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/backgroundNotifySecond" style="@style/settingSmallContentTv" />
+            </LinearLayout>
+            <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:id="@id/backgroundNotifyBtn" style="@style/settingCheckbox" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
     </LinearLayout>
 </ScrollView>

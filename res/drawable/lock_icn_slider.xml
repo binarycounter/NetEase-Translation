@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="80" android:drawable="@drawable/lock_icn_slider1" />
+    <item android:duration="80" android:drawable="@drawable/lock_icn_slider2" />
+    <item android:duration="80" android:drawable="@drawable/lock_icn_slider3" />
+    <item android:duration="80" android:drawable="@drawable/lock_icn_slider4" />
+    <item android:duration="80" android:drawable="@drawable/lock_icn_slider5" />
+    <item android:duration="80" android:drawable="@drawable/lock_icn_slider6" />
+    <item android:duration="80" android:drawable="@drawable/lock_icn_slider7" />
+    <item android:duration="80" android:drawable="@drawable/lock_icn_slider8" />
+    <item android:duration="80" android:drawable="@drawable/lock_icn_slider9" />
+    <item android:duration="80" android:drawable="@drawable/lock_icn_slider10" />
+    <item android:duration="80" android:drawable="@drawable/lock_icn_slider11" />
+    <item android:duration="80" android:drawable="@drawable/lock_icn_slider12" />
+    <item android:duration="80" android:drawable="@drawable/lock_icn_slider13" />
+    <item android:duration="1000" android:drawable="@drawable/lock_icn_slider14" />
+</animation-list>

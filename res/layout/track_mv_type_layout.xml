@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout style="@style/trackViewContainerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/track_basic_header_info_layout" />
+    <View android:id="@id/trackFlag" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/trackMarginleft" android:layout_below="@id/trackBasicHeaderInfoContainer" />
+    <include layout="@layout/track_desc_layout" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:orientation="vertical" android:id="@id/trackMainContainer" android:background="@null" android:padding="0.0dip" style="@style/trackMainContainerStyle">
+        <include layout="@layout/track_repost_desc_layout" />
+        <RelativeLayout android:id="@id/trackMvImgContainer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/trackMvImg" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:placeholderImage="@drawable/placeholder_disk_321" fresco:placeholderImageScaleType="fitXY" fresco:actualImageScaleType="centerCrop" fresco:overlayImage="@drawable/nact_mv_mask" fresco:pressedStateOverlayImage="@color/theme_color_cover_dark" />
+            <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/trackMvName" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:singleLine="true" android:layout_above="@id/trackMvArtistName" style="@style/userTrackTvNormalSignleLine" />
+            <TextView android:textSize="11.0sp" android:textColor="#c8ffffff" android:id="@id/trackMvArtistName" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:singleLine="true" android:layout_alignBottom="@id/trackMvImg" style="@style/userTrackTvNormalSignleLine" />
+            <ImageView android:id="@id/trackMvIcon" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nact_mv_play" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+    <include layout="@layout/track_rcmd_failhint_container" />
+    <ViewStub android:gravity="center_vertical" android:id="@id/trackInteractLayoutViewStub" android:layout="@layout/track_interact_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/trackRmcdFailContainer" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="vertical" android:id="@id/anonimousContainer" android:paddingLeft="@dimen/friendNormalPaddingLeft" android:paddingTop="@dimen/friendNormalPaddingTop" android:paddingRight="@dimen/friendNormalPaddingRight" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <RelativeLayout android:orientation="horizontal" android:background="@drawable/act_cnt_bg" android:padding="@dimen/findPageNormalPading" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/anonimousTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.669983dip" android:text="@string/anonimousSearchNearbyMusic" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:orientation="horizontal" android:padding="@dimen/findPageNormalPading" android:layout_width="fill_parent" android:layout_height="wrap_content" app:forCard="true" app:bgType="noline" xmlns:app="http://schemas.android.com/apk/res-auto">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/anonimousTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.669983dip" android:text="@string/anonimousSearchNearbyMusic" />
             <Button android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/loginNowBtn" android:background="@drawable/btn_blue_oval_selector" android:layout_width="fill_parent" android:layout_height="36.669983dip" android:layout_marginTop="22.669983dip" android:text="@string/anonimousLoginNow" android:layout_below="@id/anonimousTitle" />
-        </RelativeLayout>
-        <TextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/anonimousHint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/anonimousSearchAllNearbyTrack" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/anonimousHint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/anonimousSearchAllNearbyTrack" />
     </LinearLayout>
-</LinearLayout>
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

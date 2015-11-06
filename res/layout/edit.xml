@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/editBlock" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="bottom" android:orientation="horizontal" android:paddingLeft="@dimen/leftRightMargin" android:paddingRight="@dimen/leftRightMargin" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="@dimen/font_size_f5_13dp" android:gravity="center" android:id="@id/post" android:layout_width="41.0dip" android:layout_height="28.0dip" android:text="@string/send" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:id="@id/line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_toLeftOf="@id/post" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/emotionBtn" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/line" android:layout_alignRight="@id/line" />
+        <EditText android:textSize="@dimen/font_size_f4_14dp" android:id="@id/edit" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:hint="@string/publishComment" android:layout_toLeftOf="@id/emotionBtn" android:layout_above="@id/line" android:imeOptions="actionSend" android:imeActionLabel="@string/publishComment" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="black_mask_shape">false</item>
+    <item type="drawable" name="bs_list_dark_selector">false</item>
+    <item type="drawable" name="list_selector">@drawable/list_selector_inner</item>
+    <item type="drawable" name="list_selector_night">@drawable/list_selector_night_inner</item>
+    <item type="drawable" name="list_selector_night_transprent">@drawable/list_selector_night_transprent_inner</item>
+    <item type="drawable" name="list_selector_nopadding">@drawable/list_selector_nopadding_inner</item>
+    <item type="drawable" name="list_selector_nopadding_night">@drawable/list_selector_nopadding_night_inner</item>
+    <item type="drawable" name="list_selector_white">@drawable/list_selector_white_inner</item>
+    <item type="drawable" name="list_selector_white_night">@drawable/list_selector_white_night_inner</item>
+    <item type="drawable" name="pop_btn_left_selector">false</item>
+    <item type="drawable" name="pop_btn_mid_selector">false</item>
+    <item type="drawable" name="pop_btn_right_selector">false</item>
+    <item type="drawable" name="toolbarItemBackground">@drawable/abc_item_background_holo_light</item>
+    <item type="drawable" name="chat_emotion_btn">@drawable/comment_emotion_btn</item>
+    <item type="drawable" name="chat_hint_label">@drawable/comment_hint_label</item>
+    <item type="drawable" name="chat_keyboard_btn">@drawable/comment_keyboard_btn</item>
+    <item type="drawable" name="chat_post_bg">@drawable/comment_post_bg</item>
+    <item type="drawable" name="chatbar_bg">@drawable/commentbar_bg</item>
+    <item type="drawable" name="common_selector">@drawable/list_selector</item>
+    <item type="drawable" name="common_selector2">@drawable/list_selector_white</item>
+    <item type="drawable" name="follow_btn_night_selector">@drawable/btn_white_night_selector</item>
+    <item type="drawable" name="follow_btn_selector">@drawable/btn_white_oval_selector</item>
+    <item type="drawable" name="list_selector_noline">@drawable/list_selector</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="playbar_bg_selector">@drawable/playbar_bg_selector_inner</item>
+    <item type="drawable" name="playbar_bg_selector_night">@drawable/playbar_bg_selector_night_inner</item>
+</resources>

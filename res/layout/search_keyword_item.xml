@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:background="@drawable/list_selector" android:paddingLeft="@dimen/listLinePaddingLeft" android:paddingRight="@dimen/listLinePaddingLeft" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="15.0sp" android:textColor="@color/mainTextColor" android:gravity="center_vertical" android:id="@id/searchKeywordContent" android:layout_width="0.0dip" android:layout_height="48.0dip" android:singleLine="true" android:drawableLeft="@drawable/srch_icn_clock" android:drawablePadding="10.0dip" android:layout_weight="1.0" />
-    <ImageView android:id="@id/searchKeywordDelete" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/list_icn_delete" android:scaleType="centerInside" />
-</LinearLayout>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center_vertical" android:paddingLeft="@dimen/padding10Dp" android:paddingRight="@dimen/padding10Dp" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bgPaddingLeft="34.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="@color/normalC3" android:gravity="center_vertical" android:id="@id/searchKeywordContent" android:layout_width="0.0dip" android:layout_height="48.0dip" android:singleLine="true" android:drawableLeft="@drawable/srch_icn_clock" android:drawablePadding="10.0dip" android:layout_weight="1.0" app:needApplyDrawableColor="true" app:needApplyNormalDrawableColor="false" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/searchKeywordDelete" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/list_icn_delete" android:scaleType="centerInside" app:needApplyNormalDrawableColor="false" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

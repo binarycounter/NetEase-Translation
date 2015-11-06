@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.view.PagerSlidingTabStrip android:id="@id/tabLayout" android:background="@color/tabColor" android:layout_width="fill_parent" android:layout_height="@dimen/innerTabHeight" app:pstsDividerColor="#00000000" app:pstsIndicatorHeight="2.0dip" app:pstsUnderlineHeight="0.0dip" app:pstsTabBackground="@drawable/common_ripple_dark_selector" app:pstsShouldExpand="true" app:pstsTextAllCaps="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

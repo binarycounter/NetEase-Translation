@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="md_default_dialog_width">480.0dip</dimen>
+    <dimen name="payAlbumSize">150.0dip</dimen>
+    <dimen name="payAlbumSizeMarginBottom">40.0dip</dimen>
+    <dimen name="custom_dialog_width">480.0dip</dimen>
+</resources>

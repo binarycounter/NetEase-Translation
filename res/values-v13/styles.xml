@@ -1,57 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Widget.Sherlock.ActionBar.TabText" parent="@style/Widget">
-        <item name="android:textAppearance">@null</item>
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">?textColorPrimary</item>
-        <item name="android:ellipsize">marquee</item>
-        <item name="android:maxLines">2</item>
-        <item name="android:textAllCaps">true</item>
-    </style>
-    <style name="TextAppearance.Sherlock.Widget.ActionBar.Menu" parent="@style/Widget">
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">?actionMenuTextColor</item>
-        <item name="android:textAllCaps">@bool/abs__config_actionMenuItemAllCaps</item>
-    </style>
-    <style name="myActionBar.tabText" parent="@style/Widget.Sherlock.ActionBar.TabText">
-        <item name="android:textAppearance">@null</item>
-        <item name="android:textSize">16.0sp</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/actionbar_tab_textcolor</item>
-        <item name="android:ellipsize">marquee</item>
-        <item name="android:maxLines">1</item>
-        <item name="android:textAllCaps">true</item>
-    </style>
-    <style name="vpiTabPageIndicatorStyle" parent="@style/Widget">
-        <item name="android:textAppearance">@null</item>
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/inner_tab_color_selector</item>
-        <item name="android:ellipsize">marquee</item>
-        <item name="android:gravity">center</item>
-        <item name="android:background">@drawable/inner_tab_selector</item>
-        <item name="android:divider">@drawable/tab_line</item>
-        <item name="android:maxLines">1</item>
-        <item name="android:height">@dimen/innerTabHeight</item>
-        <item name="android:showDividers">middle</item>
-        <item name="android:dividerPadding">8.0dip</item>
-        <item name="android:textAllCaps">true</item>
-    </style>
-    <style name="vpiMvBillBoardTabPageIndicatorStyle" parent="@style/Widget">
-        <item name="android:textAppearance">@null</item>
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/inner_mv_tab_color_selector</item>
-        <item name="android:ellipsize">marquee</item>
-        <item name="android:gravity">center</item>
-        <item name="android:background">@drawable/inner_mv_tab_selector</item>
-        <item name="android:maxLines">1</item>
-        <item name="android:height">@dimen/innerMvBillTabHeight</item>
-        <item name="android:width">@dimen/innerMvBillTabWitdh</item>
-        <item name="android:showDividers">middle</item>
-        <item name="android:dividerPadding">8.0dip</item>
-        <item name="android:textAllCaps">true</item>
+    <style name="pl_album_bigcover_scrollview_style">
+        <item name="android:scrollbars">none</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">100.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:layout_above">@id/editBtnContainer</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:requiresFadingEdge">vertical</item>
     </style>
 </resources>

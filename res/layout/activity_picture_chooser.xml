@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.HeaderFooterGridView android:scrollbarStyle="outsideOverlay" android:id="@id/pictureList" android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:horizontalSpacing="4.0dip" android:stretchMode="columnWidth" android:numColumns="3" />
+    <View android:id="@id/categoryBg" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:background="@drawable/nact_choose_btmbar" android:clickable="true" android:layout_width="fill_parent" android:layout_height="53.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/toggleBtn" android:background="@drawable/common_selector" android:paddingLeft="@dimen/leftRightMargin" android:paddingRight="@dimen/leftRightMargin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/allPhoto" android:drawableRight="@drawable/list_icn_dropcrr" android:drawablePadding="4.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/previewBtn" android:background="@drawable/common_selector" android:paddingLeft="@dimen/leftRightMargin" android:paddingRight="@dimen/leftRightMargin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="@string/preview" />
+    </LinearLayout>
+</RelativeLayout>

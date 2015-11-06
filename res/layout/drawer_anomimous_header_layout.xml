@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/drawerAnomimousHeader" android:background="@drawable/topinfo_ban_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="173.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/mainDrawerHeaderMask" android:layout_width="fill_parent" android:layout_height="173.0dip" />
+    <TextView android:textSize="13.0dip" android:textColor="#c0ffffff" android:gravity="center" android:id="@id/drawerAnomimousHeaderHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:layout_marginBottom="9.0dip" android:text="@string/anonimousDrawerHeaderHint" android:layout_centerHorizontal="true" android:lineSpacingExtra="3.0dip" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/theme_color_fff" android:gravity="center" android:id="@id/drawerAnomimousHeaderLogin" android:background="@drawable/main_drawer_header_btn_selector" android:layout_width="148.0dip" android:layout_height="38.599976dip" android:layout_marginTop="9.0dip" android:text="@string/anonimousLoginNow" android:layout_below="@id/drawerAnomimousHeaderHint" android:layout_centerHorizontal="true" />
+</RelativeLayout>

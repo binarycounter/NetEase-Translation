@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/artistSelected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip" android:src="@drawable/mv_icn_selected" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffcccdcd" android:gravity="center_vertical" android:id="@id/artistName" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/artistImage" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="13.0dip" app:placeholderImage="@drawable/placeholder_avatar_150" app:placeholderImageScaleType="centerCrop" app:actualImageScaleType="centerCrop" app:roundAsCircle="true" />
+</LinearLayout>

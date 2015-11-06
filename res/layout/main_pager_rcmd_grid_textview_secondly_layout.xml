@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/font_size_f8_10dp" android:textColor="@color/theme_color_c5_888" android:ellipsize="end" android:id="@id/mainPagerGridTextViewSecond" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/mainPagerGridTextViewPrimary"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="loginItemHeight">40.0dip</dimen>
+    <dimen name="recordProgramOpHeight">126.0dip</dimen>
+    <dimen name="recordProgramViewHeight">180.0dip</dimen>
+    <dimen name="loginLogoMarginTop">36.0dip</dimen>
+</resources>

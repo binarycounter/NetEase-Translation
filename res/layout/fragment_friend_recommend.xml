@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.netease.cloudmusic.ui.PagerListView android:id="@id/friendPrivateMessageList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/sideBarWidth" android:listSelector="@android:color/transparent" />
-    <com.netease.cloudmusic.ui.IndexBar android:id="@id/friendSideBar" android:layout_width="@dimen/sideBarWidth" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
-    <TextView android:textSize="50.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/friendSidebarIndexText" android:background="@drawable/index_toast_bg" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="70.0dip" android:minWidth="70.0dip" android:layout_centerInParent="true" />
-</RelativeLayout>
+    <com.netease.cloudmusic.ui.PagerListView android:id="@id/friendPrivateMessageList" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" />
+    <com.netease.cloudmusic.ui.IndexBar android:id="@id/friendSideBar" android:visibility="gone" android:layout_width="@dimen/sideBarWidth" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="50.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/friendSidebarIndexText" android:background="@drawable/index_toast_bg" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="70.0dip" android:minWidth="70.0dip" android:layout_centerInParent="true" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

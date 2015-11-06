@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/uniqeResourceContainer" android:padding="@dimen/listLinePaddingLeft" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/uniqeResourceCover" android:layout_width="fill_parent" android:layout_height="wrap_content" fresco:placeholderImage="@drawable/placeholder_disk_321" fresco:placeholderImageScaleType="fitXY" fresco:actualImageScaleType="centerCrop" fresco:overlayImage="@drawable/cover_border" fresco:pressedStateOverlayImage="@color/theme_color_cover_dark" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/font_size_f3_15dp" android:textColor="@color/theme_color_c3_333" android:id="@id/uniqeResourceName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_below="@id/uniqeResourceCover" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/font_size_f7_11dp" android:textColor="@color/theme_color_c5_888" android:id="@id/uniqeResourceTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/uniqeResourceName" />
+    <ImageView android:id="@id/uniqeResourceIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_alignParentTop="true" />
+</RelativeLayout>

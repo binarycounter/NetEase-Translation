@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.netease.cloudmusic.ui.NPullToFreshContainer android:id="@id/notifyMsgListContainer" android:background="@drawable/refresh_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.netease.cloudmusic.ui.PagerListView android:id="@id/notifyMsgList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
-    </com.netease.cloudmusic.ui.NPullToFreshContainer>
-</RelativeLayout>

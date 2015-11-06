@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/bannerImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/bannerImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:placeholderImage="@drawable/placeholder_disk_321" app:placeholderImageScaleType="fitXY" app:actualImageScaleType="centerCrop" />
     <TextView android:textSize="10.669983sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bannerFlag" android:background="@drawable/index_banner_tag_blue" android:paddingLeft="12.669983dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginBottom="3.0dip" android:shadowColor="#33000000" android:layout_alignRight="@id/bannerImage" android:layout_alignBottom="@id/bannerImage" />
 </RelativeLayout>

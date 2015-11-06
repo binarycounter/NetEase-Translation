@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/missingFileBlock" android:paddingLeft="@dimen/leftRightMargin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="39.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/font_size_f6_12dp" android:textColor="@color/theme_color_c3_333" android:id="@id/missingFile" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/myartist_icn_arr" app:needApplyNormalDrawableColor="false" />
+</LinearLayout>

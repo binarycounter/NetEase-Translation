@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/normalBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="vertical" android:id="@id/inviteFriendContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <RelativeLayout android:id="@id/findAndInviteFriendContainer" style="@style/invitefriendContainer">
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/findAndInviteFriendContainer" style="@style/invitefriendContainer">
             <ImageView android:id="@id/darenImg" android:src="@drawable/msg_icn_addfrd" style="@style/friendRecommendImg" />
-            <TextView android:textSize="16.0sp" android:text="@string/findAndInviteFriend" android:layout_toRightOf="@id/darenImg" style="@style/friendRecommendTv" />
-        </RelativeLayout>
-        <LinearLayout style="@style/settingTitleContainer">
-            <TextView android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="@string/recommendMaybeKnow" style="@style/settingTitleTv" />
-            <View android:id="@id/myRecentFriendDivideLine" style="@style/titleLine" />
-        </LinearLayout>
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="16.0sp" android:text="@string/findAndInviteFriend" android:layout_toRightOf="@id/darenImg" style="@style/friendRecommendTv" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.MyMusicSectionContainer android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="#ff999999" android:gravity="center|left" android:id="@id/sectionName" android:paddingLeft="@dimen/listLinePaddingLeft" android:layout_width="fill_parent" android:layout_height="25.0dip" android:text="@string/recommendMaybeKnow" />
+        </com.netease.cloudmusic.theme.ui.MyMusicSectionContainer>
     </LinearLayout>
 </LinearLayout>

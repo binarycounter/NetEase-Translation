@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.viewpagerindicator.TabPageIndicator android:id="@id/publiclistenTabPageIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/vpiTabPageIndicatorStyle" />
-    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/publiclisten_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/publiclistenTabPageIndicator" />
-    <View android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="2.2999878dip" android:layout_alignTop="@id/publiclisten_pager" />
-    <include android:visibility="gone" layout="@layout/nonetwork" />
+    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/publiclisten_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tabLayout" />
+    <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/trackToast" android:background="@drawable/act_blk_poptip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/friendTrackToastHeight" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/friendTrackToastPaddingTop" android:layout_marginRight="10.0dip" android:layout_below="@id/tabLayout" />
+    <include layout="@layout/common_tablayout" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/sendNewTrack" android:background="@drawable/nact_btn_newact_bg" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/trackAvatarMargin" android:src="@drawable/nact_btn_newact" android:layout_alignParentBottom="true" />
 </RelativeLayout>

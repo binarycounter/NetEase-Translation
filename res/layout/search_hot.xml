@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomBackgroundLinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="@color/normalC5" android:id="@id/searchHot" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding10Dp" android:layout_marginRight="@dimen/padding10Dp" android:text="@string/searchHot" />
+    <com.netease.cloudmusic.ui.FlowLayout android:id="@id/hotKeywordsContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding10Dp" android:layout_marginRight="@dimen/padding10Dp" app:horizontalSpacing="10.0dip" app:verticalSpacing="10.0dip" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeLine android:id="@id/line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="21.0dip" />
+</com.netease.cloudmusic.theme.ui.CustomBackgroundLinearLayout>

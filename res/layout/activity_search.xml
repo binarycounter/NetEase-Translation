@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:id="@id/searchResult" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<RelativeLayout android:id="@id/searchResult" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/searchTabContainer" android:background="@color/searchTabBg" android:layout_width="fill_parent" android:layout_height="41.0dip">
-        <com.viewpagerindicator.TabPageIndicator android:id="@id/searchTab" android:layout_width="fill_parent" android:layout_height="@dimen/searchTabHeight" android:layout_alignParentBottom="true" />
-    </RelativeLayout>
-    <android.support.v4.view.ViewPager android:id="@id/searchPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/searchTabContainer" />
+    <include android:id="@id/searchActivityTab" layout="@layout/common_pagersliding_tablayout" />
+    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/searchActivityViewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/searchActivityTab" />
 </RelativeLayout>

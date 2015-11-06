@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:forCard="true" app:bgType="noline"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/drawer_anomimous_header_layout" />
+    <include layout="@layout/drawer_user_header_layout" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

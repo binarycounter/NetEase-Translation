@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:paddingLeft="@dimen/findPageNormalPading" android:paddingTop="@dimen/findPageNormalPading" android:paddingRight="@dimen/findPageNormalPading" android:layout_width="fill_parent" android:layout_height="43.329987dip"
+<LinearLayout android:paddingLeft="@dimen/findPageNormalPading" android:paddingTop="@dimen/findPageNormalPading" android:paddingRight="@dimen/findPageNormalPading" android:layout_width="fill_parent" android:layout_height="40.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/tagItemContainer" android:layout_width="fill_parent" android:layout_height="43.329987dip" style="@style/classificationSmallTagRlStyle">
-        <TextView android:textSize="15.0sp" android:id="@id/tagNameTv" style="@style/classificationSmallTagTvStyle" />
+    <RelativeLayout android:id="@id/tagItemContainer" android:layout_width="fill_parent" android:layout_height="40.0dip" style="@style/classificationSmallTagRlStyle">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:id="@id/tagNameTv" style="@style/classificationSmallTagTvStyle" />
     </RelativeLayout>
 </LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="81.0dip" android:layout_height="81.0dip" android:layout_marginRight="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/picture" android:layout_width="77.0dip" android:layout_height="77.0dip" android:scaleType="centerCrop" android:layout_alignParentBottom="true" />
+    <View android:background="@drawable/nact_cover" android:layout_width="77.0dip" android:layout_height="77.0dip" android:layout_alignLeft="@id/picture" android:layout_alignTop="@id/picture" />
+    <ImageView android:id="@id/delPicBtn" android:clickable="true" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

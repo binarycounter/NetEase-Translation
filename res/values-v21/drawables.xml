@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="bs_list_dark_selector">false</item>
+    <item type="drawable" name="toolbarItemBackground">@drawable/abc_action_bar_item_background_material</item>
+</resources>

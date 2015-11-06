@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.viewpagerindicator.TabPageIndicator android:id="@id/tabPageIndicator" android:layout_width="fill_parent" android:layout_height="40.0dip" />
-    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tabPageIndicator" />
-    <View android:id="@id/tabShadow" android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="3.2999878dip" android:layout_alignTop="@id/viewPager" />
+    <include android:id="@id/commonTab" layout="@layout/common_tablayout" />
+    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/commonTab" />
 </RelativeLayout>

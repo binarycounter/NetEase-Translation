@@ -2,9 +2,9 @@
 <layer-list
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@android:id/background">
-        <nine-patch android:src="@drawable/cloud_progress_bar" />
+        <nine-patch android:src="@drawable/skin_dld_bar_big" />
     </item>
     <item android:id="@android:id/progress">
-        <scale android:drawable="@drawable/cloud_progress_curr" android:scaleWidth="100%" />
+        <scale android:drawable="@drawable/skin_dld_bar_big_curr" android:scaleWidth="100%" />
     </item>
 </layer-list>

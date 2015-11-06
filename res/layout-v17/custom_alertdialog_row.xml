@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/md_dialog_frame_margin" android:paddingRight="@dimen/md_dialog_frame_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/md_dialog_frame_margin" android:paddingEnd="@dimen/md_dialog_frame_margin" app:bgPaddingLeft="@dimen/md_dialog_frame_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/menuIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:scaleType="center" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="14.0sp" android:textColor="@color/normalC3" android:id="@id/menuText" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ToggleButton android:id="@id/selectedIcon" android:visibility="gone" android:clickable="false" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="8.0dip" android:textOn="" android:textOff="" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="@color/normalC3" android:id="@id/menuTextRight" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.299988dip" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

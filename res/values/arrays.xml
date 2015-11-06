@@ -1,196 +1,347 @@
-<?xml version = "1.0" encoding = "utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name = "playQualityText">
-        <item> automatically (recommended) </item>
-        <item> general (96kbps) </item>
-        <item> high (192kbps) </item>
-        <item> high (320kbps) </item>
+    <string-array name="artistPageTabTitle">
+        <item>热门50</item>
+        <item>专辑</item>
+        <item>MV</item>
+        <item>歌手信息</item>
     </string-array>
-    <integer-array name = "playQualityValue">
-        <item> 1 </item>
-        <item> 2 </item>
-        <item> 3 </item>
-        <item> 4 </item>
+    <string-array name="autoCloseTimeText">
+        <item>不开启</item>
+        <item>10分钟后</item>
+        <item>20分钟后</item>
+        <item>30分钟后</item>
+        <item>45分钟后</item>
+        <item>60分钟后</item>
+        <item>90分钟后</item>
+    </string-array>
+    <integer-array name="autoCloseTimeValue">
+        <item>-1</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>90</item>
     </integer-array>
-    <string-array name = "autoCloseTimeText">
-        <item> unopened </item>
-        <item> 10 minutes </item>
-        <item> 20 minutes </item>
-        <item> 30 minutes </item>
-        <item> 45 minutes </item>
-        <item> 60 minutes </item>
-        <item> 90 minutes </item>
+    <string-array name="autoDomainChangeText">
+        <item>music.163.com</item>
+        <item>igame.163.com</item>
+        <item>def.igame.163.com</item>
+        <item>abc.igame.163.com</item>
+        <item>bbc.igame.163.com</item>
+        <item>jkl.igame.163.com</item>
+        <item>ghi.igame.163.com</item>
     </string-array>
-    <integer-array name = "autoCloseTimeValue">
-        <item> -1 </item>
-        <item> 10 </item>
-        <item> 20 </item>
-        <item> 30 </item>
-        <item> 45 </item>
-        <item> 60 </item>
-        <item> 90 </item>
+    <string-array name="constellations">
+        <item>水瓶座</item>
+        <item>双鱼座</item>
+        <item>牡羊座</item>
+        <item>金牛座</item>
+        <item>双子座</item>
+        <item>巨蟹座</item>
+        <item>狮子座</item>
+        <item>处女座</item>
+        <item>天秤座</item>
+        <item>天蝎座</item>
+        <item>射手座</item>
+        <item>魔羯座</item>
+    </string-array>
+    <string-array name="downloadManagerPageTitle">
+        <item>单曲</item>
+        <item>电台节目</item>
+        <item>MV</item>
+        <item>下载中</item>
+    </string-array>
+    <string-array name="findPageTitle">
+        <item>个性推荐</item>
+        <item>歌单</item>
+        <item>@string/radioTitle</item>
+        <item>排行榜</item>
+    </string-array>
+    <string-array name="identify">
+        <item>听歌识曲</item>
+        <item>识别历史</item>
+    </string-array>
+    <string-array name="listenMusicRankTitle">
+        <item>最近一周</item>
+        <item>所有时间</item>
+    </string-array>
+    <string-array name="localMusicPathNameKey">
+        <item>Android/data/com.netease.cloudmusic</item>
+        <item>netease</item>
+        <item>netease/cloudmusic</item>
+        <item>qqmusic</item>
+        <item>Baidu_music</item>
+        <item>kgmusic</item>
+        <item>ttpod</item>
+        <item>KuwoMusic</item>
+        <item>DUOMI</item>
+        <item>xiami</item>
+        <item>iting</item>
+        <item>iMusicBox</item>
+        <item>12530</item>
+        <item>wawa</item>
+        <item>kanjian</item>
+        <item>erdmusic</item>
+        <item>kibey_echo</item>
+        <item>ting</item>
+        <item>183</item>
+        <item>meile_scene</item>
+        <item>LuoFM</item>
+        <item>NubiaMusic</item>
+        <item>LavaRadio</item>
+        <item>QTDownloadRadio</item>
+        <item>AnyRadio</item>
+        <item>BaiduLebo</item>
+        <item>musicx</item>
+        <item>Record</item>
+        <item>Alarm</item>
+        <item>Notifications</item>
+        <item>Ringtones</item>
+        <item>Audio</item>
+        <item>Android/data/com.douban.radio</item>
+        <item>Android/data/com.tecent.radio</item>
+        <item>Android/data/com.ifeng.fhdt</item>
+        <item>Android/data/com.duotin.fm</item>
+        <item>MIUI/music</item>
+    </string-array>
+    <string-array name="localMusicPathNameValue">
+        <item>@string/appName</item>
+        <item>网易</item>
+        <item>@string/appName</item>
+        <item>QQ音乐</item>
+        <item>百度音乐</item>
+        <item>酷狗音乐</item>
+        <item>天天动听</item>
+        <item>酷我音乐</item>
+        <item>多米音乐</item>
+        <item>虾米音乐</item>
+        <item>爱听4G</item>
+        <item>爱音乐</item>
+        <item>咪咕音乐</item>
+        <item>余音</item>
+        <item>看见音乐</item>
+        <item>耳洞</item>
+        <item>echo回声</item>
+        <item>喜马拉雅FM</item>
+        <item>荔枝FM</item>
+        <item>美乐时光</item>
+        <item>落网</item>
+        <item>Nubia音乐</item>
+        <item>LavaRadio</item>
+        <item>蜻蜓FM</item>
+        <item>优听FM</item>
+        <item>百度乐播</item>
+        <item>MusicX</item>
+        <item>我的录音</item>
+        <item>闹钟铃声</item>
+        <item>短信铃声</item>
+        <item>来电铃声</item>
+        <item>我的音频</item>
+        <item>豆瓣FM</item>
+        <item>企鹅FM</item>
+        <item>凤凰FM</item>
+        <item>多听FM</item>
+        <item>小米音乐</item>
+    </string-array>
+    <string-array name="localMusicSortType">
+        <item>按名称排序</item>
+        <item>按添加时间排序</item>
+        <item>按专辑排序</item>
+        <item>按歌手排序</item>
+    </string-array>
+    <string-array name="localMusicSortTypeOther">
+        <item>按名称排序</item>
+        <item>按歌曲数量排序</item>
+    </string-array>
+    <string-array name="localMusicTabText">
+        <item>单曲</item>
+        <item>歌手</item>
+        <item>专辑</item>
+        <item>文件夹</item>
+    </string-array>
+    <string-array name="mailSuffix">
+        <item>\@163.com</item>
+        <item>\@126.com</item>
+        <item>\@yeah.net</item>
+        <item>\@vip.163.com</item>
+        <item>\@vip.126.com</item>
+        <item>\@popo.163.com</item>
+        <item>\@188.com</item>
+        <item>\@qq.com</item>
+        <item>\@yahoo.com</item>
+        <item>\@sina.com</item>
+        <item>\@soho.com</item>
+        <item>\@live.com</item>
+    </string-array>
+    <string-array name="mainPageTitle">
+        <item>我的</item>
+        <item>发现</item>
+        <item>朋友</item>
+    </string-array>
+    <string-array name="messageTypeText">
+        <item>\@我</item>
+        <item>私信</item>
+        <item>评论</item>
+        <item>通知</item>
+    </string-array>
+    <string-array name="mvBillboardTitle">
+        <item>内地</item>
+        <item>港台</item>
+        <item>欧美</item>
+        <item>韩国</item>
+        <item>日本</item>
+    </string-array>
+    <string-array name="mvChannelTabTitle">
+        <item>精选MV</item>
+        <item>排行榜</item>
+        <item>全部MV</item>
+    </string-array>
+    <integer-array name="mvQualityNumber">
+        <item>240</item>
+        <item>480</item>
+        <item>720</item>
+        <item>1080</item>
     </integer-array>
-    <string-array name = "weekInfo">
-        <item> Sunday </item>
-        <item> Monday </item>
-        <item> Tuesday </item>
-        <item> Wednesday </item>
-        <item> Thursday </item>
-        <item> Friday </item>
-        <item> Saturday </item>
+    <string-array name="mvQualityTxt">
+        <item>标清</item>
+        <item>高清</item>
+        <item>超清</item>
+        <item>1080P</item>
     </string-array>
-    <string-array name = "messageTypeText">
-        <item> \ @ I </item>
-        <item> private letter </item>
-        <item> Comments </item>
-        <item> notification </item>
+    <string-array name="newMusicAndAlbumTabTitle">
+        <item>新歌速递</item>
+        <item>新碟上架</item>
     </string-array>
-    <string-array name = "mailSuffix">
-        <item> \ @ 163.com </item>
-        <item> \ @ 126.com </item>
-        <item> \ @ yeah.net </item>
-        <item> \ @ vip.163.com </item>
-        <item> \ @ vip.126.com </item>
-        <item> \ @ popo.163.com </item>
-        <item> \ @ 188.com </item>
-        <item> \ @ qq.com </item>
-        <item> \ @ yahoo.com </item>
-        <item> \ @ sina.com </item>
-        <item> \ @ soho.com </item>
-        <item> \ @ live.com </item>
+    <string-array name="newMusicType">
+        <item>华语</item>
+        <item>欧美</item>
+        <item>韩国</item>
+        <item>日本</item>
     </string-array>
-    <string-array name = "searchTab">
-        <item> Singles </item>
-        <item> Artist </item>
-        <item> Album </item>
-        <item> single song </item>
-        <item> anchor station </item>
-        <item> MV </item>
-        <item> Users </item>
+    <string-array name="plSortType">
+        <item>默认排序</item>
+        <item>按单曲名排序</item>
+        <item>按专辑名排序</item>
+        <item>按歌手名排序</item>
     </string-array>
-    <string-array name = "localMusicTabText">
-        <item> Singles </item>
-        <item> Artist </item>
-        <item> Album </item>
-        <item> Folder </item>
-    </string-array>
-    <string-array name = "newMusicType">
-        <item> Chinese </item>
-        <item> Europe and </item>
-        <item> South Korea </item>
-        <item> Japan </item>
-    </string-array>
-    <string-array name = "findPageTitle">
-        <item> Recommended </item>
-        <item> Singles </item>
-        <item> Radio </item>
-        <item> Charts </item>
-    </string-array>
-    <string-array name = "sourceAppsTypes">
-        <item> neteasenewsreader </item>
-        <item> baidu </item>
-    </string-array>
-    <string-array name = "sourceAppTitles">
-        <item> returns Netease news </item>
-        <item> returns Baidu search </item>
-    </string-array>
-    <string-array name = "downloadManagerPageTitle">
-        <item> Singles </item>
-        <item> radio </item>
-        <item> Downloading </item>
-    </string-array>
-    <string-array name = "starUserNames">
-        <item> Star </item>
-        <item> DJ </item>
-        <item> Netease music </item>
-    </string-array>
-    <string-array name = "publicListenStrings">
-        <item> dynamic </item>
-        <item> near </item>
-        <item> Friends </item>
-    </string-array>
-    <string-array name = "constellations">
-        <item> Aquarius </item>
-        <item> Pisces </item>
-        <item> Aries </item>
-        <item> Taurus </item>
-        <item> Gemini </item>
-        <item> Cancer </item>
-        <item> Leo </item>
-        <item> Virgo </item>
-        <item> Libra </item>
-        <item> Scorpio </item>
-        <item> Sagittarius </item>
-        <item> Capricorn </item>
-    </string-array>
-    <string-array name = "themeNames">
-        <item> official default </item>
-        <item> retro classics (v1.7 Style) </item>
-        <item> Happy Christmas </item>
-        <item> night Temptation </item>
-        <item> Passion World Cup </item>
-        <item> Great Ocean </item>
-        <item> United adorable monster </item>
-        <item> Shy Bear </item>
-    </string-array>
-    <integer-array name = "themeIds">
-        <item> 0 </item>
-        <item> 6 </item>
-        <item> 7 </item>
-        <item> 1 </item>
-        <item> 2 </item>
-        <item> 3 </item>
-        <item> 4 </item>
-        <item> 5 </item>
+    <integer-array name="playBitrateValue">
+        <item>0</item>
+        <item>128000</item>
+        <item>192000</item>
+        <item>320000</item>
+        <item>999000</item>
     </integer-array>
-    <string-array name = "plSortType">
-        <item> The default sort </item>
-        <item> Sort by song name </item>
-        <item> sorted by Album name </item>
-        <item> sorted by artist name </item>
+    <integer-array name="playQualityValue">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="polyPhoneCharacters">
+        <item>gei</item>
+        <item>cang</item>
+        <item>tan</item>
+        <item>xia</item>
+        <item>chong</item>
     </string-array>
-    <string-array name = "recordProgramMusicType">
-        <item> Local Songs </item>
-        <item> Live song </item>
+    <string-array name="polyPhoneChinese">
+        <item>给</item>
+        <item>藏</item>
+        <item>弹</item>
+        <item>吓</item>
+        <item>重</item>
     </string-array>
-    <string-array name = "localMusicSortType">
-        <item> alphabetically </item>
-        <item> by adding time to sort </item>
+    <string-array name="programAndRadioBillboardType">
+        <item>节目</item>
+        <item>新晋电台</item>
+        <item>最热电台</item>
     </string-array>
-    <string-array name = "radioCatogoryTabTitle">
-        <item> Recently popular </item>
-        <item> Popular Radio </item>
+    <string-array name="publicListenStrings">
+        <item>动态</item>
+        <item>附近</item>
+        <item>好友</item>
     </string-array>
-    <string-array name = "mvChannelTabTitle">
-        <item> Featured MV </item>
-        <item> charts </item>
-        <item> Filter </item>
+    <string-array name="radioCatogoryTabTitle">
+        <item>最近流行</item>
+        <item>最热电台</item>
     </string-array>
-    <string-array name = "mvBillboardTitle">
-        <item> interior </item>
-        <item> RTHK </item>
-        <item> Europe and </item>
-        <item> South Korea </item>
-        <item> Japan </item>
+    <string-array name="recordProgramMusicType">
+        <item>本地歌曲</item>
+        <item>在线歌曲</item>
     </string-array>
-    <string-array name = "autoDomainChangeText">
-        <item> music.163.com </item>
-        <item> igame.163.com </item>
-        <item> bbc.igame.163.com </item>
-        <item> jkl.igame.163.com </item>
+    <string-array name="searchTab">
+        <item>单曲</item>
+        <item>歌手</item>
+        <item>专辑</item>
+        <item>歌单</item>
+        <item>MV</item>
+        <item>主播电台</item>
+        <item>用户</item>
     </string-array>
-    <string-array name = "totalCacheCeilText">
-        <item> 100M (approximately 10 high-quality songs) </item>
-        <item> 200M (approximately 20 high-quality songs) </item>
-        <item> 300M (approximately 30 high-quality songs) </item>
-        <item> 500M (approximately 50 high-quality songs) </item>
-        <item> 1G (about 100 high-quality songs) </item>
+    <string-array name="searchTabPostTrack">
+        <item>单曲</item>
+        <item>歌手</item>
+        <item>专辑</item>
+        <item>歌单</item>
+        <item>主播电台</item>
     </string-array>
-    <string-array name = "totalCacheCeilSize">
-        <item> 100M </item>
-        <item> 200M </item>
-        <item> 300M </item>
-        <item> 500M </item>
-        <item> 1G </item>
+    <string-array name="sourceAppTitles">
+        <item>返回网易新闻</item>
+        <item>返回百度搜索</item>
+    </string-array>
+    <string-array name="sourceAppsTypes">
+        <item>neteasenewsreader</item>
+        <item>baidu</item>
+    </string-array>
+    <string-array name="starUserNames">
+        <item>明星</item>
+        <item>DJ</item>
+        <item>网易音乐人</item>
+    </string-array>
+    <integer-array name="themeIds">
+        <item>0</item>
+        <item>6</item>
+        <item>7</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="themeNames">
+        <item>官方默认</item>
+        <item>怀旧经典(v1.7风格)</item>
+        <item>欢乐圣诞</item>
+        <item>黑夜诱惑</item>
+        <item>激情世界杯</item>
+        <item>夏日海洋</item>
+        <item>怪物联萌</item>
+        <item>害羞熊</item>
+    </string-array>
+    <string-array name="totalCacheCeilSize">
+        <item>100M</item>
+        <item>200M</item>
+        <item>300M</item>
+        <item>500M</item>
+        <item>1G</item>
+    </string-array>
+    <string-array name="totalCacheCeilText">
+        <item>100M（约10首高音质歌曲）</item>
+        <item>200M（约20首高音质歌曲）</item>
+        <item>300M（约30首高音质歌曲）</item>
+        <item>500M（约50首高音质歌曲）</item>
+        <item>1G（约100首高音质歌曲）</item>
+    </string-array>
+    <string-array name="weekInfo">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
     </string-array>
 </resources>

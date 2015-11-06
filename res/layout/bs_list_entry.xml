@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:orientation="horizontal" android:id="@id/bs_list_item" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bgPaddingLeft="47.0dip" style="@style/BottomSheet.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/bs_list_image" style="@style/BottomSheet.ListItemImage" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/bs_list_title" style="@style/BottomSheet.ListItemTitle" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

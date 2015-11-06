@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/editBtnContainer" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginBottom="32.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/editBtn" android:visibility="gone" android:layout_marginRight="10.0dip" android:text="@string/playListEdit" style="@style/playlistBigCoverBtn" />
+    <TextView android:id="@id/saveCoverBtn" android:layout_marginLeft="10.0dip" android:text="@string/playListCoverSave" style="@style/playlistBigCoverBtn" />
+</LinearLayout>

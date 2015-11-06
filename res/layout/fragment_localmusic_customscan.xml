@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="#ff888888" android:ellipsize="start" android:gravity="center_vertical" android:id="@id/folderUpBtn" android:background="@drawable/list_selector_white" android:paddingLeft="@dimen/listLinePaddingLeft" android:paddingRight="@dimen/listLinePaddingRight" android:layout_width="fill_parent" android:layout_height="40.0dip" android:singleLine="true" android:drawableLeft="@drawable/scan_icn_back" android:drawablePadding="10.0dip" app:nightSpecialOnlyForNewOpen="true" app:needApplyDrawableColor="true" />
+    <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/layout_pagelistview" />
+    <com.netease.cloudmusic.ui.DrawableCenterTextView android:textColor="@color/theme_color_c3_333" android:gravity="center_vertical" android:id="@id/scanBtn" android:background="@drawable/list_selector_white" android:layout_width="fill_parent" android:layout_height="47.0dip" android:text="@string/localMusicScanNow" android:drawableLeft="@drawable/btmlay_icn_scan" android:drawablePadding="11.0dip" />
+</LinearLayout>

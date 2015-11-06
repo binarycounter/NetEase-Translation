@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/leftRightMargin" android:paddingRight="@dimen/leftRightMargin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/leftLine" android:layout_width="0.0dip" android:layout_height="0.6700001dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/font_size_f5_13dp" android:id="@id/syncDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/syncTo" />
+        <View android:id="@id/rightLine" android:layout_width="0.0dip" android:layout_height="0.6700001dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/sinaBtn" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="centerCrop" />
+            <TextView android:textSize="@dimen/font_size_f6_12dp" android:id="@id/sinaText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/sinaWeibo" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="38.0dip">
+            <ImageView android:id="@id/tencentBtn" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="centerCrop" />
+            <TextView android:textSize="@dimen/font_size_f6_12dp" android:id="@id/tencentText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/tencentWeibo" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="38.0dip">
+            <ImageView android:id="@id/renrenBtn" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="centerCrop" />
+            <TextView android:textSize="@dimen/font_size_f6_12dp" android:id="@id/renrenText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/renren" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="38.0dip">
+            <ImageView android:id="@id/doubanBtn" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="centerCrop" />
+            <TextView android:textSize="@dimen/font_size_f6_12dp" android:id="@id/doubanText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/douban" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

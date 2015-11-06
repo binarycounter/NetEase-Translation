@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/bestmatchContainer" android:paddingLeft="@dimen/listLinePaddingLeft" android:paddingRight="@dimen/listLinePaddingLeft" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/image" android:layout_width="@dimen/bestMatchImageSize" android:layout_height="@dimen/bestMatchImageSize" android:scaleType="centerCrop" android:layout_centerVertical="true" />
-    <ImageView android:id="@id/arr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_icn_arr" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-    <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:maxLines="2" android:layout_toLeftOf="@id/arr" android:layout_toRightOf="@id/image" android:layout_centerVertical="true" />
-    <View android:background="@color/listDividerColor" android:layout_width="fill_parent" android:layout_height="@dimen/listDividerHeight" android:layout_alignParentBottom="true" />
-</RelativeLayout>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/bestmatchContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" playlist:bgPaddingLeft="@dimen/padding10Dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:playlist="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/image" android:paddingLeft="0.33000004dip" android:paddingTop="0.33000004dip" android:paddingRight="11.0dip" android:paddingBottom="0.33000004dip" android:layout_width="61.0dip" android:layout_height="50.0dip" android:layout_marginLeft="@dimen/leftRightMargin" android:layout_centerVertical="true" playlist:placeholderImage="@drawable/placeholder_disk_150" playlist:placeholderImageScaleType="fitXY" playlist:actualImageScaleType="centerCrop" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeHighlightTextView android:textSize="16.0sp" android:textColor="@color/normalC3" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="@dimen/leftRightMargin" android:maxLines="2" android:layout_toRightOf="@id/image" android:layout_centerVertical="true" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

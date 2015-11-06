@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mainRcmdGenerateView" android:paddingTop="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mainRcmdGenerateImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/recommend_icn_start_big" />
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/mainRcmdGenerateTvContaniner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textColor="@color/theme_color_c4_666" android:id="@id/mainRcmdGenerateTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/openingRcmd" />
+        <ImageView android:id="@id/mainRcmdGenerateAnimation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:src="@drawable/rcmd_jump_dot" />
+    </LinearLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="10.0dip" android:textColor="@color/theme_color_c5_888" android:id="@id/mainRcmdGenerateHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/moreListenMorePreciseRcmd" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:gravity="center_vertical" android:id="@id/trackResContainer" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/trackCreatorAvatar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/trackResImg" android:layout_width="@dimen/trackResItemNormalImgWidth" android:layout_height="@dimen/trackResItemNormalImgHeight" android:layout_centerVertical="true" fresco:placeholderImage="@drawable/placeholder_disk_180" fresco:placeholderImageScaleType="centerCrop" fresco:actualImageScaleType="centerCrop" fresco:overlayImage="@drawable/cover_border" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/trackResImg" layout="@layout/high_quality_playlist_icon_sml" />
+    <ImageView android:id="@id/trackResCoverImg" android:layout_width="20.0dip" android:layout_height="wrap_content" android:src="@drawable/nact_list_play" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_toRightOf="@id/trackResImg" android:layout_centerVertical="true">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="@color/theme_color_c3_333" android:id="@id/trackResName" android:layout_marginBottom="1.0dip" android:layout_centerVertical="true" android:lineSpacingExtra="2.0dip" style="@style/userTrackTvNormalSignleLine" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/theme_color_c4_666" android:id="@id/trackResCreator" android:layout_marginTop="1.0dip" android:layout_below="@id/trackResName" android:layout_centerVertical="true" android:lineSpacingExtra="2.0dip" style="@style/userTrackTvNormalSignleLine" />
+    </LinearLayout>
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

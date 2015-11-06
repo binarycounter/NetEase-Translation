@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="payAlbumSize">96.32999dip</dimen>
+    <dimen name="payAlbumSizeMarginBottom">27.0dip</dimen>
+</resources>

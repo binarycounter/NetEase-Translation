@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:background="#66000000" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center|right" android:id="@id/selectBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.netease.cloudmusic.ui.StatusBarHolderView android:id="@id/statusBarView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/toolbarHeight" android:layout_below="@id/statusBarView" layout="@layout/toolbar" />
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeCheckBox android:id="@id/localMusicCB" android:layout_width="@dimen/listCheckboxHeight" android:layout_height="@dimen/listCheckboxWidth" android:button="@drawable/togglebutton_bg"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

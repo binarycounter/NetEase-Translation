@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#e0000000" android:paddingTop="@dimen/mvMenuBarHeight" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="14.0sp" android:textColor="#ccffffff" android:gravity="center_vertical" android:id="@id/rePlayIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/replay" android:drawablePadding="7.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="#ccffffff" android:gravity="center_vertical" android:id="@id/rePlayIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/replay" android:drawablePadding="7.0dip" />
     <View android:id="@id/similarMVSep" android:background="@drawable/mv_btn_replay_line" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginTop="13.0dip" android:layout_marginBottom="5.0dip" />
     <RelativeLayout android:orientation="horizontal" android:id="@id/similarMVContainer" android:layout_width="wrap_content" android:layout_height="wrap_content">
         <include android:id="@id/similarMV0" android:layout_width="@dimen/mvRecommendWidth" android:layout_height="wrap_content" layout="@layout/mv_item_for_recommend" />

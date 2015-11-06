@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="15.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/artistType" android:paddingLeft="@dimen/listLinePaddingLeft" android:paddingRight="@dimen/listLinePaddingLeft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableRight="@drawable/list_icn_arr"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/leftRightMargin" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_centerVertical="true" app:bgPaddingLeft="@dimen/leftRightMargin" app:forCard="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="@color/normalC3" android:gravity="center_vertical" android:id="@id/artistType" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

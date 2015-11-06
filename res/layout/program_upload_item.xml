@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/programUploadItem" android:background="@drawable/list_selector_noline" android:layout_width="fill_parent" android:layout_height="@dimen/listItemHeight">
-        <ImageView android:id="@id/programUploadPlayBtn" android:background="@drawable/common_selector" android:paddingLeft="@dimen/listLeftRightMargin" android:paddingRight="@dimen/listLeftRightMargin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/recording_search_play" android:scaleType="centerInside" />
-        <include layout="@layout/expand_menu_toggle_btn" />
-        <ProgressBar android:id="@id/programUploadPlayProgress" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progressDrawable="@drawable/program_upload_play_progressbar" android:layout_toLeftOf="@id/expandMenuToggleBtn" android:layout_toRightOf="@id/programUploadPlayBtn" style="?android:attr/progressBarStyleHorizontal" />
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/expandMenuToggleBtn" android:layout_toRightOf="@id/programUploadPlayBtn" android:layout_centerVertical="true">
-            <TextView android:textSize="@dimen/listTextSize" android:textColor="@color/listTextColor" android:id="@id/programUploadName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/listTextLineSpaceingSize">
-                <ProgressBar android:id="@id/programUploadProgress" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="4.0dip" android:layout_marginRight="8.0dip" android:layout_weight="1.0" style="@style/DownloadProgressbarStyle" />
-                <ImageView android:id="@id/programUploadState" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/listDownloadIconTextMargin" android:src="@drawable/list_icn_err" />
-                <TextView android:textSize="@dimen/listSubTextSize" android:textColor="@color/listSubTextColor" android:id="@id/programUploadInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-            </LinearLayout>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/programUploadItem" android:background="@drawable/list_selector_noline" android:layout_width="fill_parent" android:layout_height="@dimen/listItemHeight60" app:bgPaddingLeft="41.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/programUploadPlayBtn" android:background="@drawable/common_selector" android:paddingLeft="@dimen/listLeftRightMargin" android:paddingRight="@dimen/listLeftRightMargin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/recording_search_play" android:scaleType="centerInside" app:nightSpecialForegroundColor="@color/nightY6" app:needApplyNormalDrawableColor="false" />
+    <ProgressBar android:id="@id/programUploadPlayProgress" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progressDrawable="@drawable/program_upload_play_progressbar" android:layout_toLeftOf="@id/actionBtn" android:layout_toRightOf="@id/programUploadPlayBtn" style="?android:attr/progressBarStyleHorizontal" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/actionBtn" android:layout_toRightOf="@id/programUploadPlayBtn" android:layout_centerVertical="true">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/listTextSize" android:textColor="@color/listTextColor" android:id="@id/programUploadName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/listTextLineSpaceSize">
+            <ProgressBar android:id="@id/programUploadProgress" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="4.0dip" android:layout_marginRight="8.0dip" android:layout_weight="1.0" style="@style/DownloadProgressbarStyle" />
+            <ImageView android:id="@id/programUploadState" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/listIconTextMargin" android:src="@drawable/list_icn_err" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/listSubTextSize" android:textColor="@color/listSubTextColor" android:id="@id/programUploadInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
         </LinearLayout>
-        <include layout="@layout/light_divider" />
-    </RelativeLayout>
-    <com.netease.cloudmusic.ui.ProgramExpandCollapseMenu android:id="@id/programUploadMenu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-0.6700001dip" />
-</LinearLayout>
+    </LinearLayout>
+    <ImageView android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" style="@style/actionBtnStyle" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

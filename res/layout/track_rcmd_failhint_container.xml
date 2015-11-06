@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/trackRmcdFailContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_below="@id/trackMainContainer" android:layout_alignLeft="@id/trackMainContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/trackRmcdReasonFlag" android:background="#ffcccccc" android:layout_width="18.0dip" android:layout_height="0.6700001dip" android:layout_marginRight="2.0dip" android:layout_centerVertical="true" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/theme_color_c6_999" android:id="@id/trackRmcdReason" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/trackRmcdReasonFlag" android:layout_centerVertical="true" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="@color/theme_color_c6_999" android:gravity="center" android:layout_gravity="center" android:id="@id/trackFailHint" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trackPostFailed" android:drawableLeft="@drawable/nact_icn_err" android:drawablePadding="3.0dip" android:layout_below="@id/trackRmcdReason" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/embedBrowserContentView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<RelativeLayout android:orientation="vertical" android:id="@id/embedBrowserContentView" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <WebView android:id="@id/embedBrowserWebview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-    <RelativeLayout android:id="@id/embedBrowserControlPanel" android:background="@drawable/browser_btm_bg" android:paddingLeft="24.0dip" android:paddingTop="2.2999878dip" android:paddingRight="12.0dip" android:paddingBottom="2.2999878dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
-        <ImageView android:id="@id/embedBrowserPreBtn" android:background="@drawable/btn_browser_pre" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <ImageView android:id="@id/embedBrowserNextBtn" android:background="@drawable/btn_browser_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="44.0dip" android:layout_toRightOf="@id/embedBrowserPreBtn" />
-        <ImageView android:id="@id/embedBrowserRefreshToggle" android:background="@drawable/btn_browser_fresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
-    </RelativeLayout>
-</LinearLayout>
+    <WebView android:id="@id/embedBrowserWebview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/reload" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_icn_refresh" />
+        <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/clickToReload" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.6699829dip" android:indeterminateOnly="false" android:progressDrawable="@drawable/progress_webview" android:layout_alignBottom="@id/toolbar" />
+</RelativeLayout>

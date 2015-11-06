@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/realItemArea" android:background="@drawable/list_selector" android:paddingLeft="@dimen/listLinePaddingLeft" android:paddingRight="@dimen/listLinePaddingLeft" android:layout_width="fill_parent" android:layout_height="60.0dip" android:minHeight="60.0dip" app:bgPaddingLeft="67.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/albumImage" android:layout_width="47.0dip" android:layout_height="47.0dip" android:scaleType="centerCrop" app:placeholderImage="@drawable/placeholder_disk_150" app:placeholderImageScaleType="fitXY" app:actualImageScaleType="centerCrop" />
+    <RelativeLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/findPageNormalPading" android:layout_weight="1.0">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="16.0sp" android:textColor="#ff333333" android:id="@id/songName" android:paddingRight="@dimen/mvIconPaddingRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <com.netease.cloudmusic.theme.ui.ListMvIcon android:id="@id/mvIcon" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/songName" android:layout_alignRight="@id/songName" android:layout_alignBottom="@id/songName" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff999999" android:id="@id/artistName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" android:layout_below="@id/songName" />
+    </RelativeLayout>
+    <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/song_play_icon" layout="@layout/playing_mark" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

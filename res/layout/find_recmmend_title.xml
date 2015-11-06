@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/titleView" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/titleView" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <RelativeLayout android:gravity="center_vertical" android:id="@id/realTitle" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <LinearLayout android:gravity="center_vertical" android:id="@id/titleContainer" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <com.netease.cloudmusic.ui.CustomThemeIconImageView android:id="@id/titleLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/index_icn_title" />
-            <TextView android:textSize="@dimen/titleSize" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/recommendPageNormalPading" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/titleLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/index_icn_title" app:nightSpecialForegroundColor="@color/nightY1" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/titleSize" android:textColor="#ff333333" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/recommendPageNormalPading" />
         </LinearLayout>
     </RelativeLayout>
-    <View android:orientation="vertical" android:id="@id/titleDivideLine" android:background="#ffd5d6d7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
-</LinearLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeLine android:orientation="vertical" android:id="@id/titleDivideLine" android:background="#ffd5d6d7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

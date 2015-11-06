@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/wrapperArea" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<com.netease.cloudmusic.ui.NeteaseSwipeToRefresh android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/friendTrackLine" android:background="#ffb8b9ba" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="37.0dip" />
-    <com.netease.cloudmusic.ui.NPullToFreshContainer android:id="@id/listContainer" android:background="@drawable/refresh_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.netease.cloudmusic.ui.PagerListView android:id="@id/refreshList" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </com.netease.cloudmusic.ui.NPullToFreshContainer>
-    <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/trackToast" android:background="@drawable/act_blk_poptip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/friendTrackToastHeight" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/friendTrackToastPaddingTop" android:layout_marginRight="10.0dip" android:layout_alignTop="@id/listContainer" />
-</RelativeLayout>
+    <com.netease.cloudmusic.ui.PagerListView android:id="@id/refreshListview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.netease.cloudmusic.ui.NeteaseSwipeToRefresh>
