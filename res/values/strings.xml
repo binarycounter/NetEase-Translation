@@ -243,7 +243,7 @@
     <string name="mainPagerRcmdNewMusic">New Music</string>
     <string name="mainPagerRcmdPlaylist">Recommended song single</string>
     <string name="mainPagerRcmdUnique">exclusive delivery</string>
-    <string name="mainPagerSelectedInterestTag">select the tab you're interested in music</string>
+    <string name="mainPagerSelectedInterestTag">select the tab you\'re interested in music</string>
     <string name="makeCredit">earn points</string>
     <string name="makeSureToDeleteMusicFromList">OK to delete the selected music from the list?</string>
     <string name="makeSureToKeepDownloadedMusic">Please choose whether to keep the download file</string>
@@ -359,7 +359,7 @@
     <string name="playNetWorkSwitcherTitle">determine 2G / 3G / 4G network broadcast?</string>
     <string name="playSoundQuality">online play sound</string>
     <string name="playlistName">Song Single:%s</string>
-    <string name="pleaseChooseOneMusicTag">Please select at least one you're interested in music label</string>
+    <string name="pleaseChooseOneMusicTag">Please select at least one you\'re interested in music label</string>
     <string name="pleaseInputContent">Please enter the content</string>
     <string name="pleaseLogin">Login</string>
     <string name="pleaseSelectLiveScreen">Please select viewing screen</string>
@@ -751,7 +751,7 @@
     <string name="genderUnknown">Unknown</string>
     <string name="musicLocal">Local Music</string>
     <string name="musicIdentify">@string/headerTitleSongIdentify</string>
-    <string name="identifyMatchMulti">"Might be what you're looking for songs"</string>
+    <string name="identifyMatchMulti">"Might be what you\'re looking for songs"</string>
     <string name="identifyTips">&lt;Data> &lt;font color = # 666666> &lt;big> being recognized ... &lt;/ big> &lt;/ font> &lt;br/> &lt;br/> &lt;font color = # 333333> identify songs playing around you &lt;/ font > &lt;/ Data></string>
     <string name="identifyFailedHint">&lt;Data> &lt;font size = 22px color = # 999999> No matching music &lt;/ font> &lt;br/> &lt;br/> &lt;font size = 18px color = # 999999> Make sure that your phone close to the sound source &lt; / font> &lt;/ Data></string>
     <string name="identifyBegin">Begin to identify</string>
@@ -1198,7 +1198,7 @@
     <string name="backgroundNotify">Background receive alerts</string>
     <string name="backgroundNotifySecond">Receive music recommendation and remind inbox</string>
     <string name="closeBackgroudNotifyPrompt">Turn off background reminds will miss you recommend specifically for the latest music information and want to close it?</string>
-    <string name="reopenBackgroudNotifyPrompt">"Turn off background remind, you've missed a lot of good music specifically recommended for you, I suggest you immediately open remind switch, find more exciting music!"</string>
+    <string name="reopenBackgroudNotifyPrompt">"Turn off background remind, you\'ve missed a lot of good music specifically recommended for you, I suggest you immediately open remind switch, find more exciting music!"</string>
     <string name="confirmCloseBackgroundNotify">Close to remind</string>
     <string name="cancelCloseBackgroundNotify">Continue to remind</string>
     <string name="openBackgroundNotify">Open reminder</string>
