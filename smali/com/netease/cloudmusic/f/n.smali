@@ -1,0 +1,31 @@
+.class public Lcom/netease/cloudmusic/f/n;
+.super Lcom/netease/cloudmusic/f/p;
+.source "ProGuard"
+
+
+# static fields
+.field private static final serialVersionUID:J = 0x1L
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 12
+    invoke-direct {p0}, Lcom/netease/cloudmusic/f/p;-><init>()V
+
+    .line 13
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .prologue
+    .line 8
+    invoke-direct {p0, p1}, Lcom/netease/cloudmusic/f/p;-><init>(Ljava/lang/String;)V
+
+    .line 9
+    return-void
+.end method

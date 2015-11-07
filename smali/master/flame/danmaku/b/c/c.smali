@@ -1,0 +1,18 @@
+.class public abstract Lmaster/flame/danmaku/b/c/c;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+# interfaces
+.implements Lmaster/flame/danmaku/b/c/a;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 19
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
