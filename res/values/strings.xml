@@ -156,7 +156,7 @@
     <string name="downloadOfficialVersion">download the official version</string>
     <string name="downloadThemeNeedMoney">The skin takes%s yuan, determine the download?</string>
     <string name="downloadThemeNeedPoints">The skin takes%s points to determine the download?</string>
-    <string name="downloadTone">Download sound</string>
+    <string name="downloadTone">Download quality</string>
     <string name="downloaded">downloaded</string>
     <string name="downloadedOrEnqueued">Music downloaded or had joined the download queue</string>
     <string name="downloadingPrefix">Downloading:</string>
@@ -253,12 +253,12 @@
     <string name="meKnown">I know</string>
     <string name="menuChangeBitrate">sound:%s</string>
     <string name="menuClassChoose">Filter</string>
-    <string name="menuFree">online songs free flow</string>
+    <string name="menuFree">Free Podcast</string>
     <string name="menuLevel">my rank</string>
     <string name="menuMVWatch">View MV</string>
     <string name="menuPayMusicBag">paid music package</string>
     <string name="menuSearchByArtistCategory">Filter</string>
-    <string name="menuStore">Points Mall</string>
+    <string name="menuStore">Store</string>
     <string name="menuTheme">@string/pfChangeFace</string>
     <string name="menuViewAlbumPage">View Album page</string>
     <string name="menuViewArtistPage">View Singer Page</string>
@@ -357,7 +357,7 @@
     <string name="playNetWorkSwitcherPromptCotent">You are currently in 2G / 3G / 4G networks</string>
     <string name="playNetWorkSwitcherPromptTitle">Are you sure you turn on 2G / 3G / 4G network play switch it?</string>
     <string name="playNetWorkSwitcherTitle">determine 2G / 3G / 4G network broadcast?</string>
-    <string name="playSoundQuality">online play sound</string>
+    <string name="playSoundQuality">Stream quality</string>
     <string name="playlistName">Song Single:%s</string>
     <string name="pleaseChooseOneMusicTag">Please select at least one you\'re interested in music label</string>
     <string name="pleaseInputContent">Please enter the content</string>
@@ -386,7 +386,7 @@
     <string name="rcmProgramTitle">recommended program</string>
     <string name="rcmRadioTitle">Recommended Radio</string>
     <string name="rcmdArtist">Recommended Singer</string>
-    <string name="rcmdCommentTitile">Wonderful comments</string>
+    <string name="rcmdCommentTitile">Best comments</string>
     <string name="reLogin">replacement account login</string>
     <string name="redTeam">[red team]</string>
     <string name="renrenShareCommentContent">Share Comments: %1$s from%2$s</string>
@@ -418,7 +418,7 @@
     <string name="sendContactMsgInTrack">To find your friends, we need to get a list of address book contacts.</string>
     <string name="sendFailed">Send failed</string>
     <string name="setMusicDownloadDesc1Btn">Transfer</string>
-    <string name="settingPlayDnload">play and download</string>
+    <string name="settingPlayDnload">Stream and Download</string>
     <string name="share">Share</string>
     <string name="shareComment">Share Comments</string>
     <string name="shareCommentImg">Comments Share</string>
@@ -1513,7 +1513,7 @@
     <string name="DXImportPlayListFailed">Importing songs alone failed, please try again later.</string>
     <string name="DXImportPlayListNetworkFailed">Network connection fails, please try again later.</string>
     <string name="NeteaseRuleLink">\"NetEase cloud music Terms of Service.\"</string>
-    <string name="aboutOtherInfo">Another web version, PC client, iPhone client multiport synchronization, music players. For more details, visit: music.163.com</string>
+    <string name="aboutOtherInfo">Mod and Translation done by BinaryCounter. If you find an error or want to contact me, please write me on twitter (Binarycounter) or reddit (/u/TheBinaryCounter). Source code is available at http://github.com/felix3008/NetEase-Translation/. Dedicated to everyone who is too poor or cheap for spotify premium :D</string>
     <string name="checkMyMusic">View my music</string>
     <string name="identifyShortcutLabel">NetEase cloud music - songs knowledge song</string>
     <string name="radioShortcutLabel">NetEase cloud music - Private FM</string>
@@ -1741,10 +1741,10 @@
     <string name="qq">QQ</string>
     <string name="musicCacheCeilTitle">Custom cache</string>
     <string name="clearCacheTitle">Clear Cache</string>
-    <string name="musicCacheCeil">Music buffer occupancy limit</string>
+    <string name="musicCacheCeil">Music cache size</string>
     <string name="musicCacheCeilSet">Set songs buffer occupancy limit</string>
     <string name="clearMusicCache">Clear Cache Music</string>
-    <string name="clearMusicCachePrompt">Exceeds the limit section is automatically cleared</string>
+    <string name="clearMusicCachePrompt">Cache is automatically cleared if it is full</string>
     <string name="clearImageAndLrcCache">Clear pictures and lyrics cache</string>
     <string name="clearOtherCache">Clear other caches</string>
     <string name="clearAllCache">Clear all caches</string>
@@ -1835,8 +1835,8 @@
     <string name="settingPlay">Broadcast</string>
     <string name="settingAccount">Account and Privacy</string>
     <string name="settingDownload">Download</string>
-    <string name="settingTool">Tool</string>
-    <string name="settingAbout">With respect to</string>
+    <string name="settingTool">Other Settings</string>
+    <string name="settingAbout">About</string>
     <string name="saveBigCoverToPhone">Save pictures to your phone</string>
     <string name="downloadBigCoverTitle">Operating</string>
     <string name="alreadySelectedCount">Selected %d items</string>
