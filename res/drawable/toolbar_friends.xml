@@ -2,5 +2,5 @@
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_selected="true" android:drawable="@drawable/actionbar_friends_selected" />
-    <item android:drawable="@drawable/actionbar_friends_normal" />
+    <item android:drawable="@drawable/actionbar_friends_normal" android:visibility="gone" />
 </selector>
